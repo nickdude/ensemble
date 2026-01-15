@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Splash Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img src="project.png" alt="Project Image" />
+
+      <div class="overlay overlay-default">
+        <div class="title-box">
+          <h2>Bridge+</h2>
+
+          <div class="arrow-overlay">
+            <span class="arrow-symbol">↗</span>
+          </div>
+
+          <p>Chennai</p>
+        </div>
+      </div>
+
+      <div class="overlay overlay-hover">
+        <div class="hover-box">
+          <p>Location: Chennai</p>
+          <p class="from-bottom">Area: 1,00,000 sq.ft.</p>
+          <p>Service: General Contracting</p>
+
+          <div class="cta from-bottom">
+            <span>View Case Study</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.4s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card:hover img {
+  filter: brightness(0.4);
+}
+
+.title-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+  text-align: center;
+  padding: 8px 20px;
+  border: none;
+}
+
+.title-box h2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.title-box p {
+  margin-top: 4px;
+  font-size: 11px;
+  opacity: 0.9;
+}
+
+.arrow-img {
+  width: 10px;
+  height: auto;
+
+  margin-left: 3px;
+  position: relative;
+  top: -1px;
+
+  object-fit: contain;
+}
+
+.arrow-overlay {
+  position: absolute;
+  gap: 2px;
+  top: 20%;
+  left: 90%;
+  transform: translate(-100%, -50%);
+  pointer-events: none;
+  transition: transform 0.6s ease;
+}
+
+.arrow-symbol {
+  font-size: 14px; /* small like design */
+  color: white; /* visible on image */
+  line-height: 1;
+}
+
+.card:hover .arrow-overlay {
+  transform: translate(140px, -50%);
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-top: 14px;
+  color: #ff3b30;
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+
+  transition: opacity 0.4s ease;
+}
+
+.overlay a {
+  color: white;
+  text-decoration: underline;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.overlay-default {
+  background: transparent;
+  opacity: 1;
+}
+
+.overlay-hover {
+  background: rgba(0, 0, 0, 0.92);
+  transform: translateX(-100%);
+  transition: transform 0.6s ease;
+}
+
+.card:hover .overlay-default {
+  opacity: 0;
+}
+
+.card:hover .overlay-hover {
+  transform: translateX(0);
+}
+
+.hover-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 360px;
+  padding: 24px 20px;
+}
+
+.hover-box p {
+  margin: 6px 0;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.hover-box a {
+  margin-top: 10px;
+  display: inline-block;
+
+  color: #ff3b30;
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.hover-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.from-bottom {
+  transform: translateY(24px);
+  opacity: 0;
+}
+
+.card:hover .overlay-hover .from-bottom {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transition-delay: 0.3s;
+}
+
+.card:hover .overlay-hover .from-bottom:nth-of-type(1) {
+  transition-delay: 0.3s;
+}
+
+.card:hover .overlay-hover .from-bottom:nth-of-type(2) {
+  transition-delay: 0.45s;
+}

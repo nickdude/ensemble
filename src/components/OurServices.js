@@ -33,7 +33,7 @@ export default function OurServices() {
   return (
    <section className={`w-full flex items-center flex-col ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"} py-20 px-16`}>
       <h1 className="font-poppins font-medium text-6xl leading-[57px] tracking-normal mb-10">Our Services</h1>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center gap-5">
             {service.map((item, index) => (
                 <ServiceCard
                     key={index}

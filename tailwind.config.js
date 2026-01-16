@@ -36,6 +36,11 @@ module.exports = {
         gray: "#F6F6F6"
       },
     },
+    extend: {
+      transitionTimingFunction: {
+        smooth: 'ease',
+      },
+    },
   },
   plugins: [],
 };

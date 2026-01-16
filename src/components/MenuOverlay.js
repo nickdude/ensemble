@@ -2,10 +2,21 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function MenuOverlay({ theme, onClose }) {
+  const pathname = usePathname();
+
+  const links = [
+    { href: "/services", label: "SERVICES" },
+    { href: "/projects", label: "PROJECTS" },
+    { href: "/aboutus", label: "ABOUT US" },
+    { href: "/sustainability", label: "SUSTAINABILITY" },
+    { href: "/blogs", label: "BLOGS" },
+  ];
+
   return (
-    <div className="fixed inset-0 z-50 bg-white text-black">
+    <div className={`fixed inset-0 z-50 ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"}`}>
       {/* Close */}
       <button
         onClick={onClose}
@@ -41,16 +52,21 @@ export default function MenuOverlay({ theme, onClose }) {
 
           {/* Menu Items */}
           <ul className="space-y-6 text-xl tracking-widest font-poppins">
-            <li className="font-extrabold"><Link href="/services" onClick={onClose}>SERVICES</Link></li>
-            <li className="text-gray-600"><Link href="/projects" onClick={onClose}>PROJECTS</Link></li>
-            <li className="text-gray-600"><Link href="/aboutus" onClick={onClose}>ABOUT US</Link></li>
-            <li className="text-gray-600"><Link href="/sustainability" onClick={onClose}>SUSTAINABILITY</Link></li>
-            <li className="text-gray-600"><Link href="/blogs" onClick={onClose}>BLOGS</Link></li>
+            {links.map((link) => {
+              const isActive = pathname === link.href;
+              return (
+                <li key={link.href} className={isActive ? "font-extrabold" : "font-normal text-gray-600"}>
+                  <Link href={link.href} onClick={onClose}>
+                    {link.label}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
 
           {/* Contact Button */}
           <Link href="/contact">
-            <button className="mt-12 px-10 py-3 bg-black text-white rounded-md tracking-widest">
+            <button className={`mt-12 px-10 py-3 ${theme === "dark" ? "bg-white text-black" : "bg-black text-white"} rounded-md tracking-widest`}>
               CONTACT
             </button>
           </Link>

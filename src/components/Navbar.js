@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import Button from "./Button";
 import MenuOverlay from "./MenuOverlay";
+import Link from "next/link";
 
 export default function Navbar() {
   const { theme, setTheme } = useTheme();
@@ -32,17 +33,18 @@ export default function Navbar() {
           theme === "dark" ? "bg-black" : "bg-white"
         }`}
       >
-        <Image
-          src={
-            theme === "dark"
-              ? "/assets/logo_white.svg"
-              : "/assets/logo_black.svg"
-          }
-          alt="Logo"
-          width={240}
-          height={100}
-        />
-
+        <Link href="/">
+                <Image
+                  src={
+                    theme === "dark"
+                      ? "/assets/logo_white.svg"
+                      : "/assets/logo_black.svg"
+                  }
+                  alt="Logo"
+                  width={240}
+                  height={100}
+                />
+        </Link>
         <div className="flex gap-5 items-center">
           {/* Theme Toggle */}
           <button

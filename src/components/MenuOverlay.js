@@ -11,6 +11,7 @@ export default function MenuOverlay({ theme, onClose }) {
     { href: "/services", label: "SERVICES" },
     { href: "/projects", label: "PROJECTS" },
     { href: "/aboutus", label: "ABOUT US" },
+    { href: "/news", label: "NEWS" },
     { href: "/sustainability", label: "SUSTAINABILITY" },
     { href: "/blogs", label: "BLOGS" },
   ];

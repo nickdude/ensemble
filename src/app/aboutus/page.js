@@ -12,7 +12,7 @@ export default function AboutUs(){
     return(
         <main>
             <AboutUsHero/>
-            <CountSection/>
+            <CountSection text="red"/>
             <ImageDesciption/>
             <ImageDesciption right="true"/>
             <AwardAndRecognitions/>

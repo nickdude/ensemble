@@ -21,6 +21,7 @@ export default function DesignAndBuild(){
                         <Image src="/assets/icons/handshake.svg"
                             width={35}
                             height={35}
+                            alt="plant"
                         />
                         <h1 className="font-roboto font-medium text-xl">Social</h1>
                         <p className="font-roboto font-normal text-xl text-gray-600 mt-1">Enhancing employee and client perception of the brand, productivity, and retention.</p>
@@ -29,6 +30,7 @@ export default function DesignAndBuild(){
                         <Image src="/assets/icons/house.svg"
                             width={35}
                             height={35}
+                            alt="plant"
                         />
                         <h1 className="font-roboto font-medium text-xl">Governance</h1>
                         <p className="font-roboto font-normal text-xl text-gray-600 mt-1">Ensuring ethical leadership, transparency, compliance, and accountability in corporate practices.</p>

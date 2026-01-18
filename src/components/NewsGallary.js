@@ -6,6 +6,57 @@ import { useEffect, useState } from "react";
 import "./ProjectCardSample.css"
 import NewsCard from "./NewsCard";
 
+const newsData = [
+  {
+    slug: "bridge-project-chennai",
+    title: "Bridge+ Project Launched",
+    image: "/assets/news/detail_news1.jpg",
+    date: "12 Jan 2026",
+  },
+  {
+    slug: "metro-expansion-delhi",
+    title: "Metro Expansion Update",
+    image: "/assets/news/detail_news2.jpg",
+    date: "10 Jan 2026",
+  },
+  {
+    slug: "bridge-project-mumbai",
+    title: "Bridge+ Project Launched",
+    image: "/assets/news/detail_news1.jpg",
+    date: "12 Jan 2026",
+  },
+  {
+    slug: "metro-expansion-jaipur",
+    title: "Metro Expansion Update",
+    image: "/assets/news/detail_news2.jpg",
+    date: "10 Jan 2026",
+  },
+  {
+    slug: "bridge-project-pune",
+    title: "Bridge+ Project Launched",
+    image: "/assets/news/detail_news1.jpg",
+    date: "12 Jan 2026",
+  },
+  {
+    slug: "metro-expansion-tamil",
+    title: "Metro Expansion Update",
+    image: "/assets/news/detail_news2.jpg",
+    date: "10 Jan 2026",
+  },
+   {
+    slug: "metro-expansion-solapur",
+    title: "Metro Expansion Update",
+    image: "/assets/news/detail_news2.jpg",
+    date: "10 Jan 2026",
+  },
+   {
+    slug: "metro-expansion-kanal",
+    title: "Metro Expansion Update",
+    image: "/assets/news/detail_news2.jpg",
+    date: "10 Jan 2026",
+  },
+];
+
 export default function NewsGallery() {
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
@@ -25,14 +76,17 @@ export default function NewsGallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+         {newsData.map((item) => (
+          <NewsCard key={item.slug} {...item} />
+        ))}
+       {/* <NewsCard/>
        <NewsCard/>
        <NewsCard/>
        <NewsCard/>
        <NewsCard/>
        <NewsCard/>
        <NewsCard/>
-       <NewsCard/>
-       <NewsCard/>
+       <NewsCard/> */}
       </div>
     </section>
   );

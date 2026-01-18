@@ -31,6 +31,7 @@ export default function ProjectGallery() {
           image="/assets/projects/1.jpg"
           title="TCS"
           location="Pan India"
+          slug="project-1"
         />
 
         <ProjectCard
@@ -38,39 +39,46 @@ export default function ProjectGallery() {
           title="Cairn Energy Office"
           location="Gurgaon"
           variant="wide"
+          slug="project-2"
         />
 
         <ProjectCard
           image="/assets/projects/3.jpg"
           title="Cadila Healthcare Ltd."
           location="Vadodara"
+          slug="project-3"
         />
 
         <ProjectCard
           image="/assets/projects/4.jpg"
           title="TCS"
           location="Pan India"
+          slug="project-4"
         />
 
         <ProjectCard
           image="/assets/projects/5.jpg"
           title="WeWork"
           location="Mumbai"
+          slug="project-5"
         />
         <ProjectCard
           image="/assets/projects/9.jpg"
           title="WeWork"
           location="Mumbai"
+          slug="project-6"
         />
          <ProjectCard
           image="/assets/projects/9.jpg"
           title="WeWork"
           location="Mumbai"
+          slug="project-7"
         />
          <ProjectCard
           image="/assets/projects/9.jpg"
           title="WeWork"
           location="Mumbai"
+          slug="project-8"
         />
         
 
@@ -79,28 +87,33 @@ export default function ProjectGallery() {
           title="Cairn Energy Office"
           location="Gurgaon"
           variant="wide"
+          slug="project-9"
         />
 
         <ProjectCard
           image="/assets/projects/7.jpg"
           title="Cadila Healthcare Ltd."
           location="Vadodara"
+          slug="project-10"
         />
 
         <ProjectCard
           image="/assets/projects/8.jpg"
           title="TCS"
           location="Pan India"
+          slug="project-11"
         />
          <ProjectCard
           image="/assets/projects/9.jpg"
           title="WeWork"
           location="Mumbai"
+          slug="project-12"
         />
          <ProjectCard
           image="/assets/projects/9.jpg"
           title="WeWork"
           location="Mumbai"
+          slug="project-13"
         />
       
 

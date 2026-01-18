@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import "./ProjectCardSample.css"
+import NewsCard from "./NewsCard";
 
 export default function NewsGallery() {
     const { theme } = useTheme();
@@ -23,72 +25,14 @@ export default function NewsGallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
-
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
-        <div className=" h-[455px] rounded-lg relative">
-            <Image src="/assets/news/news1.jpg" alt="News 1" fill className="object-cover rounded-lg" />
-                <div className="absolute z-10 bottom-10 left-10 text-white rounded-md w-[350px]">
-                    <p className="font-bricolage font-normal text-xs text-gray-200">08/03/2024</p>
-                    <h1 className="font-bricolage text-white text-xl">2024 International Women’s Day</h1>
-                    <p className="font-bricolage font-normal text-xs text-gray-200">This International Women's Day, celebrating the future and the inspirational young women leading the charge for change.</p>
-                </div>
-        </div>
+       <NewsCard/>
+       <NewsCard/>
+       <NewsCard/>
+       <NewsCard/>
+       <NewsCard/>
+       <NewsCard/>
+       <NewsCard/>
+       <NewsCard/>
       </div>
     </section>
   );

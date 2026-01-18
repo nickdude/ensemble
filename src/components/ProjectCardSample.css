@@ -61,7 +61,16 @@
   pointer-events: none;
   transition: transform 0.6s ease;
 }
-
+.arrow-overlay-news{
+  position: absolute;
+  gap: 2px;
+  top: 22%;
+  left: 94%;
+  width: 20px;
+  transform: translate(-100%, -50%);
+  pointer-events: none;
+  transition: transform 0.6s ease;
+}
 .arrow-symbol {
   font-size: 14px; /* small like design */
   color: white; /* visible on image */

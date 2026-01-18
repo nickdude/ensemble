@@ -66,7 +66,7 @@ export default function EffectOne() {
                 </div>
             </div>
         </div>
-        <div className={`relative  z-20 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} py-20 px-16   `}>
+        <div className={`relative  z-20 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} py-20`}>
             <News theme={theme}/>
         </div>
         

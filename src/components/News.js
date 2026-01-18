@@ -113,7 +113,7 @@ export default function News() {
   };
 
   return (
-    <section className={`w-full py-10 md:py-40 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
+    <section className={`w-full md:px-16 py-10 md:py-40 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
         <div className="flex flex-col md:flex-row items-center gap-1">
           <div className="w-full md:w-80 flex flex-col gap-3 md:gap-6 items-center md:items-start mb-8 md:mb-0">
               <h1 className="font-poppins font-medium text-[28px] md:w-80 md:text-[64px] leading-[68px]">In the news.</h1>

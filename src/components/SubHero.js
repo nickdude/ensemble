@@ -13,7 +13,7 @@ export default function SubHero() {
   if (!mounted) return null;
 
   return (
-    <section className={`w-full py-30 px-16 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"}`}>      
+    <section className={`w-full py-30 px-16 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"} mt-[100vh]`}>      
         <div className="flex justify-between">
             <h1 className={`w-4/7 font-poppins font-medium text-3xl transition-colors ${theme === "dark" ? "text-white" : "text-black"}`}>
                 We craft spaces that tell your story—alive, inspiring, and built to leave a mark.

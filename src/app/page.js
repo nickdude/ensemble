@@ -12,11 +12,13 @@ import ClientSays from "@/components/ClientSays";
 import News from "@/components/News";
 import EffectOne from "@/components/EffectOne";
 import EffectTwo from "@/components/EffectTwo";
+import SplashHero from "@/components/SplashHero";
 
 
 export default function Home() {
   return (
     <>
+      <SplashHero/>
       <SubHero/>
       <CountSection/>
       <BlueprintsSection/>

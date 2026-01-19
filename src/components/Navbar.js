@@ -7,7 +7,7 @@ import Button from "./Button";
 import MenuOverlay from "./MenuOverlay";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function Navbar({transparent = false}) {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [animating, setAnimating] = useState(false);
@@ -29,14 +29,18 @@ export default function Navbar() {
     <>
       {/* Desktop Navbar */}
       <nav
-        className={`hidden md:flex w-full justify-between items-center px-16 py-10 transition-colors duration-300 ${
-          theme === "dark" ? "bg-black" : "bg-white"
+        className={`${transparent? "absolute z-10":""} hidden md:flex w-full justify-between items-center px-16 py-10 transition-colors duration-300 ${
+          transparent
+            ? "bg-transparent"
+            : theme === "dark"
+            ? "bg-black"
+            : "bg-white"
         }`}
       >
         <Link href="/">
                 <Image
                   src={
-                    theme === "dark"
+                    theme === "dark" || transparent
                       ? "/assets/logo_white.svg"
                       : "/assets/logo_black.svg"
                   }
@@ -48,14 +52,17 @@ export default function Navbar() {
         <div className="flex gap-5 items-center">
           {/* Theme Toggle */}
           <button
-            className="border p-1 rounded-sm"
+            // className="border border-white p-1 rounded-sm"
+            className={`border p-1 rounded-sm ${theme === "dark" || transparent ? "border-white bg-gray-500/20" : "border-black"}`}
             onClick={handleThemeToggle}
           >
             <Image
               src={
                 theme === "dark"
-                  ? "/assets/icons/moon_white.svg"
-                  : "/assets/icons/sun_black.svg"
+                ? "/assets/icons/moon_white.svg"
+                : transparent
+                ? "/assets/icons/sun_white.svg"
+                : "/assets/icons/sun_black.svg"
               }
               alt="Theme Toggle"
               width={24}
@@ -63,13 +70,13 @@ export default function Navbar() {
             />
           </button>
 
-          <Button label="Contact" theme={theme} />
+          <Button label="Contact" theme={transparent ? "dark" : theme}/>
 
           {/* Hamburger */}
           <button onClick={() => setIsMenuOpen(true)}>
             <Image
               src={
-                theme === "dark"
+                theme === "dark" || transparent
                   ? "/assets/icons/humburger_white.svg"
                   : "/assets/icons/hamburger_black.svg"
               }

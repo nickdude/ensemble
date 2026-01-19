@@ -61,6 +61,16 @@
   pointer-events: none;
   transition: transform 0.6s ease;
 }
+.arrow-overlay-splash {
+  position: absolute;
+  gap: 2px;
+  top: 44%;
+  left: 35%;
+  width: 20px;
+  transform: translate(-100%, -50%);
+  pointer-events: none;
+  transition: transform 0.6s ease;
+}
 .arrow-overlay-news{
   position: absolute;
   gap: 2px;

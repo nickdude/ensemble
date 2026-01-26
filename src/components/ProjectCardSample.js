@@ -3,7 +3,7 @@ import "./ProjectCardSample.css"
 
 export default function ProjectCardSample() {
   return (
-   <div className="card bg-red-300 h-[480px] w-[490px]">
+   <div className="card bg-red-300 h-[480px] w-full md:w-[490px]">
       <img src="/assets/blueprints/blueprint3.png" alt="Project Image" />
 
       <div className="overlay overlay-default">

@@ -78,7 +78,7 @@ export default function ServiceCard({ img, title, description }) {
       className="
         group relative overflow-hidden
         border border-gray-300 rounded-lg
-        w-[435px] h-[457px]
+        w-[85vw] md:w-[435px] h-[457px]
       "
     >
       {/* BACKGROUND WRAPPER (THIS animates) */}

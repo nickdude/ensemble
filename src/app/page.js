@@ -26,9 +26,6 @@ export default function Home() {
       <OurServices/>
       <EffectOne/>
       <EffectTwo/>
-      {/* <News/> */}
-      {/* <ClientSays/> */}
-      {/* <OurInsights/> */}
     </>
   );
 }

@@ -66,10 +66,12 @@ export default function EffectOne() {
                 </div>
             </div>
         </div>
-        <div className={`relative  z-20 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} py-20`}>
-            <News theme={theme}/>
+        <div
+            className={`relative z-20 w-screen max-w-screen overflow-x-hidden
+            ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"} py-20`}
+            >
+            <News theme={theme} />
         </div>
-        
     </section>
 
     );

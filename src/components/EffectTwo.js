@@ -18,41 +18,41 @@ export default function EffectTwo() {
   
         {/* Sticky Background */}
         <div className="sticky top-0 h-screen w-full">
-            <div className="relative min-h-screen bg-brand-blue flex flex-col justify-center items-center gap-3 py-20 px-16 text-white overflow-hidden">
+            <div className="relative min-h-screen bg-brand-blue flex flex-col justify-center items-center gap-3 py-10 md:py-20 px-4 md:px-16 text-white overflow-hidden">
       
                 {/* Heading */}
-                <h1 className="font-poppins font-medium text-[64px]">
+                <h1 className="font-poppins font-medium text-[28px] md:text-[64px]">
                     What our clients say
                 </h1>
 
-                <p className="font-avenir font-light text-lg">
+                <p className="font-avenir font-light text-base text-lg text-center">
                     Stay updated with our latest projects, press features, and industry insights.
                 </p>
 
                 {/* ===== Scroll Area Wrapper ===== */}
-                <div className="relative w-full mt-20">
+                <div className="relative w-full mt-8 md:mt-20">
 
                     {/* Left Fade */}
-                    <div className="pointer-events-none absolute left-0 top-0 h-full w-[10%]
+                    <div className="pointer-events-none absolute left-0 top-0 h-full md:w-[10%]
                                     bg-gradient-to-r from-brand-blue to-transparent z-10" />
 
                     {/* Right Fade */}
-                    <div className="pointer-events-none absolute right-0 top-0 h-full w-[10%]
+                    <div className="pointer-events-none absolute right-0 top-0 h-full md:w-[10%]
                                     bg-gradient-to-l from-brand-blue to-transparent z-10" />
 
                     {/* Scroll Container */}
                     <div
-                    className="flex gap-10 overflow-x-auto scroll-smooth px-10
+                    className="flex gap-2 md:gap-10 overflow-x-auto scroll-smooth px-4 md:px-10
                                 scrollbar-hide"
                     >
                     {/* Card */}
                     {[1, 2, 3].map((_, i) => (
                         <div
                         key={i}
-                        className="min-w-[774px] h-[412px] border-[0.3px] border-white
+                        className="min-w-[85vw] md:min-w-[774px] h-[412px] border-[0.3px] border-white
                                     rounded-lg p-10 flex flex-col justify-between bg-transparent"
                         >
-                        <h1 className="font-poppins text-2xl text-gray-250">
+                        <h1 className="font-poppins text-base md:text-2xl text-gray-250">
                             “Ensemble has carried out our corporate office works within the
                             scheduled time frame allotted and largely to our satisfaction.
                             We feel the company is well equipped and has the resources to
@@ -76,7 +76,7 @@ export default function EffectTwo() {
         </div>
 
         {/* Content scrolls */}
-        <div className={`relative z-10 h-[100vh] flex items-center ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
+        <div className={`relative z-10 h-[100vh] flex items-center ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} px-4 md:px-0`}>
                 <OurInsights theme={theme}/>
         </div>
     </section>

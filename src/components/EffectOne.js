@@ -27,11 +27,11 @@ export default function EffectOne() {
         </div>
 
         {/* Content scrolls */}
-        <div className="relative z-10 h-[140vh] flex items-center px-16">
+        <div className="relative z-10 h-[70vh] md:h-[140vh] flex items-center px-4 md:px-16">
             {/* Blur background layer (ONLY background will blur) */}
             <div className="absolute inset-0 backdrop-blur-sm bg-white/5 z-0" />
             {/* Main container */}
-            <div className="relative h-[120vh] w-full overflow-hidden flex flex-col justify-between py-20">
+            <div className="relative h-[50vh] md:h-[120vh] w-full overflow-hidden flex flex-col justify-between py-10 md:py-20">
 
                 {/* Background image (sharp) */}
                 <Image
@@ -44,8 +44,8 @@ export default function EffectOne() {
 
                 {/* Content (sharp) */}
                 <div className="flex flex-col gap-10 relative z-10">
-                    <div className="flex justify-between">
-                        <h1 className="font-poppins text-4xl font-medium w-1/2">
+                    <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-0">
+                        <h1 className="font-poppins text-[21px] md:text-4xl font-medium w-full md:w-1/2">
                         We strive to live up to our motto every day at work
                         </h1>
                         <p className="uppercase underline tracking-[4%] font-avenir font-light text-[16px]">
@@ -53,13 +53,13 @@ export default function EffectOne() {
                         </p>
                     </div>
 
-                    <p className="font-poppins text-[90px] font-semibold leading-[1.1] w-1/2">
+                    <p className="font-poppins text-[48px] md:text-[90px] font-semibold leading-[1.1] w-full md:w-1/2">
                         EXECUTING EXCELLENCE
                     </p>
                 </div>
 
                 <div className="relative z-10">
-                    <p className="font-avenir text-lg font-light w-1/2">
+                    <p className="font-avenir text-[15px] md:text-lg font-light w-full md:w-1/2">
                         Ensemble leverages the transformative power of design and technology to
                         enable innovative and distinctive workplace experiences.
                     </p>

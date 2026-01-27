@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import News from "./News";
+import NewsMobile from "./NewsMobile";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -68,9 +69,14 @@ export default function EffectOne() {
         </div>
         <div
             className={`relative z-20 w-screen max-w-screen overflow-x-hidden
-            ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"} py-20`}
+            ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"} py-10 md:py-20`}
             >
-            <News theme={theme} />
+            <div className="hidden md:block">
+                <News theme={theme} />
+            </div>
+            <div className="md:hidden">
+                <NewsMobile />
+            </div>
         </div>
     </section>
 

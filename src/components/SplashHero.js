@@ -45,27 +45,27 @@ export default function SplashHero() {
         <div className={`marquee-wrapper ${pauseTrail ? "paused fade-up" : ""}`}>
           <div className="marquee-band top">
             <div className="marquee left">
-              <img src="/assets/splash/top/1.svg" />
-              <img src="/assets/splash/top/2.svg" />
-              <img src="/assets/splash/top/3.svg" />
-              <img src="/assets/splash/top/4.svg" />
+              <img src="/assets/splash/top/1.svg" alt="Splash 1" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/top/2.svg" alt="Splash 2" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/top/3.svg" alt="Splash 3" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/top/4.svg" alt="Splash 4" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
             </div>
           </div>
 
           <div className="marquee-band middle">
             <div className="marquee right">
-              <img src="/assets/splash/middle/1.svg" />
-              <img src="/assets/splash/middle/main.svg" />
-              <img src="/assets/splash/middle/2.svg" />
+              <img src="/assets/splash/middle/1.svg" alt="Middle 1" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/middle/main.svg" alt="Middle Main" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/middle/2.svg" alt="Middle 2" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
             </div>
           </div>
 
           <div className="marquee-band bottom">
             <div className="marquee left">
-              <img src="/assets/splash/bottom/1.svg" />
-              <img src="/assets/splash/bottom/2.svg" />
-              <img src="/assets/splash/bottom/3.svg" />
-              <img src="/assets/splash/bottom/4.svg" />
+              <img src="/assets/splash/bottom/1.svg" alt="Bottom 1" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/bottom/2.svg" alt="Bottom 2" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/bottom/3.svg" alt="Bottom 3" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              <img src="/assets/splash/bottom/4.svg" alt="Bottom 4" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function SplashHero() {
         </p>
 
         <div className="arrow-overlay-splash animate-item">
-          <img src="/assets/icons/up_arrow.svg" className="w-10" />
+          <img src="/assets/icons/up_arrow.svg" className="w-10" alt="Up Arrow" loading="lazy" onError={(e) => console.log('Arrow icon load error:', e)} />
         </div>
       </div>
 

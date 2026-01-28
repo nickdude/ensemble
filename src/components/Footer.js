@@ -2,11 +2,14 @@
 
 import Image from "next/image";
 import { useTheme } from "next-themes";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 export default function Footer() {
   const { theme } = useTheme();
+  const pathname = usePathname();
   const [mounted, setMounted] = useState(false);
+  const isHomePage = pathname === "/";
 
   useEffect(() => setMounted(true), []);
 
@@ -81,9 +84,11 @@ export default function Footer() {
         </div>
 
         {/* Logo Section */}
+        {!isHomePage && (
         <div className={`w-full flex items-center justify-center pt-12 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"}`}>
           <img src={theme === "dark" ? "/assets/footer_logo_white.png" : "/assets/footer_logo_black.png"} alt="Ensemble Logo" className="w-full" />
         </div>
+        )}
       </footer>  
       <footer className="md:hidden w-full flex flex-col">
         {/* Main Footer Content */}
@@ -155,9 +160,11 @@ export default function Footer() {
         </div>
 
         {/* Logo Section */}
+        {!isHomePage && (
         <div className={`w-full flex items-center justify-center pt-12 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"}`}>
           <img src={theme === "dark" ? "/assets/footer_logo_white.png" : "/assets/footer_logo_black.png"} alt="Ensemble Logo" className="w-full" />
         </div>
+        )}
       </footer>  
     </>
     

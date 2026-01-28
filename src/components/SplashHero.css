@@ -1,0 +1,216 @@
+/* =====================
+   ROOT
+===================== */
+.splash-root {
+  position: absolute;
+  inset: 0;
+  background: black;
+  overflow: hidden;
+  z-index: 9999;
+}
+
+/* =====================
+   MARQUEE
+===================== */
+.marquee-wrapper {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.marquee-wrapper.paused .marquee {
+  animation-play-state: paused;
+}
+
+.marquee-wrapper.fade-up {
+  opacity: 0.35;
+  transform: translateY(-30px);
+}
+
+.marquee-band {
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.marquee-band.top {
+  top: 0;
+}
+
+.marquee-band.middle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.marquee-band.bottom {
+  bottom: 0;
+}
+
+.marquee {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+}
+
+.marquee img {
+  height: 30vh;
+  min-width: 18vh;
+  object-fit: contain;
+}
+
+.marquee.left {
+  animation: marquee-left 6s linear infinite;
+}
+
+.marquee.right {
+  animation: marquee-right 6s linear infinite;
+}
+
+@keyframes marquee-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+@keyframes marquee-right {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* =====================
+   MAIN IMAGE
+===================== */
+.image-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  transform: scale(1.35);
+  transition: transform 2.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image-stage.zoom-out {
+  transform: scale(1);
+}
+
+/* =====================
+   TEXT
+===================== */
+.splash-text {
+  position: absolute;
+  inset: 0;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  pointer-events: none;
+}
+
+.animate-item {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.splash-text.show .animate-item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Tagline */
+.tagline {
+  font-family: avenir;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #f5efe6;
+  font-size: 18px;
+  margin-bottom: 14px;
+  transition: all 1s ease 0.1s;
+}
+
+/* =====================
+   HEADING
+===================== */
+.heading-title {
+  font-family: poppins;
+  font-size: 100px;
+  color: white;
+  margin: 10px 0;
+  transition-delay: 0.2s;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 32px;
+  color: white;
+  opacity: 0.85;
+  transition-delay: 0.4s;
+}
+
+/* Arrow */
+.arrow-overlay-splash {
+  margin-top: 40px;
+  transition: all 1s ease 0.9s;
+}
+
+.splash-text.show .arrow-overlay-splash {
+  animation: arrowFloat 2s ease-in-out infinite;
+}
+
+@keyframes arrowFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* =====================
+   VIDEO
+===================== */
+.splash-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* =====================
+   GRADIENT OVERLAY
+===================== */
+.splash-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.5) 30%,
+      rgba(0, 0, 0, 0.2) 50%
+    ),
+    linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.5) 30%,
+      rgba(0, 0, 0, 0.2) 50%
+    );
+}
+

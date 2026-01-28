@@ -1,26 +1,125 @@
+"use client";
+
 import Image from "next/image";
-import "./ProjectCardSample.css"
+import { useEffect, useRef, useState } from "react";
+import "./SplashHero.css";
 import Navbar from "./Navbar";
 
-export default function SplashHero(){
-    return(
-        <section className="absolute left-0 top-0 w-full h-[100vh] bg-black">
-            <Navbar transparent={true}/>
-             <Image
-                src="/assets/splash.png"
-                alt="Splash background"
-                fill
-                priority
-                className="object-cover"
-            />
-            <div className="absolute w-full h-[105vh] flex flex-col justify-center items-center">
-                <p className="font-avenir font-light uppercase text-brand-cream text-xl tracking-widest">inspiring tomorrow</p>
-                <h1 className="font-poppins font-medium text-[100px] text-white"><span className="underline">SPACES</span> FOR EXCELLENCE</h1>
-                <p className="font-poppins font-normal text-[32px]">Future-ready spaces for thriving businesses</p>
-                <div className="arrow-overlay-splash">
-                  <img src="/assets/icons/up_arrow.svg" className="w-10" alt="Project Image" />
-                </div>
+export default function SplashHero() {
+  const videoRef = useRef(null);
+
+  const [pauseTrail, setPauseTrail] = useState(false);
+  const [showText, setShowText] = useState(false);
+  const [zoomOut, setZoomOut] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setPauseTrail(true), 3000);
+    setTimeout(() => setShowText(true), 3400);
+    setTimeout(() => setZoomOut(true), 5200);
+    setTimeout(() => setShowVideo(true), 7000);
+  }, []);
+
+  /* 🔹 Pause video on scroll */
+  useEffect(() => {
+    const handleScroll = () => {
+      if (videoRef.current) {
+        videoRef.current.pause();
+      }
+      window.removeEventListener("scroll", handleScroll);
+    };
+
+    if (showVideo) {
+      window.addEventListener("scroll", handleScroll, { passive: true });
+    }
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [showVideo]);
+
+  return (
+    <section className="splash-root">
+      <Navbar transparent />
+
+      {/* 🔹 MARQUEE TRAILS */}
+      {!zoomOut && (
+        <div className={`marquee-wrapper ${pauseTrail ? "paused fade-up" : ""}`}>
+          <div className="marquee-band top">
+            <div className="marquee left">
+              <img src="/assets/splash/top/1.svg" />
+              <img src="/assets/splash/top/2.svg" />
+              <img src="/assets/splash/top/3.svg" />
+              <img src="/assets/splash/top/4.svg" />
             </div>
-        </section>
-    )
+          </div>
+
+          <div className="marquee-band middle">
+            <div className="marquee right">
+              <img src="/assets/splash/middle/1.svg" />
+              <img src="/assets/splash/middle/main.svg" />
+              <img src="/assets/splash/middle/2.svg" />
+            </div>
+          </div>
+
+          <div className="marquee-band bottom">
+            <div className="marquee left">
+              <img src="/assets/splash/bottom/1.svg" />
+              <img src="/assets/splash/bottom/2.svg" />
+              <img src="/assets/splash/bottom/3.svg" />
+              <img src="/assets/splash/bottom/4.svg" />
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* 🔹 MAIN IMAGE */}
+      {!showVideo && (
+        <div className={`image-stage ${zoomOut ? "zoom-out" : ""}`}>
+          <Image
+            src="/assets/splash.png"
+            alt="Splash"
+            fill
+            priority
+            className="object-cover"
+          />
+        </div>
+      )}
+
+      {/* GRADIENT */}
+      <div className="splash-gradient-overlay" />
+
+      {/* 🔹 TEXT */}
+      <div className={`splash-text ${showText ? "show" : ""}`}>
+        <p className="tagline animate-item">inspiring tomorrow</p>
+
+        <h1 className="heading heading-title animate-item">
+          <span className="underline">SPACES</span> FOR EXCELLENCE
+        </h1>
+
+        <p className="tagline animate-item">
+          Future-ready spaces for thriving businesses
+        </p>
+
+        <div className="arrow-overlay-splash animate-item">
+          <img src="/assets/icons/up_arrow.svg" className="w-10" />
+        </div>
+      </div>
+
+      {/* 🔹 BACKGROUND VIDEO */}
+      {showVideo && (
+        <video
+          ref={videoRef}
+          className="splash-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            type="video/mp4"
+          />
+        </video>
+      )}
+    </section>
+  );
 }

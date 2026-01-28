@@ -161,7 +161,7 @@
 
 /* Arrow */
 .arrow-overlay-splash {
-  margin-top: 40px;
+  margin-top: -10px;
   transition: all 1s ease 0.9s;
 }
 

@@ -3,10 +3,12 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import CountContainer from "./CountContainer";
+import homeData from "@/data/home/homeData";
 
 export default function CountSection({text}) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const data = homeData.countSection;
 
   useEffect(() => setMounted(true), []);
 
@@ -14,10 +16,15 @@ export default function CountSection({text}) {
   return (
     <section className={`border-y border-gray-300 py-20 ${theme === 'dark' ? 'bg-black border-gray-800' : 'bg-white border-gray-300'}`}>
       <div className="text-black flex flex-col md:flex-row justify-between items-center px-16 gap-10 md:gap-0">
-        <CountContainer count="23" label="Years of Experience" theme={theme} text={text}/>
-        <CountContainer count="1500+" label="Projects Executed" theme={theme} text={text}/>
-        <CountContainer count="1.25lac" label="Sq.Ft. Manufacturing Unit" theme={theme} text={text}/>
-        <CountContainer count="1500+" label="Workhands across India" theme={theme} text={text}/>
+        {data.counts.map((item, index) => (
+          <CountContainer 
+            key={index}
+            count={item.count} 
+            label={item.label} 
+            theme={theme} 
+            text={text}
+          />
+        ))}
       </div>
     </section>
   );

@@ -5,10 +5,12 @@ import News from "./News";
 import OurInsights from "./OurInsights";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import homeData from "@/data/home/homeData";
 
 export default function EffectTwo() {
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
+    const data = homeData.effectTwo;
 
     useEffect(() => setMounted(true), []);
 
@@ -22,11 +24,11 @@ export default function EffectTwo() {
       
                 {/* Heading */}
                 <h1 className="font-poppins font-medium text-[28px] md:text-[64px]">
-                    What our clients say
+                    {data.heading}
                 </h1>
 
                 <p className="font-avenir font-light text-base text-lg text-center">
-                    Stay updated with our latest projects, press features, and industry insights.
+                    {data.description}
                 </p>
 
                 {/* ===== Scroll Area Wrapper ===== */}
@@ -46,25 +48,22 @@ export default function EffectTwo() {
                                 scrollbar-hide"
                     >
                     {/* Card */}
-                    {[1, 2, 3].map((_, i) => (
+                    {data.testimonials.map((testimonial, i) => (
                         <div
                         key={i}
                         className="min-w-[85vw] md:min-w-[774px] h-[412px] border-[0.3px] border-white
                                     rounded-lg p-10 flex flex-col justify-between bg-transparent"
                         >
                         <h1 className="font-poppins text-base md:text-2xl text-gray-250">
-                            “Ensemble has carried out our corporate office works within the
-                            scheduled time frame allotted and largely to our satisfaction.
-                            We feel the company is well equipped and has the resources to
-                            take on such large assignments and deliver them successfully.”
+                            "{testimonial.quote}"
                         </h1>
 
                         <div>
                             <p className="font-bricolage font-extralight text-white">
-                            John Doe
+                            {testimonial.name}
                             </p>
                             <p className="font-bricolage font-extralight text-white">
-                            CEO Microsoft
+                            {testimonial.position}
                             </p>
                         </div>
                         </div>

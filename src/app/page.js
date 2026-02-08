@@ -14,11 +14,10 @@ import EffectOne from "@/components/EffectOne";
 import EffectTwo from "@/components/EffectTwo";
 import SplashHero from "@/components/SplashHero";
 
-
 export default function Home() {
   return (
     <>
-      <SplashHero/>
+      <SplashHero />
       <SubHero/>
       <CountSection/>
       <BlueprintsSection/>

@@ -15,8 +15,8 @@ export default function AboutUs(){
             <CountSection text="red"/>
             <ImageDesciption/>
             <ImageDesciption right="true"/>
-            <AwardAndRecognitions/>
             <OurTeam/>
+            <AwardAndRecognitions/>
             <InquiryFrom/>
         </main>
     )

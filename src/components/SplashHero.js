@@ -4,9 +4,11 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import "./SplashHero.css";
 import Navbar from "./Navbar";
+import homeData from "@/data/home/homeData";
 
 export default function SplashHero() {
   const videoRef = useRef(null);
+  const data = homeData.splash;
 
   const [pauseTrail, setPauseTrail] = useState(false);
   const [showText, setShowText] = useState(false);
@@ -45,27 +47,43 @@ export default function SplashHero() {
         <div className={`marquee-wrapper ${pauseTrail ? "paused fade-up" : ""}`}>
           <div className="marquee-band top">
             <div className="marquee left">
-              <img src="/assets/splash/top/1.svg" alt="Splash 1" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/top/2.svg" alt="Splash 2" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/top/3.svg" alt="Splash 3" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/top/4.svg" alt="Splash 4" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              {data.images.marqueeTop.map((img, index) => (
+                <img
+                  key={index}
+                  src={img}
+                  alt={`Splash ${index + 1}`}
+                  loading="lazy"
+                  onError={(e) => console.log('Image load error:', e)}
+                />
+              ))}
             </div>
           </div>
 
           <div className="marquee-band middle">
             <div className="marquee right">
-              <img src="/assets/splash/middle/1.svg" alt="Middle 1" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/middle/main.svg" alt="Middle Main" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/middle/2.svg" alt="Middle 2" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              {data.images.marqueeMiddle.map((img, index) => (
+                <img
+                  key={index}
+                  src={img}
+                  alt={`Middle ${index + 1}`}
+                  loading="lazy"
+                  onError={(e) => console.log('Image load error:', e)}
+                />
+              ))}
             </div>
           </div>
 
           <div className="marquee-band bottom">
             <div className="marquee left">
-              <img src="/assets/splash/bottom/1.svg" alt="Bottom 1" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/bottom/2.svg" alt="Bottom 2" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/bottom/3.svg" alt="Bottom 3" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
-              <img src="/assets/splash/bottom/4.svg" alt="Bottom 4" loading="lazy" onError={(e) => console.log('Image load error:', e)} />
+              {data.images.marqueeBottom.map((img, index) => (
+                <img
+                  key={index}
+                  src={img}
+                  alt={`Bottom ${index + 1}`}
+                  loading="lazy"
+                  onError={(e) => console.log('Image load error:', e)}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -75,7 +93,7 @@ export default function SplashHero() {
       {!showVideo && (
         <div className={`image-stage ${zoomOut ? "zoom-out" : ""}`}>
           <Image
-            src="/assets/splash.png"
+            src={data.images.mainImage}
             alt="Splash"
             fill
             priority
@@ -89,18 +107,18 @@ export default function SplashHero() {
 
       {/* 🔹 TEXT */}
       <div className={`splash-text ${showText ? "show" : ""}`}>
-        <p className="tagline animate-item">inspiring tomorrow</p>
+        <p className="tagline animate-item">{data.text.subHeading}</p>
 
         <h1 className="heading heading-title animate-item">
-          <span className="underline">SPACES</span> FOR EXCELLENCE
+          <span className="underline">{data.text.underlineHeading}</span> {data.text.heading}
         </h1>
 
         <p className="tagline animate-item">
-          Future-ready spaces for thriving businesses
+          {data.text.tagLine}
         </p>
 
         <div className="arrow-overlay-splash animate-item">
-          <img src="/assets/icons/up_arrow.svg" className="w-10" alt="Up Arrow" loading="lazy" onError={(e) => console.log('Arrow icon load error:', e)} />
+          <img src={data.images.arrow} className="w-10" alt="Up Arrow" loading="lazy" onError={(e) => console.log('Arrow icon load error:', e)} />
         </div>
       </div>
 
@@ -115,8 +133,8 @@ export default function SplashHero() {
           playsInline
         >
           <source
-            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-            type="video/mp4"
+            src={data.video.src}
+            type={data.video.type}
           />
         </video>
       )}

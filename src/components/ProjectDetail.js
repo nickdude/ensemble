@@ -3,55 +3,60 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import SubtitleTitle from "./SubtitleTitle";
 import TitleSubtitle from "./TitleSubtitle";
+import projectsData from "@/data/home/projectsData";
+import { usePathname } from "next/navigation";
 
 export default function ProjectDetail() {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
+  const slug = pathname.split('/')[2];
+  const projectData = projectsData.projectDetail[slug];
 
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null;
+  if (!mounted || !projectData) return null;
   return (
     <section className={`w-full px-4 md:px-16 py-20 border-b border-gray-300 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
       <div className="hidden md:block space-y-16 w-full">
 
         <div className="grid grid-cols-12 gap-16 items-start">
           <div className="col-span-4">
-            <SubtitleTitle subtitle="Area" title="126 sqm" />
+            <SubtitleTitle subtitle="Area" title={projectData.details.area} />
           </div>
 
           <div className="col-span-8">
-            <SubtitleTitle subtitle="Client" title="We Work" />
+            <SubtitleTitle subtitle="Client" title={projectData.details.client} />
           </div>
         </div>
 
         <div className="grid grid-cols-12 gap-16 items-start">
           <div className="col-span-4">
-            <SubtitleTitle subtitle="Category" title="Office Space" />
+            <SubtitleTitle subtitle="Category" title={projectData.details.category} />
           </div>
 
 
           <div className="col-span-8">
-            <TitleSubtitle  title="Client’s Vision:" subtitle="The client, a young couple with a passion for nature and tranquility,"/>
+            <TitleSubtitle  title="Client's Vision:" subtitle={projectData.details.clientVision}/>
           </div>
         </div>
 
         <div className="grid grid-cols-12 gap-16 items-start">
           <div className="col-span-4">
-            <SubtitleTitle subtitle="Project Size" title="Remodeling" />
+            <SubtitleTitle subtitle="Project Size" title={projectData.details.projectSize} />
           </div>
 
           <div className="col-span-8">
-             <TitleSubtitle  title="The Problem:" subtitle="The existing home had an outdated layout with closed-off rooms that inhibited natural light and hindered the flow of energy. The interior lacked a cohesive theme, leaving the homeowners feeling disconnected from their surroundings. The challenge was to create a unified, nature-inspired design that seamlessly integrated with the existing structure." />
+             <TitleSubtitle  title="The Problem:" subtitle={projectData.details.problem} />
           </div>
         </div>
 
         <div className="grid grid-cols-12 gap-16 items-start">
           <div className="col-span-4">
-            <SubtitleTitle subtitle="Location" title="Bengaluru" />
+            <SubtitleTitle subtitle="Location" title={projectData.details.location} />
           </div>
           <div className="col-span-8">
-              <TitleSubtitle  title="Our Solution:" subtitle="Our team approached the project with a holistic perspective, focusing on both functionality and aesthetics. We proposed a transformative open-concept design that allowed natural light to flood the interior. The living, dining, and kitchen areas were seamlessly connected, fostering a sense of spaciousness." />
+              <TitleSubtitle  title="Our Solution:" subtitle={projectData.details.solution} />
           </div>
         </div>
       </div>

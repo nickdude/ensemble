@@ -3,14 +3,16 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import projectsData from "@/data/home/projectsData";
 
-export default function   InnerProjectSubHero({title, location}) {
+export default function   InnerProjectSubHero({slug}) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const projectData = projectsData.projectDetail[slug];
 
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null;
+  if (!mounted || !projectData) return null;
 
     return (
            <section className={`px-4 md:px-16 w-full ${theme === 'dark' ? 'bg-black' : 'bg-white'}`}>
@@ -18,7 +20,7 @@ export default function   InnerProjectSubHero({title, location}) {
                 
                 {/* Background Image */}
                 <Image
-                  src="/assets/inner_project_hero.png"
+                  src={projectData.hero.image}
                   alt="Service Hero Image"
                   fill
                   className="object-cover"
@@ -31,7 +33,7 @@ export default function   InnerProjectSubHero({title, location}) {
                 {/* Content */}
                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-10">
                     <p className="text-[32px] md:text-[56px] font-poppins font-semibold">
-                        We Work, Bengaluru
+                        {projectData.hero.title}, {projectData.hero.location}
                     </p>
                 </div>
 

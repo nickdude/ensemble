@@ -3,14 +3,19 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import projectsData from "@/data/home/projectsData";
+import { usePathname } from "next/navigation";
 
 export default function ProjectCaseGallery() {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const pathname = usePathname();
+  const slug = pathname.split('/')[2];
+  const projectData = projectsData.projectDetail[slug];
 
   useEffect(() => setMounted(true), []);
 
-  if (!mounted) return null;
+  if (!mounted || !projectData) return null;
   
   return (
     <section className={`w-full px-4 md:px-16 py-20 text-black ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
@@ -19,8 +24,8 @@ export default function ProjectCaseGallery() {
         {/* ROW 1 — Image + Text */}
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
           <Image
-            src="/assets/project-detail/project-detail1.jpg"
-            alt="Project Exterior"
+            src={projectData.gallery[0].image}
+            alt={projectData.gallery[0].alt}
             width={100}
             height={100}
             className="object-cover w-full h-full"
@@ -51,8 +56,8 @@ export default function ProjectCaseGallery() {
         {/* ROW 2 — Two Images */}
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
           <Image
-            src="/assets/project-detail/project-detail2.png"
-            alt="Construction"
+            src={projectData.gallery[1].image}
+            alt={projectData.gallery[1].alt}
             width={800}
             height={600}
             className="object-cover w-full h-full"
@@ -61,8 +66,8 @@ export default function ProjectCaseGallery() {
 
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
           <Image
-            src="/assets/project-detail/project-detail3.jpg"
-            alt="Office Interior"
+            src={projectData.gallery[2].image}
+            alt={projectData.gallery[2].alt}
             width={800}
             height={600}
             className="object-cover w-full h-full"
@@ -72,8 +77,8 @@ export default function ProjectCaseGallery() {
         {/* ROW 3 — Wide Image */}
         <div className="col-span-1 md:col-span-12 relative rounded-xl overflow-hidden">
           <Image
-            src="/assets/project-detail/project-detail4.png"
-            alt="Dining Area"
+            src={projectData.gallery[3].image}
+            alt={projectData.gallery[3].alt}
             width={1600}
             height={800}
             className="object-cover w-full h-full"

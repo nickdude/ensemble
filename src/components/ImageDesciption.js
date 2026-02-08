@@ -1,28 +1,11 @@
-// "use clients"
-
-// import Image from "next/image"
-
-// export default function ImageDesciption(){
-//     return(
-//         <section className="bg-white text-black py-20 px-16 flex">
-//             <div className="relative w-1/2 h-[590px]">
-//                 <Image src="/assets/aboutus/excellence.jpg" fill className="object-cover rounded-lg" priority/>
-//             </div>
-//              <div className="w-1/2 h-[590px] flex flex-col justify-center pl-16 gap-5">
-//                 <h1 className="font-roboto font-semibold text-[32px]">Decades of Delivering Excellence</h1>
-//                 <p className="fornt-roboto font-light text-2xl text-gray-600">Ensemble was founded in the year 2001, with a humble beginning of executing a 200 Sq feet of fitouts for American Express. We have come a long way since then, moving our headquarters to Mumbai in 2003, executing over 20 Million Sq feet of fitouts for leading clients like Google, Citi, Morgan Stanley, Reliance, TCS and other global clients.</p>
-//             </div>
-//         </section>
-//     )
-// }
-
 "use client";
 
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { aboutUsData } from "@/data/home/aboutUsData";
 
-export default function ImageDescription({ right = false }) {
+export default function ImageDescription({ imageDescription = aboutUsData.imageDescription, right = false }) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
   
@@ -39,8 +22,8 @@ export default function ImageDescription({ right = false }) {
       {/* Image */}
       <div className="relative w-full md:w-1/2 h-[590px]">
         <Image
-          src="/assets/aboutus/excellence.jpg"
-          alt="Decades of Delivering Excellence"
+          src={imageDescription.image}
+          alt={imageDescription.title}
           fill
           className="object-cover rounded-lg"
           priority
@@ -54,15 +37,11 @@ export default function ImageDescription({ right = false }) {
         }`}
       >
         <h1 className="font-roboto font-semibold text-[32px]">
-          Decades of Delivering Excellence
+          {imageDescription.title}
         </h1>
 
         <p className="font-roboto font-light text-2xl text-gray-600 leading-relaxed">
-          Ensemble was founded in the year 2001, with a humble beginning of
-          executing a 200 Sq feet of fitouts for American Express. We have come a
-          long way since then, moving our headquarters to Mumbai in 2003,
-          executing over 20 Million Sq feet of fitouts for leading clients like
-          Google, Citi, Morgan Stanley, Reliance, TCS and other global clients.
+          {imageDescription.description}
         </p>
       </div>
     </section>

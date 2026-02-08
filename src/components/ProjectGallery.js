@@ -4,10 +4,12 @@ import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import projectsData from "@/data/home/projectsData";
 
 export default function ProjectGallery() {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const data = projectsData.projectGallery;
 
   useEffect(() => setMounted(true), []);
 
@@ -26,97 +28,16 @@ export default function ProjectGallery() {
 
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 auto-rows-[240px]">
-
-        <ProjectCard
-          image="/assets/projects/1.jpg"
-          title="TCS"
-          location="Pan India"
-          slug="project-1"
-        />
-
-        <ProjectCard
-          image="/assets/projects/2.jpg"
-          title="Cairn Energy Office"
-          location="Gurgaon"
-          variant="wide"
-          slug="project-2"
-        />
-
-        <ProjectCard
-          image="/assets/projects/3.jpg"
-          title="Cadila Healthcare Ltd."
-          location="Vadodara"
-          slug="project-3"
-        />
-
-        <ProjectCard
-          image="/assets/projects/4.jpg"
-          title="TCS"
-          location="Pan India"
-          slug="project-4"
-        />
-
-        <ProjectCard
-          image="/assets/projects/5.jpg"
-          title="WeWork"
-          location="Mumbai"
-          slug="project-5"
-        />
-        <ProjectCard
-          image="/assets/projects/9.jpg"
-          title="WeWork"
-          location="Mumbai"
-          slug="project-6"
-        />
-         <ProjectCard
-          image="/assets/projects/9.jpg"
-          title="WeWork"
-          location="Mumbai"
-          slug="project-7"
-        />
-         <ProjectCard
-          image="/assets/projects/9.jpg"
-          title="WeWork"
-          location="Mumbai"
-          slug="project-8"
-        />
-        
-
-        <ProjectCard
-          image="/assets/projects/6.jpg"
-          title="Cairn Energy Office"
-          location="Gurgaon"
-          variant="wide"
-          slug="project-9"
-        />
-
-        <ProjectCard
-          image="/assets/projects/7.jpg"
-          title="Cadila Healthcare Ltd."
-          location="Vadodara"
-          slug="project-10"
-        />
-
-        <ProjectCard
-          image="/assets/projects/8.jpg"
-          title="TCS"
-          location="Pan India"
-          slug="project-11"
-        />
-         <ProjectCard
-          image="/assets/projects/9.jpg"
-          title="WeWork"
-          location="Mumbai"
-          slug="project-12"
-        />
-         <ProjectCard
-          image="/assets/projects/9.jpg"
-          title="WeWork"
-          location="Mumbai"
-          slug="project-13"
-        />
-      
-
+        {data.projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            image={project.image}
+            title={project.title}
+            location={project.location}
+            slug={project.slug}
+            variant={project.variant}
+          />
+        ))}
       </div>
     </section>
   );

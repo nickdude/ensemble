@@ -1,18 +1,18 @@
 import Image from "next/image";
 import "./ProjectCardSample.css"
 
-export default function ProjectCardSample() {
+export default function ProjectCardSample({image, title, location}) {
   return (
    <div className="card bg-red-300 h-[480px] w-full md:w-[490px]">
-      <img src="/assets/blueprints/blueprint3.png" alt="Project Image" />
+      <img src={image} alt="Project Image" />
 
       <div className="overlay overlay-default">
         <div className="title-box">
-          <h2 className="font-poppins text-[62px]">Bridge+</h2>
+          <h2 className="font-poppins text-[62px]">{title}</h2>
           <div className="arrow-overlay">
               <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
           </div>
-          <p className="font-bricolage font-semibold text-[16px]">Chennai</p>
+          <p className="font-bricolage font-semibold text-[16px]">{location}</p>
         </div>
       </div>
 

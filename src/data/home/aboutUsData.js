@@ -10,7 +10,23 @@ export const aboutUsData = {
             "One of the key aspects of executing with excellence at Ensemble is to partner with your teams at every stage and create solutions that live up to your larger organisational needs."
         ]
     },
-
+    imageAndDescription: {
+        mission:{
+            title: "Our Mission",
+            description: "At Ensemble, we aim to shape workplaces and commercial spaces that reflect your success. Through close collaboration, we deliver tailored solutions with excellence, aligned to your organizational goals.",
+            image: "/assets/aboutus/our-mission.png",
+            team: {
+                name: "Vikas Rathod",
+                position: "Vice Chairman | MD",
+                image: "/assets/aboutus/ceo.png"
+             }
+            },
+        vision: {
+            title: "Our Vision",
+            description: "Our vision is to create inspiring, sustainable workspaces that not only transcend mere function but foster collaboration, creativity, well-being and environmental stewardship.",
+            image: "/assets/aboutus/our-vision.png"
+        }
+    },
     imageDescription: {
         title: "Decades of Delivering Excellence",
         description: "Ensemble was founded in the year 2001, with a humble beginning of executing a 200 Sq feet of fitouts for American Express. We have come a long way since then, moving our headquarters to Mumbai in 2003, executing over 20 Million Sq feet of fitouts for leading clients like Google, Citi, Morgan Stanley, Reliance, TCS and other global clients.",

@@ -28,7 +28,7 @@ const data = {
             arrow: "/assets/icons/up_arrow.svg",
         },
         video: {
-            src: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+            src: "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4",
             type: "video/mp4",
         },
     },
@@ -65,22 +65,34 @@ const data = {
             {
                 title: "Bridge+",
                 location: "Chennai",
-                image: "/assets/blueprints/blueprint3.png",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/bridge.webp",
+                area: "1,00,000 sq.ft.",
+                service: "General Contracting",
+                caseStudyLink: "/projects/bridge-plus"
             },
             {
-                title: "Bridge+",
-                location: "Chennai",
-                image: "/assets/blueprints/blueprint3.png",
+                title: "Canon",
+                location: "Mumbai",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/canon.webp",
+                area: "2,00,000 sq.ft.",
+                service: "Design & Build",
+                caseStudyLink: "/projects/canon"
             },
             {
-                title: "Bridge+",
-                location: "Chennai",
-                image: "/assets/blueprints/blueprint3.png",
+                title: "Cadila Healthcare LTD",
+                location: "Ahemdabad",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/cadilahealthcareltd.webp",
+                area: "1,50,000 sq.ft.",
+                service: "General Contracting",
+                caseStudyLink: "/projects/cadila-healthcare-ltd"
             },
             {
-                title: "Bridge+",
-                location: "Chennai",
-                image: "/assets/blueprints/blueprint3.png",
+                title: "RPSG",
+                location: "Kolkata",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/rpsg.webp",
+                area: "1,20,000 sq.ft.",
+                service: "Design & Build",
+                caseStudyLink: "/projects/rpsg"
             },
         ],
     },
@@ -110,21 +122,31 @@ const data = {
         title: "Our Services",
         services: [
             {
+                bgImage:"",
                 img: "/assets/icons/construction.svg",
                 title: "General Contracting",
                 description: "As a GC contractor, we specialize in Civil and Interior, Mechanical, Electrical, and Plumbing (MEP) works. We ensure seamless project execution and deliver world-class fit-outs within timelines"
             },
             {
+                bgImage:"",
                 img: "/assets/icons/consultancy.svg",
                 title: "Design Consultancy",
                 description: "Our Design Consultancy transforms ideas into innovative, functional workspaces that enhance productivity, employee satisfaction, and brand perception, delivering bespoke designs aligned with client needs."
             },
             {
+                bgImage:"",
                 img: "/assets/icons/build.svg",
                 title: "Design and Build",
                 description: "Streamline your workspace transformation with our Design and Build service, integrating design and construction for efficient, cost-effective and seamless project delivery."
             }
         ],
+    },
+    effectOne: {
+        title: "EXECUTING EXCELLENCE",
+        tageLine: "We strive to live up to our motto every day at work",
+        underlineHeading: "Explore Projects",
+        underlineLink:"/projects",
+        discription: "Ensemble leverages the transformative power of design and technology to enable innovative and distinctive workplace experiences."
     },
     news: {
         title: "In the news.",
@@ -136,16 +158,19 @@ const data = {
                 image: "/assets/news/news1.jpg",
                 title: "Workspaces Redefined",
                 desc: "Designing collaborative environments for the future.",
+                link: "/news/bridge-project-chennai"
             },
             {
                 image: "/assets/news/news2.jpg",
                 title: "Coming Soon!",
                 desc: "Our world is changing, a revolution is unfolding in front of our eyes.",
+                link: "/news/bridge-project-chennai"
             },
             {
                 image: "/assets/news/news3.jpg",
                 title: "Modern Interiors",
                 desc: "Blending aesthetics with functionality.",
+                link: "/news/bridge-project-chennai"
             },
         ],
     },
@@ -181,18 +206,28 @@ const data = {
         testimonials: [
             {
                 quote: "Ensemble has carried out our corporate office works within the scheduled time frame allotted and largely to our satisfaction. We feel the company is well equipped and has the resources to take on such large assignments and deliver them successfully.",
-                name: "John Doe",
-                position: "CEO Microsoft"
+                name: "Sanjay Nadkarni",
+                position: "Head Administration (Glenmark)"
             },
             {
-                quote: "Ensemble has carried out our corporate office works within the scheduled time frame allotted and largely to our satisfaction. We feel the company is well equipped and has the resources to take on such large assignments and deliver them successfully.",
-                name: "John Doe",
-                position: "CEO Microsoft"
+                quote: "The quality and service have exceeded industry standards and we recommend them for similar jobs in the industry.",
+                name: "Mahesh Dhuri",
+                position: "Capgemini"
             },
             {
-                quote: "Ensemble has carried out our corporate office works within the scheduled time frame allotted and largely to our satisfaction. We feel the company is well equipped and has the resources to take on such large assignments and deliver them successfully.",
-                name: "John Doe",
-                position: "CEO Microsoft"
+                quote: "The quality of the work has been good and services have been prompt at all times. I have no hesitation in recommending their services for such projects in future. We appreciate the commitment and involvement in the project.",
+                name: "RCM Reddy",
+                position: "IAS (Ministry Of Textiles)"
+            },
+            {
+                quote: "It’s been a pleasure to work with team Ensemble. Right from scratch to finish the team has delivered what was promised. They have gone the extra mile to ensure perfect delivery of civil and furniture works. When it comes to new projects for office I would highly recommend using Ensemble services!",
+                name: "Ritesh Gandhi",
+                position: "CEO Jolly Containers"
+            },
+            {
+                quote: "Ensemble is professional in all aspects. We appreciate their readiness to adapt and accommodate our requirements during project execution. They delivered the project in strict timeline of 45 days with praiseworthy quality. It is a great Job.",
+                name: "Karan Virwani",
+                position: "CEO WeWork"
             }
         ],
     },

@@ -5,8 +5,9 @@ import Button from "./Button";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import homeData from "@/data/home/homeData";
+import Link from "next/link";
 
-function NewsCard({ image, title, desc, style, onClick }) {
+function NewsCard({ image, title, desc, link, style, onClick }) {
   return (
     <div
       onClick={onClick}
@@ -23,15 +24,17 @@ function NewsCard({ image, title, desc, style, onClick }) {
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
 
       <div className="absolute bottom-6 left-6 right-6 text-white z-10">
-        <h3 className="text-xl font-medium mb-2 flex items-center gap-1">
-          {title}
-          <Image
-            src="/assets/icons/up_arrow.svg"
-            alt="Up Arrow"
-            width={8}
-            height={8}
-          />
-        </h3>
+        <Link href={link}>
+          <h3 className="text-xl font-medium mb-2 flex items-center gap-1">
+            {title}
+            <Image
+              src="/assets/icons/up_arrow.svg"
+              alt="Up Arrow"
+              width={8}
+              height={8}
+            />
+          </h3>
+        </Link>
         <p className="text-sm text-white/80">{desc}</p>
       </div>
     </div>

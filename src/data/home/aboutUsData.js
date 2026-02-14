@@ -1,6 +1,6 @@
 export const aboutUsData = {
     aboutUsHero: {
-        label: "About Us",
+        label: "About Uss",
         title: "We're Ensemble, The creative crafters behind architectural marvels.",
         titleHighlight: "Where innovation meets blueprints, we shape dreams with passion and flair!",
         image: "/assets/aboutus/hero.jpg",
@@ -66,29 +66,29 @@ export const aboutUsData = {
         buttonLabel: "VIEW ALL",
         members: [
             {
-                image: "/assets/aboutus/team1.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vikasrathod1.webp",
                 name: "Vikas Rathod",
                 position: "Vice Chairman | MD"
             },
             {
-                image: "/assets/aboutus/team1.jpg",
-                name: "Vikas Rathod",
-                position: "Vice Chairman | MD"
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/rinis_image1.webp",
+                name: "Rini mohabey",
+                position: "Associate Director | Design and Build"
             },
             {
-                image: "/assets/aboutus/team1.jpg",
-                name: "Vikas Rathod",
-                position: "Vice Chairman | MD"
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
+                name: "Sarika Sawanth",
+                position: "Associate Director | Operations"
             },
             {
-                image: "/assets/aboutus/team1.jpg",
-                name: "Vikas Rathod",
-                position: "Vice Chairman | MD"
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vp21.webp",
+                name: "Vedanand Pujari",
+                position: "Head | MEP"
             },
             {
-                image: "/assets/aboutus/team1.jpg",
-                name: "Vikas Rathod",
-                position: "Vice Chairman | MD"
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                name: "Bhagyashree Shetye",
+                position: "Associate Director | Design and Build"
             }
         ]
     }

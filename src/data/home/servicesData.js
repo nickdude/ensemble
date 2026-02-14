@@ -1,7 +1,7 @@
 const data = {
         ourServiceHero: {
             label: "Our Services",
-            heading: "Innovative Services <br /> for your Projects",
+            heading: "Innovative Services for your Projects",
             description: "End-to-end solutions by blending design excellence with technical expertise. With a client-first approach, we create functional, inspiring spaces that exceed expectations through creativity, technology.",
             image: "/assets/our_service_hero.jpg",
         },
@@ -123,24 +123,24 @@ const data = {
             buttonLabel: "VIEW ALL",
             projects: [
               {
-                image: "/assets/blueprints/blueprint3.png",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/bridge%2B.webp",
                 title: "Bridge+",
                 location: "Chennai",
               },
               {
-                image: "/assets/blueprints/blueprint3.png",
-                title: "Bridge+",
-                location: "Chennai",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/tcs.webp",
+                title: "TCS",
+                location: "Pan India",
               },
               {
                 image: "/assets/blueprints/blueprint3.png",
-                title: "Bridge+",
-                location: "Chennai",
+                title: "Canon",
+                location: "Mumbai",
               },
               {
                 image: "/assets/blueprints/blueprint3.png",
-                title: "Bridge+",
-                location: "Chennai",
+                title: "Cadila Healthcare LTD",
+                location: "Ahemdabad",
               },
             ],
           },

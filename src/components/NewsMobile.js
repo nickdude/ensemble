@@ -29,6 +29,7 @@ export default function NewsMobile() {
                 img={news.image}
                 title={news.title}
                 description={news.desc}
+                link={news.link}
                 width="w-[80vw]"
               />
             ))}

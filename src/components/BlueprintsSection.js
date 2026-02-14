@@ -32,6 +32,9 @@ export default function BlueprintsSection() {
             image={data.projects[0].image}
             title={data.projects[0].title}
             location={data.projects[0].location}
+            area={data.projects[0].area}
+            service={data.projects[0].service}
+            viewCaseStudy={() => window.location.href = data.projects[0].caseStudyLink}
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-[1px]">
@@ -41,6 +44,9 @@ export default function BlueprintsSection() {
                 image={project.image}
                 title={project.title}
                 location={project.location}
+                area={project.area}
+                service={project.service}
+                viewCaseStudy={() => window.location.href = project.caseStudyLink}
               />
             ))}
         </div>

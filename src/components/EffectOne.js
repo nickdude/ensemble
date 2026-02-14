@@ -5,8 +5,12 @@ import News from "./News";
 import NewsMobile from "./NewsMobile";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import homeData from "@/data/home/homeData";
+import Link from "next/link";
+
 
 export default function EffectOne() {
+    const effectData = homeData.effectOne;
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
@@ -47,22 +51,25 @@ export default function EffectOne() {
                 <div className="flex flex-col gap-10 relative z-10">
                     <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-0">
                         <h1 className="font-poppins text-[21px] md:text-4xl font-medium w-full md:w-1/2">
-                        We strive to live up to our motto every day at work
+                        {effectData.tageLine}
                         </h1>
-                        <p className="uppercase underline tracking-[4%] font-avenir font-light text-[16px]">
-                        Explore Projects
-                        </p>
+                        <Link
+                            href="/projects"
+                            className="uppercase underline tracking-[0.04em] font-avenir font-light text-[16px]"
+                            >
+                            {effectData.underlineHeading}
+                        </Link>
+
                     </div>
 
                     <p className="font-poppins text-[48px] md:text-[90px] font-semibold leading-[1.1] w-full md:w-1/2">
-                        EXECUTING EXCELLENCE
+                        {effectData.title}
                     </p>
                 </div>
 
                 <div className="relative z-10">
                     <p className="font-avenir text-[15px] md:text-lg font-light w-full md:w-1/2">
-                        Ensemble leverages the transformative power of design and technology to
-                        enable innovative and distinctive workplace experiences.
+                        {effectData.discription}
                     </p>
                 </div>
             </div>

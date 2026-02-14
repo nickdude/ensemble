@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function InsightCard({slug, img, title, description, width="w-[35%]"}) {
+export default function InsightCard({slug, img, title, link, description, width="w-[35%]"}) {
   return (
     <Link href={`/blogs/${slug}`} className="group cursor-pointer">
       <div className={`${width} flex flex-col`}>

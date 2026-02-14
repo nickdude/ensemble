@@ -23,7 +23,7 @@ export default function OurTeam(){
                         <Button label={ourTeam.buttonLabel} />
                     </div>
                     {ourTeam.members.map((member, index) => (
-                    <div key={index} className="w-full md:w-[396px] h-[505px] ">
+                    <div key={index} className="w-full md:w-[30vw] h-[40vw] ">
                         <div className="relative w-full h-[419px] ">
                             <Image src={member.image} alt={member.name} className="object-cover rounded-lg" fill priority/>
                         </div>

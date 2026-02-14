@@ -185,7 +185,7 @@ const data = {
                 position: "CEO Microsoft"
             },
             {
-                quote: "hEnsemble has carried out our corporate office works within the scheduled time frame allotted and largely to our satisfaction. We feel the company is well equipped and has the resources to take on such large assignments and deliver them successfully.",
+                quote: "Ensemble has carried out our corporate office works within the scheduled time frame allotted and largely to our satisfaction. We feel the company is well equipped and has the resources to take on such large assignments and deliver them successfully.",
                 name: "John Doe",
                 position: "CEO Microsoft"
             },

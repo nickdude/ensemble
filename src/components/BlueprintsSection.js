@@ -25,7 +25,7 @@ export default function BlueprintsSection() {
           </div>
           <div className="flex flex-col items-start justify-end px-4 md:px-16 py-5 md:py-20 gap-10">
             <h1 className="font-avenir font-light text-base md:text-lg">{data.description}</h1>  
-            <Button label={data.buttonLabel} />
+            <Button label={data.buttonLabel} link={data.buttonLink}/>
           </div>
           {/* <SplashCard/> */}
           <ProjectCardSample

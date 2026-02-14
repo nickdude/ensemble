@@ -9,7 +9,10 @@ export default function ProjectCard({
   title,
   location,
   variant = "square", // square | wide
-  slug
+  slug,
+  area,
+  service,
+  viewCaseStudy
 }) {
 
   const router = useRouter();
@@ -23,32 +26,32 @@ export default function ProjectCard({
         onClick={() => router.push(`/projects/${slug}`)}
       >
         <Image
-          src="/assets/news/detail_news1.jpg"
+          src={image}
           alt={title}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        
+        <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
         <div className="overlay overlay-default">
           <div className="title-box">
-            <h2 className="font-poppins text-[62px]">Bridge+</h2>
+            <h2 className="font-poppins text-[62px]">{title}</h2>
   ₹
             <div className="arrow-overlay">
                 <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
             </div>
 
-            <p className="font-bricolage font-semibold text-[16px]">Chennai</p>
+            <p className="font-bricolage font-semibold text-[16px]">{location}</p>
           </div>
         </div>
 
         <div className="overlay overlay-hover">
           <div className="hover-box">
-            <p>Location: Chennai</p>
-            <p className="from-bottom">Area: 1,00,000 sq.ft.</p>
-            <p>Service: General Contracting</p>
+            <p>Location: {location}</p>
+            <p className="from-bottom">Area: {area}</p>
+            <p>Service: {service}</p>
 
             <div className="cta from-bottom">
-              <span>View Case Study</span>
+              <span onClick={viewCaseStudy}>View Case Study</span>
             </div>
           </div>
         </div>

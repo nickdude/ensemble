@@ -14,6 +14,8 @@ import { aboutUsData } from "@/data/home/aboutUsData";
 export default function AboutUs(){
     const missionData = aboutUsData.imageAndDescription.mission;
     const visionData = aboutUsData.imageAndDescription.vision;
+    const excellenceData = aboutUsData.imageDescription.exellence;
+    const visionImageDescriptionData = aboutUsData.imageDescription.vision;
 
     return(
         <main>
@@ -22,8 +24,8 @@ export default function AboutUs(){
             <ImageAndDescription title={missionData.title} description={missionData.description} image={missionData.image} team={missionData.team}/>
             <ImageAndDescription right="true" title={visionData.title} description={visionData.description} image={visionData.image}/>
             <OurTeam/>
-            <ImageDesciption/>
-            <ImageDesciption right="true"/>
+            <ImageDesciption title={excellenceData.title} description={excellenceData.description} image={excellenceData.image}/>
+            <ImageDesciption right="true" title={visionImageDescriptionData.title} description={visionImageDescriptionData.description} image={visionImageDescriptionData.image}/>
             <AwardAndRecognitions/>
             <InquiryFrom/>
         </main>

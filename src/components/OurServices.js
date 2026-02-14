@@ -35,6 +35,7 @@ export default function OurServices() {
                             img={item.img}
                             title={item.title}
                             description={item.description}
+                            link={item.link}
                         />
                     </div>
             ))}

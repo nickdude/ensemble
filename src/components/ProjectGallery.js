@@ -36,6 +36,9 @@ export default function ProjectGallery() {
             location={project.location}
             slug={project.slug}
             variant={project.variant}
+            area={project.area}
+            service={project.service}
+            viewCaseStudy={() => window.location.href = project.caseStudyLink}
           />
         ))}
       </div>

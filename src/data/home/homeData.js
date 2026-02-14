@@ -36,6 +36,7 @@ const data = {
         title: "Ensemble is a collaborative Interior Design firm offering customized services in Corporate, Commercial, and Hospitality sectors.",
         description: "Founded in 2001, Ensemble provides Design & Build, General Contracting, and Manufacturing services. From a modest 200 square feet for American Express, we now have over 1,000 projects and have transformed more than 4 million square feet.",
         buttonLabel: "KNOW MORE",
+        buttonLink: "/aboutus",
     },
     countSection: {
         counts: [
@@ -61,6 +62,7 @@ const data = {
         title: "Our Blueprints",
         description: "Each project reflects our passion for design and attention to detail. Discover how we bring visionary spaces to life through creativity and precision.",
         buttonLabel: "KNOW MORE",
+        buttonLink: "/projects",
         projects: [
             {
                 title: "Bridge+",
@@ -125,16 +127,19 @@ const data = {
                 bgImage:"",
                 img: "/assets/icons/construction.svg",
                 title: "General Contracting",
+                link: "/services",
                 description: "As a GC contractor, we specialize in Civil and Interior, Mechanical, Electrical, and Plumbing (MEP) works. We ensure seamless project execution and deliver world-class fit-outs within timelines"
             },
             {
                 bgImage:"",
                 img: "/assets/icons/consultancy.svg",
+                link: "/services",
                 title: "Design Consultancy",
                 description: "Our Design Consultancy transforms ideas into innovative, functional workspaces that enhance productivity, employee satisfaction, and brand perception, delivering bespoke designs aligned with client needs."
             },
             {
                 bgImage:"",
+                link: "/services",
                 img: "/assets/icons/build.svg",
                 title: "Design and Build",
                 description: "Streamline your workspace transformation with our Design and Build service, integrating design and construction for efficient, cost-effective and seamless project delivery."
@@ -152,6 +157,7 @@ const data = {
         title: "In the news.",
         description: "Stay updated with our latest projects, press features, and industry insights.",
         buttonLabel: "KNOW MORE",
+        buttonLink: "/news",
         viewMoreLabel: "VIEW MORE",
         newsItems: [
             {
@@ -177,6 +183,7 @@ const data = {
     ourInsights: {
         title: "Our Insights",
         buttonLabel: "VIEW MORE",
+        buttonLink: "/blogs",
         insights: [
             {
                 img: "/assets/insights/insight1.png",

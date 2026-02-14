@@ -121,6 +121,7 @@ const data = {
             heading: "Some of Our Projects",
             description: "Stay updated with our latest projects, press features, and industry insights.",
             buttonLabel: "VIEW ALL",
+            buttonLink: "/projects",
             projects: [
               {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/bridge%2B.webp",

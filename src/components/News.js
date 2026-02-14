@@ -105,7 +105,7 @@ export default function News() {
           <div className="w-full md:w-80 flex flex-col gap-3 md:gap-6 items-center md:items-start mb-8 md:mb-0">
               <h1 className="font-poppins font-medium text-[28px] md:w-80 md:text-[64px] leading-[68px]">{data.title}</h1>
               <p className="font-avenir font-light text-center w-70 md:w-80 md:text-left text-[16px] md:text-lg text-gray-600 leading-[25px]">{data.description}</p>
-              <Button label={data.buttonLabel} />
+              <Button label={data.buttonLabel} link={data.buttonLink} />
           </div>
 
         {/* ROTATING CARDS */}

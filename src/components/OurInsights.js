@@ -18,7 +18,7 @@ export default function OurInsights() {
   return (
     <section className={`w-full py-10 md:py-20 md:pl-16 flex flex-col items-center justify-center gap-3 md:gap-10 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
       <h1 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h1>
-      <Button label={data.buttonLabel} />
+      <Button label={data.buttonLabel} link={data.buttonLink}/>
        <div className="w-full overflow-x-auto scrollbar-hide">
         <div className="flex gap-10 min-w-max">
           {data.insights.map((insight, index) => (

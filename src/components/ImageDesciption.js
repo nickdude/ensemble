@@ -3,9 +3,8 @@
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { aboutUsData } from "@/data/home/aboutUsData";
 
-export default function ImageDescription({ imageDescription = aboutUsData.imageDescription, right = false }) {
+export default function ImageDescription({ title, description, image, right = false }) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
   
@@ -22,8 +21,8 @@ export default function ImageDescription({ imageDescription = aboutUsData.imageD
       {/* Image */}
       <div className="relative w-full md:w-1/2 h-[590px]">
         <Image
-          src={imageDescription.image}
-          alt={imageDescription.title}
+          src={image}
+          alt={title}
           fill
           className="object-cover rounded-lg"
           priority
@@ -37,11 +36,11 @@ export default function ImageDescription({ imageDescription = aboutUsData.imageD
         }`}
       >
         <h1 className="font-roboto font-semibold text-[32px]">
-          {imageDescription.title}
+          {title}
         </h1>
 
         <p className="font-roboto font-light text-2xl text-gray-600 leading-relaxed">
-          {imageDescription.description}
+          {description}
         </p>
       </div>
     </section>

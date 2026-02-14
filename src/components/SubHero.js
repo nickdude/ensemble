@@ -24,7 +24,7 @@ export default function SubHero() {
                 <p className={`font-avenir font-normal text-base md:text-lg transition-colors ${theme === "dark" ? "text-gray-300" : "text-black"}`}>
                     {data.description}
                 </p>
-                <Button label={data.buttonLabel} />
+                <Button label={data.buttonLabel} link={data.buttonLink}/>
             </div>
         </div>
     </section>  

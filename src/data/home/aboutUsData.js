@@ -28,9 +28,16 @@ export const aboutUsData = {
         }
     },
     imageDescription: {
-        title: "Decades of Delivering Excellence",
-        description: "Ensemble was founded in the year 2001, with a humble beginning of executing a 200 Sq feet of fitouts for American Express. We have come a long way since then, moving our headquarters to Mumbai in 2003, executing over 20 Million Sq feet of fitouts for leading clients like Google, Citi, Morgan Stanley, Reliance, TCS and other global clients.",
-        image: "/assets/aboutus/excellence.jpg"
+        exellence:{
+            title: "Decades of Delivering Excellence",
+            description: "Ensemble was founded in the year 2001, with a humble beginning of executing a 200 Sq feet of fitouts for American Express. We have come a long way since then, moving our headquarters to Mumbai in 2003, executing over 20 Million Sq feet of fitouts for leading clients like Google, Citi, Morgan Stanley, Reliance, TCS and other global clients.",
+            image: "/assets/aboutus/excellence.jpg"
+        },
+        vision: {
+            title: "Our Customers Vision",
+            description: "Our customers’ vision drives us to excel and create new benchmarks. As a relationship oriented organisation, we have been able to create delight, which also reflects in the number of repeat contracts. We believe in winning trust through what we do and deliver.",
+            image: "/assets/aboutus/vision.jpg"
+        }
     },
 
     awardAndRecognitions: {

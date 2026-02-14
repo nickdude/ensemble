@@ -4,7 +4,6 @@ export const blogsData = {
         subtitle: "Blogs",
         breakline: "Stories Thrive",
     },
-
     blogsCards: [
         {   
             slug: "blog1",

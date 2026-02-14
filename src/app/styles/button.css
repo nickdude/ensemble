@@ -1,0 +1,44 @@
+.lux-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+  transition: color .35s ease;
+}
+
+/* text above animation */
+.lux-btn span {
+  position: relative;
+  z-index: 2;
+}
+
+/* RED SEMICIRCLE */
+.lux-btn::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -180%;
+  width: 140%;
+  height: 270%;
+  background: red; /* luxury red */
+  border-radius: 50%;
+  transform: translateX(-50%) scale(0.3);
+  transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1),
+              bottom 1s cubic-bezier(0.19, 1, 0.22, 1);
+  z-index: 1;
+}
+
+/* HOVER ANIMATION */
+.lux-btn:hover::before {
+  bottom: -40%;
+  transform: translateX(-50%) scale(1);
+}
+
+.lux-btn:hover {
+  color: #fff;
+  border-color: red;
+}

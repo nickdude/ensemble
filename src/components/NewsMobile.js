@@ -20,7 +20,7 @@ export default function NewsMobile() {
       <section className={`w-full py-5 md:py-20 md:pl-16 flex flex-col items-center justify-center gap-3 md:gap-10 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
         <h1 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h1>
         <p className="text-center text-base font-avenir font-light w-2/3">{data.description}</p>
-        <Button label={data.viewMoreLabel} theme={theme} />
+        <Button label={data.viewMoreLabel} />
          <div className="w-full overflow-x-auto scrollbar-hide mt-10">
           <div className="flex gap-5 min-w-max">
             {data.newsItems.map((news, index) => (

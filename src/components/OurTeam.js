@@ -20,7 +20,7 @@ export default function OurTeam(){
                     <div className="w-80 flex flex-col gap-6 justify-center">
                         <h1 className="font-poppins font-medium text-[64px] leading-[68px]">{ourTeam.title}</h1>
                         <p className="font-avenir font-light text-lg text-gray-600 leading-[25px]">{ourTeam.description}</p>
-                        <Button label={ourTeam.buttonLabel} theme="light"/>
+                        <Button label={ourTeam.buttonLabel} />
                     </div>
                     {ourTeam.members.map((member, index) => (
                     <div key={index} className="w-full md:w-[396px] h-[505px] ">

@@ -1,9 +1,19 @@
 "use client";
+import "../app/styles/button.css";
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
-export default function Button({label, theme}) {
+export default function Button({ label }) {
+  const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
+
   return (
-    <button className={`w-fit uppercase px-4 py-1.5 text-[12px] font-medium rounded-sm font-avenir ${theme === "dark" ? "bg-white text-black" : "bg-black text-white"} transition`}>
-        {label}
+    <button className={`lux-btn w-fit ${theme === "dark" ? "bg-white text-black": "bg-black text-white" }`}>
+      <span>{label}</span>
     </button>
   );
 }

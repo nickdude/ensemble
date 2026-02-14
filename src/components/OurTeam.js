@@ -24,7 +24,7 @@ export default function OurTeam(){
                     </div>
                     {ourTeam.members.map((member, index) => (
                     <div key={index} className="w-full md:w-[396px] h-[505px] ">
-                        <div className="relative w-full h-[419px] ">
+                        <div className="relative w-full h-[419px] mb-5">
                             <Image src={member.image} alt={member.name} className="object-cover rounded-lg" fill priority/>
                         </div>
                         <h1 className="font-poppins font-medium text-[28px]">{member.name}</h1>

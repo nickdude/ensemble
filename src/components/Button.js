@@ -3,7 +3,7 @@ import "../app/styles/button.css";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-export default function Button({ label, compulsary = false, transparent = false }) {
+export default function Button({ label, compulsary = false, transparent = false, link = "#" }) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -16,7 +16,7 @@ export default function Button({ label, compulsary = false, transparent = false 
       transparent || compulsary || theme === "dark" 
         ? "bg-white text-black" 
         : "bg-black text-white"
-    }`}>
+    }`} onClick={() => window.location.href = link}>
       <span>{label}</span>
     </button>
   );

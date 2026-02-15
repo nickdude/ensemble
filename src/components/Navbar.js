@@ -121,7 +121,7 @@ export default function Navbar({transparent = false}) {
             />
           </button> */}
 
-          <Button label="Contact" transparent={transparent} />
+          <Button label="Contact" transparent={transparent} link="/contactus" />
 
           {/* Hamburger */}
           <button onClick={() => setIsMenuOpen(true)}>
@@ -165,13 +165,13 @@ export default function Navbar({transparent = false}) {
         <div className="flex gap-3 items-center">
           {/* Theme Toggle */}
           <button
-  onClick={handleThemeToggle}
-  className={`group relative overflow-hidden border p-1 rounded-sm
-  ${theme === "dark" || transparent
-    ? "border-white bg-gray-500/20"
-    : "border-black"
-  }`}
->
+            onClick={handleThemeToggle}
+            className={`group relative overflow-hidden border p-1 rounded-sm
+            ${theme === "dark" || transparent
+              ? "border-white bg-gray-500/20"
+              : "border-black"
+            }`}
+          >
   <div className="relative w-5 h-5 overflow-hidden">
 
     {theme === "dark" ? (

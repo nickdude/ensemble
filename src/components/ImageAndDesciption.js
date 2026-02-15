@@ -12,7 +12,7 @@ export default function ImageAndDescription({ title, image, description, right, 
   if (!mounted) return null;
   return (
     <section
-      className={`py-20 px-4 md:px-16 flex items-center ${
+      className={`py-10 md:py-20 px-4 md:px-16 flex items-center ${
         theme === "dark" ? "bg-black text-white" : "bg-white text-black"
       } flex items-center ${
         right ? "flex-col md:flex-row-reverse" : "flex-col md:flex-row"
@@ -33,7 +33,7 @@ export default function ImageAndDescription({ title, image, description, right, 
 
             {/* Text */}
             <div
-                className={`w-full md:w-1/2 h-[590px] flex flex-col justify-center gap-8 bg-[#F6F6F6]  ${
+                className={`w-full md:w-1/2 p-4 md:p-16 md:h-[590px] flex flex-col justify-center gap-8 md:bg-[#F6F6F6]  ${
                 right ? "pl-0 md:pl-16" : "pr-0 md:pr-16"
                 }`}
             >

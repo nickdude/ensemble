@@ -3,7 +3,7 @@ import "./ProjectCardSample.css"
 
 export default function ProjectCardSample({image, title, location, area, service,viewCaseStudy}) {
   return (
-   <div className="card bg-red-300 h-[80vh] md:h-[33.33vw] w-full md:w-[33.33vw] relative cursor-pointer">
+   <div className="card bg-red-300 h-[50vh] md:h-[33.33vw] w-[90vw] md:w-[33.33vw] flex-shrink-0 relative cursor-pointer">
       <div className="relative w-full h-full">
         <img src={image} alt="Project Image" />
         <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
@@ -11,7 +11,7 @@ export default function ProjectCardSample({image, title, location, area, service
 
       <div className="overlay overlay-default">
         <div className="title-box">
-          <h2 className="font-poppins text-[62px]">{title}</h2>
+          <h2 className="font-poppins text-[30px] md:text-[62px]">{title}</h2>
           <div className="arrow-overlay">
               <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
           </div>

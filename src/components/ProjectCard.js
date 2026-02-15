@@ -34,8 +34,7 @@ export default function ProjectCard({
         <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
         <div className="overlay overlay-default">
           <div className="title-box">
-            <h2 className="font-poppins text-[62px]">{title}</h2>
-  ₹
+            <h2 className="font-poppins text-[30px] md:text-[62px]">{title}</h2>
             <div className="arrow-overlay">
                 <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
             </div>

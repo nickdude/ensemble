@@ -51,6 +51,7 @@ export default function News() {
   if (!mounted) return null;
 
  const getStyle = (index) => {
+  const totalCards = data.newsItems.length;
   const diff = index - active;
 
   const base = {
@@ -59,38 +60,46 @@ export default function News() {
     willChange: "transform",
   };
 
-  // CENTER
+  // CENTER - Active card
   if (diff === 0) {
     return {
       ...base,
-      transform:
-        "translate3d(0px, 0px, 0px) scale(1.08)",
+      transform: "translate3d(0px, 0px, 0px) scale(1.08)",
       zIndex: 30,
       opacity: 1,
       filter: "blur(0px)",
     };
   }
 
-  // LEFT
-  if (diff === -1 || diff === 2) {
+  // LEFT - One position to the left
+  if (diff === -1 || (diff === totalCards - 1)) {
     return {
       ...base,
-      transform:
-        "translate3d(-220px, 20px, 0px) scale(0.95)",
+      transform: "translate3d(-220px, 20px, 0px) scale(0.95)",
       zIndex: 20,
       opacity: 0.85,
       filter: "blur(0.4px)",
     };
   }
 
-  // RIGHT
+  // RIGHT - One position to the right
+  if (diff === 1 || (diff === -(totalCards - 1))) {
+    return {
+      ...base,
+      transform: "translate3d(220px, 20px, 0px) scale(0.95)",
+      zIndex: 20,
+      opacity: 0.85,
+      filter: "blur(0.4px)",
+    };
+  }
+
+  // HIDDEN - Cards further away
   return {
     ...base,
-    transform:
-      "translate3d(220px, 20px, 0px) scale(0.95)",
-    zIndex: 20,
-    opacity: 0.85,
-    filter: "blur(0.4px)",
+    transform: diff < 0 ? "translate3d(-280px, 30px, 0px) scale(0.85)" : "translate3d(280px, 30px, 0px) scale(0.85)",
+    zIndex: 10,
+    opacity: 0.3,
+    filter: "blur(1px)",
   };
 };
 

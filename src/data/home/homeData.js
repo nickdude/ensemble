@@ -178,6 +178,12 @@ const data = {
                 desc: "Blending aesthetics with functionality.",
                 link: "/news/bridge-project-chennai"
             },
+            {
+                image: "/assets/news/news1.jpg",
+                title: "Workspaces Redefined",
+                desc: "Designing collaborative environments for the future.",
+                link: "/news/bridge-project-chennai"
+            },
         ],
     },
     ourInsights: {

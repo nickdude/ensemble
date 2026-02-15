@@ -138,6 +138,7 @@
   font-size: 18px;
   margin-bottom: 14px;
   transition: all 1s ease 0.1s;
+  padding: 0 1rem;
 }
 
 /* =====================
@@ -149,6 +150,7 @@
   color: white;
   margin: 10px 0;
   transition-delay: 0.2s;
+  padding: 0 1rem;
 }
 
 /* Subtitle */
@@ -157,6 +159,7 @@
   color: white;
   opacity: 0.85;
   transition-delay: 0.4s;
+  padding: 0 1rem;
 }
 
 /* Arrow */
@@ -214,3 +217,126 @@
     );
 }
 
+/* =====================
+   MOBILE RESPONSIVENESS
+===================== */
+
+/* Tablet and below */
+@media (max-width: 1024px) {
+  .heading-title {
+    font-size: 70px;
+  }
+
+  .tagline {
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .marquee-band {
+    height: 25vh;
+  }
+
+  .marquee img {
+    height: 25vh;
+    min-width: 15vh;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .heading-title {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .tagline {
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .marquee-band {
+    height: 20vh;
+  }
+
+  .marquee img {
+    height: 20vh;
+    min-width: 12vh;
+  }
+
+  .arrow-overlay-splash img {
+    width: 2rem !important;
+  }
+
+  .image-stage {
+    transform: scale(1.5);
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .heading-title {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .tagline {
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .marquee-band {
+    height: 18vh;
+  }
+
+  .marquee img {
+    height: 18vh;
+    min-width: 10vh;
+  }
+
+  .arrow-overlay-splash img {
+    width: 1.5rem !important;
+  }
+
+  .arrow-overlay-splash {
+    margin-top: 0;
+  }
+}
+
+/* Extra Small Mobile */
+@media (max-width: 375px) {
+  .heading-title {
+    font-size: 28px;
+  }
+
+  .tagline {
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .marquee-band {
+    height: 16vh;
+  }
+
+  .marquee img {
+    height: 16vh;
+    min-width: 8vh;
+  }
+}

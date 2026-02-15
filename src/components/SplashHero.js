@@ -118,7 +118,7 @@ export default function SplashHero() {
         </p>
 
         <div className="arrow-overlay-splash animate-item">
-          <img src={data.images.arrow} className="w-10" alt="Up Arrow" loading="lazy" onError={(e) => console.log('Arrow icon load error:', e)} />
+          <img src={data.images.arrow} className="!w-6 !h-6 md:!w-10 md:!h-10" alt="Up Arrow" loading="lazy" onError={(e) => console.log('Arrow icon load error:', e)} />
         </div>
       </div>
 

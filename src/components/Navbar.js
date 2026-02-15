@@ -90,14 +90,18 @@ export default function Navbar({transparent = false}) {
 
       {/* Mobile Navbar */}
       <nav
-        className={`md:hidden w-full flex justify-between items-center px-4 py-6 transition-colors duration-300 ${
-          theme === "dark" ? "bg-black" : "bg-white"
+        className={`${transparent? "absolute z-10":""} md:hidden w-full flex justify-between items-center px-4 py-6 transition-colors duration-300 ${
+          transparent
+            ? "bg-transparent"
+            : theme === "dark"
+            ? "bg-black"
+            : "bg-white"
         }`}
       >
         {/* Mobile Logo (smaller) */}
         <Image
           src={
-            theme === "dark"
+            theme === "dark" || transparent
               ? "/assets/logo_white.svg"
               : "/assets/logo_black.svg"
           }
@@ -110,13 +114,15 @@ export default function Navbar({transparent = false}) {
         <div className="flex gap-3 items-center">
           {/* Theme Toggle */}
           <button
-            className="border p-1 rounded-sm"
+            className={`border p-1 rounded-sm ${theme === "dark" || transparent ? "border-white bg-gray-500/20" : "border-black"}`}
             onClick={handleThemeToggle}
           >
             <Image
               src={
                 theme === "dark"
                   ? "/assets/icons/moon_white.svg"
+                  : transparent
+                  ? "/assets/icons/sun_white.svg"
                   : "/assets/icons/sun_black.svg"
               }
               alt="Theme Toggle"
@@ -129,7 +135,7 @@ export default function Navbar({transparent = false}) {
           <button onClick={() => setIsMenuOpen(true)}>
             <Image
               src={
-                theme === "dark"
+                theme === "dark" || transparent
                   ? "/assets/icons/humburger_white.svg"
                   : "/assets/icons/hamburger_black.svg"
               }

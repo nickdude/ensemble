@@ -9,15 +9,17 @@ export default function ServiceCard({ img, title, link, description }) {
       className="
         group relative overflow-hidden
         border border-gray-300 rounded-lg
-        w-[85vw] md:w-[30vw] h-[32vw]
+        h-[600px] w-[85vw] md:w-[30vw] md:h-[32vw]
+        flex flex-col md:block
       "
     >
-      {/* BACKGROUND WRAPPER (THIS animates) */}
+      {/* MOBILE: Image at top - DESKTOP: Background on hover */}
       <div
         className="
-          absolute inset-0 z-0
-          translate-y-full
-          group-hover:translate-y-0
+          relative md:absolute inset-0 z-0
+          h-1/2 md:h-full
+          md:translate-y-full
+          md:group-hover:translate-y-0
           transition-transform duration-[10000ms]
           ease-[cubic-bezier(0.22,1,0.36,1)]
         "
@@ -32,7 +34,7 @@ export default function ServiceCard({ img, title, link, description }) {
 
       {/* ARROW */}
       <Link href={link}>
-        <div className="relative z-20 flex justify-end w-full p-5">
+        <div className="absolute md:relative z-20 flex justify-end w-full p-5 top-0 right-0">
           <div
             className="
               p-2 rounded-md
@@ -54,19 +56,20 @@ export default function ServiceCard({ img, title, link, description }) {
       <div
         className="
           relative z-10 flex flex-col p-5 gap-4
+          h-1/2 md:h-auto
           translate-y-0 opacity-100
-          group-hover:translate-y-12 group-hover:opacity-0
-          transition-all duration-[1000ms]
+          md:group-hover:translate-y-12 md:group-hover:opacity-0
+          md:transition-all md:duration-[1000ms]
           ease-[cubic-bezier(0.4,0,0.2,1)]
         "
       >
         <Image src={img} alt={title} width={64} height={64} />
 
-        <h1 className="font-poppins font-medium text-3xl">
+        <h1 className="font-poppins font-medium text-xl md:text-3xl">
           {title}
         </h1>
 
-        <p className="font-poppins font-light text-lg leading-[25px]">
+        <p className="font-poppins font-light text-sm md:text-lg leading-[20px] md:leading-[25px]">
           {description}
         </p>
       </div>

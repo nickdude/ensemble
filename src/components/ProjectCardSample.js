@@ -3,7 +3,7 @@ import "./ProjectCardSample.css"
 
 export default function ProjectCardSample({image, title, location, area, service,viewCaseStudy}) {
   return (
-   <div className="card bg-red-300 h-[33.33vw] w-full md:w-[33.33vw] relative cursor-pointer">
+   <div className="card bg-red-300 h-[80vh] md:h-[33.33vw] w-full md:w-[33.33vw] relative cursor-pointer">
       <div className="relative w-full h-full">
         <img src={image} alt="Project Image" />
         <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>

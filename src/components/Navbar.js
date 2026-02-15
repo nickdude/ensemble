@@ -70,7 +70,7 @@ export default function Navbar({transparent = false}) {
             />
           </button>
 
-          <Button label="Contact" />
+          <Button label="Contact" transparent={transparent} />
 
           {/* Hamburger */}
           <button onClick={() => setIsMenuOpen(true)}>

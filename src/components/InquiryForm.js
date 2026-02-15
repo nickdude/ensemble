@@ -4,11 +4,13 @@ import Button from "./Button";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { contactData } from "@/data/home/contactData";
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function InquiryForm(){
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const { offices, inquiryForm } = contactData;
+    const [state, handleSubmit] = useForm("xvzbavor");
 
     useEffect(() => setMounted(true), []);
 
@@ -40,42 +42,106 @@ export default function InquiryForm(){
                     ))}
                 </div>
                  <div className="md:px-20 md:border-l md:border-[#f6f6f6]">
-                    <h1 className="font-semibold text-[32px]">{inquiryForm.title}</h1>
+                    <h1 className="font-semibold text-[32px] mb-6">{inquiryForm.title}</h1>
                 
-                    <form className="space-y-10">
-
-                        {/* First + Last Name */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <input
-                            type="text"
-                            placeholder="First Name"
-                            className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
-                            />
-                            <input
-                            type="text"
-                            placeholder="Last Name"
-                            className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
-                            />
+                    {state.succeeded ? (
+                        <div className="p-6 rounded-lg bg-green-50 border border-green-200">
+                            <p className="text-green-800 font-medium text-center">
+                                Thanks for your inquiry! We'll get back to you soon.
+                            </p>
                         </div>
+                    ) : (
+                        <form className="space-y-10" onSubmit={handleSubmit}>
 
-                        {/* Email */}
-                        <input
-                            type="email"
-                            placeholder="Email"
-                            className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
-                        />
+                            {/* First + Last Name */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                <div>
+                                    <input
+                                        id="firstName"
+                                        type="text"
+                                        name="firstName"
+                                        placeholder="First Name"
+                                        className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                                        required
+                                    />
+                                    <ValidationError 
+                                        prefix="First Name" 
+                                        field="firstName"
+                                        errors={state.errors}
+                                        className="text-red-500 text-xs mt-1"
+                                    />
+                                </div>
+                                <div>
+                                    <input
+                                        id="lastName"
+                                        type="text"
+                                        name="lastName"
+                                        placeholder="Last Name"
+                                        className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                                        required
+                                    />
+                                    <ValidationError 
+                                        prefix="Last Name" 
+                                        field="lastName"
+                                        errors={state.errors}
+                                        className="text-red-500 text-xs mt-1"
+                                    />
+                                </div>
+                            </div>
 
-                        {/* Message */}
-                        <textarea
-                            placeholder="Message"
-                            rows={4}
-                            className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 resize-none focus:outline-none focus:ring-2 focus:ring-black"
-                        />
+                            {/* Email */}
+                            <div>
+                                <input
+                                    id="email"
+                                    type="email"
+                                    name="email"
+                                    placeholder="Email"
+                                    className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                                    required
+                                />
+                                <ValidationError 
+                                    prefix="Email" 
+                                    field="email"
+                                    errors={state.errors}
+                                    className="text-red-500 text-xs mt-1"
+                                />
+                            </div>
 
-                        {/* Submit */}
-                         <Button label={inquiryForm.submitLabel}/>
+                            {/* Message */}
+                            <div>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    placeholder="Message"
+                                    rows={4}
+                                    className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 resize-none focus:outline-none focus:ring-2 focus:ring-black"
+                                    required
+                                />
+                                <ValidationError 
+                                    prefix="Message" 
+                                    field="message"
+                                    errors={state.errors}
+                                    className="text-red-500 text-xs mt-1"
+                                />
+                            </div>
 
-                    </form>
+                            {/* Submit */}
+                            <button 
+                                type="submit" 
+                                disabled={state.submitting}
+                                className={`w-full md:w-auto px-8 py-3 rounded-lg font-medium transition-all ${
+                                    state.submitting 
+                                        ? 'bg-gray-400 cursor-not-allowed' 
+                                        : theme === 'dark' 
+                                        ? 'bg-white text-black hover:bg-gray-200' 
+                                        : 'bg-black text-white hover:bg-gray-800'
+                                }`}
+                            >
+                                {state.submitting ? 'Sending...' : inquiryForm.submitLabel}
+                            </button>
+
+                        </form>
+                    )}
                 </div>
             </div>
 

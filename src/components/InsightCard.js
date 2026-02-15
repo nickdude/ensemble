@@ -7,7 +7,7 @@ export default function InsightCard({slug, img, title, link, description, width=
   return (
     <Link href={`/blogs/${slug}`} className="group cursor-pointer">
       <div className={`${width} flex flex-col`}>
-          <Image src={img} alt={title} width={420} height={300} className="object-cover"/>
+          <Image src={img} alt={title} width={420} height={300} className="object-cover rounded-sm"/>
             <div className="relative z-20 flex justify-start w-full pt-5">
                   <h2 className="font-poppins font-normal text-[18px] md:text-[28px] my-2">{title}</h2>
                   <div

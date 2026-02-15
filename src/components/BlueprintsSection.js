@@ -28,7 +28,8 @@ export default function BlueprintsSection() {
             <Button label={data.buttonLabel} link={data.buttonLink}/>
           </div>
           {/* <SplashCard/> */}
-          <ProjectCardSample
+          <div className="px-4 md:px-0">
+            <ProjectCardSample
             image={data.projects[0].image}
             title={data.projects[0].title}
             location={data.projects[0].location}
@@ -36,8 +37,9 @@ export default function BlueprintsSection() {
             service={data.projects[0].service}
             viewCaseStudy={() => window.location.href = data.projects[0].caseStudyLink}
           />
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-[1px]">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-[1px] px-4 md:px-0">
             {data.projects.slice(1).map((project, index) => (
               <ProjectCardSample
                 key={index}

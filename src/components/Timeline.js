@@ -21,13 +21,12 @@ const timelineData = [
   {
     year: "2026 – 2029",
     description: "Plants powered 100% by Solar",
-    highlight: true,
   },
 ];
 
 export default function Timeline() {
   return (
-    <div className="relative max-w-6xl mx-auto py-32">
+    <div className="relative max-w-6xl mx-auto py-10 md:py-32">
       {/* CENTER LINE */}
       {/* <div className="absolute left-1/2 top-0 h-full w-[2px] bg-gray-300 -translate-x-1/2" /> */}
 
@@ -66,15 +65,15 @@ function TimelineItem({ year, title, description, active, highlight }) {
   return (
     <div
       ref={ref}
-      className={`relative grid grid-cols-[1fr_auto_1fr] items-center
+      className={`relative grid grid-cols-[120px_auto_1fr] md:grid-cols-[1fr_auto_1fr] items-start md:items-center gap-2 md:gap-4 py-0
         transition-all duration-700 ease-out
-        ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-14"}
+        ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}
       `}
     >
       {/* LEFT – YEAR */}
-      <div className="text-right pr-12">
+      <div className="text-left md:text-right md:pr-12">
         <h3
-          className={`font-poppins text-[32px] font-semibold ${
+          className={`font-poppins text-lg md:text-xl md:text-[32px] font-semibold ${
             active ? "text-black" : "text-gray-400"
           }`}
         >
@@ -102,14 +101,14 @@ function TimelineItem({ year, title, description, active, highlight }) {
       </div>
 
       {/* RIGHT – CONTENT */}
-      <div className="pl-12 max-w-md">
+      <div className="pl-0 md:pl-12 max-w-md">
         {title && (
-          <h4 className="text-[20px] font-medium font-roboto text-black mb-2">
+          <h4 className="text-base md:text-[20px] font-medium font-roboto text-black mb-2">
             {title}
           </h4>
         )}
         <p
-          className={`text-[20px] font-roboto ${
+          className={`text-sm md:text-[20px] font-roboto ${
             highlight
               ? "text-sky-500 font-semibold"
               : "text-gray-500"

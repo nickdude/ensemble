@@ -52,8 +52,59 @@ export default function Navbar({transparent = false}) {
         <div className="flex gap-5 items-center">
           {/* Theme Toggle */}
           <button
+  onClick={handleThemeToggle}
+  className={`group relative overflow-hidden border p-1 rounded-sm
+  ${theme === "dark" || transparent
+    ? "border-white bg-gray-500/20"
+    : "border-black"
+  }`}
+>
+  <div className="relative w-6 h-6 overflow-hidden">
+
+    {theme === "dark" ? (
+      /* DARK MODE: Show Moon, slide to Sun */
+      <>
+        <Image
+          src="/assets/icons/moon_white.svg"
+          alt="moon"
+          width={24}
+          height={24}
+          className="absolute left-0 top-0 transition-transform duration-[3000ms] ease-in-out group-hover:translate-x-full"
+        />
+        <Image
+          src={theme === "dark" || transparent ? "/assets/icons/sun_white.svg" : "/assets/icons/sun_black.svg"}
+          alt="sun"
+          width={24}
+          height={24}
+          className="absolute left-[-24px] top-0 transition-transform duration-[3000ms] ease-in-out group-hover:translate-x-[24px]"
+        />
+      </>
+    ) : (
+      /* LIGHT MODE: Show Sun, slide to Moon */
+      <>
+        <Image
+          src={theme === "dark" || transparent ? "/assets/icons/sun_white.svg" : "/assets/icons/sun_black.svg"}
+          alt="sun"
+          width={24}
+          height={24}
+          className="absolute left-0 top-0 transition-transform duration-[3000ms] ease-in-out group-hover:-translate-x-full"
+        />
+        <Image
+          src={theme === "dark" || transparent ? "/assets/icons/moon_white.svg" : "/assets/icons/moon_black.svg"}
+          alt="moon"
+          width={24}
+          height={24}
+          className="absolute left-[24px] top-0 transition-transform duration-[3000ms] ease-in-out group-hover:-translate-x-[24px]"
+        />
+      </>
+    )}
+
+  </div>
+</button>
+
+          {/* <button
             // className="border border-white p-1 rounded-sm"
-            className={`border p-1 rounded-sm ${theme === "dark" || transparent ? "border-white bg-gray-500/20" : "border-black"}`}
+            className={`border p-1 rounded-sm ${theme === "dark" || transparent ? "border-white bg-gray-500/20" : "border-black"} `}
             onClick={handleThemeToggle}
           >
             <Image
@@ -68,7 +119,7 @@ export default function Navbar({transparent = false}) {
               width={24}
               height={24}
             />
-          </button>
+          </button> */}
 
           <Button label="Contact" transparent={transparent} />
 
@@ -114,22 +165,55 @@ export default function Navbar({transparent = false}) {
         <div className="flex gap-3 items-center">
           {/* Theme Toggle */}
           <button
-            className={`border p-1 rounded-sm ${theme === "dark" || transparent ? "border-white bg-gray-500/20" : "border-black"}`}
-            onClick={handleThemeToggle}
-          >
-            <Image
-              src={
-                theme === "dark"
-                  ? "/assets/icons/moon_white.svg"
-                  : transparent
-                  ? "/assets/icons/sun_white.svg"
-                  : "/assets/icons/sun_black.svg"
-              }
-              alt="Theme Toggle"
-              width={20}
-              height={20}
-            />
-          </button>
+  onClick={handleThemeToggle}
+  className={`group relative overflow-hidden border p-1 rounded-sm
+  ${theme === "dark" || transparent
+    ? "border-white bg-gray-500/20"
+    : "border-black"
+  }`}
+>
+  <div className="relative w-5 h-5 overflow-hidden">
+
+    {theme === "dark" ? (
+      /* DARK MODE: Show Moon, slide to Sun */
+      <>
+        <Image
+          src="/assets/icons/moon_white.svg"
+          alt="moon"
+          width={20}
+          height={20}
+          className="absolute left-0 top-0 transition-transform duration-[3000ms] ease-in-out group-hover:translate-x-full"
+        />
+        <Image
+          src={theme === "dark" || transparent ? "/assets/icons/sun_white.svg" : "/assets/icons/sun_black.svg"}
+          alt="sun"
+          width={20}
+          height={20}
+          className="absolute left-[-20px] top-0 transition-transform duration-[3000ms] ease-in-out group-hover:translate-x-[20px]"
+        />
+      </>
+    ) : (
+      /* LIGHT MODE: Show Sun, slide to Moon */
+      <>
+        <Image
+          src={theme === "dark" || transparent ? "/assets/icons/sun_white.svg" : "/assets/icons/sun_black.svg"}
+          alt="sun"
+          width={20}
+          height={20}
+          className="absolute left-0 top-0 transition-transform duration-[3000ms] ease-in-out group-hover:-translate-x-full"
+        />
+        <Image
+          src={theme === "dark" || transparent ? "/assets/icons/moon_white.svg" : "/assets/icons/moon_black.svg"}
+          alt="moon"
+          width={20}
+          height={20}
+          className="absolute left-[20px] top-0 transition-transform duration-[3000ms] ease-in-out group-hover:-translate-x-[20px]"
+        />
+      </>
+    )}
+
+  </div>
+</button>
 
           {/* Hamburger */}
           <button onClick={() => setIsMenuOpen(true)}>

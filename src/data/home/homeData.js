@@ -28,7 +28,7 @@ const data = {
             arrow: "/assets/icons/up_arrow.svg",
         },
         video: {
-            src: "https://avtshare01.rz.tu-ilmenau.de/avt-vqdb-uhd-1/test_1/segments/bigbuck_bunny_8bit_15000kbps_1080p_60.0fps_h264.mp4",
+            src: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/3rd+1.mp4",
             type: "video/mp4",
         },
     },

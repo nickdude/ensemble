@@ -12,7 +12,7 @@ export default function Button({ label, compulsary = false, transparent = false 
   if (!mounted) return null;
 
   return (
-    <button className={`lux-btn w-fit ${
+    <button className={`lux-btn rounded-sm w-fit ${
       transparent || compulsary || theme === "dark" 
         ? "bg-white text-black" 
         : "bg-black text-white"

@@ -40,6 +40,7 @@ module.exports = {
     extend: {
       transitionTimingFunction: {
         smooth: 'ease',
+        luxury: 'cubic-bezier(.76,0,.24,1)',
       },
     },
   },

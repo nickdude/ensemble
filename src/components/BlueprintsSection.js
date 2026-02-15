@@ -23,7 +23,7 @@ export default function BlueprintsSection() {
           <div className="px-4 md:px-16 pt-10 md:pt-20">
             <h1 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h1>
           </div>
-          <div className="flex flex-col items-start justify-end px-4 md:px-16 py-5 md:py-20 gap-10">
+          <div className="flex flex-col items-start justify-end px-4 md:px-0 md:pr-16 py-5 md:py-20 gap-10">
             <h1 className="font-avenir font-light text-base md:text-lg">{data.description}</h1>  
             <Button label={data.buttonLabel} link={data.buttonLink}/>
           </div>

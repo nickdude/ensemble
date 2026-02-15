@@ -36,6 +36,11 @@ const nextConfig = {
         hostname: "ensemble-website-assets.s3.ap-south-1.amazonaws.com",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "online.fliphtml5.com",
+        pathname: "/**",
+      },
     ],
   },
 };

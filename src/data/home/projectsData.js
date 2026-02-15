@@ -72,7 +72,7 @@ const data = {
                 caseStudyLink: "https://www.ensembleprojects.in/projects/wework-case-study",
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/tcs3.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/screenshot20241120at5.05.42%E2%80%AFpm1.webp",
                 title: "TCS",
                 location: "Pan India",
                 slug: "project-8",
@@ -81,7 +81,7 @@ const data = {
                 caseStudyLink: "https://www.ensembleprojects.in/projects/tcs-case-study",
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/cairn2.webpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/cairn2.webp",
                 title: "Cairn Energy Office",
                 location: "Gurgaon",
                 variant: "wide",

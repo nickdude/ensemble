@@ -21,6 +21,21 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+     {
+        protocol: "https",
+        hostname: "etedge-insights.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "indiacsr.in",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "ensemble-website-assets.s3.ap-south-1.amazonaws.com",
+        pathname: "/**",
+      },
     ],
   },
 };

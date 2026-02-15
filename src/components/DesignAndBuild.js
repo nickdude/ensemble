@@ -11,11 +11,12 @@ export default function DesignAndBuild(){
                 <p className="font-roboto font-normal text-lg md:text-2xl text-gray-600 leading-7">{designAndBuild.description}</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
                     {designAndBuild.cards.map((card, index) => (
-                        <div key={index} className="flex flex-col gap-4 bg-[#F6F6F6] p-5">
+                        <div key={index} className="flex flex-col gap-4 bg-[#F6F6F6] p-5 items-center text-center md:items-start md:text-left">
                             <Image src={card.icon}
-                                width={35}
-                                height={35}
+                                width={48}
+                                height={48}
                                 alt={card.title}
+                                className="md:w-[35px] md:h-[35px]"
                             />
                             <h1 className="font-roboto font-medium text-xl">{card.title}</h1>
                             <p className="font-roboto font-normal text-xl text-gray-600 mt-1">{card.description}</p>

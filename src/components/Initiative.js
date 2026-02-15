@@ -6,25 +6,27 @@ import { sustainabilityData } from "@/data/home/sustainabilityData";
 export default function Initiative() {
   const { initiative } = sustainabilityData;
   return (
-    <section className="py-10 px-4 md:py-20 md:px-16">
-      <div className="relative h-[600px] rounded-xl overflow-hidden">
+    <section className="py-1 px-4 md:py-20 md:px-16">
+      <div className="relative h-auto md:h-[600px] rounded-xl overflow-hidden flex flex-col md:block">
         
         {/* Background Image */}
-        <Image
-          src={initiative.image}
-          alt="Sustainability Initiatives"
-          fill
-          className="object-cover"
-          priority
-        />
+        <div className="relative h-[300px] md:h-full w-full">
+          <Image
+            src={initiative.image}
+            alt="Sustainability Initiatives"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
 
         {/* White Content Card */}
-        <div className="absolute left-6 top-1/2 -translate-y-1/2 bg-white rounded-xl px-8 py-14 w-[650px] h-[448px] leading-[34px] space-y-8">
-          <h2 className="font-roboto text-[32px] font-semibold">
+        <div className="relative md:absolute md:left-6 md:top-1/2 md:-translate-y-1/2 bg-white rounded-xl px-6 md:px-8 py-8 md:py-14 w-full md:w-[650px] md:h-[448px] leading-[28px] md:leading-[34px] space-y-4 md:space-y-8">
+          <h2 className="font-poppins text-[18px] md:text-[32px] font-medium md:font-semibold">
             {initiative.title}
           </h2>
 
-          <ul className="text-2xl font-light text-gray-600 font-roboto list-disc list-inside">
+          <ul className="font-poppins text-sm md:text-2xl font-light text-gray-600 list-disc list-inside">
             {initiative.items.map((item, index) => (
               <li key={index}>{item}</li>
             ))}

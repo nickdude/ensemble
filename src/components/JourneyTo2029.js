@@ -12,15 +12,13 @@ export default function JourneyTo2029() {
                 <h1 className="font-poppins font-semibold text-5xl px-32">{journeyTo2029.title}</h1>
                 <Timeline/>
             </div>
-            <div className=" overflow-hidden w-full md:w-[40%]">
+            <div className=" overflow-hidden w-full md:w-[40%] h-[110vh] relative">
                   <Image
                         src={journeyTo2029.image}
                         alt="Journey to 2029"
-                        width={800}
-                        height={800}
-                        // fill
+                        fill
                         className="object-cover"
-                        // priority
+                        priority
                     />
             </div>
     </section>

@@ -65,35 +65,35 @@ const data = {
         buttonLink: "/projects",
         projects: [
             {
-                title: "Bridge+",
+                title: "Capitaland Bridge+",
                 location: "Chennai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/bridge.webp",
-                area: "1,00,000 sq.ft.",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
+                area: "25,000 sq.ft.",
                 service: "General Contracting",
                 caseStudyLink: "/projects/bridge-plus"
             },
             {
                 title: "Canon",
                 location: "Mumbai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/canon.webp",
-                area: "2,00,000 sq.ft.",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8324-Edit.jpg",
+                area: "30,000 sq.ft.",
                 service: "Design & Build",
                 caseStudyLink: "/projects/canon"
             },
             {
-                title: "Cadila Healthcare LTD",
+                title: "Zydus",
                 location: "Ahemdabad",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/cadilahealthcareltd.webp",
-                area: "1,50,000 sq.ft.",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+AHMEDABAD+Chicago+Jazz+Bar+Workcafe.jpg",
+                area: "9,00,000 sq.ft.",
                 service: "General Contracting",
                 caseStudyLink: "/projects/cadila-healthcare-ltd"
             },
             {
-                title: "RPSG",
-                location: "Kolkata",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/rpsg.webp",
-                area: "1,20,000 sq.ft.",
-                service: "Design & Build",
+                title: "UST Global",
+                location: "Trivandrum",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST+G.jpg",
+                area: "2,50,000 sq.ft.",
+                service: "General Contracting ",
                 caseStudyLink: "/projects/rpsg"
             },
         ],

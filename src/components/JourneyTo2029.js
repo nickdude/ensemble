@@ -19,7 +19,7 @@ export default function JourneyTo2029({ theme }) {
             </div>
             <div className="w-full md:w-[60%] flex flex-col items-left justify-center order-2 md:order-1">
               <h1 className="font-poppins font-semibold text-3xl md:text-5xl md:px-32 mb-6 md:mb-0">{journeyTo2029.title}</h1>
-              <Timeline/>
+              <Timeline theme={theme}/>
             </div>
     </section>
   );

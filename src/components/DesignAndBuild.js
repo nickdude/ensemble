@@ -16,7 +16,7 @@ export default function DesignAndBuild({ theme }) {
                                 width={48}
                                 height={48}
                                 alt={card.title}
-                                className="md:w-[35px] md:h-[35px]"
+                                className={`md:w-[35px] md:h-[35px] ${theme === 'dark' ? 'invert' : ''}`}
                             />
                             <h1 className="font-roboto font-medium text-xl">{card.title}</h1>
                             <p className="font-roboto font-normal text-xl text-gray-600 mt-1">{card.description}</p>

@@ -74,7 +74,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
       <div className="text-left md:text-right md:pr-12">
         <h3
           className={`font-poppins text-lg md:text-xl md:text-[32px] font-semibold ${
-            active ? "text-black" : "text-gray-400"
+            active ? (theme === 'dark' ? 'text-white' : 'text-black') : 'text-gray-400'
           }`}
         >
           {year}
@@ -86,7 +86,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
         {/* vertical marker */}
         <div
           className={`h-48 rounded-full
-            ${active ? "bg-black w-[4px]" : "bg-gray-400  w-[2px]"}
+            ${active ? (theme === 'dark' ? 'bg-white w-[4px]' : 'bg-black w-[4px]') : 'bg-gray-400 w-[2px]'}
           `}
         />
 
@@ -95,7 +95,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
           className={`absolute right-full w-0 h-0
             border-t-[8px] border-b-[8px] border-r-[10px]
             border-t-transparent border-b-transparent
-            ${active ? "border-r-black" : "border-r-gray-400"}
+            ${active ? (theme === 'dark' ? 'border-r-white' : 'border-r-black') : 'border-r-gray-400'}
           `}
         />
       </div>
@@ -103,7 +103,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
       {/* RIGHT – CONTENT */}
       <div className="pl-0 md:pl-12 max-w-md">
         {title && (
-          <h4 className="text-base md:text-[20px] font-medium font-roboto text-black mb-2">
+          <h4 className={`text-base md:text-[20px] font-medium font-roboto ${theme === 'dark' ? 'text-white' : 'text-black'} mb-2`}>
             {title}
           </h4>
         )}
@@ -111,7 +111,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
           className={`text-sm md:text-[20px] font-roboto ${
             highlight
               ? "text-sky-500 font-semibold"
-              : "text-gray-500"
+              : theme === 'dark' ? "text-gray-400" : "text-gray-500"
           }`}
         >
           {description}

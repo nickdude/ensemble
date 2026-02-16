@@ -61,7 +61,7 @@ export default function InquiryForm(){
                                         type="text"
                                         name="firstName"
                                         placeholder="First Name"
-                                        className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                                        className={`w-full rounded-lg ${theme === 'dark' ? 'bg-gray-800 placeholder-white' : 'bg-[#f6f6f6] placeholder-gray-400'} px-6 py-4 text-sm  focus:outline-none focus:ring-2 focus:ring-black`}
                                         required
                                     />
                                     <ValidationError 
@@ -77,7 +77,7 @@ export default function InquiryForm(){
                                         type="text"
                                         name="lastName"
                                         placeholder="Last Name"
-                                        className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                                        className={`w-full rounded-lg ${theme === 'dark' ? 'bg-gray-800 placeholder-white' : 'bg-[#f6f6f6] placeholder-gray-400'} px-6 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-black`}
                                         required
                                     />
                                     <ValidationError 
@@ -96,7 +96,7 @@ export default function InquiryForm(){
                                     type="email"
                                     name="email"
                                     placeholder="Email"
-                                    className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                                    className={`w-full rounded-lg ${theme === 'dark' ? 'bg-gray-800 placeholder-white' : 'bg-[#f6f6f6] placeholder-gray-400'} px-6 py-4 text-sm focus:outline-none focus:ring-2 focus:ring-black`}
                                     required
                                 />
                                 <ValidationError 
@@ -114,7 +114,7 @@ export default function InquiryForm(){
                                     name="message"
                                     placeholder="Message"
                                     rows={4}
-                                    className="w-full rounded-lg bg-[#f6f6f6] px-6 py-4 text-sm placeholder-gray-400 resize-none focus:outline-none focus:ring-2 focus:ring-black"
+                                    className={`w-full rounded-lg ${theme === 'dark' ? 'bg-gray-800 placeholder-white' : 'bg-[#f6f6f6] placeholder-gray-400'} px-6 py-4 text-sm resize-none focus:outline-none focus:ring-2 focus:ring-black`}
                                     required
                                 />
                                 <ValidationError 
@@ -129,15 +129,15 @@ export default function InquiryForm(){
                             <button 
                                 type="submit" 
                                 disabled={state.submitting}
-                                className={`w-full md:w-auto px-8 py-3 rounded-lg font-medium transition-all ${
+                                className={`lux-btn rounded-sm w-fit ${
                                     state.submitting 
                                         ? 'bg-gray-400 cursor-not-allowed' 
                                         : theme === 'dark' 
-                                        ? 'bg-white text-black hover:bg-gray-200' 
-                                        : 'bg-black text-white hover:bg-gray-800'
+                                        ? 'bg-white text-black' 
+                                        : 'bg-black text-white'
                                 }`}
                             >
-                                {state.submitting ? 'Sending...' : inquiryForm.submitLabel}
+                                <span>{state.submitting ? 'Sending...' : inquiryForm.submitLabel}</span>
                             </button>
 
                         </form>

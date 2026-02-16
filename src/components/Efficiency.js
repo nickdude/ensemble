@@ -3,11 +3,11 @@
 import Image from "next/image";
 import { sustainabilityData } from "@/data/home/sustainabilityData";
 
-export default function Efficiency(){
+export default function Efficiency({ theme }) {
     const { efficiency } = sustainabilityData;
     return(
-        <section className="py-10 px-4 bg-white text-black md:py-20 md:px-16">
-            <div className="w-full flex flex-col md:flex-row items-center justify-betweengap-10 md:gap-14">
+        <section className={`py-10 px-4 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} md:py-20 md:px-16`}>
+            <div className="w-full flex flex-col md:flex-row items-center justify-between gap-10 md:gap-14">
                  <div className="relative w-full md:w-1/2 h-[50vh] md:h-[75vh] rounded-xl overflow-hidden mt-16">
                             <Image
                                 src={efficiency.image}

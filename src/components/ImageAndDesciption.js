@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 export default function ImageAndDescription({ title, image, description, right, team }) {    
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
-    console.log(image);
+    
   useEffect(() => setMounted(true), []);
   if (!mounted) return null;
   return (
@@ -19,7 +19,7 @@ export default function ImageAndDescription({ title, image, description, right, 
       }`}
     >
                {/* Image */}
-            <div className="relative w-full md:w-1/2 h-[590px] bg-[#F6F6F6] ">
+            <div className={`relative w-full md:w-1/2 h-[590px] ${theme === 'dark' ? 'bg-black' : 'bg-[#F6F6F6]'}`}>
               <Image
               key={image}
               src={image}
@@ -33,7 +33,7 @@ export default function ImageAndDescription({ title, image, description, right, 
 
             {/* Text */}
             <div
-                className={`w-full md:w-1/2 p-4 md:p-16 md:h-[590px] flex flex-col justify-center gap-8 md:bg-[#F6F6F6]  ${
+                className={`w-full md:w-1/2 p-4 md:p-16 md:h-[590px] flex flex-col justify-center gap-8 ${theme === 'dark' ? 'bg-black' : 'md:bg-[#F6F6F6]'}  ${
                 right ? "pl-0 md:pl-16" : "pr-0 md:pr-16"
                 }`}
             >
@@ -41,7 +41,7 @@ export default function ImageAndDescription({ title, image, description, right, 
                 {title}
                 </h1>
 
-                <p className="font-poppins font-light text-lg text-black leading-relaxed w-[90%]">
+                <p className={`font-poppins font-light text-lg ${theme === 'dark' ? 'text-white' : 'text-black'} leading-relaxed w-[90%]`}>
                 {description}
                 </p>
                 {team && <div className="flex gap-5 items-center">

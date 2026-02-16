@@ -19,10 +19,10 @@ export default function AwardAndRecognitions(){
             <p className="font-roboto font-normal text-lg md:text-2xl text-gray-600">{awardAndRecognitions.subtitle}</p>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
                 {awardAndRecognitions.cards.map((card, index) => (
-                    <div key={index} className="flex flex-col items-center h-[315px] w-full md:w-[311px] bg-[#f6f6f6] justify-center p-6 gap-3 rounded-lg">
+                    <div key={index} className={`flex flex-col items-center h-[315px] w-full md:w-[311px] ${theme === 'dark' ? 'bg-gray-900' : 'bg-[#f6f6f6]'} justify-center p-6 gap-3 rounded-lg`}>
                         <Image src={card.icon} alt={card.title} width={48} height={48}/>
                         <h1 className="font-roboto font-medium text-xl">{card.title}</h1>
-                        <p className="font-roboto text-lg text-gray-600 text-center mt-5">{card.description}</p>
+                        <p className={`font-roboto text-lg  ${theme === 'dark' ? 'text-white' : 'text-gray-600'} text-center mt-5`}>{card.description}</p>
                     </div>
                 ))}
             </div>

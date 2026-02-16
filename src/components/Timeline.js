@@ -24,22 +24,22 @@ const timelineData = [
   },
 ];
 
-export default function Timeline() {
+export default function Timeline({ theme }) {
   return (
-    <div className="relative max-w-6xl mx-auto py-10 md:py-32">
+    <div className={`relative max-w-6xl mx-auto py-10 md:py-32 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
       {/* CENTER LINE */}
       {/* <div className="absolute left-1/2 top-0 h-full w-[2px] bg-gray-300 -translate-x-1/2" /> */}
 
       <div className="">
         {timelineData.map((item, index) => (
-          <TimelineItem key={index} {...item} />
+          <TimelineItem key={index} {...item} theme={theme}/> 
         ))}
       </div>
     </div>
   );
 }
 
-function TimelineItem({ year, title, description, active, highlight }) {
+function TimelineItem({ year, title, description, active, highlight, theme }) {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
 

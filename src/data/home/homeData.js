@@ -124,7 +124,7 @@ const data = {
         title: "Our Services",
         services: [
             {
-                bgImage:"",
+                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Screenshot+2024-11-20+at+5.13.51%E2%80%AFPM+1.png",
                 img: "/assets/icons/construction.svg",
                 title: "General Contracting",
                 link: "/services",
@@ -138,7 +138,7 @@ const data = {
                 description: "Our Design Consultancy transforms ideas into innovative, functional workspaces that enhance productivity, employee satisfaction, and brand perception, delivering bespoke designs aligned with client needs."
             },
             {
-                bgImage:"",
+                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8324-Edit.jpg",
                 link: "/services",
                 img: "/assets/icons/build.svg",
                 title: "Design and Build",

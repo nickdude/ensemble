@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ServiceCard({ img, title, link, description }) {
+export default function ServiceCard({ img, title, link, description, bgImage }) {
   return (
     <div
       className="
@@ -25,7 +25,7 @@ export default function ServiceCard({ img, title, link, description }) {
         "
       >
         <Image
-          src="/assets/blur/background-effect.png"
+          src={bgImage}
           alt="Background"
           fill
           className="object-cover rounded-lg"
@@ -64,7 +64,7 @@ export default function ServiceCard({ img, title, link, description }) {
         "
       >
         <Image src={img} alt={title} width={64} height={64} />
-
+    
         <h1 className="font-poppins font-medium text-xl md:text-3xl">
           {title}
         </h1>

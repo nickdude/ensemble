@@ -36,6 +36,7 @@ export default function OurServices() {
                             title={item.title}
                             description={item.description}
                             link={item.link}
+                            bgImage={item.bgImage}
                         />
                     </div>
             ))}

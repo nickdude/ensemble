@@ -7,8 +7,8 @@ const data = {
         },
           design : {
             img: "/assets/services/design_con.jpg",
-            title: "Design",
-            break: "Consulting",
+            title: "Design and",
+            break: "Build",
             description: "Streamline your workspace transformation with our Design and Build service, integrating design and construction for efficient, cost-effective and seamless project delivery.",
             points: [
                 {
@@ -63,8 +63,8 @@ const data = {
           },
           build: {
             img: "/assets/services/build.jpg",
-            title: "Design &",
-            break: "Build",
+            title: "Design",
+            break: "Consultancy",
             description: "Our Design Consultancy transforms ideas into innovative, functional workspaces that enhance productivity, employee satisfaction, and brand perception, delivering bespoke designs aligned with client needs.",
             points: [
                 {

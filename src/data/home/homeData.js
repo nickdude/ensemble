@@ -28,7 +28,7 @@ const data = {
             arrow: "/assets/icons/up_arrow.svg",
         },
         video: {
-            src: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/3rd+1.mp4",
+            src: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Website+Video+2026.mp4",
             type: "video/mp4",
         },
     },
@@ -70,7 +70,7 @@ const data = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
                 area: "25,000 sq.ft.",
                 service: "General Contracting",
-                caseStudyLink: "/projects/bridge-plus"
+                caseStudyLink: "/projects/capitaland-Bridge+-case-study"
             },
             {
                 title: "Canon",
@@ -131,7 +131,7 @@ const data = {
                 description: "As a GC contractor, we specialize in Civil and Interior, Mechanical, Electrical, and Plumbing (MEP) works. We ensure seamless project execution and deliver world-class fit-outs within timelines"
             },
             {
-                bgImage:"",
+                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+18+cafeteria+View+3.jpg",
                 img: "/assets/icons/consultancy.svg",
                 link: "/services",
                 title: "Design Consultancy",

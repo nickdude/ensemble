@@ -1,6 +1,6 @@
 export const aboutUsData = {
     aboutUsHero: {
-        label: "About Uss",
+        label: "About Us",
         title: "We're Ensemble, The creative crafters behind architectural marvels.",
         titleHighlight: "Where innovation meets blueprints, we shape dreams with passion and flair!",
         image: "/assets/aboutus/hero.jpg",
@@ -13,7 +13,7 @@ export const aboutUsData = {
     imageAndDescription: {
         mission:{
             title: "Our Mission",
-            description: "At Ensemble, we aim to shape workplaces and commercial spaces that reflect your success. Through close collaboration, we deliver tailored solutions with excellence, aligned to your organizational goals.",
+            description: "To deliver thoughtfully designed and expertly executed workspaces through integrated solutions, strong governance, and a deep understanding of our clients’ evolving needs—ensuring consistency, quality, and certainty at every stage.",
             image: "/assets/aboutus/our-mission.png",
             team: {
                 name: "Vikas Rathod",
@@ -23,19 +23,19 @@ export const aboutUsData = {
             },
         vision: {
             title: "Our Vision",
-            description: "Our vision is to create inspiring, sustainable workspaces that not only transcend mere function but foster collaboration, creativity, well-being and environmental stewardship.",
+            description: "To be a trusted design and build partner, shaping future-ready spaces that inspire performance, efficiency, and long-term value.",
             image: "/assets/aboutus/our-vision.png"
         }
     },
     imageDescription: {
         exellence:{
-            title: "Decades of Delivering Excellence",
-            description: "Ensemble was founded in the year 2001, with a humble beginning of executing a 200 Sq feet of fitouts for American Express. We have come a long way since then, moving our headquarters to Mumbai in 2003, executing over 20 Million Sq feet of fitouts for leading clients like Google, Citi, Morgan Stanley, Reliance, TCS and other global clients.",
+            title: "Built on Experience. Driven by Excellence.",
+            description: "Ensemble began its journey in 2001 with a simple belief: deliver spaces with integrity, precision, and purpose. What started as a modest fit-out project soon evolved into a long-term commitment to building environments that support how businesses grow and operate. Over the years, Ensemble has expanded its footprint and capabilities, establishing its headquarters in Mumbai and delivering over 20 million sq. ft. of workspaces across India. Today, we partner with some of the world’s most respected organizations bringing together design insight, execution expertise, and delivery certainty.",
             image: "/assets/aboutus/excellence.jpg"
         },
         vision: {
             title: "Our Customers Vision",
-            description: "Our customers’ vision drives us to excel and create new benchmarks. As a relationship oriented organisation, we have been able to create delight, which also reflects in the number of repeat contracts. We believe in winning trust through what we do and deliver.",
+            description: "Our client's vision drives everything we do. It pushes us to set higher standards and consistently deliver beyond expectations. As a relationship-focused organization, we build lasting partnerships founded on trust, transparency, and performance. The number of repeat engagements we earn reflects the confidence our clients place in us. We believe trust is built not by words, but by what we deliver.",
             image: "/assets/aboutus/vision.jpg"
         }
     },

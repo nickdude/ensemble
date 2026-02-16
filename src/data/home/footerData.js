@@ -64,8 +64,8 @@ export const footerData = {
   // Contact Information
   contact: {
     phone: "+91 98330 84407",
-    email: "naved.kazi@ensemble.co.in",
-    offices: "Mumbai(HQ), Bengaluru, Delhi, Pune, Hyderabad, Chennai",
+    email: "sales@ensemble.co.in",
+    offices: "Mumbai, Bengaluru, Delhi, Pune, Hyderabad, Chennai",
   },
 
   // Copyright Information

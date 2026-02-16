@@ -4,8 +4,8 @@ export const contactData = {
             section: "Our Office",
             locations: [
                 {
-                    name: "Mumbai (HO)",
-                    address: "One World Center (Formerly One India Bulls), 3rd Floor, Tower 2B, South Annex, Lower Parel, Mumbai - 400013"
+                    name: "Mumbai",
+                    address: "D Wing, Trade World, Kamala Mills Compound, Level 17, Lower Parel, Mumbai, Maharashtra 400013"
                 },
                 {
                     name: "Delhi",

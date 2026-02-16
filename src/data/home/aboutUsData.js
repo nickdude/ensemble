@@ -96,6 +96,21 @@ export const aboutUsData = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
                 name: "Bhagyashree Shetye",
                 position: "Associate Director | Design and Build"
+            },
+               {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
+                name: "Sarika Sawanth",
+                position: "Associate Director | Operations"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vp21.webp",
+                name: "Vedanand Pujari",
+                position: "Head | MEP"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                name: "Bhagyashree Shetye",
+                position: "Associate Director | Design and Build"
             }
         ]
     }

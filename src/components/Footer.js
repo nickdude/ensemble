@@ -107,11 +107,11 @@ export default function Footer() {
         </div>
 
         {/* Logo Section */}
-        {!isHomePage && (
+        {/* {!isHomePage && (
         <div className={`w-full flex items-center justify-center pt-12 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"}`}>
           <img src={theme === "dark" ? "/assets/footer_logo_white.png" : "/assets/footer_logo_black.png"} alt="Ensemble Logo" className="w-full" />
         </div>
-        )}
+        )} */}
       </footer>  
       <footer className="md:hidden w-full flex flex-col">
         {/* Main Footer Content */}

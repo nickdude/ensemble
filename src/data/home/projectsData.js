@@ -144,7 +144,11 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/SAN_3763.JPG", alt: "Workspace" },
             ],
             challenges: "Delivering a high-quality workspace within a tight timeline, while coordinating multiple stakeholders and ensuring seamless execution across all zones.",
-            approch: "Detailed execution planning and scheduling Strong on-site coordination and supervision - Quality control at every stage of delivery",
+            approach: [
+                "Collaborative design development",
+                "Value engineering without compromising quality",
+                "Single-point accountability from concept to completion",
+            ],
             authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
             authorName: "Naved Kazi",
             authorDesignation: "Manager at We Work",

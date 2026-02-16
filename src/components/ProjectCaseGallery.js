@@ -40,11 +40,16 @@ export default function ProjectCaseGallery() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-4">
             <h3 className="font-roboto text-2xl font-semibold">Our Approach</h3>
-            <p className="text-gray-600 font-roboto text-2xl font-light">
-              {projectData.approch}
-            </p>
+            {projectData.approach?.length > 0 &&projectData.approach.map((item, index) => (
+              <div key={index} className="flex items-start gap-3">
+                <span className="text-gray-600 font-roboto text-2xl font-light mt-1">•</span>
+                <p className="text-gray-600 font-roboto text-2xl font-light">
+                  {item}
+                </p>
+              </div>
+               ))}
           </div>
         </div>
 

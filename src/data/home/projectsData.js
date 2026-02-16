@@ -141,7 +141,14 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/SAN_3763.JPG", alt: "Workspace" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/SAN_3763.JPG", alt: "Workspace" },
             ],
+            challenges: "The existing home had several constraints that made it feel disconnected from the couple’s desired lifestyle. Its outdated design featured a closed-off layout, where separate rooms disrupted the natural flow of energy and light.",
+            approch: "To address these challenges, our team adopted a holistic design approach that prioritized functionality, aesthetics, and the seamless integration of nature-inspired elements.",
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
         },
         "project-2": {
             hero: {

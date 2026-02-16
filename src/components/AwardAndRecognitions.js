@@ -22,7 +22,7 @@ export default function AwardAndRecognitions(){
                     <div key={index} className={`flex flex-col items-center h-[315px] w-full md:w-[311px] ${theme === 'dark' ? 'bg-gray-900' : 'bg-[#f6f6f6]'} justify-center p-6 gap-3 rounded-lg`}>
                         <Image src={card.icon} alt={card.title} width={48} height={48} className={`${theme === 'dark' ? 'invert' : ''}`}/>
                         <h1 className="font-roboto font-medium text-xl">{card.title}</h1>
-                        <p className={`font-roboto text-lg  ${theme === 'dark' ? 'text-white' : 'text-gray-600'} text-center mt-5`}>{card.description}</p>
+                        <p className={`font-roboto text-lg  ${theme === 'dark' ? 'text-white' : 'text-[#151515]'} text-center mt-5`}>{card.description}</p>
                     </div>
                 ))}
             </div>

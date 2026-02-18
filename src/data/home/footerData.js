@@ -13,18 +13,10 @@ export const footerData = {
       label: "Services",
       href: "/services",
     },
-    {
-      label: "Portfolio",
-      href: "/projects",
-    },
   ],
 
   // Secondary Navigation Links - Column 2
   secondaryNav: [
-    {
-      label: "Services",
-      href: "/services",
-    },
     {
       label: "Projects",
       href: "/projects",

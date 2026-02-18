@@ -17,7 +17,7 @@ export default function InquiryForm(){
     if (!mounted) return null;
     return(
         <section className={`py-20 px-4 md:px-16  ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
-            <div className="flex flex-col items-center justify-center md:grid md:grid-cols-[25%25%50%]">
+            <div className="flex flex-col justify-center md:grid md:grid-cols-[25%25%50%]">
                 <div className="font-inter flex items-center md:items-start flex-col gap-4 text-center md:text-left">
                     <h1 className="font-semibold text-[32px]">{offices[0].section}</h1>
                     {offices[0].locations.map((location, index) => (
@@ -30,8 +30,8 @@ export default function InquiryForm(){
                     ))}
                     <p>{offices[0].email}</p>
                 </div>
-                 <div className="font-inter flex items-center md:items-start flex-col gap-4 text-center md:text-left">
-                    <h1 className="font-semibold text-[32px]">{offices[1].section}</h1>
+                 <div className="font-inter flex items-center md:items-start flex-col gap-4 text-center md:text-left md:pl-6">
+                    <h1 className="font-semibold text-[32px]">{offices[1].section || "\u00A0"}</h1>
                     {offices[1].locations.map((location, index) => (
                         <div key={index}>
                             <h2 className="font-semibold text-[15px] my-2">

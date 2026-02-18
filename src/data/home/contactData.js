@@ -19,7 +19,7 @@ export const contactData = {
             email: "info@ensemble.co.in"
         },
         {
-            section: "-",
+            section: "",
             locations: [
                 {
                     name: "Bengaluru",

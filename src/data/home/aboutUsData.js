@@ -97,20 +97,40 @@ export const aboutUsData = {
                 name: "Bhagyashree Shetye",
                 position: "Associate Director | Design and Build"
             },
-               {
+            {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
-                name: "Sarika Sawanth",
-                position: "Associate Director | Operations"
+                name: "Vijay Waghela",
+                position: "Associate Director - Sourcing"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vp21.webp",
-                name: "Vedanand Pujari",
-                position: "Head | MEP"
+                name: "Alpa Bhavsar",
+                position: "Associate Director - Contracts"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
-                name: "Bhagyashree Shetye",
-                position: "Associate Director | Design and Build"
+                name: "Masood Shaikh",
+                position: "Vice President - Tendering & Estimation"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
+                name: "Rashid Shaikh",
+                position: "Vice President - EHS & Logistics"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vp21.webp",
+                name: "Ankita Sharma",
+                position: "Vice President - Client Solutions"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                name: "Simran Naulani",
+                position: "Lead - HR"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                name: "Nemchand Suthar",
+                position: "Lead - Finance"
             }
         ]
     }

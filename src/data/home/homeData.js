@@ -70,7 +70,7 @@ const data = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
                 area: "25,000 sq.ft.",
                 service: "General Contracting",
-                caseStudyLink: "/projects/project-1"
+                caseStudyLink: "projects/project-1"
             },
             {
                 title: "Canon",
@@ -78,7 +78,7 @@ const data = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8324-Edit.jpg",
                 area: "30,000 sq.ft.",
                 service: "Design & Build",
-                caseStudyLink: "/projects/project-2"
+                caseStudyLink: "projects/project-2"
             },
             {
                 title: "Zydus",
@@ -86,7 +86,7 @@ const data = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+AHMEDABAD+Chicago+Jazz+Bar+Workcafe.jpg",
                 area: "9,00,000 sq.ft.",
                 service: "General Contracting",
-                caseStudyLink: "/projects/project-3"
+                caseStudyLink: "projects/project-3"
             },
             {
                 title: "UST Global",
@@ -94,7 +94,7 @@ const data = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST+G.jpg",
                 area: "2,50,000 sq.ft.",
                 service: "General Contracting ",
-                caseStudyLink: "/projects/project-4"
+                caseStudyLink: "projects/project-4"
             },
         ],
     },

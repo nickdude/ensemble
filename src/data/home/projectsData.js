@@ -145,9 +145,9 @@ const data = {
             ],
             challenges: "Delivering a high-quality workspace within a tight timeline, while coordinating multiple stakeholders and ensuring seamless execution across all zones.",
             approach: [
-                "Collaborative design development",
-                "Value engineering without compromising quality",
-                "Single-point accountability from concept to completion",
+                "Detailed execution planning and scheduling",
+                "Strong on-site coordination and supervision",
+                "Quality control at every stage of delivery",
             ],
             authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
             authorName: "Naved Kazi",
@@ -176,6 +176,16 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/YKP_1222.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8408.jpg", alt: "Workspace" },
             ],
+            challenges: "Translating global design standards into a locally executable solution while maintaining cost and timeline certainty.",
+            approach: [
+                "Collaborative design development",
+                "Value engineering without compromising quality",
+                "Single-point accountability from concept to completion",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
         },
         "project-3": {
             hero: {
@@ -199,6 +209,16 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/WhatsApp+Image+2024-12-30+at+12.35.53+PM.jpeg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+11th+Floor+Boardroom.jpg", alt: "Workspace" },
             ],
+            challenges: "Managing execution across a massive footprint while maintaining consistency, quality, and strict timelines.",
+            approach: [
+                "Phased execution strategy",
+                "VStrong site governance and manpower planning",
+                "Consistent quality benchmarks across zones",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
         },
         "project-4": {
             hero: {
@@ -221,7 +241,17 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST2.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST4.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST5.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Executing the project at speed while minimizing disruption to ongoing operations.",
+            approach: [
+                "Detailed sequencing and phased handovers",
+                "Strict safety and quality protocols",
+                "Continuous coordination with client teams",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
          "project-5": {
             hero: {
@@ -244,7 +274,17 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-a(1).jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TATA-Consultancy-Services_Award-Announcement-Image-3_Photo-By-Michael-Moran-1280x854.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-e(1)+(1).jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Strict compliance requirements, complex approvals, and coordination across multiple stakeholders.",
+            approach: [
+                "Process-driven execution planning",
+                "Compliance-led coordination",
+                "Transparent reporting and controls",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
          "project-6": {
             hero: {
@@ -267,7 +307,17 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/Picture2C.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/Picture2FGH.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/u3165179197_HD_--ar_9151_--stylize_1000_--v_6.1_9050df77-ea41-4047-8a55-e3be6d2a6847.png", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Balancing design excellence with cost control and delivery timelines.",
+            approach: [
+                "Integrated design-to-execution workflow",
+                "Cost and timeline optimization",
+                "Strong quality governance",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
         "project-7": {
             hero: {
@@ -290,7 +340,16 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/RPSG%2C+Kolkata/RPSG+HOUSE+(36).jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/RPSG%2C+Kolkata/RPSG+5.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/RPSG%2C+Kolkata/RPSG+3.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Managing execution across varied functional spaces with high finish-quality expectations.",
+            approach: [
+                "Centralized execution control",
+                "Detail-oriented quality management",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
          "project-8": {
             hero: {
@@ -313,12 +372,21 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+05.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+04.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+06.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Meeting strict compliance and quality norms within local execution constraints.",
+            approach: [
+                "Compliance-led design development",
+                "Detailed execution planning and controls",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
          "project-9": {
             hero: {
                 title: "Viacom 18",
-                location: "",
+                location: "Mumbai",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+2+View+2.jpg",
             },
             details: {
@@ -326,7 +394,7 @@ const data = {
                 client: "Viacom 18",
                 category: "Office Space",
                 projectSize: "Large Scale",
-                location: "-",
+                location: "Mumbai",
                 clientVision: "Viacom18 aimed to create a dynamic, creative workspace reflecting its media-driven culture.",
                 problem: "Balancing creative expression with functional workplace requirements.",
                 solution: "Ensemble delivered a design consultancy solution focused on flexibility, collaboration, and creative flow.",
@@ -336,12 +404,21 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture6.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+18+cafeteria+View+1.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+1+black+Wall.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Balancing creative expression with functional workplace requirements.",
+            approach: [
+                "User-centric planning",
+                "Flexible and adaptive design concepts",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
         "project-10": {
             hero: {
                 title: "Cowrks",
-                location: "",
+                location: "Bengaluru",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cwrks/3981-COWRKS-1.jpg",
             },
             details: {
@@ -349,7 +426,7 @@ const data = {
                 client: "Cowrks",
                 category: "Office Space",
                 projectSize: "Large Scale",
-                location: "-",
+                location: "Bengaluru",
                 clientVision: "Cowrks envisioned a flexible workspace catering to diverse teams and work styles.",
                 problem: "Fast-track delivery without compromising design quality.",
                 solution: "We delivered a turnkey design and build solution with strong execution controls.",
@@ -359,12 +436,21 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cwrks/Cowrks+3.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cwrks/44080f_6493039807b243acb0c5f9fbc83c030e~mv2.webp", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cwrks/Cowrks+2.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Fast-track delivery without compromising design quality.",
+            approach: [
+                "Agile project execution",
+                "Integrated design and delivery model",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
          "project-11": {
             hero: {
                 title: "IGT Solutions",
-                location: "",
+                location: "Bengaluru",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Reception+1.jpg",
             },
             details: {
@@ -372,7 +458,7 @@ const data = {
                 client: "IGT Solutions",
                 category: "Office Space",
                 projectSize: "Large Scale",
-                location: "-",
+                location: "Bengaluru",
                 clientVision: "IGT Solutions required a modern, efficient workspace to support operational teams.",
                 problem: "Compressed timelines with high expectations on quality.",
                 solution: "Ensemble delivered a fast-track design and build solution with strong project management.",
@@ -382,12 +468,21 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Cafe.jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Training+Room.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Open+office.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Compressed timelines with high expectations on quality.",
+            approach: [
+                "Parallel design and execution",
+                "Tight schedule control",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
         "project-12": {
             hero: {
                 title: "Meenakshi Hospitals",
-                location: "",
+                location: "Madurai ",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_01_01.jpg",
             },
             details: {
@@ -395,7 +490,7 @@ const data = {
                 client: "Meenakshi Hospitals",
                 category: "Office Space",
                 projectSize: "Large Scale",
-                location: "-",
+                location: "Madurai ",
                 clientVision: "Meenakshi Hospitals aimed to create efficient administrative workspaces integrated within a healthcare environment.",
                 problem: "Designing office spaces that align with hospital operations and regulatory requirements.",
                 solution: "Ensemble delivered a functional, compliance-friendly design consultancy solution.",
@@ -405,7 +500,16 @@ const data = {
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_02.jpg", alt: "Construction" },
                 { image: "", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception_Cam_01_01.jpg", alt: "Workspace" },
-            ],    
+            ],
+            challenges: "Designing office spaces that align with hospital operations and regulatory requirements.",
+            approach: [
+                "Functional planning aligned with healthcare workflows",
+                "User-focused design solutions",
+            ],
+            authorImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
+            authorName: "Naved Kazi",
+            authorDesignation: "Manager at We Work",
+            authorSays: "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."    
         },
     },
 };

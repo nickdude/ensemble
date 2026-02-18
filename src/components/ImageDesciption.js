@@ -50,7 +50,7 @@ export default function ImageDescription({ title, description, image, right = fa
           />
         </div>
 
-        <p className="font-roboto font-light text-2xl text-gray-600 leading-relaxed">
+        <p className="font-roboto font-light text-[16px] md:text-2xl text-gray-600 leading-relaxed">
           {description}
         </p>
       </div>

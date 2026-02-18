@@ -98,37 +98,37 @@ export const aboutUsData = {
                 position: "Associate Director | Design and Build"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_11_Vijays-Pic-2.jpg",
                 name: "Vijay Waghela",
                 position: "Associate Director - Sourcing"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vp21.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_12_Alpa-1.jpg",
                 name: "Alpa Bhavsar",
                 position: "Associate Director - Contracts"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_10_Masood_Image.jpg",
                 name: "Masood Shaikh",
                 position: "Vice President - Tendering & Estimation"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_13_rashid-1+(1).jpg",
                 name: "Rashid Shaikh",
                 position: "Vice President - EHS & Logistics"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vp21.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_5_Ankita.jpg",
                 name: "Ankita Sharma",
                 position: "Vice President - Client Solutions"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_14_Simren_Image.jpg",
                 name: "Simran Naulani",
                 position: "Lead - HR"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/bhagyashree_image1.webp",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_7_Nemchand.jpg",
                 name: "Nemchand Suthar",
                 position: "Lead - Finance"
             }

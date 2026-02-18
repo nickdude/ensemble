@@ -8,6 +8,7 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { blogsData } from "@/data/home/blogsData";
+import NewsMobile from "@/components/NewsMobile";
 
 export default function DetailBlog() {
     const { theme } = useTheme();
@@ -50,7 +51,17 @@ export default function DetailBlog() {
         </div>
         <hr className="w-full mt-10"/>
         <OurProjects/>
-        <News/>
+        <div
+            className={`relative z-20 w-screen max-w-screen overflow-x-hidden
+            ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"} py-10 md:py-20`}
+           >
+            <div className="hidden md:block">
+                <News theme={theme} />
+            </div>
+            <div className="md:hidden">
+                <NewsMobile />
+            </div>
+        </div>
     </section>
   );
 }

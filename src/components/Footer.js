@@ -199,11 +199,11 @@ export default function Footer() {
         </div>
 
         {/* Logo Section */}
-        {!isHomePage && (
+        {/* {!isHomePage && (
         <div className={`w-full flex items-center justify-center pt-12 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"}`}>
           <img src={theme === "dark" ? footerData.logos.dark : footerData.logos.light} alt="Ensemble Logo" className="w-full" />
         </div>
-        )}
+        )} */}
       </footer>  
     </>
     

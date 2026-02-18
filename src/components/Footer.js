@@ -81,12 +81,12 @@ export default function Footer() {
 
                 {/* Phone and Email */}
                 <div className="flex justify-between gap-8">
-                  <div>
+                  {/* <div>
                     <p className={`text-sm font-avenir font-light uppercase tracking-[0.2em] transition-colors ${theme === "dark" ? "text-gray-400" : "text-black"}`}>Phone</p>
                     <a href={`tel:${footerData.contact.phone.replace(/\s/g, '')}`} className={`text-[16px] roman font-avenir mt-1 transition-colors hover:opacity-70 cursor-pointer`}>
                       {footerData.contact.phone}
                     </a>
-                  </div>
+                  </div> */}
                   <div>
                     <p className={`text-sm font-avenir font-light uppercase tracking-[0.2em] transition-colors ${theme === "dark" ? "text-gray-400" : "text-black"}`}>Email</p>
                     <a href={`mailto:${footerData.contact.email}`} className={`text-[16px] roman font-avenir mt-1 underline transition-colors ${theme === "dark" ? "text-white hover:text-brand-blue" : "text-black hover:text-brand-blue"}`}>
@@ -148,12 +148,12 @@ export default function Footer() {
 
                   {/* Phone and Email */}
                   <div className="flex gap-5">
-                    <div>
+                    {/* <div>
                       <p className={`text-sm font-avenir font-light uppercase tracking-[0.2em] transition-colors ${theme === "dark" ? "text-gray-400" : "text-black"}`}>Phone</p>
                       <a href={`tel:${footerData.contact.phone.replace(/\s/g, '')}`} className={`text-[16px] roman font-avenir mt-1 transition-colors hover:opacity-70 cursor-pointer`}>
                         {footerData.contact.phone}
                       </a>
-                    </div>
+                    </div> */}
                     <div>
                       <p className={`text-sm font-avenir font-light uppercase tracking-[0.2em] transition-colors ${theme === "dark" ? "text-gray-400" : "text-black"}`}>Email</p>
                       <a href={`mailto:${footerData.contact.email}`} className={`text-[16px] roman font-avenir mt-1 underline transition-colors ${theme === "dark" ? "text-white hover:text-brand-blue" : "text-black hover:text-brand-blue"}`}>

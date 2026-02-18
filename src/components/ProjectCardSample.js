@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "./ProjectCardSample.css"
 
-export default function ProjectCardSample({image, title, location, area, service,viewCaseStudy}) {
+export default function ProjectCardSample({image, title, location, slug, area, service, caseStudyLink, viewCaseStudy}) {
   return (
    <div className="card bg-red-300 h-[50vh] md:h-[33.3vw] w-[90vw] md:w-[33.3vw] flex-shrink-0 relative cursor-pointer">
       <div className="relative w-full h-full">
@@ -19,7 +19,7 @@ export default function ProjectCardSample({image, title, location, area, service
         </div>
       </div>
 
-      <div className="overlay overlay-hover">
+      <div className="overlay overlay-hover" onClick={() => window.location.href = caseStudyLink}>
         <div className="hover-box font-roboto text-lg">
           <p>Location: {location}</p>
           <p className="from-bottom">Area: {area}</p>

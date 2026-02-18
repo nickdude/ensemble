@@ -12,6 +12,7 @@ export default function ProjectCaseGallery() {
   const pathname = usePathname();
   const slug = pathname.split('/')[2];
   const projectData = projectsData.projectDetail[slug];
+  const gallery = projectData?.gallery ?? [];
 
   useEffect(() => setMounted(true), []);
 
@@ -23,13 +24,15 @@ export default function ProjectCaseGallery() {
       <div className="grid grid-cols-1 md:grid-cols-12 md:auto-rows-[640px] gap-8">
         {/* ROW 1 — Image + Text */}
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
-          <Image
-            src={projectData.gallery[0].image}
-            alt={projectData.gallery[0].alt}
-            width={100}
-            height={100}
-            className="object-cover w-full h-full"
-          />
+          {gallery[0]?.image && (
+            <Image
+              src={gallery[0].image}
+              alt={gallery[0].alt || projectData?.title || "Project image"}
+              width={100}
+              height={100}
+              className="object-cover w-full h-full"
+            />
+          )}
         </div>
 
         <div className="col-span-1 md:col-span-6 relative flex flex-col justify-center leadig-[34px] gap-10">
@@ -55,34 +58,40 @@ export default function ProjectCaseGallery() {
 
         {/* ROW 2 — Two Images */}
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
-          <Image
-            src={projectData.gallery[1].image}
-            alt={projectData.gallery[1].alt}
-            width={800}
-            height={600}
-            className="object-cover w-full h-full"
-          />
+          {gallery[1]?.image && (
+            <Image
+              src={gallery[1].image}
+              alt={gallery[1].alt || projectData?.title || "Project image"}
+              width={800}
+              height={600}
+              className="object-cover w-full h-full"
+            />
+          )}
         </div>
 
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
-          <Image
-            src={projectData.gallery[2].image}
-            alt={projectData.gallery[2].alt}
-            width={800}
-            height={600}
-            className="object-cover w-full h-full"
-          />
+          {gallery[2]?.image && (
+            <Image
+              src={gallery[2].image}
+              alt={gallery[2].alt || projectData?.title || "Project image"}
+              width={800}
+              height={600}
+              className="object-cover w-full h-full"
+            />
+          )}
         </div>
 
         {/* ROW 3 — Wide Image */}
         <div className="col-span-1 md:col-span-12 relative rounded-xl overflow-hidden">
-          <Image
-            src={projectData.gallery[3].image}
-            alt={projectData.gallery[3].alt}
-            width={1600}
-            height={800}
-            className="object-cover w-full h-full"
-          />
+          {gallery[3]?.image && (
+            <Image
+              src={gallery[3].image}
+              alt={gallery[3].alt || projectData?.title || "Project image"}
+              width={1600}
+              height={800}
+              className="object-cover w-full h-full"
+            />
+          )}
         </div>
 
         {/* ROW 4 — Testimonial + Image */}
@@ -110,13 +119,15 @@ export default function ProjectCaseGallery() {
         </div>
 
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
-          <Image
-            src={projectData.gallery[4].image}
-            alt={projectData.gallery[4].alt}
-            width={1000}
-            height={700}
-            className="object-cover w-full h-full"
-          />
+          {gallery[4]?.image && (
+            <Image
+              src={gallery[4].image}
+              alt={gallery[4].alt || projectData?.title || "Project image"}
+              width={1000}
+              height={700}
+              className="object-cover w-full h-full"
+            />
+          )}
         </div>
 
       </div>

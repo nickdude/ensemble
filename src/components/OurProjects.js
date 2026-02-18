@@ -4,12 +4,12 @@ import Button from "./Button";
 import ProjectCardSample from "./ProjectCardSample";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import servicesData from "@/data/home/servicesData";
+import project from "@/data/home/projectsData";
 
 export default function OurProjects({}) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const data = servicesData.ourProjects;
+  const data = project.projectGallery;
 
   useEffect(() => setMounted(true), []);
 
@@ -30,6 +30,10 @@ export default function OurProjects({}) {
                             image={project.image}
                             title={project.title}
                             location={project.location}
+                            slug={project.slug}
+                            area={project.area}
+                            service={project.service}
+                            caseStudyLink={project.caseStudyLink}
                           />
                         ))}
                     </div>

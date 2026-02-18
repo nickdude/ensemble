@@ -5,6 +5,10 @@ const data = {
         image: "/assets/project_subhero.jpg",
     },
     projectGallery: {
+        heading: "Some of Our Projects",
+        description: "Stay updated with our latest projects, press features, and industry insights.",
+        buttonLabel: "VIEW ALL",
+        buttonLink: "/projects",
         projects: [
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
@@ -13,7 +17,7 @@ const data = {
                 slug: "project-1",
                 area: "25,000 sq. ft.",
                 service: "General Contracting",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/capitaland-Bridge+-case-study",
+                caseStudyLink: "projects/project-1",
                 
             },
             {
@@ -24,7 +28,7 @@ const data = {
                 slug: "project-2",
                 area: "30,000 sq. ft.",
                 service: "Design & Build",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/canon-case-study",  
+                caseStudyLink: "projects/project-2",  
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/ZYDUS+AHMEDABAD+Lobby+View.jpg",
@@ -33,7 +37,7 @@ const data = {
                 slug: "project-3",
                 area: "9,00,000 sq. ft.",
                 service: "General Contracting",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/zydus-case-study", 
+                caseStudyLink: "projects/project-3", 
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST+G.jpg",
@@ -42,7 +46,7 @@ const data = {
                 slug: "project-4",
                 area: "2,50,000 sq. ft.",
                 service: "General Contracting",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/tcs-case-study",   
+                caseStudyLink: "projects/project-4",   
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TCS+View+02.jpg",
@@ -51,7 +55,7 @@ const data = {
                 slug: "project-5",
                 area: "2,00,000 sq. ft.",
                 service: "General Contracting",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/wework-case-study",    
+                caseStudyLink: "projects/project-5",    
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/Cairn+Reception+View.jpg",
@@ -60,7 +64,7 @@ const data = {
                 slug: "project-6",
                 area: "50000 sqm",
                 service: "Design & Build",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/cairn-energy-case-study",
+                caseStudyLink: "projects/project-6",
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/RPSG%2C+Kolkata/RPSG+2.jpg",
@@ -69,7 +73,7 @@ const data = {
                 slug: "project-7",
                 area: "50,000 sq. ft.",
                 service: "General Contracting",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/rpsg-case-study",
+                caseStudyLink: "projects/project-7",
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+01.jpg",
@@ -78,7 +82,7 @@ const data = {
                 slug: "project-8",
                 area: "15,000 sq. ft.",
                 service: "Design & Build",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/msd-case-study",
+                caseStudyLink: "projects/project-8",
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+2+View+2.jpg",
@@ -88,7 +92,7 @@ const data = {
                 slug: "project-9",
                 area: "2,00,000 sq. ft.",
                 service: "Design Consultancy",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/viacom18-case-study",
+                caseStudyLink: "projects/project-9",
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cwrks/3981-COWRKS-1.jpg",
@@ -97,7 +101,7 @@ const data = {
                 slug: "project-10",
                 area: "25,000 sq. ft.",
                 service: "Design & Build",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/cowrks-case-study",
+                caseStudyLink: "projects/project-10",
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Reception+1.jpg",
@@ -106,7 +110,7 @@ const data = {
                 slug: "project-11",
                 area: "25,0000 sq. ft.",
                 service: "Design & Build",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/igt-solutions-study",
+                caseStudyLink: "projects/project-11",
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_01_01.jpg",
@@ -115,7 +119,7 @@ const data = {
                 slug: "project-12",
                 area: "3,00,0000 sqm",
                 service: "Design Consultancy",
-                caseStudyLink: "https://www.ensembleprojects.in/projects/meenakshi-hospitals-case-study",
+                caseStudyLink: "projects/project-12",
             },
         ],
     },

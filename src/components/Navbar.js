@@ -150,16 +150,18 @@ export default function Navbar({transparent = false}) {
         }`}
       >
         {/* Mobile Logo (smaller) */}
-        <Image
-          src={
-            theme === "dark" || transparent
-              ? "/assets/logo_white.svg"
-              : "/assets/logo_black.svg"
-          }
-          alt="Logo"
-          width={120}
-          height={50}
-        />
+        <Link href="/">
+          <Image
+            src={
+              theme === "dark" || transparent
+                ? "/assets/logo_white.svg"
+                : "/assets/logo_black.svg"
+            }
+            alt="Logo"
+            width={120}
+            height={50}
+          />
+        </Link>
 
         {/* Mobile Right Controls */}
         <div className="flex gap-3 items-center">

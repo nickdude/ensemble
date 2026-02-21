@@ -8,6 +8,7 @@ import homeData from "@/data/home/homeData";
 
 export default function SplashHero() {
   const videoRef = useRef(null);
+  const sectionRef = useRef(null);
   const data = homeData.splash;
 
   const [pauseTrail, setPauseTrail] = useState(false);
@@ -16,6 +17,7 @@ export default function SplashHero() {
   const [showVideo, setShowVideo] = useState(false);
   const [activeText, setActiveText] = useState("subheading"); // Start with subheading
   const [textAnimate, setTextAnimate] = useState(true); // Start animated
+  const [isVisible, setIsVisible] = useState(true); // Track visibility
 
   useEffect(() => {
     setTimeout(() => setPauseTrail(true), 3000);
@@ -39,24 +41,32 @@ export default function SplashHero() {
     setTimeout(() => setShowVideo(true), 7000);
   }, []);
 
-  /* 🔹 Pause video on scroll */
+  /* 🔹 Pause/Resume video based on visibility */
   useEffect(() => {
-    const handleScroll = () => {
-      if (videoRef.current) {
-        videoRef.current.pause();
-      }
-      window.removeEventListener("scroll", handleScroll);
-    };
+    if (!videoRef.current || !sectionRef.current) return;
 
-    if (showVideo) {
-      window.addEventListener("scroll", handleScroll, { passive: true });
-    }
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.intersectionRatio >= 0.5) {
+          // More than 50% visible - resume video
+          videoRef.current?.play();
+          setIsVisible(true);
+        } else {
+          // Less than 50% visible - pause video
+          videoRef.current?.pause();
+          setIsVisible(false);
+        }
+      },
+      { threshold: 0.5 } // Trigger when 50% is visible/hidden
+    );
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    observer.observe(sectionRef.current);
+
+    return () => observer.disconnect();
   }, [showVideo]);
 
   return (
-    <section className="splash-root">
+    <section className="splash-root" ref={sectionRef}>
       <Navbar transparent />
 
       {/* 🔹 MARQUEE TRAILS */}

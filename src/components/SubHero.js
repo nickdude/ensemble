@@ -15,7 +15,7 @@ export default function SubHero() {
   if (!mounted) return null;
 
   return (
-    <section className={`w-full py-10 md:py-30 px-4 md:px-16 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"} mt-[100vh]`}>      
+    <section className={`w-full py-10 md:py-30 px-4 md:px-16 transition-colors duration-300 ${theme === "dark" ? "bg-black" : "bg-white"} mt-[80vh]`}>      
         <div className="flex flex-col gap-4 md:flex md:flex-row md:justify-between">
             <h1 className={`w-full md:w-4/7 font-poppins font-medium text-base md:text-3xl transition-colors ${theme === "dark" ? "text-white" : "text-black"}`}>
                {data.title}

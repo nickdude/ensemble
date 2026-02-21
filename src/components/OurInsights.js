@@ -27,7 +27,7 @@ export default function OurInsights() {
               img={insight.img}
               title={insight.title}
               description={insight.description}
-              width="w-[430px]"
+              width="w-[70vw] md:w-[430px]"
             />
           ))}
         </div>

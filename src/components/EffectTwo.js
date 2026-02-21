@@ -75,7 +75,7 @@ export default function EffectTwo() {
         </div>
 
         {/* Content scrolls */}
-        <div className={`relative z-10 h-[100vh] flex items-center ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} px-4 md:px-0`}>
+        <div className={`relative z-10 h-[100vh] flex items-center ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} md:px-0`}>
                 <OurInsights theme={theme}/>
         </div>
     </section>

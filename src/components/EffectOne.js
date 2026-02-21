@@ -81,7 +81,7 @@ export default function EffectOne() {
             <div className="hidden md:block">
                 <News theme={theme} />
             </div>
-            <div className="md:hidden">
+            <div className="md:hidden ml-4">
                 <NewsMobile />
             </div>
         </div>

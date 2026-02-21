@@ -28,8 +28,8 @@ export default function ProjectCaseGallery() {
             <Image
               src={gallery[0].image}
               alt={gallery[0].alt || projectData?.title || "Project image"}
-              width={100}
-              height={100}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover w-full h-full"
             />
           )}

@@ -119,7 +119,7 @@ export default function News() {
 
         {/* ROTATING CARDS */}
           <div
-            className="relative flex items-center bg-red-300 left-[35%]"
+            className="relative flex items-center bg-red-300 left-[25%]"
             style={{ perspective: "1200px" }}
            >
             {data.newsItems.map((item, index) => (

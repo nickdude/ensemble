@@ -75,7 +75,7 @@ export default function EffectOne() {
             </div>
         </div>
         <div
-            className={`relative z-20 w-screen max-w-screen overflow-x-hidden
+            className={`relative z-20 overflow-x-hidden
             ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"} py-10 md:py-20`}
             >
             <div className="hidden md:block">

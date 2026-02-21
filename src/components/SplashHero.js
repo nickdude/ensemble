@@ -14,10 +14,27 @@ export default function SplashHero() {
   const [showText, setShowText] = useState(false);
   const [zoomOut, setZoomOut] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
+  const [activeText, setActiveText] = useState("subheading"); // Start with subheading
+  const [textAnimate, setTextAnimate] = useState(true); // Start animated
 
   useEffect(() => {
     setTimeout(() => setPauseTrail(true), 3000);
-    setTimeout(() => setShowText(true), 3400);
+    setTimeout(() => setShowText(true), 3500);
+    
+    // Hide subHeading, reset animation, then show tagLine
+    setTimeout(() => {
+      setActiveText(null);
+      setTextAnimate(false);
+    }, 3500);
+    
+    setTimeout(() => {
+      setActiveText("tagline");
+      setTextAnimate(true);
+    }, 3510);
+    
+    // Hide tagLine before video starts
+    setTimeout(() => setActiveText(null), 6500);
+    
     setTimeout(() => setZoomOut(true), 5200);
     setTimeout(() => setShowVideo(true), 7000);
   }, []);
@@ -107,19 +124,15 @@ export default function SplashHero() {
 
       {/* 🔹 TEXT */}
       <div className={`splash-text ${showText ? "show" : ""}`}>
-        <p className="tagline animate-item">{data.text.subHeading}</p>
+        {activeText === "subheading" && (
+          <p className={`tagline animate-item ${textAnimate ? "animate" : ""}`}>{data.text.subHeading}</p>
+        )}
 
-        <h1 className="heading heading-title animate-item">
-          <span className="underline">{data.text.underlineHeading}</span> {data.text.heading}
-        </h1>
-
-        <p className="tagline animate-item">
-          {data.text.tagLine}
-        </p>
-
-        <div className="arrow-overlay-splash animate-item">
-          <img src={data.images.arrow} className="!w-6 !h-6 md:!w-10 md:!h-10" alt="Up Arrow" loading="lazy" onError={(e) => console.log('Arrow icon load error:', e)} />
-        </div>
+        {activeText === "tagline" && (
+          <p className={`tagline animate-item ${textAnimate ? "animate" : ""}`}>
+            {data.text.tagLine}
+          </p>
+        )}
       </div>
 
       {/* 🔹 BACKGROUND VIDEO */}

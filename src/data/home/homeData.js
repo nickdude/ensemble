@@ -1,9 +1,9 @@
 const data = {
     splash: {
         text: {
-            subHeading: "inspiring tomorrow",
+            subHeading: "Inspiring tomorrow",
             underlineHeading: "SPACES",
-            heading: "FOR EXCELLENCE",
+            heading: "For Excellence",
             tagLine: "Future-ready spaces for thriving businesses",
         },
         images: {

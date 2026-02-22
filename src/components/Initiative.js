@@ -25,7 +25,7 @@ export default function Initiative({ theme }) {
           <h2 className="font-poppins text-[18px] md:text-[32px] font-medium md:font-semibold">
             {initiative.title}
           </h2>
-          <ul className="font-roboto text-sm md:text-xl font-light text-gray-600 list-disc list-inside leading-10">
+          <ul className="font-roboto text-sm md:text-xl font-light text-gray-600 list-disc list-outside leading-10">
             {initiative.items.map((item, index) => (
               <li key={index}>{item}</li>
             ))}

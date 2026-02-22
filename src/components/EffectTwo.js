@@ -28,7 +28,7 @@ export default function EffectTwo() {
 
     if (!mounted) return null;
   return (
-    <section className="relative min-h-[200vh]">
+    <section className="relative md:min-h-[200vh]">
   
         <div className="h-screen w-full">
             <div className="relative min-h-screen bg-brand-blue flex flex-col justify-center items-center gap-3 py-10 md:py-20 px-4 md:px-16 text-white overflow-hidden">
@@ -109,7 +109,7 @@ export default function EffectTwo() {
         </div>
 
         {/* Content scrolls */}
-        <div className={`relative z-10 h-[100vh] flex items-center ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} md:px-0`}>
+        <div className={`relative z-10 h-[80vh] md:h-[100vh] flex items-center ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'} md:px-0`}>
                 <OurInsights theme={theme}/>
         </div>
     </section>

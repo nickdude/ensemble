@@ -44,7 +44,7 @@ export default function ImageAndDescription({ title, image, description, right, 
                 <p className={`font-poppins font-light text-lg ${theme === 'dark' ? 'text-white' : 'text-black'} leading-relaxed w-[90%]`}>
                 {description}
                 </p>
-                {team && <div className="flex gap-5 items-center">
+                {/* {team && <div className="flex gap-5 items-center">
                     <Image src={team.image} alt="CEO Image" width={60} height={60} className="rounded-full"/>
                     <div className="flex flex-col gap-2">
                         <p className="font-poppins text-black font-medium text-base">
@@ -52,7 +52,7 @@ export default function ImageAndDescription({ title, image, description, right, 
                         </p>
                         <p className="font-poppins text-[#6C6C6C] font-normal text-xs">{team.position}</p>
                     </div>
-                </div>}
+                </div>} */}
             </div>
    
     </section>

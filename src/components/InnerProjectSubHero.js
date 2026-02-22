@@ -28,7 +28,7 @@ export default function   InnerProjectSubHero({slug}) {
                 />
         
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-black/30 to-transparent" />
         
                 {/* Content */}
                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-10">

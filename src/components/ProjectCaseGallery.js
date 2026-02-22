@@ -95,7 +95,7 @@ export default function ProjectCaseGallery() {
         </div>
 
         {/* ROW 4 — Testimonial + Image */}
-        <div className="col-span-1 md:col-span-6 relative rounded-xl p-4 md:p-24 flex flex-col gap-8">
+        {/* <div className="col-span-1 md:col-span-6 relative rounded-xl p-4 md:p-24 flex flex-col gap-8">
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-10">
                 <Image
                     src={projectData.authorImage}
@@ -116,9 +116,9 @@ export default function ProjectCaseGallery() {
                 {projectData.authorSays}
                 </p>
             </div>
-        </div>
+        </div> */}
 
-        <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
+        {/* <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
           {gallery[4]?.image && (
             <Image
               src={gallery[4].image}
@@ -128,7 +128,7 @@ export default function ProjectCaseGallery() {
               className="object-cover w-full h-full"
             />
           )}
-        </div>
+        </div> */}
 
       </div>
     </section>

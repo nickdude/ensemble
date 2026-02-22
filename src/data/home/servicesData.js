@@ -34,7 +34,7 @@ const data = {
             ],
           },
           general : {
-            img: "/assets/services/general.jpg",
+            img: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+1+black+Wall.jpg",
             title: "General",
             break: "Contracting",
             description: "As a GC contractor, we specialize in Civil and Interior, Mechanical, Electrical, and Plumbing (MEP) works. We ensure seamless project execution and deliver world-class fit-outs within timelines",

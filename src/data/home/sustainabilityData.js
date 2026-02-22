@@ -2,7 +2,7 @@ export const sustainabilityData = {
     sustainabilityHero: {
         title: "Sustainability at the Core",
         subtitle: "Where Timeless Design Meets Environmental Responsibility. Together, We Create Spaces That Not Only Inspire but Also Care for the Planet.",
-        image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Sustainability/frame458.webp"
+        image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Sustainability/Untitled+design+(77).webp"
     },
 
     designAndBuild: {

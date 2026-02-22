@@ -51,18 +51,18 @@ export const aboutUsData = {
             },
             {
                 icon: "/assets/awards/award2.svg",
-                title: "Excellence in Interior Design",
-                description: "Acknowledged for outstanding interior design work in the \"Luxury Haven Hotel\" project."
+                title: "Global Design Challenge",
+                description: "Awarded for winning the international design competition with the groundbreaking concept for the \"Cultural Nexus\" project."
             },
             {
                 icon: "/assets/awards/award3.svg",
-                title: "Excellence in Interior Design",
-                description: "Acknowledged for outstanding interior design work in the \"Luxury Haven Hotel\" project."
+                title: "Architect of the Year",
+                description: "Named Architect of the Year for consistently delivering innovative and aesthetically pleasing designs across various projects."
             },
             {
                 icon: "/assets/awards/award4.svg",
                 title: "Excellence in Interior Design",
-                description: "Acknowledged for outstanding interior design work in the \"Luxury Haven Hotel\" project."
+                description: "Awarded for outstanding design and craftsmanship on the \"Modern Oasis Residence.\""
             }
         ]
     },

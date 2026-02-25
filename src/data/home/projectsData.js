@@ -87,7 +87,7 @@ const data = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+2+View+2.jpg",
                 title: "Viacom 18",
-                location: "-",
+                location: "Mumbai",
                 variant: "wide",
                 slug: "project-9",
                 area: "2,00,000 sq. ft.",
@@ -97,7 +97,7 @@ const data = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cwrks/3981-COWRKS-1.jpg",
                 title: "Cowrks",
-                location: "-",
+                location: "Bengaluru",
                 slug: "project-10",
                 area: "25,000 sq. ft.",
                 service: "Design & Build",
@@ -106,7 +106,7 @@ const data = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Reception+1.jpg",
                 title: "IGT Solutions",
-                location: "-",
+                location: "Bengaluru",
                 slug: "project-11",
                 area: "25,0000 sq. ft.",
                 service: "Design & Build",
@@ -115,7 +115,7 @@ const data = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_01_01.jpg",
                 title: "Meenakshi Hospitals",
-                location: "-",
+                location: "Madurai",
                 slug: "project-12",
                 area: "3,00,0000 sq ft.",
                 service: "Design Consultancy",
@@ -486,7 +486,7 @@ const data = {
         "project-12": {
             hero: {
                 title: "Meenakshi Hospitals",
-                location: "Madurai ",
+                location: "Madurai",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_01_01.jpg",
             },
             details: {
@@ -494,7 +494,7 @@ const data = {
                 client: "Meenakshi Hospitals",
                 category: "Office Space",
                 projectSize: "Large Scale",
-                location: "Madurai ",
+                location: "Madurai",
                 clientVision: "Meenakshi Hospitals aimed to create efficient administrative workspaces integrated within a healthcare environment.",
                 problem: "Designing office spaces that align with hospital operations and regulatory requirements.",
                 solution: "Ensemble delivered a functional, compliance-friendly design consultancy solution.",

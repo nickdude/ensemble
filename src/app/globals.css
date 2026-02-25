@@ -134,7 +134,7 @@ html {
 }
 
 .animate-scroll-slow {
-  animation: scroll 20s linear infinite;
+  animation: scroll 70s linear infinite;
 }
 
 .mask-fade-horizontal {

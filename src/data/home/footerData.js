@@ -13,6 +13,10 @@ export const footerData = {
       label: "Services",
       href: "/services",
     },
+    {
+      label: "Sustainability",
+      href: "/sustainability",
+    }
   ],
 
   // Secondary Navigation Links - Column 2
@@ -29,6 +33,10 @@ export const footerData = {
       label: "Contact Us",
       href: "/contactus",
     },
+    {
+      label: "News",
+      href: "/news",
+    }
   ],
 
   // Social Media Links

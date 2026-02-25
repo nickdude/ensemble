@@ -6,6 +6,23 @@ import "./SplashHero.css";
 import Navbar from "./Navbar";
 import homeData from "@/data/home/homeData";
 
+// Inline style for overlay fade (can move to CSS file if preferred)
+const overlayFadeStyles = `
+.splash-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  transition: background 20.2s cubic-bezier(0.4,0,0.2,1);
+}
+.splash-gradient-overlay.dark {
+  background: #000 !important;
+}
+.splash-gradient-overlay.light {
+  background: linear-gradient(180deg,rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.2) 100%);
+}
+`;
+
 export default function SplashHero() {
   const videoRef = useRef(null);
   const sectionRef = useRef(null);
@@ -18,6 +35,14 @@ export default function SplashHero() {
   const [activeText, setActiveText] = useState("subheading"); // Start with subheading
   const [textAnimate, setTextAnimate] = useState(true); // Start animated
   const [isVisible, setIsVisible] = useState(true); // Track visibility
+
+  // Overlay fade state
+  const [overlayLight, setOverlayLight] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setOverlayLight(true), 20); // Start fade almost immediately
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     setTimeout(() => setPauseTrail(true), 3000);
@@ -67,11 +92,14 @@ export default function SplashHero() {
 
   return (
     <section className="splash-root" ref={sectionRef}>
+      {/* Inject overlay fade styles */}
+      <style>{overlayFadeStyles}</style>
       <Navbar transparent />
 
       {/* 🔹 MARQUEE TRAILS */}
       {!zoomOut && (
         <div className={`marquee-wrapper ${pauseTrail ? "paused fade-up" : ""}`}>
+          {/* ...existing code... */}
           <div className="marquee-band top">
             <div className="marquee left">
               {data.images.marqueeTop.map((img, index) => (
@@ -85,7 +113,6 @@ export default function SplashHero() {
               ))}
             </div>
           </div>
-
           <div className="marquee-band middle">
             <div className="marquee right">
               {data.images.marqueeMiddle.map((img, index) => (
@@ -99,7 +126,6 @@ export default function SplashHero() {
               ))}
             </div>
           </div>
-
           <div className="marquee-band bottom">
             <div className="marquee left">
               {data.images.marqueeBottom.map((img, index) => (
@@ -129,8 +155,10 @@ export default function SplashHero() {
         </div>
       )}
 
-      {/* GRADIENT */}
-      <div className="splash-gradient-overlay" />
+      {/* GRADIENT OVERLAY FADES FROM BLACK TO LIGHT */}
+      <div
+        className={`splash-gradient-overlay ${overlayLight ? "light" : "dark"}`}
+      />
 
       {/* 🔹 TEXT */}
       <div className={`splash-text ${showText ? "show" : ""}`}>

@@ -32,7 +32,7 @@ export default function InquiryForm(){
                     </div>
                     <p>{offices[0].email}</p>
                 </div>
-                 <div className="py-10 md:py-0 md:px-20 md:border-l border-t border-[#F6F6F8]">
+                 <div className="py-10 md:py-0 md:px-20 md:border-l border-t md:border-t-0  border-[#F6F6F8]">
                     <h1 className="font-semibold text-[32px] mb-6">{inquiryForm.title}</h1>
                 
                     {state.succeeded ? (

@@ -29,7 +29,7 @@ export default function FourPointSection({ details }) {
                 <div className=" flex flex-col md:grid md:grid-cols-4 md:gap-8">
                     {details?.points.map((point, index) => (
                         <div key={index} className="flex flex-col pt-10 ">
-                            <Image src="/assets/icons/tick.svg" alt="arrow" width={20} height={20} />
+                            {/* <Image src="/assets/icons/tick.svg" alt="arrow" width={20} height={20} /> */}
                             <h2 className="font-roboto font-medium text-xl leading-[48px]">{point.title}</h2>
                             <p className="font-roboto text-lg leading-[26.5px] text-gray-600">{point.description}</p>
                         </div>

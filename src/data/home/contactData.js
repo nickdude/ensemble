@@ -1,7 +1,7 @@
 export const contactData = {
     offices: [
         {
-            section: "Our Office",
+            section: "Our Offices",
             locations: [
                 {
                     name: "Mumbai",

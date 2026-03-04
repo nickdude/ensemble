@@ -84,7 +84,7 @@ export default function MenuOverlay({ theme, onClose }) {
           )}
 
           {/* Contact Button */}
-          <Link href="/contact">
+          <Link href="/contactus">
             <button className={`mt-10 md:mt-12 px-8 md:px-10 py-3 ${theme === "dark" ? "bg-white text-black" : "bg-black text-white"} rounded-md tracking-widest`}>
               CONTACT
             </button>

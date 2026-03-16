@@ -3,9 +3,9 @@
 import Image from "next/image"
 import Link from "next/link";
 
-export default function NewsCard({ slug, title, image, date }){
+export default function NewsCard({ slug, title, image, date, link }){
     return(
-        <Link href={`/news/${slug}`} className="group cursor-pointer">
+        <Link href={link} className="group cursor-pointer">
             <div className="rounded-lg md:relative md:h-[455px] flex flex-col md:block">
                 <div className="relative h-[260px] md:h-full w-full">
                     <Image src={image} alt={slug} fill className="object-cover rounded-lg" />

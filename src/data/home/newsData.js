@@ -11,24 +11,28 @@ const data = {
                 title: "In recent years, mental health has become a priority across many workplaces.",
                 image: "https://etedge-insights.com/wp-content/uploads/2023/10/shutterstock_466292177.jpg",
                 date: "1 June 2025",
+                link: "https://etedge-insights.com/featured-insights/people-and-organizations/the-quiet-power-of-a-well-designed-workplace/"
             },
             {
                 slug: "Sustainability Is No Longer the Pitch, It’s the Project",
                 title: "Industries and individuals today are looking beyond design aesthetics, and seeking spaces that reflect purpose, performance, shaping our shared future.",
                 image: "https://indiacsr.in/wp-content/uploads/2025/05/sustainable-architecture-building.jpg",
                 date: "20 May 2025",
+                link: "https://indiacsr.in/sustainability-is-no-longer-the-pitch-its-the-project/"
             },
             {
                 slug: "When your office becomes your silent Co- Founder",
                 title: "In technology companies, the breakthroughs that shape products and platforms are often the result of dozens of unseen decisions, some digital, some operational, and many physical.",
                 image: "/assets/news/detail_news1.jpg",
                 date: "12 Jan 2026",
+                link: "https://online.fliphtml5.com/uwuij/qpvu/"
             },
             {
                 slug: "GCCs and India’s economic shift: Why tier-2 cities are the next big bet",
                 title: "India’s Global Capability Centres (GCCs) have evolved from cost-driven back-office functions into strategic hubs for business transformation.",
                 image: "https://etedge-insights.com/wp-content/uploads/2021/03/GCC.jpg",
                 date: "22 March 2025",
+                link: "https://etedge-insights.com/featured-insights/gccs-and-indias-economic-shift-why-tier-2-cities-are-the-next-big-bet/"
             },
         ],
     },

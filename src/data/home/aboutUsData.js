@@ -39,7 +39,6 @@ export const aboutUsData = {
             image: "/assets/aboutus/vision.jpg"
         }
     },
-
     awardAndRecognitions: {
         title: "Awards & Recognitions",
         subtitle: "A Legacy of Success: Celebrating Our Journey in Design Excellence",
@@ -66,7 +65,6 @@ export const aboutUsData = {
             }
         ]
     },
-
     ourTeam: {
         title: "Our Team",
         description: "The Skill & Soul Behind Our Projects. Meet the talented designers, planners, and technologists who bring innovative visions to life.",

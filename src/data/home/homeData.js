@@ -28,7 +28,7 @@ const data = {
             arrow: "/assets/icons/up_arrow.svg",
         },
         video: {
-            src: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Website+Video+2026.mp4",
+            src: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Pre-Loader+Video+Final+mp4.mp4",
             type: "video/mp4",
         },
     },

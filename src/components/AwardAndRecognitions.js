@@ -20,10 +20,19 @@ export default function AwardAndRecognitions(){
             <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
                 {awardAndRecognitions.cards.map((card, index) => (
                     <div key={index} className={`flex flex-col items-center justify-between h-[315px] w-full md:w-[311px] ${theme === 'dark' ? 'bg-gray-900' : 'bg-[#f6f6f6]'} justify-center gap-3 rounded-lg`}>
-                        <Image src={card.icon} alt={card.title} width={48} height={48} className={`${theme === 'dark' ? 'invert' : ''}`}/>
+                        {/* <Image src={card.icon} alt={card.title} width={48} height={48} className={`${theme === 'dark' ? 'invert' : ''}`}/>
                         <div className="flex items-center flex-col">
                              <h1 className="font-roboto font-medium text-xl">{card.title}</h1>
                              <p className={`font-roboto text-lg  ${theme === 'dark' ? 'text-white' : 'text-gray-600'} text-center mt-5`}>{card.description}</p>
+                        </div> */}
+                        <div className="flex items-center flex-col justify-start">
+                            <div className="flex flex-col items-center justify-between h-18">
+                                <Image src={card.icon} alt={card.title} width={48} height={48} className={`${theme === 'dark' ? 'invert' : ''}`}/>
+                                <h1 className="font-roboto font-medium text-xl">{card.title}</h1>
+                            </div>
+                            <div className="h-28">
+                                 <p className={`font-roboto text-lg  ${theme === 'dark' ? 'text-white' : 'text-gray-600'} text-center mt-5`}>{card.description}</p> 
+                            </div>
                         </div>
                     </div>
                 ))}

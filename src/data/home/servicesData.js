@@ -1,7 +1,7 @@
 const data = {
         ourServiceHero: {
             label: "Our Services",
-            heading: "Innovative Services for your Projects",
+            heading: "Integrated Excellence. Designed to Endure.",
             description: "End-to-end solutions by blending design excellence with technical expertise. With a client-first approach, we create functional, inspiring spaces that exceed expectations through creativity, technology.",
             image: "/assets/our_service_hero.jpg",
         },

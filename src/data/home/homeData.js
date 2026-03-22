@@ -7,7 +7,7 @@ const data = {
             tagLine: "Future-ready spaces for thriving businesses",
         },
         images: {
-            mainImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Screenshot+2026-03-16+at+3.25.48%E2%80%AFPM.png",
+            mainImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/staircase+main+image+new+.png",
             marqueeTop: [
                 "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FCapitaland%2BBridge%252B%252C%2BChennai%2Fenvato-labs-image-edit%2B-%2B2026-01-27T150057.813.png&w=1920&q=75",
                 "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FCairn%2BEnergy%252C%2BGurugram%2FPicture2FGH.jpg&w=1920&q=75",
@@ -65,7 +65,7 @@ const data = {
         buttonLink: "/projects",
         projects: [
             {
-                title: "Capitaland Bridge+",
+                title: "Bridge+",
                 location: "Chennai",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
                 area: "25,000 sq.ft.",

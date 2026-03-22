@@ -1,12 +1,12 @@
 const data = {
         ourServiceHero: {
             label: "Our Services",
-            heading: "Integrated Excellence. Designed to Endure.",
-            description: "End-to-end solutions by blending design excellence with technical expertise. With a client-first approach, we create functional, inspiring spaces that exceed expectations through creativity, technology.",
-            image: "/assets/our_service_hero.jpg",
+            heading: "Integrated Excellence, Designed to Endure.",
+            description: "From concept to completion, we integrate design excellence with technical precision, creating spaces that perform, inspire, and exceed expectations.",
+            image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/Viacom+Staircase+1.png",
         },
           design : {
-            img: "/assets/services/design_con.jpg",
+            img: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/RPSG+2.jpg",
             title: "Design and",
             break: "Build",
             description: "Streamline your workspace transformation with our Design and Build service, integrating design and construction for efficient, cost-effective and seamless project delivery.",
@@ -23,7 +23,7 @@ const data = {
                 },
                 {
                     title: "Creative Expertise",
-                    description: "Delivering innovative, high-quality designs.",
+                    description: "Driving design innovation with uncompromising quality.",
                     icon: "/assets/icons/tick.svg"
                 },
                 {
@@ -34,7 +34,7 @@ const data = {
             ],
           },
           general : {
-            img: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+1+black+Wall.jpg",
+            img: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/Service+tcs+3+.jpg",
             title: "General",
             break: "Contracting",
             description: "As a GC contractor, we specialize in Civil and Interior, Mechanical, Electrical, and Plumbing (MEP) works. We ensure seamless project execution and deliver world-class fit-outs within timelines",
@@ -62,7 +62,7 @@ const data = {
             ],
           },
           build: {
-            img: "/assets/services/build.jpg",
+            img: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/Zydus+service+4.jpeg",
             title: "Design",
             break: "Consultancy",
             description: "Our Design Consultancy transforms ideas into innovative, functional workspaces that enhance productivity, employee satisfaction, and brand perception, delivering bespoke designs aligned with client needs.",
@@ -90,29 +90,29 @@ const data = {
             ],
           },
           base: {
-            img: "/assets/services/base.jpg",
+            img: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Services/zydus+5+top+down.png",
             title: "Base",
             break: "Build",
             description: "Base Build Finishing involves design, landscaping, and lighting, with attention to MEP and key areas such as the main lobby,lift lobby,toilets, food courts, and external spaces like the amphitheater.",
             points: [
                 {
-                    title: "Project Scoping",
-                    description: "Outline the scope and requirements of your project with precision.",
+                    title: " Unified Design Approach",
+                    description: "Integrated design across all spaces and landscapes.",
                     icon: "/assets/icons/tick.svg"
                 },
                 {
-                    title: "Outline Design & Planning",
-                    description: "Craft detailed designs and execution plans tailored to your needs.",
+                    title: "Systems-Aligned Delivery",
+                    description: "Design seamlessly aligned with MEP coordination.",
                     icon: "/assets/icons/tick.svg"
                 },
                 {
-                    title: "Project Management",
-                    description: "Ensure smooth project flow and on-time delivery.",
+                    title: "Landscape & Light Strategy",
+                    description: "Layered lighting and landscapes that elevate experience and identity.",
                     icon: "/assets/icons/tick.svg"
                 },
                 {
-                    title: "Design & Compliance",
-                    description: "Maintain strict adherence to design standards and regulatory compliance.",
+                    title: "Detail-Driven Craftsmanship",
+                    description: "Detailing that elevates base build into an enduring asset.",
                     icon: "/assets/icons/tick.svg"
                 }   
             ],

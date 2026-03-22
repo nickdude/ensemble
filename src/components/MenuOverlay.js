@@ -39,7 +39,7 @@ export default function MenuOverlay({ theme, onClose }) {
         <div className="hidden md:block w-[55%]">
           <div className="relative w-full h-full rounded-2xl overflow-hidden">
             <Image
-              src="/assets/aboutus/excellence.jpg"
+              src="https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/menu+image+.jpeg"
               alt="Menu Visual"
               fill
               className="object-cover"

@@ -224,21 +224,21 @@ const data = {
         title: "Our Services",
         services: [
             {
-                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Screenshot+2024-11-20+at+5.13.51%E2%80%AFPM+1.png",
+                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/home+services+gc.png",
                 img: "/assets/icons/construction.svg",
                 title: "General Contracting",
                 link: "/services",
                 description: "As a GC contractor, we specialize in Civil and Interior, Mechanical, Electrical, and Plumbing (MEP) works. We ensure seamless project execution and deliver world-class fit-outs within timelines"
             },
             {
-                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+18+cafeteria+View+3.jpg",
+                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/home+services+des.jpg",
                 img: "/assets/icons/consultancy.svg",
                 link: "/services",
                 title: "Design Consultancy",
                 description: "Our Design Consultancy transforms ideas into innovative, functional workspaces that enhance productivity, employee satisfaction, and brand perception, delivering bespoke designs aligned with client needs."
             },
             {
-                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8324-Edit.jpg",
+                bgImage:"https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/home+services+des+and+build+.jpg",
                 link: "/services",
                 img: "/assets/icons/build.svg",
                 title: "Design and Build",

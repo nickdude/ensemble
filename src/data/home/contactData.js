@@ -5,7 +5,7 @@ export const contactData = {
             locations: [
                 {
                     name: "Mumbai",
-                    address: "17th Floor, D wing, Trade World, Kamala Mills, Lower Parel,Mumbai, Maharashtra – 400013"
+                    address: "17th Floor, D wing, Trade World, Kamala Mills, Lower Parel, Mumbai, Maharashtra – 400013"
                 },
                 {
                     name: "Delhi",

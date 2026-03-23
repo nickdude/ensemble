@@ -33,7 +33,7 @@ const data = {
         },
     },
     subHero: {
-        title: "Ensemble, your Design & Build partner shaping the future of workspaces, translating business ambition into bespoke environments defined by precision, longevity, and impact.",
+        title: "Ensemble, your Design & Build partner shaping the future of workspaces, translating business ambition into bespoke environments defined by precision, resilience, and impact.",
         description: "Founded in 2001, Ensemble provides Design & Build, General Contracting, and Manufacturing services. From a modest 200 square feet for American Express, we now have over 1,000 projects and have transformed more than 4 million square feet.",
         buttonLabel: "KNOW MORE",
         buttonLink: "/aboutus",
@@ -41,11 +41,11 @@ const data = {
     countSection: {
         counts: [
             {
-                count: "23",
+                count: "24+",
                 label: "Years of Experience",
             },
             {
-                count: "1500+",
+                count: "1900+",
                 label: "Projects Executed",
             },
             {

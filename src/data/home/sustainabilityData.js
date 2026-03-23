@@ -34,7 +34,7 @@ export const sustainabilityData = {
 
     initiative: {
         title: "Sustainability Initiatives",
-        image: "/assets/sustainabilty/initiative.png",
+        image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Sustainability/Sustainability+3.jpg",
         items: [
             "To be carbon neutral for our footprint by 2029",
             "100% renewable electricity",
@@ -48,6 +48,6 @@ export const sustainabilityData = {
     efficiency: {
         title: "Efficiency Meets Sustainability",
         description: "At Ensemble, we focus on creating spaces that optimize energy use and reduce waste. By incorporating smart technologies, efficient systems, and sustainable practices, we ensure every project contributes to a greener, more sustainable future.",
-        image: "/assets/sustainabilty/efficiency.jpg"
+        image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Sustainability/Sustainability+4.jpg"
     }
 }

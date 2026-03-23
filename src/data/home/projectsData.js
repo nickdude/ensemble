@@ -2,7 +2,7 @@ const data = {
     projectHero: {
         label: "Projects",
         heading: "Transforming Ideas, Defining Spaces",
-        image: "/assets/project_subhero.jpg",
+        image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Project+Inner/Projects+main.png",
     },
     projectGallery: {
         heading: "Some of Our Projects",

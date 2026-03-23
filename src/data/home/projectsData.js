@@ -12,7 +12,7 @@ const data = {
         projects: [
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
-                title: "Capitaland Bridge+",
+                title: "Bridge+",
                 location: "Chennai ",
                 slug: "project-1",
                 area: "25,000 sq. ft.",

@@ -1,9 +1,9 @@
 export const aboutUsData = {
     aboutUsHero: {
         label: "About Us",
-        title: "We're Ensemble, The creative crafters behind architectural marvels.",
-        titleHighlight: "Where innovation meets blueprints, we shape dreams with passion and flair!",
-        image: "/assets/aboutus/hero.jpg",
+        title: "We’re Ensemble, the creative force behind exceptional workspaces.",
+        titleHighlight: "Where strategy meets design, we shape environments with purpose, precision, and passion!",
+        image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/about+us+zydus+1+.jpeg",
         sectionTitle: "Executing excellence",
         description: [
             "Workplaces and commercial spaces are today recognised as one of the key driving forces behind what your success vision stands for. At Ensemble, we bring the necessary expertise to execute that vision with excellence.",
@@ -13,7 +13,7 @@ export const aboutUsData = {
     imageAndDescription: {
         mission:{
             title: "Our Mission",
-            description: "To deliver thoughtfully designed and expertly executed workspaces through integrated solutions, strong governance, and a deep understanding of our clients’ evolving needs—ensuring consistency, quality, and certainty at every stage.",
+            description: "To deliver thoughtfully designed and expertly executed workspaces through integrated solutions, strong governance, and a deep understanding of our clients’ evolving needs, ensuring consistency, quality, and certainty at every stage.",
             image: "/assets/aboutus/our-mission.png",
             team: {
                 name: "Vikas Rathod",
@@ -31,12 +31,12 @@ export const aboutUsData = {
         exellence:{
             title: "Built on Experience. Driven by Excellence.",
             description: "Ensemble began its journey in 2001 with a simple belief: deliver spaces with integrity, precision, and purpose. What started as a modest fit-out project soon evolved into a long-term commitment to building environments that support how businesses grow and operate. Over the years, Ensemble has expanded its footprint and capabilities, establishing its headquarters in Mumbai and delivering over 20 million sq. ft. of workspaces across India. Today, we partner with some of the world’s most respected organizations bringing together design insight, execution expertise, and delivery certainty.",
-            image: "/assets/aboutus/excellence.jpg"
+            image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/about+us+viacom+2.jpg"
         },
         vision: {
             title: "Our Customers Vision",
             description: "Our client's vision drives everything we do. It pushes us to set higher standards and consistently deliver beyond expectations. As a relationship-focused organization, we build lasting partnerships founded on trust, transparency, and performance. The number of repeat engagements we earn reflects the confidence our clients place in us. We believe trust is built not by words, but by what we deliver.",
-            image: "/assets/aboutus/vision.jpg"
+            image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/about+us++zydus+3.jpeg"
         }
     },
     awardAndRecognitions: {

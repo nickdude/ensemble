@@ -31,7 +31,7 @@ const data = {
                 caseStudyLink: "projects/project-2",  
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/ZYDUS+AHMEDABAD+Lobby+View.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+main+1.png",
                 title: "Zydus",
                 location: "Ahmedabad",
                 slug: "project-3",
@@ -49,7 +49,7 @@ const data = {
                 caseStudyLink: "projects/project-4",   
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TCS+View+02.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-e(1)+(1).jpg",
                 title: "TCS",
                 location: "Mumbai",
                 slug: "project-5",
@@ -85,7 +85,7 @@ const data = {
                 caseStudyLink: "projects/project-8",
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+2+View+2.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture4.jpg",
                 title: "Jio Hotstar",
                 location: "Mumbai",
                 variant: "wide",
@@ -261,7 +261,7 @@ const data = {
             hero: {
                 title: "TCS",
                 location: "Mumbai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TCS+View+02.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-e(1)+(1).jpg",
             },
             details: {
                 area: "2,00,000 sq. ft.",
@@ -274,10 +274,10 @@ const data = {
                 solution: "Ensemble delivered structured execution aligned with TCS benchmarks for quality and compliance.",
             },
             gallery: [
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TCS+View+04.jpg", alt: "Project Exterior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_aa(1).jpg", alt: "Project Exterior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-a(1).jpg", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TATA-Consultancy-Services_Award-Announcement-Image-3_Photo-By-Michael-Moran-1280x854.jpg", alt: "Office Interior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-e(1)+(1).jpg", alt: "Workspace" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TATA-Consultancy-Services_Award-Announcement-Image-2_Photo-By-Michael-Moran-1280x854.jpg", alt: "Workspace" },
             ],
             challenges: "Strict compliance requirements, complex approvals, and coordination across multiple stakeholders.",
             approach: [
@@ -389,9 +389,9 @@ const data = {
         },
          "project-9": {
             hero: {
-                title: "Viacom 18",
+                title: "Jio Hotstar",
                 location: "Mumbai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+2+View+2.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture4.jpg",
             },
             details: {
                 area: "2,00,000 sq. ft.",
@@ -404,10 +404,10 @@ const data = {
                 solution: "Ensemble delivered a design consultancy solution focused on flexibility, collaboration, and creative flow.",
             },
             gallery: [
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture1.jpg", alt: "Project Exterior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture6.jpg", alt: "Construction" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+18+cafeteria+View+1.jpg", alt: "Office Interior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+1+black+Wall.jpg", alt: "Workspace" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture2.jpg", alt: "Project Exterior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture8.jpg", alt: "Construction" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture1.jpg", alt: "Office Interior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/vaicom+18+5.png", alt: "Workspace" },
             ],
             challenges: "Balancing creative expression with functional workplace requirements.",
             approach: [

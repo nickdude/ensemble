@@ -62,7 +62,7 @@ const data = {
                 title: "Cairn Energy",
                 location: "Gurugram",
                 slug: "project-6",
-                area: "50000 sq ft",
+                area: "1,00,000 sq ft",
                 service: "Design & Build",
                 caseStudyLink: "projects/project-6",
             },
@@ -86,12 +86,12 @@ const data = {
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+2+View+2.jpg",
-                title: "Viacom 18",
+                title: "Jio Hotstar",
                 location: "Mumbai",
                 variant: "wide",
                 slug: "project-9",
                 area: "2,00,000 sq. ft.",
-                service: "Design Consultancy",
+                service: "Build",
                 caseStudyLink: "projects/project-9",
             },
             {
@@ -100,7 +100,7 @@ const data = {
                 location: "Bengaluru",
                 slug: "project-10",
                 area: "25,000 sq. ft.",
-                service: "Design & Build",
+                service: "Build",
                 caseStudyLink: "projects/project-10",
             },
             {
@@ -126,7 +126,7 @@ const data = {
     projectDetail: {
         "project-1": {
             hero: {
-                title: "Capitaland Bridge+",
+                title: "Bridge+",
                 location: "Chennai",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
             },
@@ -195,7 +195,7 @@ const data = {
             hero: {
                 title: "Zydus",
                 location: "Ahmedabad",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/ZYDUS+AHMEDABAD+Lobby+View.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+main+1.png",
             },
             details: {
                 area: "9,00,000 sq. ft.",
@@ -208,10 +208,10 @@ const data = {
                 solution: "Ensemble executed the project through a robust general contracting model with phased delivery and strong project controls.",
             },
             gallery: [
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+AHMEDABAD+Chicago+Jazz+Bar+Workcafe.jpg", alt: "Project Exterior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+Reception+View+Opt+04.jpg", alt: "Construction" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/zydus+outdoor+stairs.jpeg", alt: "Project Exterior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/zydus+moat+", alt: "Construction" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/WhatsApp+Image+2024-12-30+at+12.35.53+PM.jpeg", alt: "Office Interior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+11th+Floor+Boardroom.jpg", alt: "Workspace" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/zydus+top+down+7.png", alt: "Workspace" },
             ],
             challenges: "Managing execution across a massive footprint while maintaining consistency, quality, and strict timelines.",
             approach: [

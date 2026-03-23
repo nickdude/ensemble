@@ -261,25 +261,25 @@ const data = {
         viewMoreLabel: "VIEW MORE",
         newsItems: [
             {
-                image: "https://etedge-insights.com/wp-content/uploads/2023/10/shutterstock_466292177.jpg",
-                title: "Workspaces RedefinedThe quiet power of a well-designed workplace",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/news+quiet+power+2.jpg",
+                title: "Workspaces Redefined: The quiet power of a well-designed workplace",
                 desc: "In recent years, mental health has become a priority across many workplaces.",
                 link: "https://etedge-insights.com/featured-insights/people-and-organizations/the-quiet-power-of-a-well-designed-workplace/"
             },
             {
-                image: "https://indiacsr.in/wp-content/uploads/2025/05/sustainable-architecture-building.jpg",
-                title: "Sustainability Is No Longer the Pitch,It’s the Project",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/News+Sustainability+3.jpeg",
+                title: "Sustainability is no longer the pitch, it’s the project",
                 desc: "Industries and individuals today are looking beyond design aesthetics, and seeking spaces that reflect purpose, performance, shaping our shared future.",
                 link: "https://indiacsr.in/sustainability-is-no-longer-the-pitch-its-the-project/"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Screenshot+2026-02-15+at+3.58.39%E2%80%AFPM.png",
-                title: "When your office becomes your silent Co- Founder",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/news+cofounder+4+.png",
+                title: "When your office becomes your silent co-Founder",
                 desc: "In technology companies, the breakthroughs that shape products and platforms are often the result of dozens of unseen decisions, some digital, some operational, and many physical.",
                 link: "https://online.fliphtml5.com/uwuij/qpvu/"
             },
             {
-                image: "https://etedge-insights.com/wp-content/uploads/2021/03/GCC.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/News+GCC+5.jpg",
                 title: "GCCs and India’s economic shift: Why tier-2 cities are the next big bet",
                 desc: "India’s Global Capability Centres (GCCs) have evolved from cost-driven back-office functions into strategic hubs for business transformation.",
                 link: "https://etedge-insights.com/featured-insights/gccs-and-indias-economic-shift-why-tier-2-cities-are-the-next-big-bet/"

@@ -91,7 +91,7 @@ const data = {
                 variant: "wide",
                 slug: "project-9",
                 area: "2,00,000 sq. ft.",
-                service: "Build",
+                service: "General Contracting",
                 caseStudyLink: "projects/project-9",
             },
             {
@@ -100,7 +100,7 @@ const data = {
                 location: "Bengaluru",
                 slug: "project-10",
                 area: "25,000 sq. ft.",
-                service: "Build",
+                service: "General Contracting",
                 caseStudyLink: "projects/project-10",
             },
             {
@@ -395,11 +395,11 @@ const data = {
             },
             details: {
                 area: "2,00,000 sq. ft.",
-                client: "Viacom 18",
+                client: "Jio Hotstar",
                 category: "Office Space",
                 projectSize: "Large Scale",
                 location: "Mumbai",
-                clientVision: "Viacom18 aimed to create a dynamic, creative workspace reflecting its media-driven culture.",
+                clientVision: "Jio Hotstar aimed to create a dynamic, creative workspace reflecting its media-driven culture.",
                 problem: "Balancing creative expression with functional workplace requirements.",
                 solution: "Ensemble delivered a design consultancy solution focused on flexibility, collaboration, and creative flow.",
             },

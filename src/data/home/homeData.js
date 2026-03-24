@@ -67,7 +67,7 @@ const data = {
             {
                 title: "Bridge+",
                 location: "Chennai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png",
                 area: "25,000 sq.ft.",
                 service: "General Contracting",
                 caseStudyLink: "projects/project-1"
@@ -75,7 +75,7 @@ const data = {
             {
                 title: "Canon",
                 location: "Mumbai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8324-Edit.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8306.jpg",
                 area: "30,000 sq.ft.",
                 service: "Design & Build",
                 caseStudyLink: "projects/project-2"
@@ -83,18 +83,18 @@ const data = {
             {
                 title: "Zydus",
                 location: "Ahemdabad",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+AHMEDABAD+Chicago+Jazz+Bar+Workcafe.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+main+1.png",
                 area: "9,00,000 sq.ft.",
                 service: "General Contracting",
                 caseStudyLink: "projects/project-3"
             },
             {
-                title: "UST Global",
-                location: "Trivandrum",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST+G.jpg",
-                area: "2,50,000 sq.ft.",
-                service: "General Contracting ",
-                caseStudyLink: "projects/project-4"
+                title: "Jio Hotstar",
+                location: "Mumbai",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture4.jpg",
+                area: "2,00,000 sq.ft.",
+                service: "General Contracting",
+                caseStudyLink: "projects/project-9"
             },
         ],
     },

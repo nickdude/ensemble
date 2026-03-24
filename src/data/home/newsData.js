@@ -7,6 +7,13 @@ const data = {
     newsGallery: {
         newsItems: [
             {
+                slug: "From cubicles to culture hubs: The workspaces of 2025",
+                title: "From hybrid models to biophilic design, workplace design is constantly evolving to enhance creativity, collaboration, and well-being.",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/news+1+cubicles+to+culture+.jpg",
+                date: "16 March 2025",
+                link: "https://bestcolleges.indiatoday.in/news-detail/from-cubicles-to-culture-hubs-the-workspaces-of-2025-2628#:~:text=Workspaces%20are%20being%20reimagined%20with,adaptive%20reuse%20and%20modular%20construction"
+            },
+            {
                 slug: "The quiet power of a well-designed workplace",
                 title: "In recent years, mental health has become a priority across many workplaces.",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/news+quiet+power+2.jpg",
@@ -14,7 +21,7 @@ const data = {
                 link: "https://etedge-insights.com/featured-insights/people-and-organizations/the-quiet-power-of-a-well-designed-workplace/"
             },
             {
-                slug: "Sustainability Is No Longer the Pitch, It’s the Project",
+                slug: "Sustainability is no longer the pitch, it’s the project",
                 title: "Industries and individuals today are looking beyond design aesthetics, and seeking spaces that reflect purpose, performance, shaping our shared future.",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/News+Sustainability+3.jpeg",
                 date: "20 May 2025",
@@ -28,11 +35,25 @@ const data = {
                 link: "https://online.fliphtml5.com/uwuij/qpvu/"
             },
             {
+                slug: "Ensemble Infrastructure secures close to 500,000 sq. ft. project",
+                title: "Wins it in 90 Days, aims 50% FY26 Growth.",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/News+new+projects+6.jpg",
+                date: "16 May 2025",
+                link: "https://www.constructionweekonline.in/business/project-ensemble-infra"
+            },
+            {
                 slug: "GCCs and India’s economic shift: Why tier-2 cities are the next big bet",
                 title: "India’s Global Capability Centres (GCCs) have evolved from cost-driven back-office functions into strategic hubs for business transformation.",
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/News+GCC+5.jpg",
                 date: "22 March 2025",
                 link: "https://etedge-insights.com/featured-insights/gccs-and-indias-economic-shift-why-tier-2-cities-are-the-next-big-bet/"
+            },
+            {
+                slug: "Ensemble Infrastructure India: Creating Workspaces that Matter",
+                title: "Evolving work demands vibrant, healthy spaces. Since 2001, Mumbai-based Ensemble delivers productivity-driven design and build workplace solutions.",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/News+Inner/News+workspace+7.jpg",
+                date: "01 December 2019",
+                link: "https://www.siliconindia.com/special/vendor/ensemble-infrastructure-india-creating-workspaces-that-matter-cid-11540.html"
             },
         ],
     },

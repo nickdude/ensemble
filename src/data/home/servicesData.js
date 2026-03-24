@@ -118,7 +118,7 @@ const data = {
             ],
           },
           ourProjects: {
-            heading: "Some of Our Projects",
+            heading: "Our Projects",
             description: "Stay updated with our latest projects, press features, and industry insights.",
             buttonLabel: "VIEW ALL",
             buttonLink: "/projects",

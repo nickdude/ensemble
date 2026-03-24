@@ -175,9 +175,9 @@ const data = {
                 solution: "We delivered an integrated design and build solution, ensuring seamless alignment between design intent and execution.",
             },
             gallery: [
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8343.jpg", alt: "Project Exterior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/YKP_1209.jpg", alt: "Project Exterior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8387.jpg", alt: "Construction" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/YKP_1222.jpg", alt: "Office Interior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8397.jpg", alt: "Office Interior" },
                 { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8408.jpg", alt: "Workspace" },
             ],
             challenges: "Translating global design standards into a locally executable solution while maintaining cost and timeline certainty.",

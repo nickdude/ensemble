@@ -33,7 +33,7 @@ const data = {
         },
     },
     subHero: {
-        title: "Ensemble, your Design & Build partner shaping the future of workspaces, translating business ambition into bespoke environments defined by precision, resilience, and impact.",
+        title: "Ensemble Infrastructure turns business ambition into workspaces that think, adapt, and perform, built with precision to keep pace with evolving teams.",
         description: "Founded in 2001, Ensemble provides Design & Build, General Contracting, and Manufacturing services. From a modest 200 square feet for American Express, we now have over 1,000 projects and have transformed more than 4 million square feet.",
         buttonLabel: "KNOW MORE",
         buttonLink: "/aboutus",

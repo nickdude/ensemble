@@ -1,7 +1,7 @@
 export const sustainabilityData = {
     sustainabilityHero: {
         title: "Sustainability at the Core",
-        subtitle: "Where Timeless Design Meets Environmental Responsibility. Together, We Create Spaces That Not Only Inspire but Also Care for the Planet.",
+        subtitle: "Enduring design, grounded in responsibility crafting inspiring spaces that give back to the planet as much as they give to people.",
         image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Sustainability/16.webp"
     },
 

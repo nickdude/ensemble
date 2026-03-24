@@ -16,6 +16,10 @@ export const footerData = {
     {
       label: "Sustainability",
       href: "/sustainability",
+    },
+    {
+      label: "CSR Report",
+      href: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/CSR-Report.pdf",
     }
   ],
 
@@ -36,6 +40,10 @@ export const footerData = {
     {
       label: "News",
       href: "/news",
+    },
+    {
+      label: "Annual Return",
+      href: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Annual-Return.pdf",
     }
   ],
 

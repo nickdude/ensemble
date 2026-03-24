@@ -11,7 +11,7 @@ const data = {
         buttonLink: "/projects",
         projects: [
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png",
                 title: "Bridge+",
                 location: "Chennai ",
                 slug: "project-1",
@@ -69,7 +69,7 @@ const data = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/RPSG%2C+Kolkata/RPSG+2.jpg",
                 title: "RPSG",
-                location: "kolkata",
+                location: "Kolkata",
                 slug: "project-7",
                 area: "50,000 sq. ft.",
                 service: "General Contracting",
@@ -128,7 +128,7 @@ const data = {
             hero: {
                 title: "Bridge+",
                 location: "Chennai",
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg",
             },
             details: {
                 area: "25,000 sq ft",
@@ -141,11 +141,11 @@ const data = {
                 solution: "Ensemble managed end-to-end general contracting, focusing on execution precision, quality finishes, and efficient coordination across trades.",
             },
             gallery: [
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186621.jpg", alt: "Project Exterior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301186825.jpg", alt: "Construction" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png", alt: "Office Interior" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/SAN_3763.JPG", alt: "Workspace" },
-                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/SAN_3763.JPG", alt: "Workspace" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/p1.png", alt: "Project Exterior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/office-interiors-17.jpg", alt: "Construction" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/1710301167191.jpg", alt: "Office Interior" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png", alt: "Workspace" },
+                { image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png", alt: "Workspace" },
             ],
             challenges: "Delivering a high-quality workspace within a tight timeline, while coordinating multiple stakeholders and ensuring seamless execution across all zones.",
             approach: [

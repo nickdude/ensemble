@@ -10,7 +10,7 @@ export default function InquiryForm(){
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const { offices, inquiryForm } = contactData;
-    const [state, handleSubmit] = useForm("xvzbavor");
+    const [state, handleSubmit] = useForm("maqdornk");
 
     useEffect(() => setMounted(true), []);
 

@@ -314,7 +314,7 @@ const data = {
     },
     effectTwo: {
         heading: "What our clients say",
-        description: "Stay updated with our latest projects, press features, and industry insights.",
+        description: "Enduring partnerships, shaped through consistent delivery.",
         testimonials: [
             {
                 quote: "Ensemble has carried out our corporate office works within the scheduled time frame allotted and largely to our satisfaction. We feel the company is well equipped and has the resources to take on such large assignments and deliver them successfully.",

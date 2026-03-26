@@ -52,19 +52,19 @@ export const footerData = {
     {
       name: "Facebook",
       icon: "facebook",
-      url: "https://www.facebook.com/ensembledesignstudio",
+      url: "https://www.facebook.com/ensembleinfra",
       ariaLabel: "Facebook",
     },
     {
       name: "LinkedIn",
       icon: "linkedin",
-      url: "https://www.linkedin.com/company/ensemble-design-studio",
+      url: "https://www.linkedin.com/company/ensemble-design-build/?viewAsMember=true",
       ariaLabel: "LinkedIn",
     },
     {
       name: "Instagram",
       icon: "instagram",
-      url: "https://www.instagram.com/ensembledesignstudio",
+      url: "https://www.instagram.com/ensemble_infrastructure?igsh=ZzhsMGRhYzNyeDFw",
       ariaLabel: "Instagram",
     }
   ],

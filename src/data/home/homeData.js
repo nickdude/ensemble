@@ -194,7 +194,6 @@ const data = {
     "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/l+and+t.png",
     "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/Linkedin.png",
     "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/Maersk.png",
-    "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/Mahindra-white.png",
     "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/Mahindra.png",
     "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/Morgan.png",
     "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/Brand+Logos/B+%26+W+Logo/Msd.png",

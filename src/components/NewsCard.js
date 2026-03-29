@@ -14,9 +14,9 @@ export default function NewsCard({ slug, title, image, date, link }){
                     <div className="relative z-10 mt-4 md:mt-0 text-[#6C6C6C] md:text-white rounded-md px-4 md:px-0 w-full md:w-[350px] md:absolute md:bottom-10 md:left-10">
                         <p className="font-bricolage font-normal text-xs text-[#6C6C6C] md:text-white ">{date}</p>
                         <h1 className="font-bricolage text-black md:text-white text-xl">{slug}</h1>
-                        <div className="arrow-overlay-news hidden md:block">
+                        {/* <div className="arrow-overlay-news hidden md:block">
                             <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
-                        </div>
+                        </div> */}
                         <p className="font-bricolage font-normal text-xs text-[#6C6C6C] md:text-white ">{title}</p>
                     </div>
             </div>  

@@ -12,9 +12,9 @@ export default function ProjectCardSample({image, title, location,  area, servic
       <div className="overlay overlay-default">
         <div className="title-box">
           <h2 className="font-poppins text-[30px] md:text-[62px]">{title}</h2>
-          <div className="arrow-overlay">
+          {/* <div className="arrow-overlay">
               <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
-          </div>
+          </div> */}
           <p className="font-bricolage font-semibold text-[16px]">{location}</p>
         </div>
       </div>

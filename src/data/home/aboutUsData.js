@@ -73,7 +73,7 @@ export const aboutUsData = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/vikasrathod1.webp",
                 name: "Vikas Rathod",
-                position: "Vice Chairman | MD"
+                position: "MD & CEO"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",

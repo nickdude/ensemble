@@ -25,16 +25,17 @@ export default function OurProjects({}) {
                     </div>
                     <div className="flex overflow-x-auto scrollbar-hide md:items-center md:relative md:h-[520px] gap-3 w-full md:w-auto px-4 md:px-0">
                         {data.projects.map((project, index) => (
-                          <ProjectCardSample
-                            key={index}
-                            image={project.image}
-                            title={project.title}
-                            location={project.location}
-                            slug={project.slug}
-                            area={project.area}
-                            service={project.service}
-                            caseStudyLink={project.caseStudyLink}
-                          />
+                          <div key={index} className="project-card-sample-scroll">
+                            <ProjectCardSample
+                              image={project.image}
+                              title={project.title}
+                              location={project.location}
+                              slug={project.slug}
+                              area={project.area}
+                              service={project.service}
+                              caseStudyLink={project.caseStudyLink}
+                            />
+                          </div>
                         ))}
                     </div>
                     

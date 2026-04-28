@@ -5,6 +5,28 @@
   cursor: pointer;
 }
 
+.project-card-sample-grid {
+  width: 100%;
+  height: 50vh;
+}
+
+.project-card-sample-scroll {
+  width: 90vw;
+  height: 50vh;
+  flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .project-card-sample-grid {
+    height: 33vw;
+  }
+
+  .project-card-sample-scroll {
+    width: 33.3vw;
+    height: 33vw;
+  }
+}
+
 .card img {
   width: 100%;
   height: 100%;

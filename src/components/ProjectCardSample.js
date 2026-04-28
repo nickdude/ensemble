@@ -1,11 +1,10 @@
-import Image from "next/image";
 import "./ProjectCardSample.css"
 
 export default function ProjectCardSample({image, title, location,  area, service, viewCaseStudy}) {
   return (
-   <div className="card bg-red-300 h-[50vh] md:h-[33vw] w-[33vw] md:w-[33.3vw] flex-shrink-0 relative cursor-pointer w-[90vw]">
-      <div className="relative w-full h-full">
-        <img src={image} alt="Project Image" />
+   <div className="card bg-red-300 shrink-0 relative cursor-pointer">
+      <div className="absolute inset-0">
+        <img className="w-full h-full object-cover" src={image} alt="Project Image" />
         <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
       </div>
 

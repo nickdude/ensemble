@@ -30,7 +30,7 @@ export const aboutUsData = {
     imageDescription: {
         exellence:{
             title: "Built on Experience. Driven by Excellence.",
-            description: "Ensemble began its journey in 2001 with a simple belief: deliver spaces with integrity, precision, and purpose. What started as a modest fit-out project soon evolved into a long-term commitment to building environments that support how businesses grow and operate. Over the years, Ensemble has expanded its footprint and capabilities, establishing its headquarters in Mumbai and delivering over 20 million sq. ft. of workspaces across India. Today, we partner with some of the world’s most respected organizations bringing together design insight, execution expertise, and delivery certainty.",
+            description: "Ensemble began its journey in 2003 with a simple belief: deliver spaces with integrity, precision, and purpose. What started as a modest fit-out project soon evolved into a long-term commitment to building environments that support how businesses grow and operate. Over the years, Ensemble has expanded its footprint and capabilities, establishing its headquarters in Mumbai and delivering over 20 million sq. ft. of workspaces across India. Today, we partner with some of the world’s most respected organizations bringing together design insight, execution expertise, and delivery certainty.",
             image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/about+us+viacom+2.jpg"
         },
         vision: {

@@ -10,6 +10,15 @@ import {
   // avenir,
 } from "./fonts";
 
+export const metadata = {
+  title: "ensemble",
+  description: "Future-ready spaces for thriving businesses",
+
+  verification: {
+    google: "7DAAeGYXuBPrZpEit4DLdvma7LDe7FBBpDem2CwyIq8",
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>

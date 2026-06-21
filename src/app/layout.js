@@ -10,6 +10,7 @@ import {
   // avenir,
 } from "./fonts";
 import { SITE_URL } from "@/lib/seo";
+import StructuredData from "@/components/seo/StructuredData";
 
 export const metadata = {
   // Resolves all relative canonical / Open Graph URLs to the production origin.
@@ -54,6 +55,9 @@ export default function RootLayout({ children }) {
           ${bricolage.variable}
         `}
       >
+        {/* Server-rendered Schema.org JSON-LD (Organization, WebSite,
+            page-specific schema and BreadcrumbList) for the current route. */}
+        <StructuredData />
         <Providers>
           <Navbar />
           {children}

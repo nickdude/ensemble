@@ -10,7 +10,11 @@ import {
   // avenir,
 } from "./fonts";
 import { SITE_URL } from "@/lib/seo";
+import { staticDescription } from "@/lib/seo/descriptions";
 import StructuredData from "@/components/seo/StructuredData";
+
+// Manually-maintained home-page meta description (lib/seo/descriptions).
+const HOME_DESCRIPTION = staticDescription("/");
 
 export const metadata = {
   // Resolves all relative canonical / Open Graph URLs to the production origin.
@@ -19,7 +23,7 @@ export const metadata = {
     default: "Ensemble Infrastructure | Design & Build Construction",
     template: "%s | Ensemble Infrastructure",
   },
-  description: "Future-ready spaces for thriving businesses",
+  description: HOME_DESCRIPTION,
   // Default self-referencing canonical for the home page ("/").
   // Every child route overrides this with its own canonical.
   alternates: {
@@ -30,7 +34,7 @@ export const metadata = {
     type: "website",
     url: "/",
     title: "Ensemble Infrastructure | Design & Build Construction",
-    description: "Future-ready spaces for thriving businesses",
+    description: HOME_DESCRIPTION,
   },
 
   verification: {

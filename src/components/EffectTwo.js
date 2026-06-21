@@ -34,9 +34,9 @@ export default function EffectTwo() {
             <div className="relative min-h-screen bg-brand-blue flex flex-col justify-center items-center gap-3 py-10 md:py-20 px-4 md:px-16 text-white overflow-hidden">
       
                 {/* Heading */}
-                <h1 className="font-poppins font-medium text-[28px] md:text-[64px]">
+                <h2 className="font-poppins font-medium text-[28px] md:text-[64px]">
                     {data.heading}
-                </h1>
+                </h2>
 
                 <p className="font-avenir font-light text-base text-lg text-center">
                     {data.description}
@@ -88,9 +88,9 @@ export default function EffectTwo() {
                         className="min-w-[85vw] md:min-w-[774px] h-[412px] border-[0.3px] border-white
                                     rounded-lg p-10 flex flex-col justify-between bg-transparent"
                         >
-                        <h1 className="font-poppins text-base md:text-2xl text-gray-250">
+                        <h3 className="font-poppins text-base md:text-2xl text-gray-250">
                             "{testimonial.quote}"
-                        </h1>
+                        </h3>
 
                         <div>
                             <p className="font-bricolage font-extralight text-white">

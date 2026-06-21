@@ -27,7 +27,7 @@ export default function AboutUsHero(){
                 </div>
                 <div className="flex flex-col w-full mt-16">
                     <div className="text-left">
-                        <h1 className="font-poppins font-medium text-[32px] md:text-[42px]">{aboutUsHero.sectionTitle}</h1>
+                        <h2 className="font-poppins font-medium text-[32px] md:text-[42px]">{aboutUsHero.sectionTitle}</h2>
                     </div>
                     <div className="font-avenir font-light text-lg w-[100%] md:w-[55%] flex flex-col items-end">
                         {aboutUsHero.description.map((para, index) => (

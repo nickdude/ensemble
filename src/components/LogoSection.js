@@ -18,7 +18,7 @@ export default function LogoSection() {
   return (
     <section className={`relative w-full border-b flex flex-col items-center py-20 ${theme === 'dark' ? 'bg-black text-white border-gray-800' : 'bg-white text-black border-gray-300'} overflow-hidden`}>
       
-      <h1 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal mb-15 px-4 md:px-16">{data.title}</h1>
+      <h2 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal mb-15 px-4 md:px-16">{data.title}</h2>
 
       <div className="w-full overflow-hidden">
         <div className="mask-fade-horizontal">

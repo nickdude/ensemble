@@ -19,7 +19,7 @@ export default function InquiryForm(){
         <section className={`py-20 px-4 md:px-16 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
             <div className="flex flex-col justify-center md:grid md:grid-cols-[50%50%]">
                 <div className="font-inter flex items-center md:items-start flex-col gap-4 text-center md:text-left pb-10 md:pb-0">
-                    <h1 className="font-semibold text-[32px]">{offices[0].section}</h1>
+                    <h2 className="font-semibold text-[32px]">{offices[0].section}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                         {offices[0].locations.map((location, index) => (
                             <div key={index}>
@@ -33,7 +33,7 @@ export default function InquiryForm(){
                     <p>{offices[0].email}</p>
                 </div>
                  <div className="py-10 md:py-0 md:px-20 md:border-l border-t md:border-t-0  border-[#F6F6F8]">
-                    <h1 className="font-semibold text-[32px] mb-6">{inquiryForm.title}</h1>
+                    <h2 className="font-semibold text-[32px] mb-6">{inquiryForm.title}</h2>
                 
                     {state.succeeded ? (
                         <div className="p-6 rounded-lg bg-green-50 border border-green-200">

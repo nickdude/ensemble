@@ -35,9 +35,9 @@ export default function ImageDescription({ title, description, image, right = fa
           right ? "pr-0 md:pr-16" : "pl-0 md:pl-16"
         }`}
       >
-        <h1 className="font-roboto font-semibold text-[32px]">
+        <h2 className="font-roboto font-semibold text-[32px]">
           {title}
-        </h1>
+        </h2>
 
         {/* Image (mobile) */}
         <div className="block md:hidden relative w-full h-[320px]">

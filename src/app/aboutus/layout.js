@@ -1,11 +1,12 @@
 import { buildMetadata } from "@/lib/seo";
+import { staticDescription } from "@/lib/seo/descriptions";
 
 // Server-component layout: attaches per-page metadata (the page itself is a
 // Client Component and cannot export metadata). Renders children unchanged.
+// Meta description is the manually-maintained one from lib/seo/descriptions.
 export const metadata = buildMetadata({
   title: "About Us",
-  description:
-    "Mumbai-based since 2001, Ensemble Infrastructure delivers design and build workplace solutions that create future-ready spaces for thriving businesses.",
+  description: staticDescription("/aboutus"),
   path: "/aboutus",
 });
 

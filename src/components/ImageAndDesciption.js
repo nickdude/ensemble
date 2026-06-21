@@ -37,9 +37,9 @@ export default function ImageAndDescription({ title, image, description, right, 
                 right ? "pl-0 md:pl-16" : "pr-0 md:pr-16"
                 }`}
             >
-                <h1 className="font-poppins font-semibold text-[32px]">
+                <h2 className="font-poppins font-semibold text-[32px]">
                 {title}
-                </h1>
+                </h2>
 
                 <p className={`font-poppins font-light text-lg ${theme === 'dark' ? 'text-white' : 'text-black'} leading-relaxed w-[90%]`}>
                 {description}

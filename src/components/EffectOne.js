@@ -50,9 +50,9 @@ export default function EffectOne() {
                 {/* Content (sharp) */}
                 <div className="flex flex-col gap-10 relative z-10">
                     <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-0">
-                        <h1 className="font-poppins text-[21px] md:text-4xl font-medium w-full md:w-1/2">
+                        <h2 className="font-poppins text-[21px] md:text-4xl font-medium w-full md:w-1/2">
                         {effectData.tageLine}
-                        </h1>
+                        </h2>
                         <Link
                             href="/projects"
                             className="uppercase underline tracking-[0.04em] font-avenir font-light text-[16px]"

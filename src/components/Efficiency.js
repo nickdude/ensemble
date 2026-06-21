@@ -18,7 +18,7 @@ export default function Efficiency({ theme }) {
                                 />
                         </div>
                 <div className=" w-full md:w-1/2 md:h-[75vh] flex flex-col justify-center gap-5 mt-0 md:mt-16">
-                    <h1 className="font-roboto font-semibold text-[32px]">{efficiency.title}</h1>
+                    <h2 className="font-roboto font-semibold text-[32px]">{efficiency.title}</h2>
                     <p className="font-roboto font-light text-[24px] text-gray-600">
                         {efficiency.description}
                     </p>

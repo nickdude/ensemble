@@ -17,7 +17,7 @@ export default function OurInsights() {
   if (!mounted) return null;
   return (
     <section className={`w-full pl-4 md:py-20 md:pl-16 flex flex-col items-center justify-center gap-10 md:gap-3 md:gap-10 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
-      <h1 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h1>
+      <h2 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h2>
       <Button label={data.buttonLabel} link={data.buttonLink}/>
        <div className="w-full overflow-x-auto scrollbar-hide">
         <div className="flex gap-5 md:gap-10 min-w-max">

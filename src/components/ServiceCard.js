@@ -65,9 +65,9 @@ export default function ServiceCard({ img, title, link, description, bgImage }) 
       >
         <Image src={img} alt={title} width={64} height={64} />
     
-        <h1 className="font-poppins font-medium text-xl md:text-3xl">
+        <h3 className="font-poppins font-medium text-xl md:text-3xl">
           {title}
-        </h1>
+        </h3>
 
         <p className="font-poppins font-light text-sm md:text-lg leading-[20px] md:leading-[25px]">
           {description}

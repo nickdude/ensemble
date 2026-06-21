@@ -22,7 +22,7 @@ export default function OurTeam(){
         <section className={`py-20 px-4 md:px-16 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                     <div className="w-80 flex flex-col gap-6 justify-center">
-                        <h1 className="font-poppins font-medium text-[64px] leading-[68px]">{ourTeam.title}</h1>
+                        <h2 className="font-poppins font-medium text-[64px] leading-[68px]">{ourTeam.title}</h2>
                         <p className="font-avenir font-light text-lg text-gray-600 leading-[25px]">{ourTeam.description}</p>
                         <button 
                             onClick={() => setShowAll(!showAll)}
@@ -40,7 +40,7 @@ export default function OurTeam(){
                         <div className="relative w-full h-[419px] mb-5">
                             <Image src={member.image} alt={member.name} className="object-cover rounded-lg" fill priority/>
                         </div>
-                        <h1 className="font-poppins font-medium text-[28px]">{member.name}</h1>
+                        <h3 className="font-poppins font-medium text-[28px]">{member.name}</h3>
                         <p className="font-avenir font-light text-sm">{member.position}</p>
                     </div>
                     ))}

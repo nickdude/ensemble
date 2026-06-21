@@ -1,9 +1,10 @@
 import { buildMetadata } from "@/lib/seo";
+import { staticDescription } from "@/lib/seo/descriptions";
 
+// Meta description is the manually-maintained one from lib/seo/descriptions.
 export const metadata = buildMetadata({
   title: "Sustainability",
-  description:
-    "Our commitment to sustainable design and build — energy efficiency, responsible initiatives and our journey to 2029 at Ensemble Infrastructure.",
+  description: staticDescription("/sustainability"),
   path: "/sustainability",
 });
 

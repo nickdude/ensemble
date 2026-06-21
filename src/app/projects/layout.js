@@ -1,11 +1,12 @@
 import { buildMetadata } from "@/lib/seo";
+import { staticDescription } from "@/lib/seo/descriptions";
 
 // Applies to the /projects listing. The /projects/[slug] pages override this
-// canonical and title with their own dynamic metadata.
+// canonical, title and description with their own dynamic metadata.
+// Meta description is the manually-maintained one from lib/seo/descriptions.
 export const metadata = buildMetadata({
   title: "Our Projects",
-  description:
-    "Explore Ensemble Infrastructure's portfolio of design and build projects delivering productivity-driven workplaces across India.",
+  description: staticDescription("/projects"),
   path: "/projects",
 });
 

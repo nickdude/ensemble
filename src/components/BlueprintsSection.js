@@ -21,10 +21,10 @@ export default function BlueprintsSection() {
       <div className="flex flex-col gap-[1px]">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-[1px]">
           <div className="px-4 md:px-16 pt-10 md:pt-20">
-            <h1 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h1>
+            <h2 className="font-poppins font-medium text-[28px] md:text-6xl leading-[57px] tracking-normal">{data.title}</h2>
           </div>
           <div className="flex flex-col items-start justify-end px-4 md:px-0 md:pr-16 py-5 md:py-20 gap-10">
-            <h1 className="font-avenir font-light text-base md:text-lg">{data.description}</h1>  
+            <p className="font-avenir font-light text-base md:text-lg">{data.description}</p>  
             <Button label={data.buttonLabel} link={data.buttonLink}/>
           </div>
           {/* <SplashCard/> */}

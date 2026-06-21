@@ -32,9 +32,9 @@ export default function   InnerProjectSubHero({slug}) {
         
                 {/* Content */}
                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-10">
-                    <p className="text-[32px] md:text-[56px] font-poppins font-semibold">
+                    <h1 className="text-[32px] md:text-[56px] font-poppins font-semibold">
                         {projectData.hero.title}, {projectData.hero.location}
-                    </p>
+                    </h1>
                 </div>
 
         

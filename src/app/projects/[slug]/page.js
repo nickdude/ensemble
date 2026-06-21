@@ -3,15 +3,20 @@ import ProjectCaseGallery from "@/components/ProjectCaseGallery";
 import ProjectDetail from "@/components/ProjectDetail";
 import projectsData from "@/data/home/projectsData";
 import { buildMetadata } from "@/lib/seo";
+import { projectDescription } from "@/lib/seo/descriptions";
 
 // Dynamic, self-referencing canonical per project. Unknown slugs (no real
 // content) are set noindex and canonicalised onto the /projects listing to
 // avoid thin/duplicate pages being indexed.
+//
+// Indexable projects use a UNIQUE, manually-written meta description from
+// lib/seo/descriptions (never auto-derived from the project's clientVision).
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const project = projectsData.projectDetail?.[slug];
+  const description = projectDescription(slug);
 
-  if (!project) {
+  if (!project || !description) {
     return buildMetadata({
       title: "Projects",
       description:
@@ -24,12 +29,9 @@ export async function generateMetadata({ params }) {
 
   const name = project.hero?.title || "Project";
   const location = project.details?.location;
-  const category = project.details?.category;
   return buildMetadata({
     title: location ? `${name} — ${location}` : name,
-    description:
-      project.details?.clientVision ||
-      `${name}${category ? `, ${category}` : ""} — a design and build project delivered by Ensemble Infrastructure.`,
+    description,
     path: `/projects/${slug}`,
   });
 }

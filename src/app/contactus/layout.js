@@ -15,9 +15,9 @@ export const metadata = buildMetadata({
 export default function ContactUsLayout({ children }) {
   return (
     <>
-      <h1 className="font-poppins font-semibold text-[32px] md:text-[56px] text-center pt-16 md:pt-20 px-4 md:px-16">
+      {/* <h1 className="font-poppins font-semibold text-[32px] md:text-[56px] text-center pt-16 md:pt-20 px-4 md:px-16">
         Contact Ensemble Infrastructure
-      </h1>
+      </h1> */}
       {children}
     </>
   );

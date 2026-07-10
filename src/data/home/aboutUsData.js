@@ -81,14 +81,9 @@ export const aboutUsData = {
                 position: "Associate Director | Operations"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_11_Vijays-Pic-2.jpg",
-                name: "Vijay Waghela",
-                position: "Associate Director - Sourcing"
-            },
-            {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_12_Alpa-1.jpg",
                 name: "Alpa Bhavsar",
-                position: "Associate Director - Contracts"
+                position: "Associate Director - Contracts and Procurement"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_10_Masood_Image.jpg",

@@ -83,32 +83,32 @@ export const aboutUsData = {
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_12_Alpa-1.jpg",
                 name: "Alpa Bhavsar",
-                position: "Associate Director - Contracts and Procurement"
+                position: "Associate Director | Contracts & Procurement"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_10_Masood_Image.jpg",
                 name: "Masood Shaikh",
-                position: "Vice President - Tendering & Estimation"
+                position: "Vice President | Tendering & Estimation"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_13_rashid-1+(1).jpg",
                 name: "Rashid Shaikh",
-                position: "Vice President - EHS & Logistics"
+                position: "Vice President | EHS & Logistics"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_5_Ankita.jpg",
                 name: "Ankita Sharma",
-                position: "Vice President - Client Solutions"
+                position: "Vice President | Client Solutions"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_14_Simren_Image.jpg",
                 name: "Simran Naulani",
-                position: "Lead - HR"
+                position: "Lead | Human Resources"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_7_Nemchand.jpg",
                 name: "Nemchand Suthar",
-                position: "Lead - Finance"
+                position: "Lead | Finance"
             }
         ]
     }

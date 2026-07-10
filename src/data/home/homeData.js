@@ -292,8 +292,8 @@ const data = {
         insights: [
             {
                 img: "/assets/insights/insight1.png",
-                title: "Building for Future",
-                description: "Explore the latest trends in eco-friendly architecture and interior design, and how we incorporate sustainability into every project."
+                title: "Your office is costing more than you think.",
+                description: "ESG-led workplace design reduces hidden costs and drives business performance."
             },
             {
                 img: "/assets/insights/insight2.png",

@@ -8,8 +8,8 @@ export const blogsData = {
         {   
             slug: "blog1",
             img: "/assets/insights/insight1.png",
-            title: "Your Office Is Costing More Than You Think",
-            description: "How ESG-Led Workplace Design Reduces Hidden Costs and Drives Business Performance."
+            title: "Your office is costing more than you think.",
+            description: "ESG-led workplace design reduces hidden costs and drives business performance."
         },
         {
             slug: "blog2",
@@ -57,8 +57,8 @@ export const blogsData = {
 
     blogDetail: {
         "blog1": {
-            title: "Your Office Is Costing More Than You Think: How ESG Changes the Value Equation.",
-            subtitle: "ESG-Led Workplace Design Reduces Hidden Costs and Drives Business Performance",
+            title: "Your office is costing more than you think: How ESG changes the value equation.",
+            subtitle: "ESG-led workplace design reduces hidden costs and drives business performance.",
             author: "Abhiram Ajayghosh",
             date: "Monday, February 16, 2026",
             readTime: "3 min read",

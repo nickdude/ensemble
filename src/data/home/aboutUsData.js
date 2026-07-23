@@ -91,6 +91,11 @@ export const aboutUsData = {
                 position: "Vice President | Tendering & Estimation"
             },
             {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/manish+nagpal.png",
+                name: "Manish Nagal",
+                position: "General Manager | Projects"
+            },
+            {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_13_rashid-1+(1).jpg",
                 name: "Rashid Shaikh",
                 position: "Vice President | EHS & Logistics"
@@ -99,6 +104,11 @@ export const aboutUsData = {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_5_Ankita.jpg",
                 name: "Ankita Sharma",
                 position: "Vice President | Client Solutions"
+            },
+            {
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/divya+(1).png",
+                name: "Divya Jain",
+                position: "Lead | Client Solutions"
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_14_Simren_Image.jpg",

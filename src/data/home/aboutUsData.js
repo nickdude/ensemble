@@ -91,7 +91,7 @@ export const aboutUsData = {
                 position: "Vice President | Tendering & Estimation"
             },
             {
-                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/manish+nagpal.png",
+                image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/manish+nagpal+(1).png",
                 name: "Manish Nagal",
                 position: "General Manager | Projects"
             },

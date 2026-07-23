@@ -77,7 +77,7 @@ export const aboutUsData = {
             },
             {
                 image: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
-                name: "Sarika Sawanth",
+                name: "Sarika Sawant",
                 position: "Associate Director | Operations"
             },
             {

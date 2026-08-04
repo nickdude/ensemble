@@ -62,7 +62,7 @@ export const blogsData = {
             author: "Abhiram Ajayghosh",
             date: "Monday, February 16, 2026",
             readTime: "3 min read",
-            mainImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG.jpg",
+            mainImage: "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG.png",
             sections: [
                 {
                     title: "Introduction",

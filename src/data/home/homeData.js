@@ -297,8 +297,8 @@ const data = {
             },
             {
                 img: "/assets/insights/insight2.png",
-                title: "Innovation in Urban Spaces",
-                description: "Learn how to balance heritage and cutting-edge design, creating spaces that honor the past while embracing the future."
+                title: "GCCs are no longer back offices, then why do so many still look like one?",
+                description: "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires."
             },
             {
                 img: "/assets/insights/insight3.png",

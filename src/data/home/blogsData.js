@@ -107,7 +107,7 @@ export const blogsData = {
             ]
         },
         "blog2": {
-            title: "GCCs Are No Longer Back Offices — So Why Do So Many Still Look Like One?",
+            title: "GCCs are no longer back offices, then why do so many still look like one?",
             subtitle: "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires.",
             author: "Abhiram Ajayghosh",
             date: "Monday, March 2, 2026",

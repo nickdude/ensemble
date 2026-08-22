@@ -1,0 +1,192 @@
+{
+  "home": {
+    "path": "/",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "Everything you need to know about Ensemble Infrastructure India Ltd.",
+    "groups": [
+      {
+        "title": "Company & Brand",
+        "faqs": [
+          {
+            "question": "What is Ensemble Infrastructure India Ltd?",
+            "answer": "Ensemble Infrastructure India Ltd (EIIL) is a Design & Build, commercial fit-out, and general contracting company headquartered in Mumbai, founded in 2003. With 23+ years of experience, it delivers corporate interiors for enterprise and Fortune 500 clients across India through an integrated model spanning design, engineering, execution, and in-house furniture manufacturing."
+          },
+          {
+            "question": "What services does Ensemble provide?",
+            "answer": "Ensemble provides three core services: Design & Build, general contracting, and commercial real estate broking. Its Design & Build vertical is primary, covering interior design, MEP engineering, procurement, construction, and fit-out under one contract. In-house furniture manufacturing from a 1,25,000 sq. ft. facility supports delivery, giving clients a single accountable partner from concept to handover."
+          },
+          {
+            "question": "Which industries does Ensemble serve?",
+            "answer": "Ensemble serves enterprise clients across IT and ITES, BFSI, Global Capability Centres, retail, pharmaceutical and life sciences, and media. Its corporate interior and Design & Build projects span these sectors nationally, with delivery governance and design standards adapted to each industry's compliance, security, and workplace requirements."
+          },
+          {
+            "question": "How many projects has Ensemble completed?",
+            "answer": "Ensemble has delivered 1,900+ projects over 23+ years, covering more than 12 million sq. ft. of commercial fit-out and interior work. Its portfolio spans corporate offices, enterprise workplaces, and Global Capability Centres for Fortune 500 and Fortune 1000 clients across India."
+          },
+          {
+            "question": "Does Ensemble work with large enterprise clients?",
+            "answer": "Yes. Ensemble specialises in large enterprise and Fortune 500 projects, where scale, multiple stakeholders, and tight timelines demand strong governance. Its integrated design-build-manufacture model and BIM-led planning support complex, multi-location workplace programmes, giving enterprise clients single-point accountability across design, engineering, and site execution."
+          },
+          {
+            "question": "Which cities does Ensemble operate in?",
+            "answer": "Ensemble is headquartered in Mumbai and delivers projects across India, with active work in Mumbai, Bengaluru, and North India. Its pan-India delivery model supports corporate office and fit-out projects in major business hubs including Delhi NCR, Pune, Hyderabad, and Chennai, with South India a priority growth region."
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "path": "/services",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "Answers to common questions across our Design & Build, General Contracting, and fit-out services.",
+    "groups": [
+      {
+        "title": "Design & Build",
+        "faqs": [
+          {
+            "question": "What is Design & Build?",
+            "answer": "Design & Build is a project delivery method where a single company handles both the design and the construction of a project under one contract. Instead of appointing separate architects, consultants, and contractors, the client works with one partner accountable for the entire process, from concept and detailed design through engineering, construction, and handover."
+          },
+          {
+            "question": "How does a Design & Build project work?",
+            "answer": "A Design & Build project moves through defined stages under a single contract: requirement discovery, concept design, detailed design and engineering, costing, execution, and handover. Because design and construction sit with the same team, drawings, budgets, and site work stay aligned throughout, removing the coordination gaps and reworks that occur when these functions are split across separate firms."
+          },
+          {
+            "question": "What are the benefits of Design & Build for corporate offices?",
+            "answer": "Design & Build gives corporate offices single-point accountability, faster timelines, and stronger cost certainty. One team owns both design and execution, so decisions move quickly and design intent survives into the finished space. Overlapping the design and construction phases compresses the schedule, while early costing reduces budget surprises. This matters for enterprises balancing tight fit-out deadlines with brand and compliance requirements."
+          },
+          {
+            "question": "What is included in a Design & Build service?",
+            "answer": "A Design & Build service typically covers space planning, interior and MEP design, 3D visualisation, engineering, costing, procurement, construction, and handover. Ensemble Infrastructure India Ltd delivers all of these under one roof, adding in-house furniture manufacturing from a 1,25,000 sq. ft. facility, so design, build, and fit-out elements are coordinated by a single accountable team from concept to completion."
+          },
+          {
+            "question": "How is Design & Build different from General Contracting?",
+            "answer": "In Design & Build, one partner owns both design and construction under a single contract. In General Contracting, the design is completed first, by the client or their consultant, and a contractor then builds to those drawings. Design & Build reduces coordination risk and speeds delivery; General Contracting suits projects where the design is already finalised by a separate architect."
+          },
+          {
+            "question": "Is Design & Build suitable for large corporate offices?",
+            "answer": "Yes. Design & Build is well suited to large corporate offices, where multiple stakeholders, MEP complexity, and tight timelines make coordination critical. A single accountable partner keeps design intent, engineering, and site execution aligned across large floor plates and multi-location rollouts, which is why enterprises and Global Capability Centres often prefer it for high-stakes workplace projects."
+          },
+          {
+            "question": "How long does a Design & Build office project take?",
+            "answer": "Timelines depend on size, complexity, and site readiness. A corporate office fit-out can run from a few weeks for smaller spaces to several months for large, multi-floor projects. Design & Build shortens the overall duration by overlapping the design and construction phases, so procurement and site work can begin before every design detail is finalised."
+          },
+          {
+            "question": "What does a Design & Build company do?",
+            "answer": "A Design & Build company manages a commercial project end to end, understanding the client's business needs, designing the space, engineering the systems, and constructing and fitting it out. It carries single-point responsibility for quality, budget, and schedule, coordinating architects, MEP engineers, procurement, and site teams so the client deals with one partner rather than many."
+          },
+          {
+            "question": "How do I choose a Design & Build partner for a corporate office?",
+            "answer": "Evaluate a Design & Build partner on delivery track record, in-house design and engineering capability, financial stability, and experience with projects of similar scale and sector. Ask about governance, BIM-led planning, and single-point accountability. Enterprises should weigh certainty of delivery and quality over lowest price, because the cost of delays and rework usually outweighs any upfront saving."
+          },
+          {
+            "question": "How much does a Design & Build office project cost?",
+            "answer": "Design & Build office costs in India are usually quoted per square foot and vary with location, specification, MEP scope, and finish quality. Rather than a fixed rate, the cost is shaped by design intent and building services. A Design & Build partner provides early-stage costing during the design phase, giving enterprises budget clarity before construction begins."
+          }
+        ]
+      },
+      {
+        "title": "General Contracting",
+        "faqs": [
+          {
+            "question": "What is General Contracting?",
+            "answer": "General Contracting is a delivery model where a contractor is appointed to construct a project based on designs and drawings prepared separately by the client or their consultants. The general contractor manages labour, materials, subcontractors, and site execution, taking responsibility for building the project to the specified design, budget, and schedule."
+          },
+          {
+            "question": "What does a general contractor do?",
+            "answer": "A general contractor manages the construction phase of a project: planning site works, procuring materials, coordinating subcontractors and trades, and controlling quality, safety, budget, and programme. Working from drawings and specifications provided by the client's design team, the contractor is accountable for delivering the built space on time and to standard."
+          },
+          {
+            "question": "Does General Contracting include MEP works?",
+            "answer": "Yes, General Contracting typically includes mechanical, electrical, and plumbing (MEP) works as part of the construction scope. The general contractor coordinates MEP installation alongside civil and interior trades, ensuring services are integrated correctly on site. On complex commercial projects, MEP coordination is critical to sequencing, quality, and on-time handover."
+          },
+          {
+            "question": "When should a company hire a general contractor?",
+            "answer": "A company should hire a general contractor when the design is already complete and it needs an experienced partner to execute construction to those drawings. General Contracting suits projects where design and build are handled separately, or where a client's consultants have finalised the design and require reliable, well-governed site delivery."
+          },
+          {
+            "question": "What is the difference between General Contracting and Design & Build?",
+            "answer": "In General Contracting, design and construction are separate: the client completes the design, then a contractor builds it. In Design & Build, one partner owns both under a single contract. General Contracting keeps design control with the client's consultants; Design & Build offers single-point accountability, faster timelines, and fewer coordination gaps."
+          }
+        ]
+      },
+      {
+        "title": "Workplace & Office Design",
+        "faqs": [
+          {
+            "question": "What is workplace design?",
+            "answer": "Workplace design is the planning and design of office environments to support how people work, collaborate, and focus. It combines space planning, interior design, ergonomics, and building services to create productive, comfortable spaces that reflect an organisation's culture and brand while meeting operational, compliance, and wellbeing requirements."
+          },
+          {
+            "question": "What is corporate office interior design?",
+            "answer": "Corporate office interior design is the design of a company's internal workspace, covering layout, aesthetics, furniture, lighting, acoustics, and finishes. It translates business needs and brand identity into a functional environment, balancing collaboration areas, focus spaces, meeting rooms, and support facilities to improve how teams work and how the space performs day to day."
+          },
+          {
+            "question": "What makes an effective corporate workplace?",
+            "answer": "An effective corporate workplace balances productivity, collaboration, and employee wellbeing. Strong spatial planning matches space types to how people actually work, providing focus areas, collaboration zones, and meeting facilities. Good lighting, acoustics, air quality, and technology integration support comfort and performance, while the design reinforces the organisation's culture and brand."
+          },
+          {
+            "question": "How should a company plan a new office?",
+            "answer": "A company should start by defining business goals, headcount, working patterns, and budget, then assess space requirements and location. Early design and space planning establish layout and specification, followed by engineering, costing, and execution. Engaging a Design & Build partner early aligns design intent, budget, and timeline before construction begins."
+          },
+          {
+            "question": "What factors affect office interior design costs?",
+            "answer": "Office interior design costs depend on floor area, location, specification and finish quality, MEP scope, furniture, and the level of customisation. Structural or services changes, compliance requirements, and project timelines also influence cost. Early-stage costing during design helps establish a realistic budget and reduces variations later in the project."
+          },
+          {
+            "question": "How does workplace design improve employee experience?",
+            "answer": "Workplace design improves employee experience by shaping comfort, focus, and collaboration. Thoughtful layouts reduce noise and distraction, provide varied settings for different tasks, and support movement and wellbeing. Natural light, good air quality, ergonomic furniture, and reliable technology help employees work more effectively and feel more engaged in the workplace."
+          }
+        ]
+      },
+      {
+        "title": "Base Build",
+        "faqs": [
+          {
+            "question": "What is Base Build?",
+            "answer": "Base Build refers to the core structure and shell of a building, including primary construction and essential services, completed before interior fit-out begins. It typically covers the structural frame, external envelope, core services, and main mechanical and electrical infrastructure, providing the base condition onto which tenant fit-out works are later carried out."
+          },
+          {
+            "question": "What does Base Build include?",
+            "answer": "Base Build typically includes the structural frame, floors, external walls and facade, roofing, and core building services such as main electrical supply, plumbing, HVAC infrastructure, lifts, and fire systems. It delivers the building to a functional shell condition, ready for interior fit-out to add layouts, finishes, and workplace-specific services."
+          },
+          {
+            "question": "What is the difference between Base Build and fit-out?",
+            "answer": "Base Build is the core building structure and primary services that form the shell, while fit-out is the interior work that makes a space usable and occupiable. Base Build delivers the frame, envelope, and main services; fit-out adds partitions, finishes, furniture, and workplace-specific MEP tailored to the occupier's needs."
+          },
+          {
+            "question": "Why is MEP coordination important in Base Build projects?",
+            "answer": "MEP coordination is important in Base Build projects because mechanical, electrical, and plumbing systems must integrate correctly with the structure and with future fit-out works. Poor coordination causes clashes, rework, and delays. Well-planned MEP, often using BIM, ensures services are routed efficiently and that the base supports the occupier's later fit-out requirements."
+          }
+        ]
+      },
+      {
+        "title": "Commercial Fit-Out",
+        "faqs": [
+          {
+            "question": "What is a commercial fit-out?",
+            "answer": "A commercial fit-out is the process of making an interior commercial space ready for use, turning a bare or base-build shell into a functional workplace. It includes partitions, ceilings, flooring, lighting, MEP services, furniture, and finishes, tailored to how the occupier will use the space and to their brand and operational needs."
+          },
+          {
+            "question": "How long does an office fit-out take?",
+            "answer": "An office fit-out timeline depends on size, complexity, and specification. Smaller offices can take a few weeks, while large or multi-floor corporate spaces may take several months. Design, approvals, procurement, and site readiness all affect duration. A Design & Build approach can shorten timelines by overlapping design and construction."
+          },
+          {
+            "question": "What factors affect office fit-out costs?",
+            "answer": "Office fit-out costs are driven by floor area, location, specification and finish level, MEP scope, furniture, and the degree of customisation. Base-build condition, compliance requirements, and programme also matter. Costs are usually assessed per square foot, and early costing during design gives a clearer budget before construction starts."
+          },
+          {
+            "question": "What does a commercial fit-out company do?",
+            "answer": "A commercial fit-out company designs and builds interior workplace environments, taking a space from shell or existing condition to a completed, occupiable office. Its work spans space planning, interior and MEP design, procurement, construction, furniture, and finishing, coordinating trades and managing quality, budget, and schedule through to handover."
+          },
+          {
+            "question": "How do you plan a large-scale office fit-out?",
+            "answer": "Planning a large-scale office fit-out starts with clear requirements: headcount, working patterns, budget, timeline, and location. Detailed design and engineering follow, then phased procurement and execution with strong governance. On large or multi-location projects, BIM-led planning and single-point accountability help keep design intent, cost, and programme aligned across the whole rollout."
+          }
+        ]
+      }
+    ]
+  }
+}

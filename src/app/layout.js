@@ -1,7 +1,6 @@
-import Footer from "@/components/Footer";
 import "./globals.css";
 import Providers from "./providers";
-import Navbar from "@/components/Navbar";
+import SiteChrome from "@/components/SiteChrome";
 import {
   poppins,
   roboto,
@@ -63,9 +62,7 @@ export default function RootLayout({ children }) {
             page-specific schema and BreadcrumbList) for the current route. */}
         <StructuredData />
         <Providers>
-          <Navbar />
-          {children}
-          <Footer/>
+          <SiteChrome>{children}</SiteChrome>
         </Providers>
       </body>
     </html>

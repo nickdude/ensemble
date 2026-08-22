@@ -1,34 +1,5 @@
-export const contactData = {
-    offices: [
-        {
-            section: "Our Offices",
-            locations: [
-                {
-                    name: "Mumbai",
-                    address: "17th Floor, D wing, Trade World, Kamala Mills, Lower Parel, Mumbai, Maharashtra – 400013"
-                },
-                {
-                    name: "Delhi",
-                    address: "Level 5, SB Tower, 1A/1 Sector, 16 A – Film City,Noida – 201301"
-                },
-                {
-                    name: "Bengaluru",
-                    address: "Prestige Ridge, 3rd Floor, 24/25, Domlur Service Rd, Domlur, Bengaluru – 560071"
-                },
-                {
-                    name: "Pune",
-                    address: "Ashapuri, 270/1, Nehru Marg, Pune – 411002"
-                },
-                {
-                    name: "Other Offices",
-                    address: "Hyderabad & Chennai"
-                }
-            ],
-            email: "info@ensemble.co.in"
-        },
-    ],
-    inquiryForm: {
-        title: "Let's get in touch",
-        submitLabel: "SUBMIT"
-    }
-}
+// Content is edited via the admin panel and stored as JSON.
+// This module re-exports it so existing imports keep working unchanged.
+import data from "@/content/contactData.json";
+
+export const contactData = data;

@@ -19,6 +19,9 @@ export default async function StructuredData() {
   const headerList = await headers();
   const pathname = headerList.get("x-pathname") || "/";
 
+  // The admin panel is a private, noindex surface — emit no public JSON-LD there.
+  if (pathname.startsWith("/admin")) return null;
+
   const { pageSchemas, breadcrumb } = resolvePageStructuredData(pathname);
 
   const graph = [

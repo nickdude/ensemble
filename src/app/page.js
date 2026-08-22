@@ -16,6 +16,8 @@ import EffectOne from "@/components/EffectOne";
 import EffectTwo from "@/components/EffectTwo";
 import SplashHero from "@/components/SplashHero";
 import NewsMobile from "@/components/NewsMobile";
+import FAQ from "@/components/FAQ";
+import faqData from "@/data/home/faqData";
 
 export default function Home() {
     const { theme } = useTheme();
@@ -44,6 +46,7 @@ export default function Home() {
           </div>
       </div>
       <EffectTwo/>
+      <FAQ details={faqData.home} />
     </>
   );
 }

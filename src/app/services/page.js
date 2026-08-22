@@ -3,7 +3,9 @@
 import FourPointSection from "@/components/FourPointSection";
 import OurProjects from "@/components/OurProjects";
 import OurServiceHero from "@/components/OurServiceHero";
+import FAQ from "@/components/FAQ";
 import servicesData from "@/data/home/servicesData";
+import faqData from "@/data/home/faqData";
 
 export default function Services() {
         
@@ -19,6 +21,7 @@ export default function Services() {
         <FourPointSection 
            details={servicesData?.base}/>
         <OurProjects/>
+        <FAQ details={faqData.services} />
       </>
     );
 }   

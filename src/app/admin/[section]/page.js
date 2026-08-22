@@ -126,6 +126,19 @@ export default function SectionEditor() {
         </div>
       </div>
 
+      {!loading && !loadError && draft != null && (
+        <div className="flex items-start gap-2 rounded-lg border border-brand-blue/20 bg-brand-blue/5 px-4 py-3 text-sm text-gray-600">
+          <span aria-hidden="true">💡</span>
+          <p>
+            Click a card to expand it, then edit the text or images inside. Use{" "}
+            <span className="font-medium">↑ ↓</span> to reorder and{" "}
+            <span className="font-medium">+ Add</span> to create new items. Every image has an{" "}
+            <span className="font-medium">alt text</span> box. When you’re done, press{" "}
+            <span className="font-medium">{git ? "Publish" : "Save"}</span> at the bottom.
+          </p>
+        </div>
+      )}
+
       {loading && <p className="text-sm text-gray-500">Loading…</p>}
       {loadError && (
         <div className="rounded-lg border border-brand-red/30 bg-brand-red/5 p-4 text-sm text-brand-red">

@@ -9,6 +9,8 @@ import NewsMobile from "@/components/NewsMobile";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import InquiryForm from "@/components/InquiryForm";
+import FAQ from "@/components/FAQ";
+import faqData from "@/data/home/faqData";
 
 export default function ContactUs() {
     const { blogsHero, blogsCards } = blogsData;
@@ -21,6 +23,7 @@ export default function ContactUs() {
   return (
     <main className="">
       <InquiryForm/>
+      <FAQ details={faqData.contactus} />
     </main>
   );
 }

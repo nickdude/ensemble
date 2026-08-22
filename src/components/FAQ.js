@@ -10,7 +10,11 @@ export default function FAQ({ details }) {
   const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const groups = details?.groups ?? [];
+  // Only groups that actually contain at least one question are shown, so the
+  // whole section stays hidden on pages that have no FAQs yet.
+  const groups = (details?.groups ?? []).filter(
+    (group) => (group.faqs?.length ?? 0) > 0
+  );
 
   // Every item starts expanded; each can be collapsed independently.
   const [openItems, setOpenItems] = useState(() => {

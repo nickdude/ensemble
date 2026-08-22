@@ -6,6 +6,8 @@ import Initiative from "@/components/Initiative";
 import JourneyTo2029 from "@/components/JourneyTo2029";
 import OurProjects from "@/components/OurProjects";
 import SustainabilityHero from "@/components/SustainabilityHero";
+import FAQ from "@/components/FAQ";
+import faqData from "@/data/home/faqData";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -24,6 +26,7 @@ export default function Sustainability() {
         <Initiative theme={theme}/>
         <Efficiency theme={theme}/>
         <OurProjects theme={theme}/>
+        <FAQ details={faqData.sustainability} />
     </main>
   );
 }   

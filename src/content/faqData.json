@@ -188,5 +188,47 @@
         ]
       }
     ]
+  },
+  "aboutus": {
+    "path": "/aboutus",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
+  },
+  "projects": {
+    "path": "/projects",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
+  },
+  "blogs": {
+    "path": "/blogs",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
+  },
+  "news": {
+    "path": "/news",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
+  },
+  "contactus": {
+    "path": "/contactus",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
+  },
+  "sustainability": {
+    "path": "/sustainability",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
   }
 }

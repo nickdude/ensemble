@@ -9,10 +9,17 @@ import FourPointSection from "@/components/FourPointSection";
 // page (changes appear there after publish + redeploy).
 export default function Preview({ sectionKey, draft, livePath }) {
   if (sectionKey === "faq" && draft) {
+    const pages = Object.keys(draft);
     return (
       <PreviewFrame>
-        {draft.home && <FAQ details={draft.home} />}
-        {draft.services && <FAQ details={draft.services} />}
+        {pages.map((page) => (
+          <div key={page}>
+            <div className="bg-gray-50 px-3 py-1 text-[11px] font-medium uppercase tracking-wide text-gray-400">
+              {page}
+            </div>
+            <FAQ details={draft[page]} />
+          </div>
+        ))}
       </PreviewFrame>
     );
   }

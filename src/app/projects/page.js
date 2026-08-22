@@ -5,6 +5,8 @@ import OurInsights from "@/components/OurInsights";
 import ProjectGallery from "@/components/ProjectGallery";
 import ProjectHero from "@/components/ProjectHero";
 import NewsMobile from "@/components/NewsMobile";
+import FAQ from "@/components/FAQ";
+import faqData from "@/data/home/faqData";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -32,6 +34,7 @@ export default function Projects() {
         </div>
       </div>
      <OurInsights/>
+     <FAQ details={faqData.projects} />
     </>
     );
     }   

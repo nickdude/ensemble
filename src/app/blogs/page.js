@@ -6,6 +6,8 @@ import OurBlogs from "@/components/OurBlogs";
 import OurProjects from "@/components/OurProjects";
 import { blogsData } from "@/data/home/blogsData";
 import NewsMobile from "@/components/NewsMobile";
+import FAQ from "@/components/FAQ";
+import faqData from "@/data/home/faqData";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
@@ -33,6 +35,7 @@ export default function Blogs() {
             </div>
         </div>
        <OurProjects/>
+       <FAQ details={faqData.blogs} />
     </main>
   );
 }

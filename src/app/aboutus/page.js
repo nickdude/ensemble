@@ -7,8 +7,10 @@ import ImageAndDescription from "@/components/ImageAndDesciption";
 import ImageDesciption from "@/components/ImageDesciption";
 import InquiryFrom from "@/components/InquiryForm";
 import OurTeam from "@/components/OurTeam";
+import FAQ from "@/components/FAQ";
 import Image from "next/image";
 import { aboutUsData } from "@/data/home/aboutUsData";
+import faqData from "@/data/home/faqData";
   
 
 export default function AboutUs(){
@@ -27,6 +29,7 @@ export default function AboutUs(){
             <ImageDesciption title={excellenceData.title} description={excellenceData.description} image={excellenceData.image}/>
             <ImageDesciption right="true" title={visionImageDescriptionData.title} description={visionImageDescriptionData.description} image={visionImageDescriptionData.image}/>
             <AwardAndRecognitions/>
+            <FAQ details={faqData.aboutus} />
             <InquiryFrom/>
         </main>
     )

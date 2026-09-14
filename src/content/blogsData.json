@@ -52,6 +52,13 @@
       "img": "/assets/insights/insight2.png",
       "title": "Innovation in Urban Spaces",
       "description": "Learn how to balance heritage and cutting-edge design, creating spaces that honor the past while embracing the future."
+    },
+    {
+      "slug": "blog9",
+      "img": "/assets/insights/insight3.png",
+      "title": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers",
+      "description": "ESG has stopped being a compliance checkbox. It now shapes how India's leading enterprises design their workplaces, and it cuts hidden costs across energy, productivity, talent and compliance.",
+      "imgAlt": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers"
     }
   ],
   "blogDetail": {
@@ -154,6 +161,57 @@
           "para": "The GCCs pulling ahead have stopped refurbishing the same cost-centre layout every few years and started treating their workplace as capital invested in talent and output. The equation is simple, a better environment produces better people, better work, and better business outcomes. Designed for how the work actually happens now, the GCC workplace becomes what it should be: an engine of innovation, not a relic of the back office."
         }
       ]
+    },
+    "blog9": {
+      "title": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers",
+      "subtitle": "ESG has stopped being a compliance checkbox. It now shapes how India's leading enterprises design their workplaces, and it cuts hidden costs across energy, productivity, talent and compliance.",
+      "author": "Ensemble Editorial Team",
+      "date": "Friday, July 10, 2026",
+      "readTime": "6 min read",
+      "mainImage": "/assets/news/detail_news1.jpg",
+      "sections": [
+        {
+          "title": "Introduction: The Costs You Cannot See",
+          "para": "Most organisations price an office through rent, fit-out and operating expense. Those are the numbers that reach the budget. The larger ones usually do not: energy consumption running higher than it needs to, productivity sitting below capacity, attrition, compliance gaps, and retrofits that compound over the life of the workplace. ESG-led design deals with all of them at the point where they are created, which is the design stage. So the useful question is not how much an office costs. It is what the office is costing the business."
+        },
+        {
+          "title": "ESG Has Moved to the Boardroom",
+          "para": "ESG no longer sits with the sustainability team. It shapes decisions in finance, HR, operations, corporate real estate and business strategy. As SEBI's BRSR Core assurance requirements expand, the workplace has become one of the most measurable assets an organisation owns. Investors read an ESG-ready workplace as evidence of operational maturity; to employees it reads as a statement of values. Ignoring ESG creates compliance gaps, and it also raises the long-term cost of staying competitive."
+        },
+        {
+          "title": "Regulation Is Raising the Baseline",
+          "para": "India's ESG regulation is getting more rigorous. The phased rollout of SEBI's BRSR Core assurance requires measurable evidence across emissions, energy, water, waste and governance, and workplace design influences a good number of those metrics directly. A building without metering, monitoring and integrated reporting will usually need an expensive upgrade to meet what is coming. This is where the Governance pillar earns its place: audit-ready systems lower compliance risk and reduce the cost of retrofitting later."
+        },
+        {
+          "title": "Sustainability Is a Cost Strategy, Not a Premium",
+          "para": "A workplace sets its environmental impact and its operating cost long before anyone moves in. Daylight optimisation, intelligent HVAC, efficient lighting, responsible materials and lower embodied carbon all reduce operating cost across the life of the asset, with well-designed offices cutting energy use by 30 to 40%. At Ensemble that work starts on day one, through BIM-led planning and a 1,25,000 sq. ft. manufacturing facility, and it holds at scale: Zydus at 9,80,000 sq. ft. and TCS Mumbai at 6,00,000 sq. ft."
+        },
+        {
+          "title": "Better Buildings Improve Performance",
+          "para": "The costliest inefficiencies in a workplace are human rather than operational. Harvard's COGfx studies found that healthier indoor environments with better ventilation improve cognitive performance significantly. Air quality, daylight, thermal comfort and acoustic planning shape how well people concentrate, work together and make decisions. That is the Social pillar doing commercial work: a healthier workplace lifts productivity and lowers the cost of disengagement and absenteeism."
+        },
+        {
+          "title": "Inclusive Design Protects Talent",
+          "para": "Replacing experienced people is expensive. Flexible settings, ergonomic furniture, accessible planning and sensory-sensitive environments support a wider range of working styles, including neurodiverse employees. In IT/ITES, GCCs, BFSI and life sciences, workplace quality has become a real differentiator when recruiting and holding on to skilled professionals. Inclusive design improves employee experience, reduces attrition and protects the investment already made in talent."
+        },
+        {
+          "title": "Governance You Can Actually See",
+          "para": "A workplace shows how an organisation actually operates. Transparent layouts, equitable planning, live environmental dashboards and measurable building performance make a more convincing case for accountability than a policy document does. Reliable workplace data also builds investor confidence and takes friction out of ESG reporting. Governance becomes something a visitor can see, and operational and compliance risk drops with it."
+        },
+        {
+          "title": "Execution Determines ESG Success",
+          "para": "ESG ambition survives or fails in execution. Integrated Design and Build delivery, BIM-led planning, controlled material specification and consistent quality are what keep a sustainability commitment intact between the drawing and the site. Without integrated delivery, organisations pay for rework, specification drift and lifecycle inefficiency. Environmental, Social and Governance principles have to sit inside design, procurement and construction to arrive in the finished building rather than only in the report."
+        },
+        {
+          "title": "Competitive Advantage, Built In",
+          "para": "India's leading enterprises have stopped treating the workplace as overhead and started treating it as strategic infrastructure. An ESG-led workplace lowers operating cost, strengthens compliance, improves performance, attracts better talent and builds investor confidence. Each of those reduces the long-term cost of doing business and adds to enterprise value. The most expensive office is rarely the one with the highest rent. It is the one draining energy, productivity and talent every working day."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Embedding ESG into workplace design does more than produce a sustainable office. It lowers hidden costs, strengthens resilience and leaves a space that keeps performing for years after handover. That is the return ESG-led design is built to deliver, and it accumulates in the operating account rather than the brochure."
+        }
+      ],
+      "mainImageAlt": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers"
     }
   }
 }

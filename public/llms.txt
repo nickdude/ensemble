@@ -1,0 +1,33 @@
+# Ensemble Infrastructure
+
+> Ensemble Infrastructure is an India-based design and build company delivering integrated architecture, engineering, construction, and interior solutions for commercial and workplace environments.
+
+Ensemble combines design thinking, technical delivery, and sustainable infrastructure practices across projects, services, insights, and built-environment work.
+
+## Main Pages
+
+- [Home](https://www.ensemble.co.in/): Overview of Ensemble Infrastructure and its design-build capabilities.
+- [About Us](https://www.ensemble.co.in/aboutus): Company background, team, values, and approach.
+- [Services](https://www.ensemble.co.in/services): Design, build, construction, consultancy, and interior services.
+- [Projects](https://www.ensemble.co.in/projects): Portfolio of completed and featured projects.
+- [Sustainability](https://www.ensemble.co.in/sustainability): Sustainability initiatives and long-term environmental goals.
+- [Blogs](https://www.ensemble.co.in/blogs): Insights on workplace design, construction, and the built environment.
+- [News](https://www.ensemble.co.in/news): Company and industry news.
+- [Contact](https://www.ensemble.co.in/contactus): Contact and inquiry information.
+
+## Content Hubs
+
+- [Project portfolio](https://www.ensemble.co.in/projects/): Browse project case studies and delivery experience.
+- [Design-build services](https://www.ensemble.co.in/services/): Explore Ensemble's integrated service offering.
+- [Workplace and infrastructure insights](https://www.ensemble.co.in/blogs/): Read published articles and perspective pieces.
+
+## Machine-Readable Resources
+
+- [Sitemap](https://www.ensemble.co.in/sitemap.xml): Index of public pages and detail content.
+- [Robots policy](https://www.ensemble.co.in/robots.txt): Crawler access policy and sitemap declaration.
+
+## Notes
+
+- Public content is available through the pages linked above.
+- Administrative pages, API endpoints, and session-protected content are excluded.
+- Use the sitemap for the current list of indexable project and blog detail URLs.

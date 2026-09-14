@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import BlueprintsSection from "@/components/BlueprintsSection";
 import SubHero from "@/components/SubHero";
-import LogoSection from "@/components/LogoSection";
+import LogoSection from "@/components/LogoSection"; 
 import OurServices from "@/components/OurServices";
 import OurInsights from "@/components/OurInsights";
 import ClientSays from "@/components/ClientSays";

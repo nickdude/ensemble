@@ -17,12 +17,20 @@ export async function POST(request) {
     return NextResponse.json({ error: "Password required" }, { status: 400 });
   }
 
-  if (!checkPassword(parsed.password)) {
-    return NextResponse.json({ error: "Incorrect password" }, { status: 401 });
-  }
+  try {
+    if (!checkPassword(parsed.password)) {
+      return NextResponse.json({ error: "Incorrect password" }, { status: 401 });
+    }
 
-  const token = await createSession();
-  const res = NextResponse.json({ ok: true });
-  res.cookies.set(SESSION_COOKIE, token, sessionCookieOptions());
-  return res;
+    const token = await createSession();
+    const res = NextResponse.json({ ok: true });
+    res.cookies.set(SESSION_COOKIE, token, sessionCookieOptions());
+    return res;
+  } catch (error) {
+    console.error("Admin login configuration error", error);
+    return NextResponse.json(
+      { error: "Admin login is not configured on this deployment" },
+      { status: 500 }
+    );
+  }
 }

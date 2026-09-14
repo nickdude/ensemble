@@ -108,6 +108,18 @@ function blankLike(v) {
   return "";
 }
 
+function blankArrayItem(keyName, items, section) {
+  if (items.length) return blankLike(items[0]);
+  if (
+    keyName === "sections" &&
+    (section?.path === "src/content/blogsData.json" ||
+      section?.path === "src/content/newsData.json")
+  ) {
+    return { title: "", para: "" };
+  }
+  return "";
+}
+
 function joinPath(base, key) {
   return base === "" ? String(key) : `${base}.${key}`;
 }
@@ -309,7 +321,7 @@ function ArrayNode({ keyName, value, onChange, pathStr, section }) {
   };
   const add = () => {
     setJustAdded(items.length);
-    onChange([...items, items.length ? blankLike(items[0]) : ""]);
+    onChange([...items, blankArrayItem(keyName, items, section)]);
   };
 
   return (

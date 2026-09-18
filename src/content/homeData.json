@@ -289,24 +289,24 @@
     "buttonLink": "/blogs",
     "insights": [
       {
-        "img": "/assets/insights/insight1.png",
+        "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/ESG+1+ext.png",
         "title": "Your office is costing more than you think.",
         "description": "ESG-led workplace design reduces hidden costs and drives business performance."
       },
       {
-        "img": "/assets/insights/insight2.png",
-        "title": "GCCs are no longer back offices, then why do so many still look like one?",
-        "description": "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires."
+        "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Circular+ext.png",
+        "title": "Circular design, engineered in.",
+        "description": "The next generation of enterprise workspaces."
       },
       {
-        "img": "/assets/insights/insight3.png",
-        "title": "Maximizing Small Spaces",
-        "description": "Get insights into designing compact spaces without compromising style or comfort, perfect for city living and smaller homes."
+        "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/GCC+ext.png",
+        "title": "GCCs are no longer back offices, then why look like one?",
+        "description": "The GCC mandate has changed from cost arbitrage to innovation. Most workplaces haven't followed. Here's what should."
       },
       {
-        "img": "/assets/insights/insight1.png",
-        "title": "Maximizing Small Spaces",
-        "description": "Get insights into designing compact spaces without compromising style or comfort, perfect for city living and smaller homes."
+        "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+roi+ext.png",
+        "title": "Stop measuring your office in square feet. Measure It in outcomes.",
+        "description": "Real estate is your second-biggest cost. Why treat it as fixed?"
       }
     ]
   },

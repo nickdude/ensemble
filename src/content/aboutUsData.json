@@ -14,7 +14,7 @@
     "mission": {
       "title": "Our Mission",
       "description": "To deliver thoughtfully designed and expertly executed workspaces through integrated solutions, strong governance, and a deep understanding of our clients’ evolving needs, ensuring consistency, quality, and certainty at every stage.",
-      "image": "/assets/aboutus/our-mission.png",
+      "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/our+mission+new.png",
       "team": {
         "name": "Vikas Rathod",
         "position": "Vice Chairman | MD",

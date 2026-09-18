@@ -14,51 +14,51 @@
     {
       "slug": "blog3",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Circular+ext.png",
-      "title": "Circular Design, Engineered In",
-      "description": "The Next Generation of Enterprise Workspaces"
+      "title": "Circular design, engineered in.",
+      "description": "The next generation of enterprise workspaces."
     },
     {
       "slug": "blog2",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC+ext.png",
-      "title": "GCCs are no longer back offices, then why do so many still look like one?",
-      "description": "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires."
+      "title": "GCCs are no longer back offices, then why look like one?",
+      "description": "The GCC mandate has changed from cost arbitrage to innovation. Most workplaces haven't followed. Here's what should."
     },
     {
       "slug": "blog4",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+roi+ext.png",
-      "title": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes.",
+      "title": "Stop measuring your office in square feet. Measure It in outcomes.",
       "description": "Real estate is your second-biggest cost. Why treat it as fixed?"
     },
     {
       "slug": "blog5",
-      "img": "/assets/insights/insight2.png",
-      "title": "Innovation in Urban Spaces",
-      "description": "Learn how to balance heritage and cutting-edge design, creating spaces that honor the past while embracing the future."
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Hybrid+ext.png",
+      "title": "The office Isn't dead. It just has to earn Its commute.",
+      "description": "The question isn't whether employees will come in. It's whether the office earns it."
     },
     {
       "slug": "blog6",
-      "img": "/assets/insights/insight3.png",
-      "title": "Maximizing Small Spaces",
-      "description": "Get insights into designing compact spaces without compromising style or comfort, perfect for city living and smaller homes."
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Cognitive+ext.png",
+      "title": "Your office is taxing focus. Most leaders never see the bill.",
+      "description": "Noise, light, air quality and layout are performance variables, not comfort factors."
     },
     {
       "slug": "blog7",
-      "img": "/assets/insights/insight1.png",
-      "title": "Building for Future",
-      "description": "Explore the latest trends in eco-friendly architecture and interior design, and how we incorporate sustainability into every project."
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+trends+ext.png",
+      "title": "What 1,900+ projects taught us about where workspaces are heading",
+      "description": "The best workplaces don't look different. They perform differently. Five shifts defining what's next."
     },
     {
       "slug": "blog8",
-      "img": "/assets/insights/insight2.png",
-      "title": "Innovation in Urban Spaces",
-      "description": "Learn how to balance heritage and cutting-edge design, creating spaces that honor the past while embracing the future."
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/cost+of+fitout+ext.png",
+      "title": "The cheapest fitout is the most expensive one you'll ever pay for.",
+      "description": "Cutting corners shows up on day 400, not day 1. "
     },
     {
       "slug": "blog9",
-      "img": "/assets/insights/insight3.png",
-      "title": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers",
-      "description": "ESG has stopped being a compliance checkbox. It now shapes how India's leading enterprises design their workplaces, and it cuts hidden costs across energy, productivity, talent and compliance.",
-      "imgAlt": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers"
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/d+and+b+prespective+ext.png",
+      "title": "Building for the future: A design & build perspective.",
+      "description": "Future-ready workspaces aren't predicted. They're engineered.",
+      "imgAlt": ""
     }
   ],
   "blogDetail": {

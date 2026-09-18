@@ -59,6 +59,12 @@
       "title": "Building for the future: A design & build perspective.",
       "description": "Future-ready workspaces aren't predicted. They're engineered.",
       "imgAlt": ""
+    },
+    {
+      "slug": "blog10",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/ESG+10+ext.png",
+      "title": "ESG doesn't live on a slide. It lives in the walls.",
+      "description": "For most companies ESG is a report. In the best workplaces, it's built into the materials."
     }
   ],
   "blogDetail": {

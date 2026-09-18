@@ -7,13 +7,13 @@
   "blogsCards": [
     {
       "slug": "blog1",
-      "img": "/assets/insights/insight1.png",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG+(2).png",
       "title": "Your office is costing more than you think.",
       "description": "ESG-led workplace design reduces hidden costs and drives business performance."
     },
     {
       "slug": "blog2",
-      "img": "/assets/insights/insight2.png",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC+ext.png",
       "title": "GCCs are no longer back offices, then why do so many still look like one?",
       "description": "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires."
     },
@@ -118,7 +118,7 @@
       "author": "Abhiram Ajayghosh",
       "date": "Monday, March 2, 2026",
       "readTime": "3 min read",
-      "mainImage": "/assets/news/detail_news1.jpg",
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC.png",
       "sections": [
         {
           "title": "Introduction: The Work Changed, the Buildings Didn’t",

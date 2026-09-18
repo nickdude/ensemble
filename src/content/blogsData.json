@@ -12,22 +12,22 @@
       "description": "ESG-led workplace design reduces hidden costs and drives business performance."
     },
     {
+      "slug": "blog3",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Circular+ext.png",
+      "title": "Circular Design, Engineered In",
+      "description": "The Next Generation of Enterprise Workspaces"
+    },
+    {
       "slug": "blog2",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC+ext.png",
       "title": "GCCs are no longer back offices, then why do so many still look like one?",
       "description": "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires."
     },
     {
-      "slug": "blog3",
-      "img": "/assets/insights/insight3.png",
-      "title": "Maximizing Small Spaces",
-      "description": "Get insights into designing compact spaces without compromising style or comfort, perfect for city living and smaller homes."
-    },
-    {
       "slug": "blog4",
-      "img": "/assets/insights/insight1.png",
-      "title": "Building for Future",
-      "description": "Explore the latest trends in eco-friendly architecture and interior design, and how we incorporate sustainability into every project."
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+roi+ext.png",
+      "title": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes.",
+      "description": "Real estate is your second-biggest cost. Why treat it as fixed?"
     },
     {
       "slug": "blog5",

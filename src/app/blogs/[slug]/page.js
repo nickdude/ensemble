@@ -34,7 +34,7 @@ export default function DetailBlog() {
         <div className="relative w-full h-[75vh] rounded-xl overflow-hidden mt-16">
             <Image
                 src={blogDetail.mainImage}
-                alt="Detail News Image"
+                alt={blogDetail.mainImageAlt || blogDetail.title}
                 fill
                 className="object-cover"
                 priority

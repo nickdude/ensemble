@@ -38,9 +38,7 @@ export default function sitemap() {
     })
   );
 
-  // 3. Blog detail pages — ONLY slugs that have a real blogDetail entry.
-  //    blog3..blog8 fall back to blog1's content (duplicate) and are
-  //    deliberately excluded here and marked noindex at the page level.
+  // 3. Blog detail pages — every slug with a real blogDetail entry is indexable.
   const blogRoutes = Object.keys(blogsData.blogDetail || {}).map((slug) => ({
     url: `${SITE_URL}/blogs/${slug}`,
     lastModified,

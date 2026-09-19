@@ -69,112 +69,11 @@
   ],
   "blogDetail": {
     "blog1": {
-      "title": "Your office is costing more than you think: How ESG changes the value equation.",
-      "subtitle": "ESG-led workplace design reduces hidden costs and drives business performance.",
-      "author": "Abhiram Ajayghosh",
-      "date": "Monday, February 16, 2026",
-      "readTime": "3 min read",
-      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG.png",
-      "sections": [
-        {
-          "title": "Introduction",
-          "para": "Most organisations measure an office by rent, fit-out, and operating expenses. The biggest costs are invisible: higher energy use, lower productivity, rising attrition, compliance gaps, and costly retrofits that compound over a workplace's life. ESG-led workplace design addresses these at the source, reducing operational waste, improving performance, and creating measurable business value. The question is no longer “How much does an office cost?” but “What is your office costing the business?” Here are eight ways ESG-led design is helping India's leading enterprises cut hidden costs while creating long-term value."
-        },
-        {
-          "title": "1. ESG Has Moved to the Boardroom",
-          "para": "ESG is no longer owned by sustainability teams alone. It now influences finance, HR, operations, corporate real estate, and business strategy.\n\nAs SEBI's BRSR Core assurance requirements expand, the workplace has become one of the most measurable business assets an organisation owns. Investors increasingly view ESG-ready workplaces as a sign of operational maturity, while employees see them as a reflection of company values.\n\nIgnoring ESG today does not just create compliance gaps. It increases the long-term cost of keeping a workplace competitive."
-        },
-        {
-          "title": "2. Regulation is Raising the Baseline",
-          "para": "India's ESG regulations are becoming more rigorous. SEBI's phased rollout of BRSR Core assurance requires organisations to provide measurable evidence across emissions, energy, water, waste, and governance.\n\nMany of these metrics are directly influenced by workplace design. Buildings without metering, monitoring, and integrated reporting systems often require expensive upgrades to meet future compliance requirements.\n\nThis is where the Governance (G) pillar comes into focus, with audit-ready systems reducing both compliance risk and future retrofit costs."
-        },
-        {
-          "title": "3. Sustainability is a Cost Strategy",
-          "para": "A workplace's operating cost begins long before employees move in. Daylight optimisation, intelligent HVAC, efficient lighting, responsible materials, and lower embodied carbon reduce costs across the life of the asset, strengthening the Environmental (E) pillar. At Ensemble Infrastructure India Ltd., ESG is embedded from day one through BIM-led planning, responsible material specifications, and an integrated 1,25,000 sq. ft. manufacturing facility that gives greater control over quality and long-term performance."
-        },
-        {
-          "title": "4. Better Buildings Improve Performance",
-          "para": "The costliest workplace inefficiencies are often human rather than operational.\n\nHarvard's COGfx studies show that healthier indoor environments with better ventilation significantly improve cognitive performance. Air quality, daylight, thermal comfort, and acoustic planning all contribute to better concentration, collaboration, and decision-making.\n\nAt its core, the Social (S) pillar creates healthier workplaces that improve productivity while reducing the hidden costs of disengagement and absenteeism."
-        },
-        {
-          "title": "5. Inclusive Design Protects Talent",
-          "para": "Replacing experienced talent is expensive.\n\nFlexible work settings, ergonomic furniture, accessible planning, and sensory-sensitive environments support diverse working styles, including neurodiverse employees. For sectors such as IT, GCCs, BFSI, and life sciences, workplace quality has become a key differentiator in attracting and retaining skilled professionals.\n\nInclusive workplaces strengthen the Social (S) pillar by improving employee experience, reducing attrition, and protecting long-term talent investment."
-        },
-        {
-          "title": "6. Governance is Visible Through Design",
-          "para": "A workplace reflects how an organisation operates.\n\nTransparent layouts, equitable planning, live environmental dashboards, and measurable building performance demonstrate accountability far more effectively than policy documents. Reliable workplace data also strengthens investor confidence and simplifies ESG reporting.\n\nStrong governance makes the Governance (G) pillar visible while reducing operational and compliance risks."
-        },
-        {
-          "title": "7. Execution Determines ESG Success",
-          "para": "Strong ESG ambitions require disciplined execution. Integrated Design & Build delivery, BIM-led planning, and controlled material specifications ensure sustainability commitments are delivered rather than diluted during construction, avoiding costly rework and specification drift. Embedding Environmental (E), Social (S), and Governance (G) principles into design, procurement, and construction ensures ESG is delivered in practice, not just documented on paper."
-        },
-        {
-          "title": "8. Competitive Advantage is Built In",
-          "para": "India's leading enterprises no longer see the workplace as an overhead. They see it as strategic infrastructure that lowers operating costs, strengthens compliance, improves performance, attracts talent, and builds investor confidence, reducing the long-term cost of doing business while increasing enterprise value. The most expensive office is rarely the one with the highest rent. It is the one that quietly drains energy, productivity, and talent every day."
-        },
-        {
-          "title": "Conclusion",
-          "para": "Your office costs more than its lease or fit-out. It influences energy bills, employee performance, talent retention, compliance, and long-term business value.\n\nOrganisations that embed Environmental (E), Social (S), and Governance (G) principles into workplace design do more than build sustainable offices. They reduce hidden costs, strengthen resilience, and create workplaces that perform better for years to come."
-        }
-      ]
-    },
-    "blog2": {
-      "title": "GCCs are no longer back offices, then why do so many still look like one?",
-      "subtitle": "India’s Global Capability Centres have evolved from cost centres to innovation hubs. Here’s what high-performance GCC workplace design actually requires.",
-      "author": "Abhiram Ajayghosh",
-      "date": "Monday, March 2, 2026",
-      "readTime": "3 min read",
-      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC.png",
-      "sections": [
-        {
-          "title": "Introduction: The Work Changed, the Buildings Didn’t",
-          "para": "India has over 1,700 Global Capability Centres, and that number keeps climbing. Somewhere along the way the work changed: centres built to handle back-office processes now run product engineering, AI and machine learning pipelines, and global strategy. The work evolved. In many cases, the buildings did not."
-        },
-        {
-          "title": "A Cost-Centre Layout in an Innovation-Centre World",
-          "para": "The original GCC brief was simple — maximise density, minimise cost, standardise everything. Long rows of workstations, uniform meeting rooms, facilities that met compliance and little else. That brief made sense in 2005 and is actively counterproductive today. The defining output of a modern GCC is intellectual, not transactional, and intellectual output is degraded by density, not improved by it."
-        },
-        {
-          "title": "Talent Density Demands Workspace Quality",
-          "para": "India’s GCCs compete directly with global tech hubs, funded startups, and peer enterprises for the same pool of high-skill talent. A candidate weighing two offers will walk through both offices, and the physical environment communicates something about each organisation before a word is spoken. In a talent-dense operation, workspace quality is not a perk — it is a recruiting instrument."
-        },
-        {
-          "title": "Flexibility Over Fixed Assignment",
-          "para": "The work is increasingly non-linear, and design must follow. High-performance GCCs are built on reconfigurable zones, activity-based working areas, and layouts that adapt as teams and mandates evolve — without a full redesign every 18 months. Flexibility designed in at the start is what keeps the space relevant as the centre’s remit expands."
-        },
-        {
-          "title": "Collaboration Infrastructure, Not Just Meeting Rooms",
-          "para": "Collaboration in a modern GCC is not a scheduled meeting; it is a continuous exchange between engineers, designers, analysts, and strategists. Spaces need to support that — with writable surfaces, informal ideation zones, and team neighbourhoods that create proximity between the people who benefit from it most."
-        },
-        {
-          "title": "Hybrid-Readiness as Standard",
-          "para": "GCCs operate across time zones, so every meeting room must be a broadcast-quality hybrid room. Video infrastructure, acoustic treatment, and lighting designed for on-camera presence are non-negotiable baseline requirements — not upgrades bolted on after handover."
-        },
-        {
-          "title": "Brand and Culture at Scale",
-          "para": "A GCC is often the most visible physical expression of a global brand in the Indian market. The design has to carry that identity authentically, not as a logo on a wall, but as a spatial experience that communicates who the organisation is and what it stands for."
-        },
-        {
-          "title": "The Manufacturing Advantage",
-          "para": "Custom furniture and joinery at enterprise scale — delivered on deadline with consistent quality across 50,000 or 100,000+ square feet — is genuinely difficult. Ensemble’s 1,25,000 sq. ft. in-house manufacturing facility gives lead times, quality control, and design flexibility an outsourced supply chain cannot match, proven on builds such as UST Global (2,50,000 sq. ft.) and KPMG (30,000 sq. ft.)."
-        },
-        {
-          "title": "The Bottom Line on GCC Investment",
-          "para": "The organisations that understand this treat their GCC workplaces as capital investments in talent attraction, retention, and output quality — not overhead to be minimised. The physics are simple: better environment leads to better people, better work, and better business outcomes. With 1,900+ projects delivered across IT/ITES and GCC environments — including Google (38,000 sq. ft.) and TCS House (60,000 sq. ft.), Ensemble builds GCC workplaces that match the ambition of the organisations they house."
-        },
-        {
-          "title": "Conclusion",
-          "para": "The GCCs pulling ahead have stopped refurbishing the same cost-centre layout every few years and started treating their workplace as capital invested in talent and output. The equation is simple, a better environment produces better people, better work, and better business outcomes. Designed for how the work actually happens now, the GCC workplace becomes what it should be: an engine of innovation, not a relic of the back office."
-        }
-      ]
-    },
-    "blog9": {
       "title": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers",
       "subtitle": "ESG has stopped being a compliance checkbox. It now shapes how India's leading enterprises design their workplaces, and it cuts hidden costs across energy, productivity, talent and compliance.",
       "author": "Ensemble Editorial Team",
       "date": "Friday, July 10, 2026",
       "readTime": "6 min read",
-      "mainImage": "/assets/news/detail_news1.jpg",
       "sections": [
         {
           "title": "Introduction: The Costs You Cannot See",
@@ -215,9 +114,485 @@
         {
           "title": "Conclusion",
           "para": "Embedding ESG into workplace design does more than produce a sustainable office. It lowers hidden costs, strengthens resilience and leaves a space that keeps performing for years after handover. That is the return ESG-led design is built to deliver, and it accumulates in the operating account rather than the brochure."
+        },
+        {
+          "title": "Circular Design, Engineered In: The Next Generation of Enterprise Workspaces",
+          "para": "Why future-ready offices will keep materials in the loop, and what that means for cost, compliance and long-term value."
         }
       ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-1.png",
       "mainImageAlt": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers"
+    },
+    "blog2": {
+      "title": "GCCs Are No Longer Back Offices. So Why Do So Many Still Look Like One?",
+      "subtitle": "India's Global Capability Centres have moved from cost centres to innovation hubs. What high-performance GCC workplace design requires now.",
+      "author": "Ensemble Editorial Team",
+      "date": "Thursday, June 12, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction: The Work Changed, the Buildings Didn't",
+          "para": "India has more than 1,700 Global Capability Centres and the number keeps climbing. The work inside them has changed completely. Centres built to handle back-office processes now run product engineering, AI and machine learning pipelines, and global strategy. In many cases the buildings they run it from have not changed at all."
+        },
+        {
+          "title": "A Cost-Centre Layout in an Innovation-Centre World",
+          "para": "The original GCC brief was straightforward: maximise density, minimise cost, standardise everything. Long rows of workstations, uniform meeting rooms, facilities that met compliance and little else. That brief made sense in 2005 and works against the business today. The defining output of a modern GCC is intellectual rather than transactional, and density degrades intellectual output rather than improving it."
+        },
+        {
+          "title": "Talent Density Demands Workspace Quality",
+          "para": "India's GCCs compete with global tech hubs, funded startups and peer enterprises for the same pool of high-skill talent. A candidate weighing two offers walks through both offices, and each building says something about the organisation before anyone speaks. In a talent-dense operation, workspace quality does recruiting work."
+        },
+        {
+          "title": "Flexibility Over Fixed Assignment",
+          "para": "The work is increasingly non-linear and the design has to follow. High-performance GCCs run on reconfigurable zones, activity-based working areas and layouts that absorb change as teams and mandates evolve, without a full redesign every 18 months. Flexibility designed in at the start is what keeps the space relevant as the centre's remit expands."
+        },
+        {
+          "title": "Collaboration Infrastructure, Not Just Meeting Rooms",
+          "para": "Collaboration in a modern GCC happens continuously between engineers, designers, analysts and strategists, not at scheduled intervals. Space has to support that: writable surfaces, informal ideation zones, and team neighbourhoods that put the people who benefit from proximity near each other."
+        },
+        {
+          "title": "Hybrid-Readiness as Standard",
+          "para": "GCCs work across time zones, which makes every meeting room a broadcast-quality hybrid room. Video infrastructure, acoustic treatment and lighting designed for on-camera presence belong in the baseline specification, not in a list of upgrades after handover."
+        },
+        {
+          "title": "Brand and Culture at Scale",
+          "para": "A GCC is often the most visible physical expression of a global brand in the Indian market. The design has to carry that identity as a spatial experience rather than a logo on a wall, so the building communicates who the organisation is and what it stands for."
+        },
+        {
+          "title": "The Manufacturing Advantage",
+          "para": "Custom furniture and joinery at enterprise scale is genuinely hard to get right: on deadline, at consistent quality, across 50,000 or 100,000+ square feet. Ensemble's 1,25,000 sq. ft. in-house manufacturing facility gives lead times, quality control and design flexibility that an outsourced supply chain cannot match. UST Global at 2,50,000 sq. ft. and KPMG at 30,000 sq. ft. were both built that way."
+        },
+        {
+          "title": "The Bottom Line on GCC Investment",
+          "para": "The organisations that have absorbed this treat their GCC workplace as capital invested in talent attraction, retention and output quality rather than overhead to be minimised. The chain is short: a better environment attracts better people, who do better work, which shows up in business outcomes. Ensemble has delivered 1,900+ projects across IT/ITES and GCC environments, including Google at 38,000 sq. ft. and TCS House at 60,000 sq. ft., sized to the ambition of the organisations inside them."
+        },
+        {
+          "title": "Conclusion",
+          "para": "The GCCs pulling ahead have stopped refurbishing the same cost-centre layout every few years. They have started designing for the work as it actually happens now: non-linear, collaborative, hybrid by default and intellectual in its output. That is the difference between a centre that houses innovation and one that still looks like the back office it stopped being years ago."
+        },
+        {
+          "title": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes.",
+          "para": "Real estate is your second-largest cost after people. So why treat it as a fixed expense rather than a performance variable?"
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-2.png",
+      "mainImageAlt": "GCCs Are No Longer Back Offices. So Why Do So Many Still Look Like One?"
+    },
+    "blog3": {
+      "title": "Circular Design, Engineered In: The Next Generation of Enterprise Workspaces",
+      "subtitle": "Why future-ready offices will keep materials in the loop, and what that means for cost, compliance and long-term value.",
+      "author": "Ensemble Editorial Team",
+      "date": "Tuesday, June 24, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction: The Hidden Liability in Every Fitout",
+          "para": "The typical corporate interior is stripped out and rebuilt every five to seven years, and most of what comes off the walls and floors goes to landfill. For an enterprise managing millions of square feet across multiple locations, that is recurring capital expenditure, growing ESG exposure and avoidable waste, cycle after cycle. It is a liability that never appears as one, because each individual fit-out looks like a fresh start."
+        },
+        {
+          "title": "What Circular Design Really Means",
+          "para": "Circular design breaks that cycle. It minimises waste, extracts the full value of every material and keeps resources in continuous use, instead of moving them in a straight line from factory to fit-out to disposal. Done well, it changes the economics of a workspace and not only its carbon number."
+        },
+        {
+          "title": "It Starts at the Design Table, Not the Handover",
+          "para": "Circularity is a discipline rather than a style, and like any discipline it starts early. Sustainability retrofitted at the end of a project earns a certificate. Engineered in from day one, it produces measurable outcomes. That means materials chosen for their whole lifecycle, elements designed to be moved and reused, and a build detailed so it can be taken apart as intelligently as it went together."
+        },
+        {
+          "title": "Material Intelligence Over Material Habit",
+          "para": "Most specification decisions get made on habit and unit cost. Circular design asks a harder question: what is the full lifecycle impact of this material, and what happens to it when the space changes? The principles are easy to state and demanding to execute, which is to prioritise renewable and recycled inputs, reuse and refurbish before buying new, and weigh total lifecycle impact rather than the price at procurement."
+        },
+        {
+          "title": "Certifications Turn Claims Into Evidence",
+          "para": "Certification is what makes that rigour credible to someone outside the project. Anchoring specifications to recognised standards moves sustainability from claim to evidence: FSC for responsibly sourced wood, Cradle to Cradle for recyclability, GreenGuard for low-emission materials. These function as audit trails, and they hold up in front of an ESG committee in a way a marketing badge does not."
+        },
+        {
+          "title": "Manufacturing as a Sustainability Advantage",
+          "para": "Control over materials is where a manufacturing capability starts paying sustainability dividends. Ensemble's 1,25,000 sq. ft. in-house facility gives direct oversight of what goes into a build, the option to refurbish and repurpose existing furniture instead of replacing it, and the precision to make components designed for future disassembly."
+        },
+        {
+          "title": "Design for Adaptability",
+          "para": "The most sustainable interior is the one that never needs demolishing. Designing for adaptability means modular, moveable, easy-to-disassemble space: a meeting room that reconfigures, furniture systems that relocate with the team, partitions that come apart without destruction. For CRE and workplace leaders, that reads as a lower total cost of ownership across the life of the asset rather than a one-time saving at fit-out."
+        },
+        {
+          "title": "Reduce Waste at the Source",
+          "para": "Waste is rarely a single event at demolition. It accumulates through short-term choices made years earlier, which is why a durable specification means less disposal later. BIM-led planning tightens this at every stage: accurate quantification reduces over-ordering, off-site manufacturing controls offcuts, and precise coordination cuts the rework that generates most site waste."
+        },
+        {
+          "title": "Why It Matters to the Enterprise",
+          "para": "For the Fortune 500 and Fortune 1000 businesses Ensemble builds for, circular design earns its place commercially before it earns it as a value. Certified materials give measurable ESG progress, lower total cost of ownership arrives without trading quality for savings, and spaces adapt instead of being demolished. Across 23+ years and 1,900+ projects, engineering sustainability in from day one is what lets a workspace perform today and stay responsible tomorrow."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Circular design is a smarter way to own a workspace. Keeping materials in the loop, designing for adaptability and engineering waste out at the source turns a recurring liability into long-term value, with the certification trail to prove it."
+        },
+        {
+          "title": "GCCs Are No Longer Back Offices. So Why Do So Many Still Look Like One?",
+          "para": "India's Global Capability Centres have moved from cost centres to innovation hubs. What high-performance GCC workplace design requires now."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-3.png",
+      "mainImageAlt": "Circular Design, Engineered In: The Next Generation of Enterprise Workspaces"
+    },
+    "blog4": {
+      "title": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes.",
+      "subtitle": "Real estate is your second-largest cost after people. So why treat it as a fixed expense rather than a performance variable?",
+      "author": "Ensemble Editorial Team",
+      "date": "Wednesday, May 28, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction: A Number Worth Sitting With",
+          "para": "Real estate is the second-largest operating expense for most organisations, behind talent. In most budget conversations it still gets treated as a fixed cost, a line item to minimise rather than optimise. The CFOs and Heads of CRE who have started rethinking that are building an advantage their peers will not notice until it appears in retention data and output metrics."
+        },
+        {
+          "title": "The Hidden Cost of the “Efficient” Office",
+          "para": "Ask an organisation how it measures workspace efficiency and the answer is almost always cost per square foot. That metric records what was paid and nothing about what was received. The real costs of a poorly designed office never reach the balance sheet. They surface as attrition, productivity drag and slow execution, all of it designed into the floor plan."
+        },
+        {
+          "title": "From Cost Per Square Foot to Value Per Square Foot",
+          "para": "High-performance workplaces get measured against a different question: what does this space enable? A floor plan that creates natural cross-functional proximity accelerates collaboration in a way no project-management tool replicates. An acoustically treated deep-work zone produces different cognitive output than an open plan where every conversation competes for attention. The return shows up as organisational velocity, meaning the speed at which good decisions get made and acted on."
+        },
+        {
+          "title": "Lever 1: Modular Systems Cut Long-Term Redesign Cost",
+          "para": "Most fit-outs are designed for the organisation as it exists on the day of signing. Teams grow, mandates change, and the space stops fitting. A modular furniture system and a reconfigurable layout let it adapt without a full refurbishment every three years, and the upfront design investment comes back several times over in renovation cost never incurred."
+        },
+        {
+          "title": "Lever 2: Utilisation Data Changes Everything",
+          "para": "Occupancy sensors and space analytics show, in real time, which spaces get used, when, and by how many people. That moves planning from intuition to evidence. Organisations that run the data consistently tend to find they have been significantly over-building some space types and under-building others at the same time."
+        },
+        {
+          "title": "Lever 3: The Talent Retention Calculation",
+          "para": "A 10% improvement in retention across 500 people, where average replacement cost runs ₹8 to 12 lakh, is worth ₹4 to 6 crore a year. If a workspace upgrade contributes to that improvement, the investment stops being a facilities conversation and becomes a business case."
+        },
+        {
+          "title": "Speed Is Value, Too",
+          "para": "Value per square foot includes time to occupancy. Maersk's 30,000 sq. ft. workplace was delivered in 24 days, with data-driven space decisions and integrated delivery making the timeline a commercial advantage instead of a compromise on quality."
+        },
+        {
+          "title": "How to Brief Your Next Fitout",
+          "para": "The organisations getting the most from their workplace investment do not open with square-footage requirements and per-seat cost targets. They start with a behavioural objective: what does this space need to enable? A brief written that way leaves room for design intelligence, and for a partner who thinks like a designer, plans like an engineer and delivers like an operator."
+        },
+        {
+          "title": "Value Across Every Use",
+          "para": "The same logic scales into complex, multi-use environments. At the Textiles Committee's 1,45,000 sq. ft. workplace, the value came from what the space enables rather than from its footprint. Across 23+ years and 12M+ sq. ft. delivered for Fortune 500 and Fortune 1000 companies, Ensemble treats each project as a capital-allocation decision rather than a construction exercise."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Real estate is too large a cost, and too useful a lever, to manage as a fixed line item. Measuring value per square foot instead of cost per square foot changes what gets briefed, what gets built, and what gets measured afterwards. Reframe the maths that way and the workplace stops being an overhead to minimise and starts behaving like an asset that compounds."
+        },
+        {
+          "title": "The Office Isn't Dead. It Just Has to Earn Its Commute.",
+          "para": "The question isn't whether employees will come to the office. It's whether the office gives them a good enough reason to."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-4.png",
+      "mainImageAlt": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes."
+    },
+    "blog5": {
+      "title": "The Office Isn't Dead. It Just Has to Earn Its Commute.",
+      "subtitle": "The question isn't whether employees will come to the office. It's whether the office gives them a good enough reason to.",
+      "author": "Ensemble Editorial Team",
+      "date": "Monday, May 12, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction: The Debate Is Over, the Question Isn't",
+          "para": "The debate that absorbed so much energy between 2020 and 2023 has settled into something less dramatic. The office is not dead, remote-first is not the future for every organisation, and mandatory attendance has not worked as an answer either. What is happening instead is a renegotiation. Employees are asking what the space is actually for, which is a reasonable question, and the organisations answering it well are winning on culture, productivity and talent."
+        },
+        {
+          "title": "What the Office Used to Be",
+          "para": "For most of the last century the office existed because the work was there: the files, the colleagues, the tools. That logic has gone. Files sit in the cloud, meetings happen on screens, and focused individual work travels almost anywhere. The office has lost its monopoly on work, so it now has to offer something other locations cannot."
+        },
+        {
+          "title": "What the Office Needs to Become",
+          "para": "Three things bring people in voluntarily: collaboration, culture and serendipity. Collaboration means shared physical presence and real-time iteration. Culture is the felt sense of belonging, carried through materials, light and incidental encounters. Serendipity is the unplanned conversation that redirects a project, nearly impossible to engineer digitally and exactly what well-designed space produces on its own."
+        },
+        {
+          "title": "Design for Activities, Not Desks",
+          "para": "If the office is a destination rather than a default, the plan has to reflect it: fewer fixed desks, more intentional zones. Deep focus, collaborative ideation, informal exchange and structured presentation are different activities with different spatial needs, and a fixed-desk layout treats them as one. Designing for each of them deliberately is what separates a working hybrid workplace from a half-empty traditional one."
+        },
+        {
+          "title": "Every Meeting Room Is a Broadcast Studio",
+          "para": "The biggest equity failure in hybrid organisations is the experience gap between the people in the room and the people on the screen. Camera placement, acoustic treatment, display sizing and on-camera lighting decide whether a remote participant can follow the conversation and contribute to it. Design every meeting room as though half the participants are remote, because increasingly they are."
+        },
+        {
+          "title": "Booking Intelligence and Wayfinding",
+          "para": "Someone coming in two or three days a week needs to find the right space for the day's work, see which colleagues are in, and book accordingly. Smart booking systems and digital signage are what make that possible, which puts them closer to operating infrastructure than to perks."
+        },
+        {
+          "title": "Designing for Equity",
+          "para": "There is a version of hybrid work that produces a two-tier workforce: the people who are present, build relationships and advance, and the people who are remote and slowly lose ground to proximity bias. Design cannot fix that on its own. Space built explicitly to equalise the remote and in-person experience, acoustically, technologically and socially, does reduce the structural inequity that bad hybrid design creates."
+        },
+        {
+          "title": "Delivery Agility Matters",
+          "para": "A hybrid-ready workplace only counts as an advantage if it arrives at the speed the business moves. WeWork's 31,430 sq. ft. workplace was delivered in 45 days, and Workwise's 17,000 sq. ft. build ran the same way: integrated design and build turning hybrid-ready ambition into occupied space on a real timeline."
+        },
+        {
+          "title": "The Organisations Getting This Right",
+          "para": "They have stopped managing the office as a legacy cost and started activating it as a strategic asset. Their floor plans are built around intentional use cases, their technology is designed in rather than bolted on, and the employees they most want to keep show up because there is a genuine reason to. Ensemble has spent 23+ years and 1,900+ projects learning what makes an office worth the commute."
+        },
+        {
+          "title": "Conclusion",
+          "para": "The office is not competing with the couch. It is competing with a bad reason to commute. Give people the collaboration, culture and serendipity they cannot get at home, design it for activity, build it for equity, and deliver it at the speed the business moves. Attendance follows from that rather than from a mandate."
+        },
+        {
+          "title": "Your Office Is Running an Invisible Tax on Focus. Here's How to Fix It",
+          "para": "Noise, light, air quality and layout are performance variables, not comfort factors. What designing for cognitive performance actually involves."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-5.png",
+      "mainImageAlt": "The Office Isn't Dead. It Just Has to Earn Its Commute."
+    },
+    "blog6": {
+      "title": "Your Office Is Running an Invisible Tax on Focus. Here's How to Fix It",
+      "subtitle": "Noise, light, air quality and layout are performance variables, not comfort factors. What designing for cognitive performance actually involves.",
+      "author": "Ensemble Editorial Team",
+      "date": "Wednesday, April 30, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction: The Tax Nobody Reports",
+          "para": "Somewhere in your office right now, someone is trying to think. Three conversations are happening within earshot on an open-plan floor, the lighting is too cold and too uniform, and the air was fine four hours ago. They are doing their best, and their best in that environment is a fraction of what they are capable of. Poor design taxes cognitive performance without ever appearing in a report, and the amount accumulates every working day."
+        },
+        {
+          "title": "What the Neuroscience Says About Noise",
+          "para": "This is measurable rather than intuitive. Cognitive interruption from irrelevant speech, specifically speech rather than ambient sound, is one of the most documented performance inhibitors in workplace research. An open-plan floor without acoustic zoning forces the brain to suppress linguistic input actively, and that consumes working memory the task itself needs."
+        },
+        {
+          "title": "Light Is a Performance Variable",
+          "para": "Exposure to natural light correlates with better sleep, which links directly to executive function, decision quality and emotional regulation. Offices that rely on cold, high-intensity overhead lighting disrupt circadian rhythms over time. The person sitting six rows from the nearest window is not working in the same cognitive environment as the person beside it."
+        },
+        {
+          "title": "Air Quality Sets the Ceiling",
+          "para": "CO₂ concentration is a reliable proxy for cognitive performance. As it rises in poorly ventilated spaces, in long meetings and on densely occupied floors without adequate fresh-air exchange, decision quality measurably declines. The stuffy room after lunch is a ventilation failure, and it carries a cognitive cost."
+        },
+        {
+          "title": "Thermal Comfort Is Narrow",
+          "para": "People who are too cold spend cognitive resources on thermoregulation, and people who are too hot lose alertness. The band that supports peak cognitive performance is narrow, and most offices fail to hold it consistently across zones and across the day."
+        },
+        {
+          "title": "Designing for Flow, Not Just Footfall",
+          "para": "The best workplace design produces flow rather than admiration on a tour. Flow is the state of deep, uninterrupted work where output quality runs dramatically above baseline, and it depends on psychological safety, clear zoning that separates focus from collaboration, and sensory calibration across acoustics, light and temperature. Those conditions have to be specified, because none of them occurs by accident."
+        },
+        {
+          "title": "The Practical Response: Zoning and Daylight",
+          "para": "A well-designed workplace holds at least three acoustic environments: a collaborative zone, a semi-quiet focus zone, and a properly treated quiet zone for deep work. Daylight belongs in the performance specification alongside them, not in the aesthetic one. Workstation placement relative to glazing, and high-reflectance surfaces that push light deeper into the plate, deserve the same scrutiny as any technical spec."
+        },
+        {
+          "title": "Movement and Biophilia as Infrastructure",
+          "para": "Static environments reduce cognitive agility. The brain benefits from changes in posture, visual distance and context, which is what standing-height surfaces, lounge zones and routes that encourage incidental movement are for. Biophilic elements, meaning natural light, natural materials and views, have documented effects on stress and attention. MSD and KPMG both treated cognitive precision as a design specification rather than an afterthought."
+        },
+        {
+          "title": "The Competitive Implication",
+          "para": "Organisations that take cognitive performance seriously are not running a wellness initiative. They have worked out that the quality of their people's thinking is the limiting factor on business outcomes. A 10% improvement in the decisions a 200-person team makes over 250 working days is not a rounding error, and it compounds. The physical environment is one of the few variables in that equation an organisation fully controls. Across 1,900+ projects and 23+ years, Ensemble has designed for it deliberately."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Cognitive performance is the most valuable output of a modern workplace and one of the most controllable. Acoustics, light, air and layout set the operating conditions for good thinking. Specify them properly and the invisible tax stops being levied, on every floor, every working day."
+        },
+        {
+          "title": "What 1,900+ Projects Taught Us About Where Workspaces Are Heading",
+          "para": "The best workplaces today aren't designed to look different. They're designed to perform differently. Five shifts defining the next generation of offices."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-6.png",
+      "mainImageAlt": "Your Office Is Running an Invisible Tax on Focus. Here's How to Fix It"
+    },
+    "blog7": {
+      "title": "What 1,900+ Projects Taught Us About Where Workspaces Are Heading",
+      "subtitle": "The best workplaces today aren't designed to look different. They're designed to perform differently. Five shifts defining the next generation of offices.",
+      "author": "Ensemble Editorial Team",
+      "date": "Tuesday, April 15, 2026",
+      "readTime": "5 min read",
+      "sections": [
+        {
+          "title": "Introduction: From Aesthetics to Performance",
+          "para": "Workplace design used to be measured by how impressive the reception looked, how many workstations fitted on a floor, and how iconic the breakout area was. Those questions have not disappeared, but they have become secondary. After more than 1,900 projects across India's commercial market, the pattern is that the best workplaces are designed to perform differently rather than to look different. Five shifts are doing most of that work."
+        },
+        {
+          "title": "1. Neighbourhoods Are Replacing Rows",
+          "para": "The sea of identical desks is disappearing. Instead of organising a floor by department, organisations are building neighbourhoods: clusters that combine collaborative tables, focus spaces, informal meeting zones, touchdown areas and project rooms. Employees choose the environment that matches the task instead of occupying one assigned desk. The office becomes activity-based rather than attendance-based, and every square foot works harder for it."
+        },
+        {
+          "title": "2. Acoustics Have Become Infrastructure",
+          "para": "Acoustics used to be a finishing package. They are now a core design decision. Open offices delivered collaboration and distraction in the same move, so modern workplaces invest in acoustic zoning, focus pods, sound-absorbing ceilings, enclosed phone booths and quiet libraries. The aim is control rather than silence, because focus work, video calls and collaboration all happen on the same floor at the same time."
+        },
+        {
+          "title": "3. Biophilia Is Moving Beyond Plants",
+          "para": "A few indoor plants no longer counts as biophilic design. The nature goes into the architecture: daylight maximised, natural materials specified, views improved, organic forms used, and the indoor to outdoor connection strengthened. The objectives are measurable ones, better cognitive performance, lower stress and greater satisfaction, which makes planting part of how the workplace performs rather than how it decorates."
+        },
+        {
+          "title": "4. Wellness Is Built Into the Floorplate",
+          "para": "Wellness used to be an employee benefit. It now takes up floor area: wellness rooms, recharge spaces, meditation areas, mothers' rooms and quiet recovery spaces. Few people spend hours inside them, which is not the point. Employees value knowing they exist, and a floorplate that makes room for them says the workplace was planned around people as well as productivity."
+        },
+        {
+          "title": "5. Flexibility Is Designed In, Not Added Later",
+          "para": "The fastest-changing part of an office is the business inside it. Teams expand, functions evolve and technology moves, so the space has to adapt without being rebuilt. Demand is rising for modular infrastructure, movable partitions, adaptable MEP planning, flexible power distribution and multi-purpose rooms. The design question has shifted from how this office should work today to how easily it can change over the next five years."
+        },
+        {
+          "title": "The Bigger Shift",
+          "para": "None of these five shifts is really about design. They are about performance: attracting better talent, improving collaboration, supporting focused work, raising utilisation and future-proofing a commercial asset. Workplace design has moved from a cost of fit-out to a source of business advantage."
+        },
+        {
+          "title": "The Lesson Across 1,900+ Projects",
+          "para": "That is the clearest lesson from 1,900+ projects and 23+ years of delivery. The workplaces that last will not be remembered for how they looked. They will be remembered for how well they helped people work, which is what Ensemble builds for."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Across 1,900+ projects the direction is consistent: the workplace has moved from a cost of fit-out to a driver of business performance. Neighbourhoods, acoustics, biophilia, wellness and built-in flexibility are five different routes to the same objective, which is space designed to perform rather than to impress."
+        },
+        {
+          "title": "The Cheapest Fitout Is the Most Expensive: The False Economy of Cutting Corners",
+          "para": "Cutting corners shows up on day 400, not day 1. Where cheap commercial fit-outs quietly fail, and what is actually worth investing in."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-7.png",
+      "mainImageAlt": "What 1,900+ Projects Taught Us About Where Workspaces Are Heading"
+    },
+    "blog8": {
+      "title": "The Cheapest Fitout Is the Most Expensive: The False Economy of Cutting Corners",
+      "subtitle": "Cutting corners shows up on day 400, not day 1. Where cheap commercial fit-outs quietly fail, and what is actually worth investing in.",
+      "author": "Ensemble Editorial Team",
+      "date": "Thursday, March 27, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction: The Quote That Looks Reasonable",
+          "para": "The brief looks reasonable. The quote is competitive. The timeline is tight, but the contractor says it is doable. You sign off, you move in, and for about a year everything seems fine. Then the ceiling tiles sag through the humid months, the workstations start creaking under daily load, and rushed MEP coordination begins arriving as maintenance calls. The cheap fit-out does not fail dramatically. It fails slowly, and the bill comes in instalments."
+        },
+        {
+          "title": "Where It Falls Apart: Furniture and Workstations",
+          "para": "The failure points are predictable and they cluster in the same places every time. The difference between a Grade A commercial workstation and a price-driven alternative does not show at handover. It shows at 18 months, when ergonomic failures start driving absenteeism, surfaces delaminate and uncertified height-adjust mechanisms stop working. The specification that saved ₹800 a seat costs multiples of that in replacement, repair and lost productivity."
+        },
+        {
+          "title": "Where It Falls Apart: MEP Coordination",
+          "para": "When design and execution are fragmented, running from architect to contractor to an MEP subcontractor who never sat with the interior designer, the clashes end up inside the walls and above the ceilings. Inspection does not find them. You find them when you try to add 20 seats to a floor that was never load-planned, or when the HVAC cannot hold up against the density of a real occupied workday."
+        },
+        {
+          "title": "Where It Falls Apart: Flooring and Acoustics",
+          "para": "Clients under-specify both of these consistently, because the gap between mid-tier and premium is invisible in a sample room. In a 30,000 sq. ft. office at full occupancy it becomes obvious inside a week. Acoustic underperformance goes past irritation and starts degrading concentration, collaboration and eventually retention."
+        },
+        {
+          "title": "Where It Falls Apart: Finishes and Surfaces",
+          "para": "Budget laminates, low-grade paints and unspecified adhesives do not fail immediately. They fail somewhere between 18 and 36 months, which tends to coincide with the lease review, with leadership walking investors through the space, and with a client forming a view of the organisation from what the office says about it."
+        },
+        {
+          "title": "The Number That Changes the Conversation",
+          "para": "A fit-out budget almost always gets framed as one-time capital expenditure, and that framing is the problem. The number that matters is total occupancy cost: capital fit-out plus maintenance, FM interventions, productivity loss and early refurbishment when the space underperforms. Run that calculation and a fit-out costing 15 to 20% more upfront, value-engineered, properly coordinated and built for the actual use case, comes out 30 to 40% cheaper across a five-year occupancy."
+        },
+        {
+          "title": "What's Actually Worth Investing In",
+          "para": "Not every line in a fit-out budget carries the same risk. Spatial planning and design intelligence are structural, and poor planning cannot be corrected without a full re-fit. MEP coordination and BIM-led execution cost a fraction before the slab is poured compared with reworking them afterwards. Seating, surfaces and acoustics are what people are in contact with for eight hours a day. Governance and quality oversight are what get a fit-out delivered to the specification rather than to the drawing."
+        },
+        {
+          "title": "The Decision You Are Actually Making",
+          "para": "The question is not whether the organisation can afford a quality fit-out. It is whether it can afford to occupy a poor one for five years, paying in productivity loss, maintenance cost, early churn and whatever the space communicates to everyone who walks through it. On day 1 the cheap fit-out and the value-engineered one look almost identical. On day 400 they do not. Ensemble has delivered 1,900+ commercial fit-outs for Fortune 500 organisations across India, combining design intelligence with execution mastery from concept through handover."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Judged on total occupancy cost rather than capital cost, the disciplined fit-out is the cheaper of the two. The cheap one only wins on the day it is signed."
+        },
+        {
+          "title": "Building for the Future: A Design & Build Perspective",
+          "para": "Future-ready workspaces aren't predicted. They're engineered — by one team, from the first sketch to handover."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-8.png",
+      "mainImageAlt": "The Cheapest Fitout Is the Most Expensive: The False Economy of Cutting Corners"
+    },
+    "blog9": {
+      "title": "Building for the Future: A Design & Build Perspective",
+      "subtitle": "Future-ready workspaces aren't predicted. They're engineered — by one team, from the first sketch to handover.",
+      "author": "<w:bottom w:val=\"single\" w:sz=\"4\" w:space=\"6\" w:color=\"DDDDDD\"/></w:pBdr></w:pPr><w:r><w:rPr><w:color w:val=\"595959\"/><w:sz w:val=\"19\"/></w:rPr><w:t>Ensemble Editorial Team",
+      "date": "Thursday, February 19, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction",
+          "para": "Most offices are built for the company that signs the lease, not the one that will occupy them in three years. Teams grow, mandates shift, technology turns over, and a space that fit perfectly at handover starts working against the business it was meant to serve. Building for the future comes down to one thing: a workplace that can absorb change without being torn apart to do it."
+        },
+        {
+          "title": "Future-Ready Isn't a Prediction",
+          "para": "No one can forecast exactly what a workplace will need by 2030, and future-ready design doesn't try to. Instead of betting on a single scenario, it builds in range — layouts that reconfigure, services sized with headroom, systems that come apart and move without demolition. The value isn't in guessing right. It's in how cheaply you can change your mind later."
+        },
+        {
+          "title": "Where Projects Usually Break",
+          "para": "Most of the value in a future-ready design leaks out at the handoffs. A designer draws the intent, a contractor prices it, a subcontractor builds it, and every handoff is a chance for the adaptable detail to get cut, the service run to clash, or the specification to drift. By the time the problems surface, they are inside the walls and above the ceiling, where fixing them costs far more than getting them right would have."
+        },
+        {
+          "title": "One Team, One Accountability",
+          "para": "An integrated design and build model closes those seams. When the people who design the space, engineer the services, and build it work for the same firm, there is no handoff to lose intent across and no one to point at when something slips. Decisions get made once, against the same brief. Coordination happens in the room instead of across contracts, so the project moves faster and the specification that was promised is the one that gets delivered. At Ensemble, design, engineering, manufacturing, and project execution sit under one roof for exactly this reason."
+        },
+        {
+          "title": "Manufacturing Is Part of the Argument",
+          "para": "The part that's easy to miss sits upstream of the site. A 1,25,000 sq. ft. in-house manufacturing facility means the furniture, joinery, and millwork are made to the drawing, not sourced against it. That control does two things for a future-ready brief: it holds the specification, and it lets components be built to move, reconfigure, and be reused as the floor plan changes. Design for manufacture and assembly is what turns 'adaptable' from a word on a slide into something you can actually unbolt and relocate."
+        },
+        {
+          "title": "Sustainability Belongs in the Structure",
+          "para": "Future-ready and sustainable are the same decision made at the same moment. Orientation, daylight, material choices, and how the services respond to real occupancy are all set at the brief stage, and they shape the running cost of the building for as long as it stands. Bolt them on later and you pay twice. Engineer them in and the workspace gets cheaper to run every year it operates."
+        },
+        {
+          "title": "Speed Is a Strategic Outcome",
+          "para": "Speed usually gets treated as a nice-to-have. It isn't. Every week a team spends waiting on a space is a week of disruption and paid-for square footage sitting idle. An integrated model compresses the schedule because design, procurement, and build run together rather than in sequence, and because clashes get caught in coordination instead of on site. Across 1,900+ projects, the pattern holds: the timeline shortens when one team owns the whole thing."
+        },
+        {
+          "title": "What It Means for the People Who Sign Off",
+          "para": "For the people approving the budget, the case is practical. One partner instead of a chain of them. One number to hold accountable. A space that flexes with the business instead of forcing an early, expensive refit. Design and build isn't a procurement preference — it's the model that keeps the workplace working after everyone has moved in."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Building for the future isn't about guessing the next decade correctly. It's about removing the places where good design gets lost, and engineering adaptability, sustainability, and speed into the workspace from the first sketch. With design, engineering, manufacturing, and delivery under one roof across 23+ years and 1,900+ projects, that is the point of an integrated model: a workplace that performs on handover, and keeps performing long after the business it was built for has changed."
+        },
+        {
+          "title": "ESG Doesn't Live on a Slide. It Lives in the Walls.",
+          "para": "For most companies ESG is a report. In the best workplaces, it's built into the materials, the air, and the way the space is run."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-9.png",
+      "mainImageAlt": "Building for the Future: A Design & Build Perspective"
+    },
+    "blog10": {
+      "title": "ESG Doesn't Live on a Slide. It Lives in the Walls.",
+      "subtitle": "For most companies ESG is a report. In the best workplaces, it's built into the materials, the air, and the way the space is run.",
+      "author": "<w:bottom w:val=\"single\" w:sz=\"4\" w:space=\"6\" w:color=\"DDDDDD\"/></w:pBdr></w:pPr><w:r><w:rPr><w:color w:val=\"595959\"/><w:sz w:val=\"19\"/></w:rPr><w:t>Ensemble Editorial Team",
+      "date": "Wednesday, March 25, 2026",
+      "readTime": "6 min read",
+      "sections": [
+        {
+          "title": "Introduction",
+          "para": "For most companies, ESG shows up once a year: a report filed with the regulator, a policy nobody reads, a slide near the back of the board deck. Walk into the workplaces that take it seriously and it sits somewhere else — in the materials on the walls, the air people breathe, the light they work by, and the data on the screen near reception. The gap between ESG that's reported and ESG that's built is the gap between a claim and a building that backs it up."
+        },
+        {
+          "title": "The 'E' Starts at the Brief, Not the Certificate",
+          "para": "The environmental case is bigger than renewable certificates and recycling bins, and it's decided long before procurement. How a floor is oriented, whether daylight does the work of the lights, what the materials off-gas, and whether the air handling responds to who's actually in the building — these are design choices, and they set the running cost of the space for as long as it operates. Handled at the brief stage, sustainability stops being a premium and becomes a cost structure that improves every year."
+        },
+        {
+          "title": "The 'S' Is About Performance, Not Perks",
+          "para": "The social part of ESG, inside a workplace, comes down to how the space affects the people in it. Air quality, daylight, acoustics, and ergonomics aren't comfort line items; they show up in concentration, sick days, and who decides to stay. Designing for a wider range of people — including those who need quiet, predictable, low-stimulation settings to do their best work — isn't a courtesy. It's how you widen the talent pool and hold on to it."
+        },
+        {
+          "title": "The 'G' You Can See From the Door",
+          "para": "Governance is the part people assume can't be designed, but a workplace signals it constantly. Closed corner offices and facilities data buried in a spreadsheet say one thing; open layouts, live energy and air-quality dashboards, and metering that feeds straight into reporting say another. As assurance requirements tighten, this stops being symbolic. A space built without measurement can't produce the evidence an audit needs. A space built with it can."
+        },
+        {
+          "title": "Retrofit Is the Expensive Way to Get Here",
+          "para": "You can reach for most of this after the fact, but it's the expensive route. Retrofitting metering, tearing out materials that shouldn't have been specified, re-planning a floor to add the daylight that was designed out — each costs more than doing it once, and some of it can't be fixed without a full re-fit. Engineered in from the first design review, ESG is close to free. Added afterward, it becomes a project of its own."
+        },
+        {
+          "title": "Why Integrated Delivery Decides the Outcome",
+          "para": "There's a practical reason ESG commitments so often don't survive to handover: when design, engineering, and construction sit with separate firms, the sustainability spec is the first thing quietly value-engineered out under time pressure. Keeping the design-to-manufacture chain under one roof is what protects it. A 1,25,000 sq. ft. in-house facility controls what physically goes into the building, so the material that reaches site is the one promised to the sustainability consultant, not a cheaper substitute nobody flagged."
+        },
+        {
+          "title": "What Boards and Occupiers Actually Get",
+          "para": "For the people signing off, built-in ESG turns into things they can use: measurable progress backed by certified materials and real building data, lower running costs for the life of the asset, and evidence that stands up under assurance instead of assertions that don't. It also reads — to investors weighing governance, and to the talent choosing where to work — as an organisation that means what it reports."
+        },
+        {
+          "title": "Conclusion",
+          "para": "ESG that lives only on a slide doesn't lower a cost, improve a day's work, or survive much scrutiny. The version that does all three is engineered into the fabric of the workplace — the materials, the systems, and the data — from the first design review. That's the distinction worth holding onto: reported, or built. Across a 1,25,000 sq. ft. manufacturing facility and 1,900+ projects, that's the kind Ensemble sets out to build: E, S, and G designed into the walls, not filed in an appendix."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/blog-detail/blog-detail-10.png",
+      "mainImageAlt": "ESG Doesn't Live on a Slide. It Lives in the Walls."
     }
   }
 }

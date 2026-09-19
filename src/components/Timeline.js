@@ -24,22 +24,22 @@ const timelineData = [
   },
 ];
 
-export default function Timeline({ theme, items = timelineData }) {
+export default function Timeline({ theme, items = timelineData, compact = false }) {
   return (
-    <div className={`relative max-w-6xl mx-auto py-10 md:py-32 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
+    <div className={`timeline ${compact ? "timeline--compact" : ""} relative max-w-6xl mx-auto py-10 md:py-32 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
       {/* CENTER LINE */}
       {/* <div className="absolute left-1/2 top-0 h-full w-[2px] bg-gray-300 -translate-x-1/2" /> */}
 
       <div className="">
         {items.map((item, index) => (
-          <TimelineItem key={index} {...item} theme={theme}/> 
+          <TimelineItem key={index} {...item} theme={theme} compact={compact}/> 
         ))}
       </div>
     </div>
   );
 }
 
-function TimelineItem({ year, title, description, active, highlight, theme }) {
+function TimelineItem({ year, title, description, active, highlight, theme, compact = false }) {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
 
@@ -65,7 +65,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
   return (
     <div
       ref={ref}
-      className={`relative grid grid-cols-[120px_auto_1fr] md:grid-cols-[1fr_auto_1fr] items-start md:items-center gap-2 md:gap-4 py-0
+      className={`timeline-item ${compact ? "timeline-item--compact" : ""} relative grid grid-cols-[120px_auto_1fr] md:grid-cols-[1fr_auto_1fr] items-start md:items-center gap-2 md:gap-4 py-0
         transition-all duration-700 ease-out
         ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}
       `}
@@ -85,7 +85,7 @@ function TimelineItem({ year, title, description, active, highlight, theme }) {
       <div className="relative flex items-center justify-center">
         {/* vertical marker */}
         <div
-          className={`h-48 rounded-full
+          className={`timeline-marker h-48 rounded-full
             ${active ? (theme === 'dark' ? 'bg-white w-[4px]' : 'bg-black w-[4px]') : 'bg-gray-400 w-[2px]'}
           `}
         />

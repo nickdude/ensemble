@@ -27,7 +27,7 @@ export default function PeopleAndCulture() {
     <main className={`${theme === "dark" ? "bg-black text-white" : "bg-white text-black"}`}>
       <SustainabilityHero theme={theme} data={peopleAndCultureData} />
       <DesignAndBuild theme={theme} data={peopleAndCultureData} />
-      <JourneyTo2029 theme={theme} data={peopleAndCultureData} />
+      <JourneyTo2029 theme={theme} data={peopleAndCultureData} compact />
       <Initiative theme={theme} data={peopleAndCultureData} />
       {/* <Efficiency theme={theme} data={peopleAndCultureData} /> */}
       <LifeAtEnsemble data={peopleAndCultureData} />

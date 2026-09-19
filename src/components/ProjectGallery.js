@@ -3,17 +3,11 @@
 import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import projectsData from "@/data/home/projectsData";
 
 export default function ProjectGallery() {
   const { theme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const data = projectsData.projectGallery;
-
-  useEffect(() => setMounted(true), []);
-
-  if (!mounted) return null;
 
   return (
     <section className={`w-full px-4 md:px-16 py-10 md:py-20 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
@@ -27,7 +21,7 @@ export default function ProjectGallery() {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3 auto-rows-[240px]">
+      <div className="project-gallery-grid grid grid-cols-1 gap-3 md:grid-cols-3">
         {data.projects.map((project, index) => (
           <ProjectCard
             key={index}

@@ -3,17 +3,11 @@
 import Button from "./Button";
 import ProjectCardSample from "./ProjectCardSample";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import project from "@/data/home/projectsData";
 
 export default function OurProjects({}) {
   const { theme } = useTheme();
-  const [mounted, setMounted] = useState(false);
   const data = project.projectGallery;
-
-  useEffect(() => setMounted(true), []);
-
-  if (!mounted) return null;
 
   return (
     <section className={`w-full py-20 md:py-40 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>

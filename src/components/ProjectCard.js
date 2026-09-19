@@ -15,11 +15,9 @@ export default function ProjectCard({
 }) {
 
   return (
-      <Link href={`/projects/${slug}`} className="block w-full h-full">
+      <Link href={`/projects/${slug}`} className="project-card-link">
         <div
-        className={`card group cursor-pointer
-          ${variant === "wide" ? "col-span-1 row-span-1 md:col-span-2 md:row-span-2" : "col-span-1 row-span-1 md:col-span-1 md:row-span-2"}
-        `}
+        className="card group h-full w-full cursor-pointer"
       >
         <Image
           src={image}

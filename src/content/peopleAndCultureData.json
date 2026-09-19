@@ -1,0 +1,102 @@
+{
+  "sustainabilityHero": {
+    "title": "People and Culture",
+    "subtitle": "We think like designers, plan like engineers, and deliver like operators.",
+    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/hero+people+and+culture.png"
+  },
+  "designAndBuild": {
+    "title": "Three disciplines, one accountable team.",
+    "description": "Design, engineering and delivery sit inside the same organisation rather than across separate firms. That is the main reason a project holds together from the first drawing to handover.",
+    "cards": [
+      {
+        "icon": "/assets/icons/handshake.svg",
+        "title": "Design",
+        "description": "Our design, visualisation and MEP design teams turn a client’s workplace and business requirements into a spatial plan, the layouts, drawings and building services the rest of the team builds from."
+      },
+      {
+        "icon": "/assets/icons/plant.svg",
+        "title": "Engineering & planning",
+        "description": "BIM, estimation, QS and planning teams work out quantities, sequencing and coordination before site work starts, so the project runs to a plan instead of being solved on the fly."
+      },
+      {
+        "icon": "/assets/icons/house.svg",
+        "title": "Delivery & operations",
+        "description": "Project delivery, HSE, procurement and stores run the work on site, managing timelines, safety, materials and quality all the way through to handover."
+      }
+    ]
+  },
+  "journeyTo2029": {
+    "title": "How we work",
+    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/how-we-work.jpeg",
+    "timeline": [
+      {
+        "year": "The team with end-to-end ownership",
+        "title": "What working here actually means.",
+        "description": "The people who design a space and the people who build it work for the same company, so there is no handoff between firms. When something needs solving, it does not get passed around.",
+        "active": true
+      },
+      {
+        "year": "The detail gets worked out early",
+        "description": "We plan quantities, sequencing and coordination through BIM before work begins on site. Doing that thinking up front is what lets us hold timelines on complex projects."
+      },
+      {
+        "year": "We design for how a space is used.",
+        "description": "The test of a workplace is whether it helps people collaborate, concentrate and work well day to day, not only how it looks on the day it is handed over."
+      },
+      {
+        "year": "Sustainability is part of the plan.",
+        "description": "Material choices, energy use and waste are considered during design and BIM rather than added at the end, so the outcome can be measured instead of assumed."
+      }
+    ]
+  },
+  "initiative": {
+    "title": "How We Work Together",
+    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image.jpeg",
+    "items": [
+      "Open communication and shared ownership",
+      "Learning through projects, feedback and mentorship",
+      "Respect for every role, craft and perspective",
+      "A strong focus on health, safety and wellbeing",
+      "Celebrating progress and recognising contribution",
+      "Building inclusive teams that reflect the communities we serve"
+    ]
+  },
+  "efficiency": {
+    "title": "People First, Always",
+    "description": "When people have the support, trust and space to thrive, better work follows. We design our culture with the same care we bring to every workplace: thoughtfully, collaboratively and for the long term.",
+    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_14_Simren_Image.jpg"
+  },
+  "lifeAtEnsemble": {
+    "title": "Life at ensemble",
+    "gallery": [
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image1.jpeg",
+        "alt": "Life at Ensemble image 1"
+      },
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image2.jpeg",
+        "alt": "Life at Ensemble image 2"
+      },
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image3.jpeg",
+        "alt": "Life at Ensemble image 3"
+      },
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image4.jpeg",
+        "alt": "Life at Ensemble image 4"
+      },
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image5.jpeg",
+        "alt": "Life at Ensemble image 5"
+      },
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image6.jpeg",
+        "alt": "Life at Ensemble image 6"
+      },
+      {
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image7.png",
+        "alt": "Life at Ensemble image 7"
+      }
+    ]
+  }
+}

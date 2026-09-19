@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { sustainabilityData } from "@/data/home/sustainabilityData";
 
-export default function DesignAndBuild({ theme }) {
-    const { designAndBuild } = sustainabilityData;
+export default function DesignAndBuild({ theme, data = sustainabilityData }) {
+    const { designAndBuild } = data;
     return(
         <section className={`py-10 px-4 md:py-20 md:px-16 flex flex-col gap-5 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
                 <h2 className="font-poppins font-semibold text-[32px] md:text-[56px] leading-10 md:leading-16">{designAndBuild.title}</h2>

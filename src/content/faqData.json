@@ -230,5 +230,12 @@
     "heading": "Frequently Asked Questions",
     "description": "",
     "groups": []
+  },
+  "peopleAndCulture": {
+    "path": "/people-and-culture",
+    "label": "FAQs",
+    "heading": "Frequently Asked Questions",
+    "description": "",
+    "groups": []
   }
 }

@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { sustainabilityData } from "@/data/home/sustainabilityData";
 
-export default function Initiative({ theme }) {
-  const { initiative } = sustainabilityData;
+export default function Initiative({ theme, data = sustainabilityData }) {
+  const { initiative } = data;
   return (
     <section className={`py-1 px-4 md:py-20 md:px-16 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
       <div className="relative h-auto md:h-[600px] rounded-xl overflow-hidden flex flex-col md:block">
@@ -13,7 +13,7 @@ export default function Initiative({ theme }) {
         <div className="relative h-[300px] md:h-full w-full">
           <Image
             src={initiative.image}
-            alt="Sustainability Initiatives"
+            alt={initiative.title}
             fill
             className="object-cover"
             priority

@@ -15,6 +15,7 @@ export default function MenuOverlay({ theme, onClose }) {
     { href: "/aboutus", label: "ABOUT US" },
     { href: "/news", label: "NEWS" },
     { href: "/sustainability", label: "SUSTAINABILITY" },
+    { href: "/people-and-culture", label: "PEOPLE & CULTURE" },
     { href: "/blogs", label: "BLOGS" },
   ];
 

@@ -31,6 +31,12 @@ export const SECTIONS = {
     path: "src/content/sustainabilityData.json",
     description: "Sustainability hero, initiatives and efficiency.",
   },
+  peopleAndCulture: {
+    label: "People and Culture",
+    group: "Pages",
+    path: "src/content/peopleAndCultureData.json",
+    description: "People, culture and workplace values.",
+  },
   contact: {
     label: "Contact",
     group: "Pages",

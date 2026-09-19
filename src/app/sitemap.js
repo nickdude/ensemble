@@ -15,6 +15,7 @@ export default function sitemap() {
     { path: "/aboutus", changeFrequency: "monthly", priority: 0.8 },
     { path: "/services", changeFrequency: "monthly", priority: 0.8 },
     { path: "/sustainability", changeFrequency: "monthly", priority: 0.8 },
+    { path: "/people-and-culture", changeFrequency: "monthly", priority: 0.8 },
     { path: "/projects", changeFrequency: "weekly", priority: 0.9 },
     { path: "/blogs", changeFrequency: "weekly", priority: 0.7 },
     { path: "/news", changeFrequency: "weekly", priority: 0.7 },

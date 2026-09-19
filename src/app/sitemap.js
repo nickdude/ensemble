@@ -17,7 +17,7 @@ export default function sitemap() {
     { path: "/sustainability", changeFrequency: "monthly", priority: 0.8 },
     { path: "/people-and-culture", changeFrequency: "monthly", priority: 0.8 },
     { path: "/projects", changeFrequency: "weekly", priority: 0.9 },
-    { path: "/blogs", changeFrequency: "weekly", priority: 0.7 },
+    { path: "/blog", changeFrequency: "weekly", priority: 0.7 },
     { path: "/news", changeFrequency: "weekly", priority: 0.7 },
     { path: "/contactus", changeFrequency: "yearly", priority: 0.6 },
   ].map((r) => ({
@@ -40,7 +40,7 @@ export default function sitemap() {
 
   // 3. Blog detail pages — every slug with a real blogDetail entry is indexable.
   const blogRoutes = Object.keys(blogsData.blogDetail || {}).map((slug) => ({
-    url: `${SITE_URL}/blogs/${slug}`,
+    url: `${SITE_URL}/blog/${slug}`,
     lastModified,
     changeFrequency: "monthly",
     priority: 0.5,

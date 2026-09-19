@@ -15,7 +15,7 @@ const LIVE_PATHS = {
   services: "/services",
   sustainability: "/sustainability",
   contact: "/contactus",
-  blogs: "/blogs",
+  blog: "/blog",
   news: "/news",
   projects: "/projects",
   footer: "/",

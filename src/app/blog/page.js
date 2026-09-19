@@ -35,7 +35,7 @@ export default function Blogs() {
             </div>
         </div>
        <OurProjects/>
-       <FAQ details={faqData.blogs} />
+      <FAQ details={faqData.blog} />
     </main>
   );
 }

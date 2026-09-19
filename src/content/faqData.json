@@ -203,8 +203,8 @@
     "description": "",
     "groups": []
   },
-  "blogs": {
-    "path": "/blogs",
+  "blog": {
+    "path": "/blog",
     "label": "FAQs",
     "heading": "Frequently Asked Questions",
     "description": "",

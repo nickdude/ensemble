@@ -15,11 +15,11 @@ export async function generateMetadata({ params }) {
 
   if (!post || !description) {
     return buildMetadata({
-      title: "Blogs",
+      title: "Blog",
       description:
         "Ideas, trends and insights on architecture, interior design and sustainable building from Ensemble Infrastructure.",
-      path: `/blogs/${slug}`,
-      canonicalPath: "/blogs/blog1",
+      path: `/blog/${slug}`,
+      canonicalPath: "/blog/blog1",
       index: false,
     });
   }
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }) {
   return buildMetadata({
     title: post.title,
     description,
-    path: `/blogs/${slug}`,
+    path: `/blog/${slug}`,
   });
 }
 

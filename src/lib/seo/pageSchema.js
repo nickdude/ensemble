@@ -156,7 +156,7 @@ export function resolvePageStructuredData(rawPath) {
         pageSchemas.push(projectSchema({ slug, project }));
       }
     }
-  } else if (seg[0] === "blogs") {
+  } else if (seg[0] === "blog") {
     if (seg.length === 1) {
       const indexable = (blogsData?.blogsCards || []).filter(
         (c) => blogsData?.blogDetail?.[c.slug]
@@ -184,7 +184,7 @@ export function resolvePageStructuredData(rawPath) {
             authorName: post.author,
             datePublished: parseDate(post.date),
             body: bodyOf(post.sections),
-            isPartOf: { "@id": `${absoluteUrl("/blogs")}#blog` },
+            isPartOf: { "@id": `${absoluteUrl("/blog")}#blog` },
           })
         );
       }

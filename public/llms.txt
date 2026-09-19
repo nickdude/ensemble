@@ -11,7 +11,7 @@ Ensemble combines design thinking, technical delivery, and sustainable infrastru
 - [Services](https://www.ensemble.co.in/services): Design, build, construction, consultancy, and interior services.
 - [Projects](https://www.ensemble.co.in/projects): Portfolio of completed and featured projects.
 - [Sustainability](https://www.ensemble.co.in/sustainability): Sustainability initiatives and long-term environmental goals.
-- [Blogs](https://www.ensemble.co.in/blogs): Insights on workplace design, construction, and the built environment.
+- [Blog](https://www.ensemble.co.in/blog): Insights on workplace design, construction, and the built environment.
 - [News](https://www.ensemble.co.in/news): Company and industry news.
 - [Contact](https://www.ensemble.co.in/contactus): Contact and inquiry information.
 
@@ -19,7 +19,7 @@ Ensemble combines design thinking, technical delivery, and sustainable infrastru
 
 - [Project portfolio](https://www.ensemble.co.in/projects/): Browse project case studies and delivery experience.
 - [Design-build services](https://www.ensemble.co.in/services/): Explore Ensemble's integrated service offering.
-- [Workplace and infrastructure insights](https://www.ensemble.co.in/blogs/): Read published articles and perspective pieces.
+- [Workplace and infrastructure insights](https://www.ensemble.co.in/blog/): Read published articles and perspective pieces.
 
 ## Machine-Readable Resources
 

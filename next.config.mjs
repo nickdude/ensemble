@@ -51,8 +51,10 @@ const nextConfig = {
       // --- Old slug variants → current equivalent page ---
       { source: '/contact-us', destination: '/contactus', statusCode: 301 },
       { source: '/about-us', destination: '/aboutus', statusCode: 301 },
-      { source: '/insights', destination: '/blogs', statusCode: 301 },
-      { source: '/blogs/undefined', destination: '/blogs', statusCode: 301 },
+      { source: '/insights', destination: '/blog', statusCode: 301 },
+      { source: '/blogs/undefined', destination: '/blog', statusCode: 301 },
+      { source: '/blogs/:slug', destination: '/blog/:slug', statusCode: 301 },
+      { source: '/blogs', destination: '/blog', statusCode: 301 },
 
       // --- Old Design-Build section → best current match ---
       { source: '/design-build', destination: '/services', statusCode: 301 },
@@ -65,7 +67,7 @@ const nextConfig = {
       // --- Old standalone project/content pages → Projects listing ---
       { source: '/commercial-office-building', destination: '/projects', statusCode: 301 },
       { source: '/perforated-steel-facade-lokmanya-bank', destination: '/projects', statusCode: 301 },
-      { source: '/nine-months-of-happiness', destination: '/blogs', statusCode: 301 },
+      { source: '/nine-months-of-happiness', destination: '/blog', statusCode: 301 },
 
       // --- Careers (no such route exists) → Contact ---
       { source: '/career', destination: '/contactus', statusCode: 301 },

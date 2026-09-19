@@ -10,7 +10,7 @@ const SEGMENT_LABELS = {
   contactus: "Contact Us",
   services: "Services",
   projects: "Projects",
-  blogs: "Blogs",
+  blog: "Blog",
   news: "News",
   sustainability: "Sustainability",
 };
@@ -32,9 +32,9 @@ function prettify(slug) {
 /**
  * Build ordered breadcrumb items for a pathname.
  *
- * @param {string} pathname            e.g. "/blogs/blog1"
+ * @param {string} pathname            e.g. "/blog/blog1"
  * @param {Object<string,string>} [labelOverrides]
- *        Map keyed by full accumulated path ("/blogs/blog1") or bare segment
+ *        Map keyed by full accumulated path ("/blog/blog1") or bare segment
  *        ("blog1") → display label.
  * @returns {Array<{name:string,url:string}>}
  */

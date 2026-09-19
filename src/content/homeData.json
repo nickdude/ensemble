@@ -286,7 +286,7 @@
   "ourInsights": {
     "title": "Our Insights",
     "buttonLabel": "VIEW MORE",
-    "buttonLink": "/blogs",
+    "buttonLink": "/blog",
     "insights": [
       {
         "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/ESG+1+ext.png",

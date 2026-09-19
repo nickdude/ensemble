@@ -176,14 +176,14 @@ export function serviceSchema({
 /* -------------------------------------------------------------------------- */
 
 /**
- * Blog collection node for the /blogs index.
+ * Blog collection node for the /blog index.
  *
  * @param {Object} opts
- * @param {string} [opts.path="/blogs"]
+ * @param {string} [opts.path="/blog"]
  * @param {string} [opts.description]
  * @param {Array<{slug:string,title:string,description?:string,img?:string}>} [opts.posts]
  */
-export function blogSchema({ path = "/blogs", description, posts = [] }) {
+export function blogSchema({ path = "/blog", description, posts = [] }) {
   const url = absoluteUrl(path);
   return clean({
     "@type": "Blog",
@@ -197,7 +197,7 @@ export function blogSchema({ path = "/blogs", description, posts = [] }) {
       "@type": "BlogPosting",
       headline: p.title,
       description: p.description,
-      url: absoluteUrl(`/blogs/${p.slug}`),
+      url: absoluteUrl(`/blog/${p.slug}`),
       image: p.img ? absoluteUrl(p.img) : undefined,
     })),
   });
@@ -216,7 +216,7 @@ export function blogSchema({ path = "/blogs", description, posts = [] }) {
  * @param {string} [opts.datePublished]   ISO 8601
  * @param {string} [opts.dateModified]    ISO 8601
  * @param {string} [opts.body]
- * @param {object} [opts.isPartOf]        e.g. { "@id": ".../blogs#blog" }
+ * @param {object} [opts.isPartOf]        e.g. { "@id": ".../blog#blog" }
  */
 export function articleSchema({
   type = "Article",

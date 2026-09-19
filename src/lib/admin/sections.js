@@ -45,8 +45,8 @@ export const SECTIONS = {
   },
 
   // ── Collections (keyed by slug) ────────────────────────────────────────
-  blogs: {
-    label: "Blogs",
+  blog: {
+    label: "Blog",
     group: "Collections",
     path: "src/content/blogsData.json",
     description: "Blog hero, listing cards and per-slug articles.",

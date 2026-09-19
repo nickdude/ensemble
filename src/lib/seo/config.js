@@ -46,7 +46,7 @@ export const seoConfig = {
     env.NEXT_PUBLIC_ORG_DESCRIPTION ||
     "Future-ready spaces for thriving businesses — Ensemble Infrastructure delivers integrated design and build workplace solutions across India.",
   logo: env.NEXT_PUBLIC_ORG_LOGO || `${SITE_URL}/assets/footer_logo_black.png`,
-  foundingDate: env.NEXT_PUBLIC_ORG_FOUNDING_DATE || "2001",
+  foundingDate: env.NEXT_PUBLIC_ORG_FOUNDING_DATE || "2003",
   email: env.NEXT_PUBLIC_ORG_EMAIL || footerData?.contact?.email || "sales@ensemble.co.in",
   phone: env.NEXT_PUBLIC_ORG_PHONE || footerData?.contact?.phone || "+91 98330 84407",
   sameAs,

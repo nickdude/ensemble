@@ -19,7 +19,7 @@ export const metadata = {
   // Resolves all relative canonical / Open Graph URLs to the production origin.
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Ensemble Infrastructure | Design & Build Construction",
+    default: "Commercial Interior Design & Fit-Out | Ensemble Infrastructure",
     template: "%s | Ensemble Infrastructure",
   },
   description: HOME_DESCRIPTION,
@@ -32,8 +32,15 @@ export const metadata = {
     siteName: "Ensemble Infrastructure",
     type: "website",
     url: "/",
-    title: "Ensemble Infrastructure | Design & Build Construction",
+    title: "Commercial Interior Design & Fit-Out | Ensemble Infrastructure",
     description: HOME_DESCRIPTION,
+    images: [`${SITE_URL}/assets/footer_logo_black.png`],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Commercial Interior Design & Fit-Out | Ensemble Infrastructure",
+    description: HOME_DESCRIPTION,
+    images: [`${SITE_URL}/assets/footer_logo_black.png`],
   },
 
   verification: {

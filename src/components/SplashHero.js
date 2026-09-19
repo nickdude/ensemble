@@ -162,6 +162,7 @@ export default function SplashHero() {
 
       {/* 🔹 TEXT */}
       <div className={`splash-text ${showText ? "show" : ""}`}>
+        <h1 className="splash-seo-heading">{data.text.tagLine}</h1>
         {activeText === "subheading" && (
           <p className={`tagline animate-item ${textAnimate ? "animate" : ""}`}>{data.text.subHeading}</p>
         )}

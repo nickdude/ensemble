@@ -10,7 +10,6 @@ import OurServices from "@/components/OurServices";
 import OurInsights from "@/components/OurInsights";
 import ClientSays from "@/components/ClientSays";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import News from "@/components/News";
 import EffectOne from "@/components/EffectOne";
 import EffectTwo from "@/components/EffectTwo";
@@ -21,11 +20,6 @@ import faqData from "@/data/home/faqData";
 
 export default function Home() {
     const { theme } = useTheme();
-    const [mounted, setMounted] = useState(false);
-
-    useEffect(() => setMounted(true), []);
-
-    if (!mounted) return null;
   return (
     <>
       <SplashHero />

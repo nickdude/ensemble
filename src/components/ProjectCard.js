@@ -1,7 +1,6 @@
 import Image from "next/image";
 import "./ProjectCardSample.css"
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 
 export default function ProjectCard({
@@ -15,15 +14,12 @@ export default function ProjectCard({
   viewCaseStudy
 }) {
 
-  const router = useRouter();
-
   return (
-    // <Link href={`/projects/${slug}`} className="block w-full h-full group cursor-pointer">
-      <div
+      <Link href={`/projects/${slug}`} className="block w-full h-full">
+        <div
         className={`card group cursor-pointer
           ${variant === "wide" ? "col-span-1 row-span-1 md:col-span-2 md:row-span-2" : "col-span-1 row-span-1 md:col-span-1 md:row-span-2"}
         `}
-        onClick={() => router.push(`/projects/${slug}`)}
       >
         <Image
           src={image}
@@ -54,7 +50,7 @@ export default function ProjectCard({
             </div>
           </div>
         </div>
-      </div>
-    // </Link>
+        </div>
+      </Link>
   );
 }

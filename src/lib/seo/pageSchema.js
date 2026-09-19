@@ -73,7 +73,7 @@ export function resolvePageStructuredData(rawPath) {
         path: pathname,
         name: "About Us",
         description:
-          "Mumbai-based since 2001, Ensemble Infrastructure delivers design and build workplace solutions that create future-ready spaces for thriving businesses.",
+          "Mumbai-based since 2003, Ensemble Infrastructure delivers design and build workplace solutions that create future-ready spaces for thriving businesses.",
         about: { "@id": ids.organization },
         mainEntity: { "@id": ids.organization },
       })
@@ -109,6 +109,16 @@ export function resolvePageStructuredData(rawPath) {
         name: "Sustainability",
         description:
           "Our commitment to sustainable design and build — energy efficiency, responsible initiatives and our journey to 2029.",
+      })
+    );
+  } else if (pathname === "/people-and-culture") {
+    pageSchemas.push(
+      webPageSchema({
+        type: "WebPage",
+        path: pathname,
+        name: "People and Culture",
+        description:
+          "Meet the people and culture behind Ensemble Infrastructure, where collaboration, growth and belonging help teams create better workplaces across India.",
       })
     );
   } else if (seg[0] === "projects") {

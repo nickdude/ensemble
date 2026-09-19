@@ -41,5 +41,10 @@ export function buildMetadata({
       siteName: SITE_NAME,
       type: "website",
     },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }

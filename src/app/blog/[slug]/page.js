@@ -31,12 +31,12 @@ export default function DetailBlog() {
             <Image src="/assets/icons/point.svg" alt="dot" width={4} height={4}/>
             <p>{blogDetail.readTime}</p>
         </div>
-        <div className="relative w-full h-[75vh] rounded-xl overflow-hidden mt-16">
+        <div className="relative mt-16 aspect-video w-full overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-900">
             <Image
                 src={blogDetail.mainImage}
                 alt={blogDetail.mainImageAlt || blogDetail.title}
                 fill
-                className="object-cover"
+            className="object-contain"
                 priority
                 />
         </div>

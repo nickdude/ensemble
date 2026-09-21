@@ -27,7 +27,7 @@
   },
   "journeyTo2029": {
     "title": "How we work",
-    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/how-we-work.jpeg",
+    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image7.png",
     "timeline": [
       {
         "year": "The team with end-to-end ownership",
@@ -50,8 +50,8 @@
     ]
   },
   "initiative": {
-    "title": "How We Work Together",
-    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image.jpeg",
+    "title": "Why Ensemble",
+    "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image4.jpeg",
     "items": [
       "Open communication and shared ownership",
       "Learning through projects, feedback and mentorship",
@@ -70,31 +70,31 @@
     "title": "Life at ensemble",
     "gallery": [
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image1.jpeg",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/how-we-work.jpeg",
         "alt": "Life at Ensemble image 1"
       },
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image2.jpeg",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image3.jpeg",
         "alt": "Life at Ensemble image 2"
       },
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image3.jpeg",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image6.jpeg",
         "alt": "Life at Ensemble image 3"
       },
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image4.jpeg",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image5.jpeg",
         "alt": "Life at Ensemble image 4"
       },
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image5.jpeg",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image1.jpeg",
         "alt": "Life at Ensemble image 5"
       },
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image6.jpeg",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image.jpeg",
         "alt": "Life at Ensemble image 6"
       },
       {
-        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image7.png",
+        "src": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image2.jpeg",
         "alt": "Life at Ensemble image 7"
       }
     ]

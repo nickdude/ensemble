@@ -16,7 +16,7 @@ export default function MenuOverlay({ theme, onClose }) {
     { href: "/news", label: "NEWS" },
     { href: "/sustainability", label: "SUSTAINABILITY" },
     { href: "/people-and-culture", label: "PEOPLE & CULTURE" },
-    { href: "/blog", label: "BLOG" },
+    { href: "/blog", label: "BLOGS" },
   ];
 
   const filteredLinks = useMemo(() => {

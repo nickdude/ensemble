@@ -286,6 +286,11 @@ function Leaf({ keyName, value, onChange, seoCounter }) {
           className={inputClass}
         />
       )}
+      {keyName === "para" && (
+        <span className="text-[11px] text-gray-400">
+          Add a link with [link text](https://example.com)
+        </span>
+      )}
       {seoCounter && (
         <span
           className={`text-[11px] ${

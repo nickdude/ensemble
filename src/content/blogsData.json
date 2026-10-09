@@ -72,6 +72,13 @@
       "title": "Data centres don’t forgive: Why uptime changes everything. ",
       "description": "When uptime is the specification, every detail becomes an availability risk.",
       "imgAlt": "Data Centers"
+    },
+    {
+      "slug": "blog12",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Healthcare+blog+12+ext.png",
+      "title": "Most healthcare projects fail at the seams.",
+      "description": "Not at design or handover, but where one contractor's scope ends and the next begins.",
+      "imgAlt": "Healthcare projects "
     }
   ],
   "blogDetail": {
@@ -607,6 +614,49 @@
       ],
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Data+C.png",
       "mainImageAlt": "Data Centers "
+    },
+    "blog12": {
+      "title": "Most Healthcare Projects Fail at the Seams",
+      "subtitle": "Not at design or handover, but where one contractor's scope ends and the next begins.",
+      "author": "Abhiram Ajayghosh",
+      "date": "Tuesday, September 1, 2026 ",
+      "readTime": "4 min read",
+      "sections": [
+        {
+          "title": "The Tax Nobody Prices",
+          "para": "Ask a hospital project team where their last build went wrong and the answer is rarely the design. The failure happened at the interface: where civil handed over to interiors, where the theatre specification met the HVAC subcontractor's reading of it, where the millwork vendor and the site team pointed at each other. Each interface is a coordination tax, paid in meetings, rework, slow RFIs and deferred decisions. On a live hospital it arrives as schedule slip and compliance gaps, and it never appears as a line item."
+        },
+        {
+          "title": "Why Hospitals Have So Many Seams",
+          "para": "A hospital is a dozen building types sharing one structure. Imaging, operating theatres, critical care, pharmacy, CSSD and wards each follow different technical rules. Traditional procurement then divides that building along trade lines, so a single operating theatre may involve six packages, none of which owns the room. Interfaces multiply faster than floor area, and risk concentrates in the junctions, penetrations and sealing details that drawings describe least well."
+        },
+        {
+          "title": "Compliance Lives at the Interface",
+          "para": "NABH and JCI standards describe outcomes: infection control, patient safety, environmental conditions. Those outcomes are made or lost at the junctions where responsibility is unclear. A sealed joint between wall and coving. Pressure relationships between rooms that depend on both HVAC design and actual airtightness. A penetration made by one trade and sealed, or not, by another. Compliance is not retrofitted at audit; the audit simply discovers whether it was built in."
+        },
+        {
+          "title": "Building Around Patients",
+          "para": "Most hospital work in India is expansion or refurbishment beside an operating facility. Clinical activity sets noise windows, material routes cannot cross clinical circulation, and shutdowns of power, gas or HVAC need weeks of coordination. Infection control risk assessment belongs inside the method statement, not alongside it. Phasing is the primary design constraint: every phase needs a clinically acceptable temporary condition, settled before the layout is fixed."
+        },
+        {
+          "title": "Design Decisions With Clinical Consequences",
+          "para": "The choices that matter most are rarely visible. Surfaces must survive thousands of cleaning cycles. Junction detailing decides whether contamination has anywhere to sit. Corridor widths decide whether a bed, team and equipment can turn during an urgent transfer. Handwash basin placement shapes hand hygiene more reliably than any poster, because compliance follows convenience."
+        },
+        {
+          "title": "Equipment and Services Set the Critical Path",
+          "para": "A CT or MRI installation brings structural loads, shielding, dedicated power, cooling and delivery routes that touch almost every package. Modular theatres and medical gas systems carry long lead times, and the date equipment is ordered often sets the real critical path. Above it all, medical gas, pressure-cascade HVAC, redundant power and nurse call compete for one ceiling void that must stay accessible while the hospital runs."
+        },
+        {
+          "title": "Removing the Seams",
+          "para": "Ensemble's healthcare model removes the interface problem instead of managing it. Civil, interiors, millwork, design and execution sit within one contract. NABH and JCI requirements are embedded at concept. In-house manufacturing across 1,25,000 sq. ft. brings clinical joinery under the same quality control, and BIM-led planning resolves services digitally. Ensemble has delivered a ₹100 Cr+ healthcare portfolio across 11 lakh sq. ft., including India's largest missionary hospital at 6.5 lakh sq. ft. under a single integrated contract."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Hospital projects rarely fail because something was designed or built badly. They fail between one party's responsibility and the next, which is exactly where compliance, infection control and patient safety are decided. Consolidating design, manufacturing and execution under single accountability is a clinical risk control. If you are scoping a hospital build, ask not only what construction will cost, but what coordination between teams is already costing you."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Healthcare+blog+12.png",
+      "mainImageAlt": "Healthcare projects "
     }
   }
 }

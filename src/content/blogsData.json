@@ -69,9 +69,9 @@
     {
       "slug": "blog11",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Data+C+ext.png",
-      "title": "Data Centres Don't Forgive",
-      "description": "Why Mission-Critical Fitout Is a Different Discipline",
-      "imgAlt": "Data Centers "
+      "title": "Data Centres Don’t Forgive: Why Uptime Changes Everything.",
+      "description": "When uptime is the specification, every detail becomes an availability risk.",
+      "imgAlt": "Data Centers"
     }
   ],
   "blogDetail": {
@@ -605,8 +605,8 @@
           "para": "Data centres remove the tolerance that lets ordinary projects absorb ordinary mistakes. Across 23+ years and 1,900+ projects, Ensemble's integrated model brings design, BIM-led planning, 1,25,000 sq. ft. of in-house manufacturing and site execution under single accountability. Understand the environment first, coordinate in the model, treat quality as a system, and the building does what it was built to do: keep running."
         }
       ],
-      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Data+C.png",
-      "mainImageAlt": "data centers "
+      "mainImage": "",
+      "mainImageAlt": ""
     }
   }
 }

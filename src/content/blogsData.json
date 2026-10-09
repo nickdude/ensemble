@@ -566,7 +566,7 @@
       "mainImageAlt": "ESG Doesn't Live on a Slide. It Lives in the Walls."
     },
     "blog11": {
-      "title": "Data Centres Don't Forgive: Why Mission-Critical Fitout Is a Different Discipline",
+      "title": "Data centres don't forgive: Why mission-critical fit-out Is a different discipline.",
       "subtitle": "In a standard office, a coordination miss is a punch-list item. In a data centre, it is an availability risk.",
       "author": "Abhiram Ajayghosh",
       "date": "Monday, September 14, 2026 ",
@@ -605,8 +605,8 @@
           "para": "Data centres remove the tolerance that lets ordinary projects absorb ordinary mistakes. Across 23+ years and 1,900+ projects, Ensemble's integrated model brings design, BIM-led planning, 1,25,000 sq. ft. of in-house manufacturing and site execution under single accountability. Understand the environment first, coordinate in the model, treat quality as a system, and the building does what it was built to do: keep running."
         }
       ],
-      "mainImage": "",
-      "mainImageAlt": ""
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Data+C.png",
+      "mainImageAlt": "Data Centers "
     }
   }
 }

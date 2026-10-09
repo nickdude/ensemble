@@ -65,6 +65,13 @@
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/ESG+10+ext.png",
       "title": "ESG doesn't live on a slide. It lives in the walls.",
       "description": "For most companies ESG is a report. In the best workplaces, it's built into the materials."
+    },
+    {
+      "slug": "blog11",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Data+C+ext.png",
+      "title": "Data Centres Don't Forgive",
+      "description": "Why Mission-Critical Fitout Is a Different Discipline",
+      "imgAlt": "Data Centers "
     }
   ],
   "blogDetail": {
@@ -557,6 +564,49 @@
       ],
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG+led+10.png",
       "mainImageAlt": "ESG Doesn't Live on a Slide. It Lives in the Walls."
+    },
+    "blog11": {
+      "title": "Data Centres Don't Forgive: Why Mission-Critical Fitout Is a Different Discipline",
+      "subtitle": "In a standard office, a coordination miss is a punch-list item. In a data centre, it is an availability risk.",
+      "author": "Abhiram Ajayghosh",
+      "date": "Monday, September 14, 2026 ",
+      "readTime": "7 min read",
+      "sections": [
+        {
+          "title": "Introduction: The Punch List That Isn't",
+          "para": "A missed MEP coordination. A ceiling panel not rated for a technical zone. A plumbing rough-in clashing with a cable tray. On a corporate floor, each is a snag closed within a fortnight. In a data centre, each is an availability risk, and availability is the only metric the asset is judged on. Everything else, including aesthetics and programme, comes second.\nEnsemble has built mission-critical environments for Airtel, Axis Bank and the Reserve Bank of India, and the lesson is consistent: data centre execution is not a harder version of commercial fitout. It is a different discipline, and the standards, sequencing and definition of done are settled at concept stage, long before anyone reaches site."
+        },
+        {
+          "title": "The Equipment Sets the Specification",
+          "para": "A commercial brief starts with people. A data centre brief starts with equipment. Heat load per rack determines cooling strategy, cooling determines containment geometry, and containment fixes ceiling height, plenum depth and every service route. By the time human requirements arrive, the building's spatial logic has already been set by machines that have not yet been delivered."
+        },
+        {
+          "title": "One Floor, Three Systems",
+          "para": "A raised floor in an office is a convenience. Here it is structural, carrying static and rolling loads from racks that can exceed a tonne, so pedestal spacing and substrate preparation become calculations, not product choices. It also forms the supply air plenum, where every unsealed cut-out bleeds pressure, and provides the earthing reference for the equipment above. Three systems in one assembly, often installed by a trade working to a finishes drawing."
+        },
+        {
+          "title": "Suppression Is a Sequence, Not a Product",
+          "para": "Specifying a clean agent system is easy. Making it work is not. Suppression is a sequence of detection, alarm, HVAC shutdown, damper closure, room integrity and discharge, each dependent on the others. Integrity is where it usually unravels: a cable tray through a wall, an unsealed pipe sleeve or a panel refitted without its gasket can compromise a system that was designed and installed correctly. Every penetration by every trade sits inside the fire strategy."
+        },
+        {
+          "title": "Resolve It in the Model",
+          "para": "Power, redundant power, cooling, containment, cabling, BMS, security, detection and suppression all share one envelope, most with access requirements that cannot be traded away. No site sequence makes an impossible geometry possible. BIM-led coordination brings every discipline into one model before mobilisation, catching not just hard clashes but valves nobody can reach and services that cannot be replaced without shutting down a hall."
+        },
+        {
+          "title": "Where Scope Gaps Become Risks",
+          "para": "The most damaging failures are rarely technical. They are contractual: a sealing detail assumed by design and priced by nobody, or an earthing path that belonged to no party's scope. More coordination meetings reduce how often that happens. Integrated delivery removes the cause, with one contract, one accountable party and no junction for responsibility to fall through."
+        },
+        {
+          "title": "Quality and Commissioning",
+          "para": "Stage-wise inspections, approved material registers, dust-controlled execution and zero-defect handovers are the baseline, and they must be designed into the delivery method from the start. Commissioning is the real handover: integrated systems testing is where the building proves it performs. Commissioning windows need protecting when earlier work slips, and documentation must be built up through the project."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Data centres remove the tolerance that lets ordinary projects absorb ordinary mistakes. Across 23+ years and 1,900+ projects, Ensemble's integrated model brings design, BIM-led planning, 1,25,000 sq. ft. of in-house manufacturing and site execution under single accountability. Understand the environment first, coordinate in the model, treat quality as a system, and the building does what it was built to do: keep running."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Data+C.png",
+      "mainImageAlt": "data centers "
     }
   }
 }

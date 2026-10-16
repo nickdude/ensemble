@@ -86,6 +86,13 @@
       "title": "Why a Bank Branch That Works Smoothly Still Fails to Convert Customers",
       "description": "Most bank branches are designed around a floor plan rather than the customer.",
       "imgAlt": "Banking projects "
+    },
+    {
+      "slug": "blog14",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/BIM+Blog+14+ext.png",
+      "title": "Walk Through Your Building in a Model Before You Build It",
+      "description": "BIM clash detection finds the conflicts that drawings hide, while they are still cheap to fix.",
+      "imgAlt": "BIM driven projects "
     }
   ],
   "blogDetail": {
@@ -674,7 +681,7 @@
       "sections": [
         {
           "title": "Everything Correct, Something Wrong",
-          "para": "Walk into a typical bank branch and nothing seems wrong. The signage follows the brand manual. The lighting is adequate. The teller line is where it should be. Every item on the checklist has been met, and the branch would pass any review of its specification. On paper, the project was delivered exactly as briefed, on time and within budget.\nYet there is no sense of arrival and no transition from transactional to relational banking. The counters are visible from the door, so the first message a customer receives is about processing rather than advice. The space functions, but it does not perform commercially. Both versions of the branch cost roughly the same to build. The difference lies in what the brief asked the design to achieve."
+          "para": "Walk into a typical bank branch and nothing seems wrong. The signage follows the brand manual. The lighting is adequate. The teller line is where it should be. Every item on the checklist has been met, and the branch would pass any review of its specification. On paper, the project was delivered exactly as briefed, on time and within budget.\n\nYet there is no sense of arrival and no transition from transactional to relational banking. The counters are visible from the door, so the first message a customer receives is about processing rather than advice. The space functions, but it does not perform commercially. Both versions of the branch cost roughly the same to build. The difference lies in what the brief asked the design to achieve."
         },
         {
           "title": "Two Different Design Problems",
@@ -707,6 +714,49 @@
       ],
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Banking+blog+13.png",
       "mainImageAlt": "New age Banking projects"
+    },
+    "blog14": {
+      "title": "Walk Through Your Building in a Model Before You Build It",
+      "subtitle": "BIM clash detection finds the conflicts that drawings hide, while they are still cheap to fix.",
+      "author": "Abhiram Ajayghosh ",
+      "date": "Monday, August 10, 2026 ",
+      "readTime": "5 min read",
+      "sections": [
+        {
+          "title": "The Assumptions Nobody States",
+          "para": "Every project runs on unspoken assumptions. One is that the architectural and services drawings describe the same ceiling. Another is that when three consultants reserve the same 300mm of void, someone will sort it out on site. These assumptions are rarely written down, so nobody thinks to check them. Each team assumes the coordination is happening somewhere else.\n\nWhen they fail, they fail late, after materials are ordered and trades have mobilised. The duct arrives, the beam is already in place, and the gap between them is smaller than everyone thought. It is rarely anyone's mistake in particular. It is a consequence of how the information was organised, with each team working from its own set of sheets and trusting the others to have done the same."
+        },
+        {
+          "title": "Why Drawings Cannot Do This",
+          "para": "Drawings describe a building in slices. Each discipline shows its own scope clearly and everything else as faint background. Coordination then depends on someone noticing that a duct on one sheet conflicts with a beam on another, drawn weeks apart in different offices by people who may never have spoken to each other. BIM brings architecture, structure and services into one federated model, where the relationships between elements are explicit. Nobody has to infer whether the duct fits under the beam, because the model shows it. That shift from inference to verification is the whole proposition, and everything else BIM offers on a fitout project follows from it. Clash reports, quantity take-offs and fabrication data all depend on that single, verified picture of the building."
+        },
+        {
+          "title": "Hard Clashes Are the Easy Ones",
+          "para": "A hard clash is two elements occupying the same space. Software finds thousands of them in seconds. Most would have been resolved somewhere along the line, at some cost, by a site engineer moving a pipe or a fabricator adjusting a bracket. Finding them early is useful, but it is the least valuable part of the exercise. The more useful findings are harder to spot and take judgement to resolve. Treating the clash count as the measure of coordination produces a process that looks rigorous and changes little. A report saying that thousands of clashes were found and closed sounds impressive. It says nothing about whether the building can be installed, accessed and maintained, which is what the client is paying to find out."
+        },
+        {
+          "title": "The Conflicts That Matter",
+          "para": "The valuable findings fall into three groups: clearance, access and sequencing. Clearance is whether something can be installed, and later serviced, in the space allowed. Access is whether a person can physically reach it, allowing for real panel positions, ladder space and door swings. Sequencing is whether the order the programme requires is the order the building permits. All three are about how people will build and maintain the building, which a geometry check alone cannot test. A duct that only fits if it goes in before the wall is a sequencing problem. None of these issues appear on a drawing, and all of them appear on site. Left unresolved, some cost a variation once and are forgotten. Others turn into a valve nobody can reach for the life of the building, and a problem the facilities team inherits every year."
+        },
+        {
+          "title": "Get the Model Right First",
+          "para": "Coordination is only as good as the model behind it. Level of detail must be agreed at the start, because a duct modelled as a centreline behaves very differently from one modelled with its insulation and flanges. Shared coordinates and a common datum also need to be set at the outset, so that every discipline's model lands in the same place. Supports, insulation, tolerances and maintenance zones are routinely left out. A model missing its hangers will coordinate beautifully and fail on site, because the hangers take up space the model never accounted for. The same applies to insulation thickness and the working space a technician needs around a valve or damper. Setting up a model properly takes days. Its consequences, good or bad, last for the whole project."
+        },
+        {
+          "title": "The Report Is Not the Point",
+          "para": "A clash report with four thousand entries looks rigorous but tells the team very little on its own. Running detection takes minutes. The discipline lies in filtering by consequence, assigning each real conflict to the party who can resolve it, agreeing the fix, updating the model and running the check again. Each cycle should leave fewer real problems than the one before. That needs governance: a meeting cadence, named owners, a resolution log and someone with the authority to settle disagreements between disciplines. Without it, the report gets filed and the building is built as it would have been anyway. The software is the easy part. The process around it is what changes the outcome on site."
+        },
+        {
+          "title": "Where the Value Is Created",
+          "para": "The cost of a change rises steeply as a project moves forward. In the model, a change costs an hour of engineering time. On site, it costs demolition, rework, a variation and usually a dispute about who pays. Good coordination shows up as things that do not happen: fewer RFIs, fewer stop-start sequences, accurate quantities, less rework and more off-site manufacturing. Under single design-and-build accountability, conflicts are resolved on technical merit instead of contractual position, because there is only one party to answer for the result. At Ensemble, the coordinated model feeds directly into 1,25,000 sq. ft. of in-house manufacturing, so what gets fabricated matches what was coordinated. Components arrive on site ready to install, because the questions about how they fit were answered before fabrication began."
+        },
+        {
+          "title": "Conclusion",
+          "para": "A coordination model asks one question before a single component is ordered: does the building work as a physical assembly? It finds the clashes and, more usefully, the clearance, access and sequencing failures that drawings cannot reveal. Resolved digitally, those failures cost a model revision. Discovered on site, they cost rework and delay. Simulate before you build, and resolve before you mobilise."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/BIM+Blog+14.png",
+      "mainImageAlt": "BIM driven projects "
     }
   }
 }

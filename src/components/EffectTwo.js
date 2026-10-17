@@ -4,26 +4,42 @@ import Image from "next/image";
 import News from "./News";
 import OurInsights from "./OurInsights";
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import homeData from "@/data/home/homeData";
 
 export default function EffectTwo() {
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
     const data = homeData.effectTwo;
-    const scrollContainerRef = useState(null)[1];
-    const [scrollRef, setScrollRef] = useState(null);
+    const scrollRef = useRef(null);
 
     useEffect(() => setMounted(true), []);
 
     const scroll = (direction) => {
-        if (!scrollRef) return;
-        const scrollAmount = 400;
-        if (direction === 'left') {
-            scrollRef.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-        } else {
-            scrollRef.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-        }
+        const container = scrollRef.current;
+        if (!container) return;
+
+        const cards = Array.from(container.querySelectorAll('[data-testimonial-card]'));
+        if (!cards.length) return;
+
+        const currentCenter = container.scrollLeft + container.clientWidth / 2;
+        const currentIndex = cards.reduce((closestIndex, card, index) => {
+            const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+            const closestCard = cards[closestIndex];
+            const closestCenter = closestCard.offsetLeft + closestCard.offsetWidth / 2;
+
+            return Math.abs(cardCenter - currentCenter) < Math.abs(closestCenter - currentCenter)
+                ? index
+                : closestIndex;
+        }, 0);
+
+        const nextIndex = direction === 'left'
+            ? Math.max(currentIndex - 1, 0)
+            : Math.min(currentIndex + 1, cards.length - 1);
+        const card = cards[nextIndex];
+        const centeredLeft = card.offsetLeft - (container.clientWidth - card.offsetWidth) / 2;
+
+        container.scrollTo({ left: centeredLeft, behavior: 'smooth' });
     };
 
     if (!mounted) return null;
@@ -77,16 +93,17 @@ export default function EffectTwo() {
 
                     {/* Scroll Container */}
                     <div
-                    ref={setScrollRef}
-                    className="flex gap-2 md:gap-10 overflow-x-auto scroll-smooth px-4 md:px-10
+                    ref={scrollRef}
+                    className="flex snap-x snap-mandatory gap-2 md:gap-10 overflow-x-auto scroll-smooth px-[calc((100%_-_85vw)/2)] md:px-4 lg:px-[calc((100%_-_774px)/2)]
                                 scrollbar-hide"
                     >
                     {/* Card */}
                     {data.testimonials.map((testimonial, i) => (
                         <div
                         key={i}
+                        data-testimonial-card
                         className="min-w-[85vw] md:min-w-[774px] h-[412px] border-[0.3px] border-white
-                                    rounded-lg p-10 flex flex-col justify-between bg-transparent"
+                                    rounded-lg p-10 flex flex-col justify-between bg-transparent snap-center"
                         >
                         <h3 className="font-poppins text-base md:text-2xl text-gray-250">
                             "{testimonial.quote}"

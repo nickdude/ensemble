@@ -9,7 +9,7 @@ import { aboutUsData } from "@/data/home/aboutUsData";
 export default function OurTeam(){
     const { theme } = useTheme();
     const [mounted, setMounted] = useState(false);
-    const [showAll, setShowAll] = useState(false);
+    const [showAll, setShowAll] = useState(true);
     const { ourTeam } = aboutUsData;
 
     useEffect(() => setMounted(true), []);
@@ -24,7 +24,7 @@ export default function OurTeam(){
                     <div className="w-80 flex flex-col gap-6 justify-center">
                         <h2 className="font-poppins font-medium text-[64px] leading-[68px]">{ourTeam.title}</h2>
                         <p className="font-avenir font-light text-lg text-gray-600 leading-[25px]">{ourTeam.description}</p>
-                        <button 
+                        {/* <button 
                             onClick={() => setShowAll(!showAll)}
                             className={`lux-btn rounded-sm w-fit ${
                                 theme === "dark" 
@@ -33,7 +33,7 @@ export default function OurTeam(){
                             }`}
                         >
                             <span>{showAll ? 'SHOW LESS' : 'VIEW ALL'}</span>
-                        </button>
+                        </button> */}
                     </div>
                     {displayedMembers.map((member, index) => (
                     <div key={index} className="w-full md:w-[396px] h-[505px] mt-5">

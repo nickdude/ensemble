@@ -25,26 +25,21 @@ export default function ProjectCard({
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
+        <div className="absolute inset-0 card-image-gradient pointer-events-none"></div>
         <div className="overlay overlay-default">
           <div className="title-box">
             <h2 className="font-poppins text-[30px] md:text-[62px]">{title}</h2>
-            <div className="arrow-overlay">
-                <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
-            </div>
-
             <p className="font-bricolage font-semibold text-[16px]">{location}</p>
           </div>
         </div>
 
         <div className="overlay overlay-hover">
-          <div className="hover-box">
-            <p>Location: {location}</p>
+          <div className="hover-box font-roboto text-lg">
             <p className="from-bottom">Area: {area}</p>
-            <p>Service: {service}</p>
+            <p className="from-bottom">Service: {service}</p>
 
             <div className="cta from-bottom">
-              <span onClick={viewCaseStudy}>View Case Study</span>
+              <span className="case-study-button font-bricolage">View Case Study</span>
             </div>
           </div>
         </div>

@@ -27,12 +27,12 @@ function NewsCard({ image, title, desc, link, style, onClick }) {
         <Link href={link}>
           <h3 className="text-xl font-medium mb-2 flex items-center gap-1">
             {title}
-            <Image
+            {/* <Image
               src="/assets/icons/up_arrow.svg"
               alt="Up Arrow"
               width={8}
               height={8}
-            />
+            /> */}
           </h3>
         </Link>
         <p className="text-sm text-white/80">{desc}</p>

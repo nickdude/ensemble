@@ -5,7 +5,7 @@ export default function ProjectCardSample({image, title, location,  area, servic
    <div className="card bg-red-300 shrink-0 relative cursor-pointer w-full h-full">
       <div className="absolute inset-0">
         <img className="w-full h-full object-cover" src={image} alt="Project Image" />
-        <div className="absolute inset-0 bg-black opacity-60 pointer-events-none"></div>
+        <div className="absolute inset-0 card-image-gradient pointer-events-none"></div>
       </div>
 
       <div className="overlay overlay-default">
@@ -18,14 +18,15 @@ export default function ProjectCardSample({image, title, location,  area, servic
         </div>
       </div>
 
-      <div className="overlay overlay-hover" onClick={viewCaseStudy}>
+      <div className="overlay overlay-hover">
         <div className="hover-box font-roboto text-lg">
-          <p>Location: {location}</p>
           <p className="from-bottom">Area: {area}</p>
-          <p>Service: {service}</p>
+          <p className="from-bottom">Service: {service}</p>
 
           <div className="cta from-bottom">
-            <span className="font-bricolage cursor-pointer" onClick={viewCaseStudy}>View Case Study</span>
+            <button type="button" className="case-study-button font-bricolage" onClick={viewCaseStudy}>
+              View Case Study
+            </button>
           </div>
         </div>
       </div>

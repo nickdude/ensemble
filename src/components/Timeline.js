@@ -39,9 +39,10 @@ export default function Timeline({ theme, items = timelineData, compact = false 
   );
 }
 
-function TimelineItem({ year, title, description, active, highlight, theme, compact = false }) {
+function TimelineItem({ year, title, description, highlight, theme, compact = false }) {
   const ref = useRef(null);
   const [visible, setVisible] = useState(false);
+  const active = true;
 
   useEffect(() => {
     const observer = new IntersectionObserver(

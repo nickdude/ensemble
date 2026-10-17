@@ -27,7 +27,30 @@
   },
   "journeyTo2029": {
     "title": "Journey to 2029",
-    "image": "/assets/sustainabilty/journey.jpg"
+    "image": "/assets/sustainabilty/journey.jpg",
+    "timeline": [
+      {
+        "year": "2021 – 2024",
+        "title": "Where we’ve been",
+        "description": "ISO 14001 Certification Received. Delivered over 50 projects in LEED. Training our Design Professionals in LEED AP.",
+        "active": true
+      },
+      {
+        "year": "2024 – 2025",
+        "description": "LEED Certification for our offices",
+        "active": true
+      },
+      {
+        "year": "2025 – 2026",
+        "description": "Install 1.25 MW WTG",
+        "active": true
+      },
+      {
+        "year": "2026 – 2029",
+        "description": "Plants powered 100% by Solar",
+        "active": false
+      }
+    ]
   },
   "initiative": {
     "title": "Sustainability Initiatives",

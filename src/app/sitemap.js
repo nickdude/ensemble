@@ -20,6 +20,7 @@ export default function sitemap() {
     { path: "/blog", changeFrequency: "weekly", priority: 0.7 },
     { path: "/news", changeFrequency: "weekly", priority: 0.7 },
     { path: "/contactus", changeFrequency: "yearly", priority: 0.6 },
+    { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.4 },
   ].map((r) => ({
     url: `${SITE_URL}${r.path}`,
     lastModified,

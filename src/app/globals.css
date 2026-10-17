@@ -41,17 +41,49 @@
   --color-dark: #121212;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #121212;
-    --foreground: #FFFFFF;
-  }
+.dark {
+  --background: #121212;
+  --foreground: #FFFFFF;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-inter);
+}
+
+.privacy-policy-page {
+  background: #fff;
+  color: #000;
+}
+
+html.dark .privacy-policy-page {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+html.dark .privacy-policy-page__header {
+  border-color: #121212 !important;
+}
+
+html.dark .privacy-policy-page__muted,
+html.dark .privacy-policy-page__body {
+  color: #d3d3d3 !important;
+}
+
+html.dark .privacy-policy-page__body h2,
+html.dark .privacy-policy-page__body h3 {
+  color: #fff !important;
+}
+
+.contact-page-title {
+  background: #fff;
+  color: #000;
+}
+
+html.dark .contact-page-title {
+  background: #000 !important;
+  color: #fff !important;
 }
 
 .splash-seo-heading {

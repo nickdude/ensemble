@@ -32,7 +32,7 @@ export default function   InnerProjectSubHero({slug}) {
                   className="absolute inset-0"
                   style={{
                     background:
-                      "linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 30%)",
+                      "linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 60%)",
                   }}
                 />
         

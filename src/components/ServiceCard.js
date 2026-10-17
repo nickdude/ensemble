@@ -5,7 +5,8 @@ import Link from "next/link";
 
 export default function ServiceCard({ img, title, link, description, bgImage }) {
   return (
-    <div
+    <Link
+      href={link}
       className="
         group relative overflow-hidden
         border border-gray-300 rounded-lg
@@ -32,26 +33,6 @@ export default function ServiceCard({ img, title, link, description, bgImage }) 
         />
       </div>
 
-      {/* ARROW */}
-      <Link href={link}>
-        <div className="absolute md:relative z-20 flex justify-end w-full p-5 top-0 right-0">
-          <div
-            className="
-              p-2 rounded-md
-              transition-colors duration-200
-              group-hover:bg-white
-            "
-          >
-            <Image
-              src="/assets/icons/red_upper_arrow.svg"
-              alt="service arrow"
-              width={24}
-              height={24}
-            />
-          </div>
-        </div>
-      </Link>
-
       {/* CONTENT */}
       <div
         className="
@@ -73,7 +54,7 @@ export default function ServiceCard({ img, title, link, description, bgImage }) 
           {description}
         </p>
       </div>
-    </div>
+    </Link>
   );
 }
 

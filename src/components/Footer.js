@@ -102,7 +102,7 @@ export default function Footer() {
         {/* Bottom Section - Copyright */}
         <div className={`w-full py-8 transition-colors duration-300 ${theme === "dark" ? "bg-black border-gray-800" : "bg-white border-gray-300"}`}>
           <p className={`text-center text-sm font-bricolage transition-colors ${theme === "dark" ? "text-gray-500" : "text-gray-600"}`}>
-            @2024 by Ensemble
+            @2026 by Ensemble
           </p>
         </div>
 

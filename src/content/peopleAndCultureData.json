@@ -53,12 +53,18 @@
     "title": "Why Ensemble",
     "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/people-and-culture/image4.jpeg",
     "items": [
-      "Open communication and shared ownership",
-      "Learning through projects, feedback and mentorship",
-      "Respect for every role, craft and perspective",
-      "A strong focus on health, safety and wellbeing",
-      "Celebrating progress and recognising contribution",
-      "Building inclusive teams that reflect the communities we serve"
+      {
+        "title": "Live projects at scale",
+        "description": "You work on offices that Fortune 500 and Fortune 1000 companies move into, on projects running across India."
+      },
+      {
+        "title": "Clear responsibility",
+        "description": "Because one team owns each project from start to finish, your work shows up in the finished space instead of getting lost in a handoff."
+      },
+      {
+        "title": "The whole process",
+        "description": "Design, engineering, manufacturing and delivery are all in-house, so you see how a project comes together rather than one stage of it."
+      }
     ]
   },
   "efficiency": {

@@ -28,11 +28,17 @@ export default function   InnerProjectSubHero({slug}) {
                 />
         
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-black/30 to-transparent" />
+                <div
+                  className="absolute inset-0"
+                  style={{
+                    background:
+                      "linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0) 30%)",
+                  }}
+                />
         
                 {/* Content */}
-               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white z-10">
-                    <h1 className="text-[32px] md:text-[56px] font-poppins font-semibold">
+               <div className="absolute bottom-6 left-6 right-4 text-white z-10 md:bottom-10 md:left-10">
+                    <h1 className="text-[32px] md:text-[56px] font-poppins font-semibold leading-tight">
                         {projectData.hero.title}, {projectData.hero.location}
                     </h1>
                 </div>

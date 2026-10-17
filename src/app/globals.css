@@ -232,9 +232,18 @@ body {
 }
 
 .life-at-ensemble__tile {
+  position: relative;
+  z-index: 0;
   min-width: 0;
   overflow: hidden;
   background: #edf0f1;
+  transition: transform 350ms ease-out, box-shadow 350ms ease-out;
+}
+
+.life-at-ensemble__tile:hover {
+  z-index: 1;
+  transform: scale(1.08);
+  box-shadow: 0 16px 30px rgb(0 0 0 / 22%);
 }
 
 .life-at-ensemble__tile--1 { grid-column: 1; grid-row: 1; }

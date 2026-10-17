@@ -9,7 +9,12 @@ export default function NewsCard({ slug, title, image, date, link }){
             <div className="rounded-lg md:relative md:h-[455px] flex flex-col md:block">
                 <div className="relative h-[260px] md:h-full w-full">
                     <Image src={image} alt={slug} fill className="object-cover rounded-lg" />
-                    <div className="absolute inset-0 bg-black opacity-60 pointer-events-none rounded-lg"></div>
+                    <div
+                        className="absolute inset-0 pointer-events-none rounded-lg"
+                        style={{
+                            background: "linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 70%)",
+                        }}
+                    ></div>
                 </div>
                     <div className="relative z-10 mt-4 md:mt-0 text-[#6C6C6C] md:text-white rounded-md px-4 md:px-0 w-full md:w-[350px] md:absolute md:bottom-10 md:left-10">
                         <p className="font-bricolage font-normal text-xs text-[#6C6C6C] md:text-white ">{date}</p>

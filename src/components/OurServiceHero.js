@@ -31,9 +31,9 @@ export default function OurServiceHero() {
 
         {/* Content */}
         <div className="absolute bottom-12 left-4 max-w-2xl z-10">
-          <p className="text-sm md:text-lg font-poppins font-normal mb-3">{data.label}</p>
+          <p className="text-sm md:text-lg font-poppins font-normal mb-3 text-white ">{data.label}</p>
 
-          <h1 className="text-[34px] md:text-[56px] font-poppins font-semibold leading-tight mb-6">
+          <h1 className="text-[34px] md:text-[56px] font-poppins font-semibold leading-tight mb-6 text-white">
             {data.heading}
           </h1>
 

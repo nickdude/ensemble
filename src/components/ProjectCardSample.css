@@ -55,9 +55,8 @@
 .card-image-gradient {
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.78) 0%,
-    rgba(0, 0, 0, 0.38) 42%,
-    rgba(0, 0, 0, 0.04) 78%,
+    rgba(0, 0, 0, 0.90) 3%,
+    rgba(0, 0, 0, 0.3) 10%,
     rgba(0, 0, 0, 0) 100%
   );
 }

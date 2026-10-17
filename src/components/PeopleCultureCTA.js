@@ -55,7 +55,9 @@ export default function PeopleCultureCTA() {
 
         <div className="people-culture-cta__actions">
           <Link
-            href="/contactus"
+            href="https://www.linkedin.com/company/ensemble-design-build/jobs/?viewAsMember=true"
+            target="_blank"
+            rel="noreferrer"
             className="people-culture-cta__button people-culture-cta__button--primary"
           >
             <FeatureIcon type="projects" />

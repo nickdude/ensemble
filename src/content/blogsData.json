@@ -83,56 +83,56 @@
     {
       "slug": "blog13",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Bank+blog+13+ext.png",
-      "title": "Why a Bank Branch That Works Smoothly Still Fails to Convert Customers",
+      "title": "Why does the most seamless bank branches fail to convert clients.",
       "description": "Most bank branches are designed around a floor plan rather than the customer.",
       "imgAlt": "Banking projects "
     },
     {
       "slug": "blog14",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/BIM+Blog+14+ext.png",
-      "title": "Walk Through Your Building in a Model Before You Build It",
+      "title": "Test-drive your building before the first brick is laid.",
       "description": "BIM clash detection finds the conflicts that drawings hide, while they are still cheap to fix.",
       "imgAlt": "BIM driven projects "
     },
     {
       "slug": "blog15",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/HR+BLog+15+ext.png",
-      "title": "Culture Shapes Employee Experience, but the Workplace Is Where It Shows",
+      "title": "Culture shapes employee experience, and the workplace is its reflection. ",
       "description": "HR and workplace strategy run as separate conversations. Employees experience them as one.",
       "imgAlt": "HR and Workspace Culture "
     },
     {
       "slug": "blog16",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Material+Blog+16+ext.png",
-      "title": "Material Science Is an Under-Used Lever in Commercial Interior Design",
+      "title": "Material science is commercial interior design's greatest untapped catalyst.",
       "description": "Material selection is usually treated as a visual decision, though it works more like an engineering one.",
       "imgAlt": "Material science and its influence "
     },
     {
       "slug": "blog17",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Cafe+blog+17+ext.png",
-      "title": "The Modern Office Cafeteria Has Outgrown Lunch ",
+      "title": "Modern office cafeteria has outgrown lunch.",
       "description": "Designed for one hour, it now has to work all day, which makes the cafeteria part of workplace infrastructure.",
       "imgAlt": "How the modern cafes have changed offices "
     },
     {
       "slug": "blog18",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Common+area+blog+18+ext.png",
-      "title": "Your Most Valuable Square Feet Are the Ones You Cannot Lease",
+      "title": "Your most valuable square feet are the ones you cannot lease",
       "description": "Arrival spaces never show up on the rent roll, yet they shape how occupiers value the rest.",
       "imgAlt": "Common areas in modern workspaces "
     },
     {
       "slug": "blog19",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/colour+blog+19+ext.png",
-      "title": "Why Color Belongs in Workplace Strategy From the First Design Meeting",
+      "title": "Why color belongs in workplace strategy from the first design meeting.",
       "description": "Color is one of the first things the brain processes in a space, and one of the last things projects decide.",
       "imgAlt": "Color as a workspace strategy "
     },
     {
       "slug": "blog20",
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Gcc+blog+20+ext.png",
-      "title": "India's GCC Shift From Capacity to Capability Demands a New Workplace Brief",
+      "title": "India's GCC shift from capacity to capability demands a new workplace brief.",
       "description": "India stopped being the world's back office years ago. Most workplace briefs have not caught up.",
       "imgAlt": "GCCs and modern workspace design "
     }
@@ -844,7 +844,7 @@
       "mainImageAlt": "HR and Workspace Culture "
     },
     "blog16": {
-      "title": "Material Science Is an Under-Used Lever in Commercial Interior Design",
+      "title": "Material science is commercial interior design's greatest untapped catalyst.",
       "subtitle": "Material selection is usually treated as a visual decision, though it works more like an engineering one.",
       "author": "Abhiram Ajayghosh",
       "date": "Tuesday, July 21, 2026",

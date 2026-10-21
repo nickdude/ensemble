@@ -100,6 +100,12 @@
       "title": "Culture Shapes Employee Experience, but the Workplace Is Where It Shows",
       "description": "HR and workplace strategy run as separate conversations. Employees experience them as one.",
       "imgAlt": "HR and Workspace Culture "
+    },
+    {
+      "slug": "blog16",
+      "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Material+Blog+16+ext.png",
+      "title": "Material Science Is an Under-Used Lever in Commercial Interior Design",
+      "description": "Material selection is usually treated as a visual decision, though it works more like an engineering one."
     }
   ],
   "blogDetail": {
@@ -768,7 +774,7 @@
     "blog15": {
       "title": "Culture Shapes Employee Experience, but the Workplace Is Where It Shows",
       "subtitle": "HR and workplace strategy run as separate conversations. Employees experience them as one.",
-      "author": "Ensemble Editorial Team ",
+      "author": "Abhiram Ajayghosh",
       "date": "Friday, July 31, 2026 ",
       "readTime": "5 min read",
       "sections": [
@@ -807,6 +813,49 @@
       ],
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/HR+and+Culture+Blog+15.png",
       "mainImageAlt": "HR and Workspace Culture "
+    },
+    "blog16": {
+      "title": "Material Science Is an Under-Used Lever in Commercial Interior Design",
+      "subtitle": "Material selection is usually treated as a visual decision, though it works more like an engineering one.",
+      "author": "Abhiram Ajayghosh",
+      "date": "Tuesday, July 21, 2026",
+      "readTime": "5 min read",
+      "sections": [
+        {
+          "title": "A Decision Made at the Wrong Moment",
+          "para": "In most commercial interiors, materials are chosen once the design is essentially finished. The plan is fixed, details are drawn, and the team sits down with a table of samples. That sequence guarantees that material is treated as a visual decision, because by then it is the only kind of decision left to make. Performance questions that should have shaped the design get answered by default. Yet a material determines how a surface feels, how a room sounds, how far a detail can be pushed and whether the design can be built as drawn. Those are engineering questions. Treated as an engineering input from the start, material selection can improve cost, performance and sustainability at the same time, instead of trading one against the others late in the process. Late trade-offs are usually made under time pressure, with nobody in the room who can explain what is being given up."
+        },
+        {
+          "title": "What the Hand and Ear Read",
+          "para": "Thermal conductivity is why a metal handrail feels cold and a timber one feels warm at the same room temperature. Micro-texture is why two laminates printed with the same image feel completely different under the hand. People notice these differences long before they could describe them. They shape whether a space feels considered or cheap, even when the drawings look identical. Acoustics are a material question too. Reverberation and speech clarity are set by the absorption and reflection of every surface in the room. Acoustic performance is largely fixed in the first ten per cent of design, and fixed expensively in the last ten per cent. Decided early, it costs almost nothing. Decided late, it becomes a separate package with its own cost and a visible compromise, usually panels added to a room that was never planned for them."
+        },
+        {
+          "title": "What Can Actually Be Built",
+          "para": "Strength, flexibility and forming limits decide which geometries survive the journey from drawing to site. A curve can be made in a dozen materials, and each has its own minimum radius and joint strategy. Some bend smoothly, while others need to be segmented or fixed to a substrate that holds the shape. A designer who knows those limits draws a curve that can be built. One who does not sees it value-engineered into facets six weeks before installation, when there is no time left to rethink it. Cantilevers, thin edges and flush junctions fail in the same way when the drawing asks a material to do something it does not do. Each of these failures is avoidable when material limits inform the drawing from the start."
+        },
+        {
+          "title": "Materials as a Design Lever",
+          "para": "Used well, material properties open up design options. Recycled PET felt can turn acoustic treatment into spatial architecture, because it is formable and self-supporting. Strand-woven bamboo reaches hardness levels that conventional timber cannot. Recycled aluminium makes truly flush junctions achievable. In each case, the material's properties make a design move possible that would be difficult otherwise. Recycled terrazzo creates continuous surfaces across curves, and GFRG enables lightweight moulded ceilings. None of these materials are exotic. They are simply unfamiliar to teams who pick from a standard palette on every project. The aim is to design with each material's properties from the outset, rather than swapping one material for another late in the process. That requires knowing each material well enough to draw for it."
+        },
+        {
+          "title": "Durability Is a Sustainability Metric",
+          "para": "The most environmentally costly material is the one that gets replaced in year four. Corporate fit-outs are stripped every five to seven years, so a specification that lasts a full lease cycle can halve material use over a decade. That makes the life of a material as important as its source. A cheaper finish that fails early is rarely the cheaper option over the life of the fit-out. Durability is often presented as a quality argument that competes with sustainability for budget. It is better understood as the sustainability argument itself, measured across the life of the asset. A material with strong credentials that fails early can end up costing the environment more than a durable one that stays in place through the lease."
+        },
+        {
+          "title": "Test Before Committing",
+          "para": "A 100mm sample shows colour and little else. Mockups built during detailed design reveal what samples cannot: a finish that shows every fixing, a joint that opens under thermal movement, a colour that shifts under the specified light. Built early, a mockup changes the design. Built after procurement, it can only document a decision that has already been made, and any problem it reveals becomes a variation. The cost of an early mockup is small next to the cost of that variation."
+        },
+        {
+          "title": "Controlling the Chain",
+          "para": "A material decision has to survive procurement, manufacturing and installation. Each stage applies pressure through substitutions and tolerance changes, often for sensible reasons such as availability or cost. Fragmented delivery loses the design one reasonable compromise at a time, until the finished space no longer performs the way it was meant to. No single decision along the way looks like the moment the design was lost. Ensemble's 1,25,000 sq. ft. in-house manufacturing facility keeps material decisions under one accountability. Specifications that record the required properties, as well as the product name, give procurement a basis for evaluating substitutions properly. Without that record, a substitute tends to be approved on appearance and price, and the property that mattered gets lost along the way."
+        },
+        {
+          "title": "Conclusion",
+          "para": "Material science belongs at the start of a project, because material properties determine what the design can achieve as well as how it looks. At Ensemble, that understanding connects design intent with manufacturing and execution. Sustainability begins with what gets specified, made, installed and ultimately performs. The properties that make a material responsible are often the same ones that make it perform well over the life of the space."
+        }
+      ],
+      "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Materials+blog+16.png",
+      "mainImageAlt": ""
     }
   }
 }

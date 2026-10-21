@@ -57,6 +57,11 @@
         "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Global+realestate+conference.png",
         "title": "Most Promising Brand Award",
         "description": "Recognized with the Most Promising Brand Award in the Interior Design category at the Global Real \nEstate Conference 2019 in Mumbai."
+      },
+      {
+        "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Trending+500k+proj.png",
+        "title": "Record Quarter of Wins",
+        "description": "Close to 500k sq ft of new projects secured in 90 days, a milestone driven by leading corporates choosing EIIL for their workspaces."
       }
     ]
   },

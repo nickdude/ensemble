@@ -44,24 +44,24 @@
     "subtitle": "A Legacy of Success: Celebrating Our Journey in Design Excellence",
     "cards": [
       {
-        "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/National+Architecture+%26+Interior+Design+Excellence+Awards+%26+Conference.png",
-        "title": "Prominent D&B Company",
-        "description": "Awarded the Prominent Interior D&B Company of the Year 2024, National Architecture & Interior Design Excellence Awards."
-      },
-      {
-        "icon": "/assets/awards/award3.svg",
-        "title": "Architect of the Year",
-        "description": "Named Architect of the Year for consistently delivering innovative and aesthetically pleasing designs across various projects."
-      },
-      {
         "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Global+realestate+conference.png",
         "title": "Most Promising Brand Award",
         "description": "Recognized with the Most Promising Brand Award in the Interior Design category at the Global Real \nEstate Conference 2019 in Mumbai."
       },
       {
+        "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/National+Architecture+%26+Interior+Design+Excellence+Awards+%26+Conference.png",
+        "title": "Prominent D&B Company",
+        "description": "Awarded the Prominent Interior D&B Company of the Year 2024, National Architecture & Interior Design Excellence Awards."
+      },
+      {
         "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Trending+500k+proj.png",
         "title": "Record Quarter of Wins",
         "description": "Close to 500k sq ft of new projects secured in 90 days, a milestone driven by leading corporates choosing EIIL for their workspaces."
+      },
+      {
+        "icon": "/assets/awards/award3.svg",
+        "title": "Architect of the Year",
+        "description": "Named Architect of the Year for consistently delivering innovative and aesthetically pleasing designs across various projects."
       }
     ]
   },

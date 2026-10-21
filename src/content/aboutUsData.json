@@ -44,9 +44,9 @@
     "subtitle": "A Legacy of Success: Celebrating Our Journey in Design Excellence",
     "cards": [
       {
-        "icon": "/assets/awards/award1.svg",
-        "title": "Excellence in Interior Design",
-        "description": "Acknowledged for outstanding interior design work in the \"Luxury Haven Hotel\" project."
+        "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/National+Architecture+%26+Interior+Design+Excellence+Awards+%26+Conference.png",
+        "title": "Prominent Interior Design & Build Company",
+        "description": "Awarded the Prominent Interior Design & Build Company of the Year 2024 at the National Architecture & Interior Design Excellence Awards & Conference."
       },
       {
         "icon": "/assets/awards/award2.svg",
@@ -59,9 +59,9 @@
         "description": "Named Architect of the Year for consistently delivering innovative and aesthetically pleasing designs across various projects."
       },
       {
-        "icon": "/assets/awards/award4.svg",
-        "title": "Excellence in Interior Design",
-        "description": "Awarded for outstanding design and craftsmanship on the \"Modern Oasis Residence.\""
+        "icon": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Global+realestate+conference.png",
+        "title": "Most Promising Brand Award",
+        "description": "Recognized with the Most Promising Brand Award in the Interior Design category at the Global Real \nEstate Conference 2019 in Mumbai."
       }
     ]
   },

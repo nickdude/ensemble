@@ -1,8 +1,25 @@
 import "./ProjectCardSample.css"
 
-export default function ProjectCardSample({image, title, location,  area, service, viewCaseStudy}) {
+export default function ProjectCardSample({image, title, location, area, service, caseStudyLink, viewCaseStudy}) {
+  const navigateToCaseStudy = viewCaseStudy || (() => {
+    if (caseStudyLink) window.location.href = caseStudyLink.startsWith("/")
+      ? caseStudyLink
+      : `/${caseStudyLink}`;
+  });
+
   return (
-   <div className="card bg-red-300 shrink-0 relative cursor-pointer w-full h-full">
+   <div
+     className="card bg-red-300 shrink-0 relative cursor-pointer w-full h-full"
+     role="link"
+     tabIndex={caseStudyLink || viewCaseStudy ? 0 : undefined}
+     onClick={navigateToCaseStudy}
+     onKeyDown={(event) => {
+       if ((event.key === "Enter" || event.key === " ") && (caseStudyLink || viewCaseStudy)) {
+         event.preventDefault();
+         navigateToCaseStudy();
+       }
+     }}
+   >
       <div className="absolute inset-0">
         <img className="w-full h-full object-cover" src={image} alt="Project Image" />
         <div className="absolute inset-0 card-image-gradient pointer-events-none"></div>
@@ -24,7 +41,7 @@ export default function ProjectCardSample({image, title, location,  area, servic
           <p className="from-bottom">Service: {service}</p>
 
           <div className="cta from-bottom">
-            <button type="button" className="case-study-button font-bricolage" onClick={viewCaseStudy}>
+            <button type="button" className="case-study-button font-bricolage" onClick={navigateToCaseStudy}>
               View Case Study
             </button>
           </div>

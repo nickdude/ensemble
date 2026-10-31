@@ -14,116 +14,128 @@
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png",
         "title": "Bridge+",
         "location": "Chennai ",
-        "slug": "project-1",
+        "slug": "bridge-plus-chennai",
+        "legacySlugs": ["project-1"],
         "area": "25,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-1"
+        "caseStudyLink": "projects/bridge-plus-chennai"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8306.jpg",
         "title": "Canon",
         "location": "Mumbai",
         "variant": "wide",
-        "slug": "project-2",
+        "slug": "canon-mumbai",
+        "legacySlugs": ["project-2"],
         "area": "30,000 sq. ft.",
         "service": "Design & Build",
-        "caseStudyLink": "projects/project-2"
+        "caseStudyLink": "projects/canon-mumbai"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Zydus%2C+Ahmedabad/Zydus+main+1.png",
         "title": "Zydus",
         "location": "Ahmedabad",
-        "slug": "project-3",
+        "slug": "zydus-ahmedabad",
+        "legacySlugs": ["project-3"],
         "area": "9,00,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-3"
+        "caseStudyLink": "projects/zydus-ahmedabad"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/UST+Global%2C+Trivandrum/UST+G.jpg",
         "title": "UST Global",
         "location": "Trivandrum",
-        "slug": "project-4",
+        "slug": "ust-global-trivandrum",
+        "legacySlugs": ["project-4"],
         "area": "2,50,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-4"
+        "caseStudyLink": "projects/ust-global-trivandrum"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-e(1)+(1).jpg",
         "title": "TCS",
         "location": "Mumbai",
-        "slug": "project-5",
+        "slug": "tcs-mumbai",
+        "legacySlugs": ["project-5"],
         "area": "2,00,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-5"
+        "caseStudyLink": "projects/tcs-mumbai"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/Cairn+Reception+View.jpg",
         "title": "Cairn Energy",
         "location": "Gurugram",
-        "slug": "project-6",
+        "slug": "cairn-energy-gurugram",
+        "legacySlugs": ["project-6"],
         "area": "1,00,000 sq ft",
         "service": "Design & Build",
-        "caseStudyLink": "projects/project-6"
+        "caseStudyLink": "projects/cairn-energy-gurugram"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/RPSG%2C+Kolkata/RPSG+2.jpg",
         "title": "RPSG",
         "location": "Kolkata",
-        "slug": "project-7",
+        "slug": "rpsg-kolkata",
+        "legacySlugs": ["project-7"],
         "area": "50,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-7"
+        "caseStudyLink": "projects/rpsg-kolkata"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+01.jpg",
         "title": "MSD",
         "location": "Kolkata",
-        "slug": "project-8",
+        "slug": "msd-kolkata",
+        "legacySlugs": ["project-8"],
         "area": "15,000 sq. ft.",
         "service": "Design & Build",
-        "caseStudyLink": "projects/project-8"
+        "caseStudyLink": "projects/msd-kolkata"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Picture4.jpg",
         "title": "Jio Hotstar",
         "location": "Mumbai",
         "variant": "wide",
-        "slug": "project-9",
+        "slug": "jiohotstar-mumbai",
+        "legacySlugs": ["project-9"],
         "area": "2,00,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-9"
+        "caseStudyLink": "projects/jiohotstar-mumbai"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/Firefly_GeminiFlash_MAKE+8K+QUALITY+27451.png",
         "title": "Cowrks",
         "location": "Bengaluru",
-        "slug": "project-10",
+        "slug": "cowrks-bengaluru",
+        "legacySlugs": ["project-10"],
         "area": "25,000 sq. ft.",
         "service": "General Contracting",
-        "caseStudyLink": "projects/project-10"
+        "caseStudyLink": "projects/cowrks-bengaluru"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/IGT+Solutions/Reception+1.jpg",
         "title": "IGT Solutions",
         "location": "Bengaluru",
-        "slug": "project-11",
+        "slug": "igt-solutions-bengaluru",
+        "legacySlugs": ["project-11"],
         "area": "25,000 sq. ft.",
         "service": "Design & Build",
-        "caseStudyLink": "projects/project-11"
+        "caseStudyLink": "projects/igt-solutions-bengaluru"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_01_01.jpg",
         "title": "Meenakshi Hospitals",
         "location": "Madurai",
-        "slug": "project-12",
+        "slug": "meenakshi-hospitals-madurai",
+        "legacySlugs": ["project-12"],
         "area": "3,00,000 sq ft.",
         "service": "Design Consultancy",
-        "caseStudyLink": "projects/project-12"
+        "caseStudyLink": "projects/meenakshi-hospitals-madurai"
       }
     ]
   },
   "projectDetail": {
-    "project-1": {
+    "bridge-plus-chennai": {
       "hero": {
         "title": "Bridge+",
         "location": "Chennai",
@@ -172,7 +184,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-2": {
+    "canon-mumbai": {
       "hero": {
         "title": "Canon",
         "location": "Mumbai",
@@ -217,7 +229,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-3": {
+    "zydus-ahmedabad": {
       "hero": {
         "title": "Zydus",
         "location": "Ahmedabad",
@@ -262,7 +274,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-4": {
+    "ust-global-trivandrum": {
       "hero": {
         "title": "UST Global",
         "location": "Trivandrum",
@@ -307,7 +319,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-5": {
+    "tcs-mumbai": {
       "hero": {
         "title": "TCS",
         "location": "Mumbai",
@@ -352,7 +364,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-6": {
+    "cairn-energy-gurugram": {
       "hero": {
         "title": "Cairn Energy",
         "location": "Gurugram",
@@ -397,7 +409,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-7": {
+    "rpsg-kolkata": {
       "hero": {
         "title": "RPSG",
         "location": "Kolkata",
@@ -441,7 +453,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-8": {
+    "msd-kolkata": {
       "hero": {
         "title": "MSD",
         "location": "Kolkata",
@@ -485,7 +497,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-9": {
+    "jiohotstar-mumbai": {
       "hero": {
         "title": "Jio Hotstar",
         "location": "Mumbai",
@@ -529,7 +541,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-10": {
+    "cowrks-bengaluru": {
       "hero": {
         "title": "Cowrks",
         "location": "Bengaluru",
@@ -573,7 +585,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-11": {
+    "igt-solutions-bengaluru": {
       "hero": {
         "title": "IGT Solutions",
         "location": "Bengaluru",
@@ -617,7 +629,7 @@
       "authorDesignation": "Manager at We Work",
       "authorSays": "Our office has been completely transformed into an inspiring and functional space that reflects our vision perfectly. The open-concept design has enhanced collaboration and brought in so much natural light."
     },
-    "project-12": {
+    "meenakshi-hospitals-madurai": {
       "hero": {
         "title": "Meenakshi Hospitals",
         "location": "Madurai",

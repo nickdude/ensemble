@@ -32,6 +32,33 @@ async function writeLocal(repoPath, data) {
   return { sha: null, commit: null };
 }
 
+function migrateProjectSlugs(previousData, nextData) {
+  const previousProjects = previousData?.projectGallery?.projects || [];
+  const projects = nextData?.projectGallery?.projects || [];
+  const details = { ...(nextData?.projectDetail || {}) };
+
+  for (const [index, project] of projects.entries()) {
+    const previous = previousProjects[index];
+    if (!previous?.slug || !project?.slug || previous.slug === project.slug) continue;
+
+    const detail = details[previous.slug];
+    if (detail && !details[project.slug]) {
+      details[project.slug] = detail;
+      delete details[previous.slug];
+    }
+
+    const legacySlugs = new Set(project.legacySlugs || []);
+    legacySlugs.add(previous.slug);
+    project.legacySlugs = [...legacySlugs];
+  }
+
+  for (const project of projects) {
+    if (project?.slug) project.caseStudyLink = `projects/${project.slug}`;
+  }
+
+  return { ...nextData, projectDetail: details };
+}
+
 export async function GET(_request, { params }) {
   const { section: key } = await params;
   const section = getSection(key);
@@ -67,9 +94,16 @@ export async function PUT(request, { params }) {
 
   const message = body.message || `admin: update ${section.label}`;
   try {
+    let data = body.data;
+    if (key === "projects") {
+      const current = gitConfigured()
+        ? await readContent(section.path)
+        : await readLocal(section.path);
+      data = migrateProjectSlugs(current.data, data);
+    }
     const result = gitConfigured()
-      ? await writeContent(section.path, body.data, body.sha, message)
-      : await writeLocal(section.path, body.data);
+      ? await writeContent(section.path, data, body.sha, message)
+      : await writeLocal(section.path, data);
     return NextResponse.json({ ok: true, ...result, git: gitConfigured() });
   } catch (err) {
     if (err.code === "SHA_CONFLICT") {

@@ -4,6 +4,7 @@ import ProjectDetail from "@/components/ProjectDetail";
 import projectsData from "@/data/home/projectsData";
 import { buildMetadata } from "@/lib/seo";
 import { projectDescription } from "@/lib/seo/descriptions";
+import { permanentRedirect } from "next/navigation";
 
 // Dynamic, self-referencing canonical per project. Unknown slugs (no real
 // content) are set noindex and canonicalised onto the /projects listing to
@@ -38,6 +39,13 @@ export async function generateMetadata({ params }) {
 
 export default async function ProjectInnerPage({ params }) {
   const { slug } = await params;
+  const project = projectsData.projectDetail?.[slug];
+  if (!project) {
+    const currentProject = projectsData.projectGallery?.projects?.find((item) =>
+      item.legacySlugs?.includes(slug)
+    );
+    if (currentProject?.slug) permanentRedirect(`/projects/${currentProject.slug}`);
+  }
   return (
     <>
         <InnerProjectSubHero  slug={slug}/>

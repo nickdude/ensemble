@@ -77,8 +77,8 @@ const nextConfig = {
       { source: '/ensemble-thank-you', destination: '/', statusCode: 301 },
 
       // --- Old WordPress portfolio items with an EXACT current project match ---
-      { source: '/portfolio-item/zydus', destination: '/projects/project-3', statusCode: 301 },
-      { source: '/portfolio-item/tata-consultancy-services-mumbai', destination: '/projects/project-5', statusCode: 301 },
+      { source: '/portfolio-item/zydus', destination: '/projects/zydus-ahmedabad', statusCode: 301 },
+      { source: '/portfolio-item/tata-consultancy-services-mumbai', destination: '/projects/tcs-mumbai', statusCode: 301 },
 
       // --- Remaining portfolio items (airtel, givenchy, kirloskar, maersk,
       //     pepe-jeans, workwise, tata-auto-components, ...) → Projects listing ---

@@ -22,7 +22,7 @@ export default function ProjectCardSample({image, title, location, area, service
    >
       <div className="absolute inset-0">
         <img className="w-full h-full object-cover" src={image} alt="Project Image" />
-        <div className="absolute inset-0 card-image-gradient pointer-events-none"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
       </div>
 
       <div className="overlay overlay-default">

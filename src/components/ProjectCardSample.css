@@ -52,17 +52,9 @@
   filter: brightness(0.4);
 }
 
-.card-image-gradient {
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.90) 3%,
-    rgba(0, 0, 0, 0.3) 10%,
-    rgba(0, 0, 0, 0) 100%
-  );
-}
-
 .title-box {
   position: absolute;
+  z-index: 1;
   bottom: 24px;
   left: 30px;
   right: 24px;

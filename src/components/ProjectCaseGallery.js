@@ -33,6 +33,7 @@ export default function ProjectCaseGallery() {
               className="object-cover w-full h-full"
             />
           )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
         </div>
 
         <div className="col-span-1 md:col-span-6 relative flex flex-col justify-center leadig-[34px] gap-10">
@@ -67,6 +68,7 @@ export default function ProjectCaseGallery() {
               className="object-cover w-full h-full"
             />
           )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
         </div>
 
         <div className="col-span-1 md:col-span-6 relative rounded-xl overflow-hidden">
@@ -79,6 +81,7 @@ export default function ProjectCaseGallery() {
               className="object-cover w-full h-full"
             />
           )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
         </div>
 
         {/* ROW 3 — Wide Image */}
@@ -92,6 +95,7 @@ export default function ProjectCaseGallery() {
               className="object-cover w-full h-full"
             />
           )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
         </div>
 
         {/* ROW 4 — Testimonial + Image */}

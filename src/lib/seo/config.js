@@ -41,7 +41,7 @@ export const seoConfig = {
   siteUrl: SITE_URL,
   name: env.NEXT_PUBLIC_ORG_NAME || "Ensemble Infrastructure",
   legalName:
-    env.NEXT_PUBLIC_ORG_LEGAL_NAME || "Ensemble Infrastructure India Pvt. Ltd.",
+    env.NEXT_PUBLIC_ORG_LEGAL_NAME || "Ensemble Infrastructure India Ltd",
   description:
     env.NEXT_PUBLIC_ORG_DESCRIPTION ||
     "Future-ready spaces for thriving businesses — Ensemble Infrastructure delivers integrated design and build workplace solutions across India.",

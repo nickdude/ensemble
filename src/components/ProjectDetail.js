@@ -12,6 +12,9 @@ export default function ProjectDetail() {
   const pathname = usePathname();
   const slug = pathname.split('/')[2];
   const projectData = projectsData.projectDetail[slug];
+  const projectService = projectsData.projectGallery?.projects?.find(
+    (project) => project.slug === slug
+  )?.service;
 
   useEffect(() => setMounted(true), []);
 
@@ -43,7 +46,7 @@ export default function ProjectDetail() {
 
         <div className="grid grid-cols-12 gap-16 items-start">
           <div className="col-span-4">
-            <SubtitleTitle subtitle="Project Size" title={projectData.details.projectSize} />
+            <SubtitleTitle subtitle="Service" title={projectService} />
           </div>
 
           <div className="col-span-8">
@@ -89,7 +92,7 @@ export default function ProjectDetail() {
         {/* ROW 3 */}
         <div className="grid grid-cols-6 gap-16 items-start">
           <div className="col-span-3">
-            <SubtitleTitle subtitle="Project Size" title="Remodeling" />
+            <SubtitleTitle subtitle="Service" title={projectService} />
           </div>
 
           <div className="col-span-3">

@@ -32,10 +32,10 @@ function prettify(slug) {
 /**
  * Build ordered breadcrumb items for a pathname.
  *
- * @param {string} pathname            e.g. "/blog/blog1"
+ * @param {string} pathname            e.g. "/blog/esg-led-workplace-design-cost"
  * @param {Object<string,string>} [labelOverrides]
- *        Map keyed by full accumulated path ("/blog/blog1") or bare segment
- *        ("blog1") → display label.
+ *        Map keyed by full accumulated path ("/blog/esg-led-workplace-design-cost")
+ *        or bare segment ("esg-led-workplace-design-cost") → display label.
  * @returns {Array<{name:string,url:string}>}
  */
 export function buildBreadcrumbItems(pathname, labelOverrides = {}) {

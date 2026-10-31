@@ -290,21 +290,25 @@
     "insights": [
       {
         "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/ESG+1+ext.png",
+        "slug": "esg-led-workplace-design-cost",
         "title": "Your office is costing more than you think.",
         "description": "ESG-led workplace design reduces hidden costs and drives business performance."
       },
       {
         "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Circular+ext.png",
+        "slug": "circular-design-enterprise-workspaces",
         "title": "Circular design, engineered in from day one.",
         "description": "The next generation of enterprise workspaces."
       },
       {
         "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/GCC+ext.png",
+        "slug": "gcc-office-design-india",
         "title": "GCCs are no longer back offices, why look like one?",
         "description": "The GCC mandate has changed from cost arbitrage to innovation. Most workplaces haven't followed."
       },
       {
         "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+roi+ext.png",
+        "slug": "measure-office-outcomes-not-square-feet",
         "title": "Square feet don't drive results. Outcomes do.",
         "description": "Real estate is your second-biggest cost. Why treat it as fixed?"
       }

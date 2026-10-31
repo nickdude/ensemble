@@ -6,131 +6,151 @@
   },
   "blogsCards": [
     {
-      "slug": "blog1",
+      "slug": "esg-led-workplace-design-cost",
+      "legacySlugs": ["blog1"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG+(2).png",
       "title": "Your office is costing more than you think.",
       "description": "ESG-led workplace design reduces hidden costs and drives business performance."
     },
     {
-      "slug": "blog3",
+      "slug": "circular-design-enterprise-workspaces",
+      "legacySlugs": ["blog3"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Circular+ext.png",
       "title": "Circular design, engineered in from day one.",
       "description": "The next generation of enterprise workspaces."
     },
     {
-      "slug": "blog2",
+      "slug": "gcc-office-design-india",
+      "legacySlugs": ["blog2"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC+ext.png",
       "title": "GCCs are no longer back offices, then why look like one?",
       "description": "GCC mandates moved from cost arbitrage to innovation. Most workplaces haven't."
     },
     {
-      "slug": "blog4",
+      "slug": "measure-office-outcomes-not-square-feet",
+      "legacySlugs": ["blog4"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+roi+ext.png",
       "title": "Stop measuring your office in square feet. Measure It in outcomes.",
       "description": "Real estate is your second-biggest cost. Why treat it as fixed?"
     },
     {
-      "slug": "blog5",
+      "slug": "office-earn-the-commute",
+      "legacySlugs": ["blog5"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Hybrid+ext.png",
       "title": "The office Isn't dead. It just has to earn Its commute.",
       "description": "The question isn't whether employees will come in. It's whether the office earns it."
     },
     {
-      "slug": "blog6",
+      "slug": "office-design-for-focus",
+      "legacySlugs": ["blog6"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Cognitive+ext.png",
       "title": "Your office is taxing focus. Most leaders never see the bill.",
       "description": "Noise, light, air quality and layout are performance variables, not comfort factors."
     },
     {
-      "slug": "blog7",
+      "slug": "workspace-trends-1900-projects",
+      "legacySlugs": ["blog7"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/workspace+trends+ext.png",
       "title": "What 1,900+ projects taught us about where workspaces are heading",
       "description": "The best workplaces don't look different. They perform differently. 5 shifts defining what's next."
     },
     {
-      "slug": "blog8",
+      "slug": "cheapest-fitout-false-economy",
+      "legacySlugs": ["blog8"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/cost+of+fitout+ext.png",
       "title": "The cheapest fitout is the most expensive one you'll ever pay for.",
       "description": "Cutting corners shows up on day 400, not day 1. "
     },
     {
-      "slug": "blog9",
+      "slug": "design-and-build-future-workspaces",
+      "legacySlugs": ["blog9"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/d+and+b+prespective+ext.png",
       "title": "Building for the future: A design & build perspective.",
       "description": "Future-ready workspaces aren't predicted. They're engineered.",
       "imgAlt": ""
     },
     {
-      "slug": "blog10",
+      "slug": "esg-office-fitout-materials",
+      "legacySlugs": ["blog10"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/ESG+10+ext.png",
       "title": "ESG doesn't live on a slide. It lives in the walls.",
       "description": "For most companies ESG is a report. In the best workplaces, it's built into the materials."
     },
     {
-      "slug": "blog11",
+      "slug": "data-centres-uptime",
+      "legacySlugs": ["blog11"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Data+C+ext.png",
       "title": "Data centres don’t forgive: Why uptime changes everything. ",
       "description": "When uptime is the specification, every detail becomes an availability risk.",
       "imgAlt": "Data Centers"
     },
     {
-      "slug": "blog12",
+      "slug": "healthcare-projects-seamless-delivery",
+      "legacySlugs": ["blog12"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Healthcare+blog+12+ext.png",
       "title": "Most healthcare projects fail at the seams.",
       "description": "Not at design or handover, but where one contractor's scope ends and the next begins.",
       "imgAlt": "Healthcare projects "
     },
     {
-      "slug": "blog13",
+      "slug": "bank-branch-design-client-conversion",
+      "legacySlugs": ["blog13"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Bank+blog+13+ext.png",
       "title": "Why does the most seamless bank branches fail to convert clients.",
       "description": "Most bank branches are designed around a floor plan rather than the customer.",
       "imgAlt": "Banking projects "
     },
     {
-      "slug": "blog14",
+      "slug": "bim-clash-detection-building",
+      "legacySlugs": ["blog14"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/BIM+Blog+14+ext.png",
       "title": "Test-drive your building before the first brick is laid.",
       "description": "BIM clash detection finds the conflicts that drawings hide, while they are still cheap to fix.",
       "imgAlt": "BIM driven projects "
     },
     {
-      "slug": "blog15",
+      "slug": "workplace-culture-employee-experience",
+      "legacySlugs": ["blog15"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/HR+BLog+15+ext.png",
       "title": "Culture shapes employee experience, and the workplace is its reflection. ",
       "description": "HR and workplace strategy run as separate conversations. Employees experience them as one.",
       "imgAlt": "HR and Workspace Culture "
     },
     {
-      "slug": "blog16",
+      "slug": "material-science-commercial-interior-design",
+      "legacySlugs": ["blog16"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Material+Blog+16+ext.png",
       "title": "Material science is commercial interior design's greatest untapped catalyst.",
       "description": "Material selection is usually treated as a visual decision, though it works more like an engineering one.",
       "imgAlt": "Material science and its influence "
     },
     {
-      "slug": "blog17",
+      "slug": "modern-office-cafeteria-workplace",
+      "legacySlugs": ["blog17"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Cafe+blog+17+ext.png",
       "title": "Modern office cafeteria has outgrown lunch.",
       "description": "Designed for one hour, it now has to work all day, which makes the cafeteria part of workplace infrastructure.",
       "imgAlt": "How the modern cafes have changed offices "
     },
     {
-      "slug": "blog18",
+      "slug": "most-valuable-workplace-square-feet",
+      "legacySlugs": ["blog18"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Common+area+blog+18+ext.png",
       "title": "Your most valuable square feet are the ones you cannot lease",
       "description": "Arrival spaces never show up on the rent roll, yet they shape how occupiers value the rest.",
       "imgAlt": "Common areas in modern workspaces "
     },
     {
-      "slug": "blog19",
+      "slug": "workplace-color-strategy",
+      "legacySlugs": ["blog19"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/colour+blog+19+ext.png",
       "title": "Why color belongs in workplace strategy from the first design meeting.",
       "description": "Color is one of the first things the brain processes in a space, and one of the last things projects decide.",
       "imgAlt": "Color as a workspace strategy "
     },
     {
-      "slug": "blog20",
+      "slug": "gcc-capacity-to-capability-india",
+      "legacySlugs": ["blog20"],
       "img": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/External+pics+blogs/Gcc+blog+20+ext.png",
       "title": "India's GCC shift from capacity to capability. ",
       "description": "India stopped being the world's back office years ago. Most workplace briefs have not caught up.",
@@ -138,7 +158,7 @@
     }
   ],
   "blogDetail": {
-    "blog1": {
+    "esg-led-workplace-design-cost": {
       "title": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers",
       "subtitle": "ESG is no longer a checkbox. It shapes how India's enterprises design workplaces, and cuts hidden costs across energy, productivity, talent and compliance.",
       "author": "Abhiram Ajayghosh",
@@ -183,13 +203,13 @@
         },
         {
           "title": "Conclusion",
-          "para": "Embedding [ESG](https://www.ensemble.co.in/blog/blog10) into workplace design does more than produce a sustainable office. It lowers hidden costs, strengthens resilience and leaves a space that keeps performing for years after handover. That is the return ESG-led design is built to deliver, and it accumulates in the operating account rather than the brochure."
+          "para": "Embedding [ESG](https://www.ensemble.co.in/blog/esg-office-fitout-materials) into workplace design does more than produce a sustainable office. It lowers hidden costs, strengthens resilience and leaves a space that keeps performing for years after handover. That is the return ESG-led design is built to deliver, and it accumulates in the operating account rather than the brochure."
         }
       ],
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/esg+led+workplace.png",
       "mainImageAlt": "Your Office Is Costing More Than You Think: What ESG-Led Workplace Design Actually Delivers"
     },
-    "blog2": {
+    "gcc-office-design-india": {
       "title": "GCCs Are No Longer Back Offices. So Why Do So Many Still Look Like One?",
       "subtitle": "India's Global Capability Centres have moved from cost centres to innovation hubs. What high-performance GCC workplace design requires now.",
       "author": "Abhiram Ajayghosh",
@@ -240,7 +260,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/GCC.png",
       "mainImageAlt": "GCCs Are No Longer Back Offices. So Why Do So Many Still Look Like One?"
     },
-    "blog3": {
+    "circular-design-enterprise-workspaces": {
       "title": "Circular Design, Engineered In: The Next Generation of Enterprise Workspaces",
       "subtitle": "Why future-ready offices will keep materials in the loop, and what that means for cost, compliance and long-term value.",
       "author": "Abhiram Ajayghosh",
@@ -291,7 +311,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Circular+design.png",
       "mainImageAlt": "Circular Design, Engineered In: The Next Generation of Enterprise Workspaces"
     },
-    "blog4": {
+    "measure-office-outcomes-not-square-feet": {
       "title": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes.",
       "subtitle": "Real estate is your second-largest cost after people. So why treat it as a fixed expense rather than a performance variable?",
       "author": "Abhiram Ajayghosh",
@@ -342,7 +362,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/workplace+roi.png",
       "mainImageAlt": "Stop Measuring Your Office in Square Feet. Measure It in Outcomes."
     },
-    "blog5": {
+    "office-earn-the-commute": {
       "title": "The Office Isn't Dead. It Just Has to Earn Its Commute.",
       "subtitle": "The question isn't whether employees will come to the office. It's whether the office gives them a good enough reason to.",
       "author": "Abhiram Ajayghosh",
@@ -393,7 +413,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/hybrid+workspace.png",
       "mainImageAlt": "The Office Isn't Dead. It Just Has to Earn Its Commute."
     },
-    "blog6": {
+    "office-design-for-focus": {
       "title": "Your Office Is Running an Invisible Tax on Focus. Here's How to Fix It",
       "subtitle": "Noise, light, air quality and layout are performance variables, not comfort factors. What designing for cognitive performance actually involves.",
       "author": "Abhiram Ajayghosh",
@@ -444,7 +464,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Cognitive.png",
       "mainImageAlt": "Your Office Is Running an Invisible Tax on Focus. Here's How to Fix It"
     },
-    "blog7": {
+    "workspace-trends-1900-projects": {
       "title": "What 1,900+ Projects Taught Us About Where Workspaces Are Heading",
       "subtitle": "The best workplaces today aren't designed to look different. They're designed to perform differently. Five shifts defining the next generation of offices.",
       "author": "Abhiram Ajayghosh",
@@ -491,7 +511,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/workplace+trends.png",
       "mainImageAlt": "What 1,900+ Projects Taught Us About Where Workspaces Are Heading"
     },
-    "blog8": {
+    "cheapest-fitout-false-economy": {
       "title": "The Cheapest Fitout Is the Most Expensive: The False Economy of Cutting Corners",
       "subtitle": "Cutting corners shows up on day 400, not day 1. Where cheap commercial fit-outs quietly fail, and what is actually worth investing in.",
       "author": "Abhiram Ajayghosh",
@@ -538,7 +558,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/cost+of+fitout.png",
       "mainImageAlt": "The Cheapest Fitout Is the Most Expensive: The False Economy of Cutting Corners"
     },
-    "blog9": {
+    "design-and-build-future-workspaces": {
       "title": "Building for the Future: A Design & Build Perspective",
       "subtitle": "Future-ready workspaces aren't predicted. They're engineered by one team, from the first sketch to handover.",
       "author": "Ensemble Editorial Team",
@@ -585,7 +605,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/d+and+b+prespective.png",
       "mainImageAlt": "Building for the Future: A Design & Build Perspective"
     },
-    "blog10": {
+    "esg-office-fitout-materials": {
       "title": "ESG Doesn't Live on a Slide. It Lives in the Walls.",
       "subtitle": "For most companies ESG is a report. In the best workplaces, it's built into the materials, the air, and the way the space is run.",
       "author": "Ensemble Editorial Team",
@@ -628,7 +648,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/ESG+led+10.png",
       "mainImageAlt": "ESG Doesn't Live on a Slide. It Lives in the Walls."
     },
-    "blog11": {
+    "data-centres-uptime": {
       "title": "Data centres don't forgive: Why mission-critical fit-out Is a different discipline.",
       "subtitle": "In a standard office, a coordination miss is a punch-list item. In a data centre, it is an availability risk.",
       "author": "Abhiram Ajayghosh",
@@ -671,7 +691,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Data+centers+blog+11.png",
       "mainImageAlt": "Data Centers "
     },
-    "blog12": {
+    "healthcare-projects-seamless-delivery": {
       "title": "Most Healthcare Projects Fail at the Seams",
       "subtitle": "Not at design or handover, but where one contractor's scope ends and the next begins.",
       "author": "Abhiram Ajayghosh",
@@ -714,7 +734,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Healthcare+Blog+12.png",
       "mainImageAlt": "Healthcare projects "
     },
-    "blog13": {
+    "bank-branch-design-client-conversion": {
       "title": "Why a Bank Branch That Works Smoothly Still Fails to Convert Customers",
       "subtitle": "Most bank branches are designed around a floor plan rather than the customer, and the difference shows up in the numbers.",
       "author": "Abhiram Ajayghosh",
@@ -757,7 +777,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Banking+blog+13.png",
       "mainImageAlt": "New age Banking projects"
     },
-    "blog14": {
+    "bim-clash-detection-building": {
       "title": "Walk Through Your Building in a Model Before You Build It",
       "subtitle": "BIM clash detection finds the conflicts that drawings hide, while they are still cheap to fix.",
       "author": "Abhiram Ajayghosh ",
@@ -800,7 +820,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/BIM+Blog+14.png",
       "mainImageAlt": "BIM driven projects "
     },
-    "blog15": {
+    "workplace-culture-employee-experience": {
       "title": "Culture Shapes Employee Experience, but the Workplace Is Where It Shows",
       "subtitle": "HR and workplace strategy run as separate conversations. Employees experience them as one.",
       "author": "Abhiram Ajayghosh",
@@ -843,7 +863,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/HR+and+Culture+Blog+15.png",
       "mainImageAlt": "HR and Workspace Culture "
     },
-    "blog16": {
+    "material-science-commercial-interior-design": {
       "title": "Material science is commercial interior design's greatest untapped catalyst.",
       "subtitle": "Material selection is usually treated as a visual decision, though it works more like an engineering one.",
       "author": "Abhiram Ajayghosh",
@@ -886,7 +906,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Materials+blog+16.png",
       "mainImageAlt": ""
     },
-    "blog17": {
+    "modern-office-cafeteria-workplace": {
       "title": "The Modern Office Cafeteria Has Outgrown Lunch and Now Works All Day",
       "subtitle": "Designed for one hour, it now has to work all day, which makes the cafeteria part of workplace infrastructure.",
       "author": "Abhiram Ajayghosh ",
@@ -929,7 +949,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Cafe+blog+17.png",
       "mainImageAlt": "How the modern cafes have changed offices "
     },
-    "blog18": {
+    "most-valuable-workplace-square-feet": {
       "title": "Your Most Valuable Square Feet Are the Ones You Cannot Lease",
       "subtitle": "The approach, arrival plaza and lobby never appear on the rent roll, yet they shape how occupiers value everything else.",
       "author": "Abhiram Ajayghosh ",
@@ -972,7 +992,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Common+spaces+blog+18.png",
       "mainImageAlt": "Common areas in modern workspaces "
     },
-    "blog19": {
+    "workplace-color-strategy": {
       "title": "Why Color Belongs in Workplace Strategy From the First Design Meeting",
       "subtitle": "Color is one of the first things the brain processes in a space, and one of the last things projects decide.",
       "author": "Abhiram Ajayghosh ",
@@ -1015,7 +1035,7 @@
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Blogs/Colour+as+strategy+blog+19.png",
       "mainImageAlt": "Color as a workspace strategy "
     },
-    "blog20": {
+    "gcc-capacity-to-capability-india": {
       "title": "India's GCC Shift From Capacity to Capability Demands a New Workplace Brief",
       "subtitle": "India stopped being the world's back office years ago. Most workplace briefs have not caught up.",
       "author": "Abhiram Ajayghosh ",

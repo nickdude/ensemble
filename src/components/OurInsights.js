@@ -25,6 +25,7 @@ export default function OurInsights() {
             <InsightCard
               key={index}
               img={insight.img}
+              slug={insight.slug}
               title={insight.title}
               description={insight.description}
               width="w-[70vw] md:w-[430px]"

@@ -59,6 +59,29 @@ function migrateProjectSlugs(previousData, nextData) {
   return { ...nextData, projectDetail: details };
 }
 
+function migrateBlogSlugs(previousData, nextData) {
+  const previousCards = previousData?.blogsCards || [];
+  const cards = nextData?.blogsCards || [];
+  const details = { ...(nextData?.blogDetail || {}) };
+
+  for (const [index, card] of cards.entries()) {
+    const previous = previousCards[index];
+    if (!previous?.slug || !card?.slug || previous.slug === card.slug) continue;
+
+    const detail = details[previous.slug];
+    if (detail && !details[card.slug]) {
+      details[card.slug] = detail;
+      delete details[previous.slug];
+    }
+
+    const legacySlugs = new Set(card.legacySlugs || []);
+    legacySlugs.add(previous.slug);
+    card.legacySlugs = [...legacySlugs];
+  }
+
+  return { ...nextData, blogDetail: details };
+}
+
 export async function GET(_request, { params }) {
   const { section: key } = await params;
   const section = getSection(key);
@@ -95,11 +118,13 @@ export async function PUT(request, { params }) {
   const message = body.message || `admin: update ${section.label}`;
   try {
     let data = body.data;
-    if (key === "projects") {
+    if (key === "projects" || key === "blog") {
       const current = gitConfigured()
         ? await readContent(section.path)
         : await readLocal(section.path);
-      data = migrateProjectSlugs(current.data, data);
+      data = key === "projects"
+        ? migrateProjectSlugs(current.data, data)
+        : migrateBlogSlugs(current.data, data);
     }
     const result = gitConfigured()
       ? await writeContent(section.path, data, body.sha, message)

@@ -1,4 +1,5 @@
 import { SITE_URL } from "@/lib/seo";
+import { blogDescription } from "@/lib/seo/descriptions";
 import projectsData from "@/data/home/projectsData";
 import { blogsData } from "@/data/home/blogsData";
 
@@ -40,12 +41,14 @@ export default function sitemap() {
   );
 
   // 3. Blog detail pages — every slug with a real blogDetail entry is indexable.
-  const blogRoutes = Object.keys(blogsData.blogDetail || {}).map((slug) => ({
+  const blogRoutes = Object.keys(blogsData.blogDetail || {})
+    .filter((slug) => blogDescription(slug))
+    .map((slug) => ({
     url: `${SITE_URL}/blog/${slug}`,
     lastModified,
     changeFrequency: "monthly",
     priority: 0.5,
-  }));
+    }));
 
   // News detail pages are intentionally omitted: the news cards link to
   // external publications, so /news/[slug] pages are not part of the

@@ -1,6 +1,7 @@
 import { blogsData } from "@/data/home/blogsData";
 import { buildMetadata } from "@/lib/seo";
 import { blogDescription } from "@/lib/seo/descriptions";
+import { permanentRedirect } from "next/navigation";
 
 // The blog detail page renders blogsData.blogDetail[slug]. Every public blog
 // slug has its own entry and a self-referencing canonical URL.
@@ -19,7 +20,7 @@ export async function generateMetadata({ params }) {
       description:
         "Ideas, trends and insights on architecture, interior design and sustainable building from Ensemble Infrastructure.",
       path: `/blog/${slug}`,
-      canonicalPath: "/blog/blog1",
+      canonicalPath: "/blog/esg-led-workplace-design-cost",
       index: false,
     });
   }
@@ -31,6 +32,15 @@ export async function generateMetadata({ params }) {
   });
 }
 
-export default function BlogDetailLayout({ children }) {
+export default async function BlogDetailLayout({ children, params }) {
+  const { slug } = await params;
+  const card = blogsData.blogsCards?.find((item) => item.slug === slug);
+  if (card?.redirectTo) permanentRedirect(card.redirectTo);
+
+  const currentPost = blogsData.blogsCards?.find((item) =>
+    item.legacySlugs?.includes(slug)
+  );
+  if (currentPost?.slug) permanentRedirect(`/blog/${currentPost.slug}`);
+
   return children;
 }

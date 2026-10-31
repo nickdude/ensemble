@@ -2,10 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { blogsData } from "@/data/home/blogsData";
 
 export default function InsightCard({slug, img, title, link, description, width="w-[35%]"}) {
+  const blog = blogsData.blogsCards?.find(
+    (item) => item.slug === slug || item.legacySlugs?.includes(slug)
+  );
+  const href = blog?.redirectTo || (blog?.slug ? `/blog/${blog.slug}` : "/blog");
+
   return (
-    <Link href={`/blog/${slug}`} className="group cursor-pointer">
+    <Link href={href} className="group cursor-pointer">
         <div className={`${width} flex flex-col`}>
           <Image src={img} alt={title} width={420} height={300} className="object-cover w-full aspect-square rounded-md"/>
             <div className="relative z-20 flex justify-start w-full pt-5">

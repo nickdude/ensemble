@@ -15,7 +15,7 @@ export default function DetailBlog() {
     const [mounted, setMounted] = useState(false);
     const pathname = usePathname();
     const slug = pathname.split('/').pop();
-    const blogDetail = blogsData.blogDetail[slug] || blogsData.blogDetail["blog1"];
+    const blogDetail = blogsData.blogDetail[slug] || blogsData.blogDetail["esg-led-workplace-design-cost"];
     
     useEffect(() => setMounted(true), []);
     if (!mounted) return null;

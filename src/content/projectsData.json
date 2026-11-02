@@ -15,7 +15,9 @@
         "title": "Bridge+",
         "location": "Chennai ",
         "slug": "bridge-plus-chennai",
-        "legacySlugs": ["project-1"],
+        "legacySlugs": [
+          "project-1"
+        ],
         "area": "25,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/bridge-plus-chennai"
@@ -26,7 +28,9 @@
         "location": "Mumbai",
         "variant": "wide",
         "slug": "canon-mumbai",
-        "legacySlugs": ["project-2"],
+        "legacySlugs": [
+          "project-2"
+        ],
         "area": "30,000 sq. ft.",
         "service": "Design & Build",
         "caseStudyLink": "projects/canon-mumbai"
@@ -36,7 +40,9 @@
         "title": "Zydus",
         "location": "Ahmedabad",
         "slug": "zydus-ahmedabad",
-        "legacySlugs": ["project-3"],
+        "legacySlugs": [
+          "project-3"
+        ],
         "area": "9,00,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/zydus-ahmedabad"
@@ -46,7 +52,9 @@
         "title": "UST Global",
         "location": "Trivandrum",
         "slug": "ust-global-trivandrum",
-        "legacySlugs": ["project-4"],
+        "legacySlugs": [
+          "project-4"
+        ],
         "area": "2,50,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/ust-global-trivandrum"
@@ -56,7 +64,9 @@
         "title": "TCS",
         "location": "Mumbai",
         "slug": "tcs-mumbai",
-        "legacySlugs": ["project-5"],
+        "legacySlugs": [
+          "project-5"
+        ],
         "area": "2,00,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/tcs-mumbai"
@@ -66,8 +76,10 @@
         "title": "Cairn Energy",
         "location": "Gurugram",
         "slug": "cairn-energy-gurugram",
-        "legacySlugs": ["project-6"],
-        "area": "1,00,000 sq ft",
+        "legacySlugs": [
+          "project-6"
+        ],
+        "area": "1,30,000 sq ft",
         "service": "Design & Build",
         "caseStudyLink": "projects/cairn-energy-gurugram"
       },
@@ -76,7 +88,9 @@
         "title": "RPSG",
         "location": "Kolkata",
         "slug": "rpsg-kolkata",
-        "legacySlugs": ["project-7"],
+        "legacySlugs": [
+          "project-7"
+        ],
         "area": "50,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/rpsg-kolkata"
@@ -86,7 +100,9 @@
         "title": "MSD",
         "location": "Kolkata",
         "slug": "msd-kolkata",
-        "legacySlugs": ["project-8"],
+        "legacySlugs": [
+          "project-8"
+        ],
         "area": "15,000 sq. ft.",
         "service": "Design & Build",
         "caseStudyLink": "projects/msd-kolkata"
@@ -97,7 +113,9 @@
         "location": "Mumbai",
         "variant": "wide",
         "slug": "jiohotstar-mumbai",
-        "legacySlugs": ["project-9"],
+        "legacySlugs": [
+          "project-9"
+        ],
         "area": "2,00,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/jiohotstar-mumbai"
@@ -107,7 +125,9 @@
         "title": "Cowrks",
         "location": "Bengaluru",
         "slug": "cowrks-bengaluru",
-        "legacySlugs": ["project-10"],
+        "legacySlugs": [
+          "project-10"
+        ],
         "area": "25,000 sq. ft.",
         "service": "General Contracting",
         "caseStudyLink": "projects/cowrks-bengaluru"
@@ -117,7 +137,9 @@
         "title": "IGT Solutions",
         "location": "Bengaluru",
         "slug": "igt-solutions-bengaluru",
-        "legacySlugs": ["project-11"],
+        "legacySlugs": [
+          "project-11"
+        ],
         "area": "25,000 sq. ft.",
         "service": "Design & Build",
         "caseStudyLink": "projects/igt-solutions-bengaluru"
@@ -127,7 +149,9 @@
         "title": "Meenakshi Hospitals",
         "location": "Madurai",
         "slug": "meenakshi-hospitals-madurai",
-        "legacySlugs": ["project-12"],
+        "legacySlugs": [
+          "project-12"
+        ],
         "area": "3,00,000 sq ft.",
         "service": "Design Consultancy",
         "caseStudyLink": "projects/meenakshi-hospitals-madurai"

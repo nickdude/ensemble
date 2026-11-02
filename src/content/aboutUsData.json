@@ -76,6 +76,11 @@
         "position": "MD & CEO"
       },
       {
+        "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/manish+nagpal+(1).png",
+        "name": "Manish Nagal",
+        "position": "Vice President | Projects"
+      },
+      {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/sarikasawanth.webp",
         "name": "Sarika Sawant",
         "position": "Associate Director | Operations"
@@ -89,11 +94,6 @@
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_10_Masood_Image.jpg",
         "name": "Masood Shaikh",
         "position": "Vice President | Tendering & Estimation"
-      },
-      {
-        "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/manish+nagpal+(1).png",
-        "name": "Manish Nagal",
-        "position": "Vice President | Projects"
       },
       {
         "image": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/About/Team/imgi_13_rashid-1+(1).jpg",

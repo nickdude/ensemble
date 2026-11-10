@@ -2,13 +2,14 @@ import { SITE_URL } from "@/lib/seo";
 import { blogDescription } from "@/lib/seo/descriptions";
 import projectsData from "@/data/home/projectsData";
 import { blogsData } from "@/data/home/blogsData";
+import { parseDate } from "@/lib/seo/structuredData";
 
 // Native Next.js sitemap. Served automatically at /sitemap.xml.
 // New static routes are picked up by adding them to STATIC_ROUTES; new dynamic
 // pages are generated from the same data the app renders from, so adding a
 // project/blog entry with real content automatically extends the sitemap.
 export default function sitemap() {
-  const lastModified = new Date();
+  const now = new Date();
 
   // 1. Static, indexable pages.
   const STATIC_ROUTES = [
@@ -24,7 +25,7 @@ export default function sitemap() {
     { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.4 },
   ].map((r) => ({
     url: `${SITE_URL}${r.path}`,
-    lastModified,
+    lastModified: now,
     changeFrequency: r.changeFrequency,
     priority: r.priority,
   }));
@@ -34,21 +35,25 @@ export default function sitemap() {
   const projectRoutes = Object.keys(projectsData.projectDetail || {}).map(
     (slug) => ({
       url: `${SITE_URL}/projects/${slug}`,
-      lastModified,
+      lastModified: now,
       changeFrequency: "monthly",
       priority: 0.6,
     })
   );
 
-  // 3. Blog detail pages — every slug with a real blogDetail entry is indexable.
-  const blogRoutes = Object.keys(blogsData.blogDetail || {})
-    .filter((slug) => blogDescription(slug))
-    .map((slug) => ({
-    url: `${SITE_URL}/blog/${slug}`,
-    lastModified,
-    changeFrequency: "monthly",
-    priority: 0.5,
-    }));
+  // 3. Blog detail pages — use each post's real datePublished as lastModified
+  //    so Google doesn't learn to ignore our lastmod signals.
+  const blogRoutes = Object.entries(blogsData.blogDetail || {})
+    .filter(([slug]) => blogDescription(slug))
+    .map(([slug, post]) => {
+      const isoDate = parseDate(post.date);
+      return {
+        url: `${SITE_URL}/blog/${slug}`,
+        lastModified: isoDate ? new Date(isoDate) : now,
+        changeFrequency: "monthly",
+        priority: 0.5,
+      };
+    });
 
   // News detail pages are intentionally omitted: the news cards link to
   // external publications, so /news/[slug] pages are not part of the

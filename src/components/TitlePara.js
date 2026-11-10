@@ -1,5 +1,3 @@
-"use client";
-
 function ParagraphContent({ text }) {
   const parts = String(text || "").split(/(\[[^\]]+\]\([^\s)]+\))/g);
 

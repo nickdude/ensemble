@@ -21,6 +21,29 @@ Ensemble combines design thinking, technical delivery, and sustainable infrastru
 - [Design-build services](https://www.ensemble.co.in/services/): Explore Ensemble's integrated service offering.
 - [Workplace and infrastructure insights](https://www.ensemble.co.in/blog/): Read published articles and perspective pieces.
 
+## Blog Posts
+
+- [ESG Workplace Design: How It Cuts Office Running Costs](https://www.ensemble.co.in/blog/esg-led-workplace-design-cost): ESG-led design reduces energy, compliance and talent costs — built in at the design stage, not retrofitted.
+- [GCCs Are No Longer Back Offices. So Why Do So Many Still Look Like One?](https://www.ensemble.co.in/blog/gcc-office-design-india): India's GCCs have moved from cost centres to innovation hubs; the workplace design brief needs to follow.
+- [Circular Design, Engineered In: The Next Generation of Enterprise Workspaces](https://www.ensemble.co.in/blog/circular-design-enterprise-workspaces): Keeping materials in the loop from day one lowers total occupancy cost and strengthens ESG evidence.
+- [Stop Measuring Your Office in Square Feet. Measure It in Outcomes.](https://www.ensemble.co.in/blog/measure-office-outcomes-not-square-feet): Real estate is the second-largest cost after people — optimise it as a performance variable, not a fixed expense.
+- [The Office Isn't Dead. It Just Has to Earn Its Commute.](https://www.ensemble.co.in/blog/office-earn-the-commute): Offices that offer collaboration, culture and serendipity win attendance without mandates.
+- [Office Design for Focus: Acoustics, Light and Air That Help](https://www.ensemble.co.in/blog/office-design-for-focus): Noise, light, air quality and layout are cognitive performance variables, not comfort factors.
+- [What 1,900+ Projects Taught Us About Where Workspaces Are Heading](https://www.ensemble.co.in/blog/workspace-trends-1900-projects): Five shifts — neighbourhoods, acoustics, biophilia, wellness, flexibility — defining the next generation of offices.
+- [Cheap Office Fit-Out Costs: Where Cutting Corners Backfires](https://www.ensemble.co.in/blog/cheapest-fitout-false-economy): The cheap fit-out shows up on day 400, not day 1 — total occupancy cost reverses the savings.
+- [Building for the Future: A Design and Build Perspective](https://www.ensemble.co.in/blog/design-and-build-future-workspaces): Integrated delivery closes the handoff gaps where sustainable intent gets lost between design and construction.
+- [ESG Doesn't Live on a Slide. It Lives in the Walls.](https://www.ensemble.co.in/blog/esg-office-fitout-materials): For most companies ESG is a report; in the best workplaces it is built into the materials and air quality.
+- [Data Centres Don't Forgive: Why Mission-Critical Fit-Out Is a Different Discipline](https://www.ensemble.co.in/blog/data-centres-uptime): Uptime is the only metric that matters in a data centre — every coordination miss becomes an availability risk.
+- [Most Healthcare Projects Fail at the Seams](https://www.ensemble.co.in/blog/healthcare-projects-seamless-delivery): Healthcare fit-outs fail where contractor scopes meet — integrated delivery closes those gaps.
+- [BIM Clash Detection: Fix Building Conflicts Before Construction](https://www.ensemble.co.in/blog/bim-clash-detection-building): BIM coordination catches clearance, access and sequencing conflicts while they are still cheap to resolve.
+- [Why a Bank Branch That Works Smoothly Still Fails to Convert Customers](https://www.ensemble.co.in/blog/bank-branch-design-client-conversion): Customer-led bank branch design improves experience, trust and conversion rather than just throughput.
+- [Culture Shapes Employee Experience, and the Workplace Is Its Reflection](https://www.ensemble.co.in/blog/workplace-culture-employee-experience): HR and workplace strategy run as separate conversations; employees experience them as one.
+- [Material Science Is Commercial Interior Design's Greatest Untapped Catalyst](https://www.ensemble.co.in/blog/material-science-commercial-interior-design): Material selection is an engineering decision — durability, wellbeing and ESG evidence depend on it.
+- [The Modern Office Cafeteria Has Outgrown Lunch and Now Works All Day](https://www.ensemble.co.in/blog/modern-office-cafeteria-workplace): The cafeteria must serve focused work, collaboration and presentation across the full working day, not just lunch.
+- [Your Most Valuable Square Feet Are the Ones You Cannot Lease](https://www.ensemble.co.in/blog/most-valuable-workplace-square-feet): Arrival spaces never appear on the rent roll yet they set the tone for how every leasable square foot is valued.
+- [Why Color Belongs in Workplace Strategy From the First Design Meeting](https://www.ensemble.co.in/blog/workplace-color-strategy): Color influences behaviour and performance before anyone consciously notices the furniture.
+- [India's GCC Shift From Capacity to Capability Demands a New Workplace Brief](https://www.ensemble.co.in/blog/gcc-capacity-to-capability-india): India's GCCs now run AI, product engineering and global strategy — the workspace brief has not caught up.
+
 ## Machine-Readable Resources
 
 - [Sitemap](https://www.ensemble.co.in/sitemap.xml): Index of public pages and detail content.

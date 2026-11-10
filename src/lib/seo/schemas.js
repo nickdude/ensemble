@@ -218,6 +218,20 @@ export function blogSchema({ path = "/blog", description, posts = [] }) {
  * @param {string} [opts.body]
  * @param {object} [opts.isPartOf]        e.g. { "@id": ".../blog#blog" }
  */
+function buildAuthor(authorName) {
+  if (!authorName) return { "@id": ids.organization };
+  const name = authorName.trim();
+  if (!name || name === "Ensemble Editorial Team") {
+    return { "@type": "Organization", name: seoConfig.name, "@id": ids.organization };
+  }
+  return {
+    "@type": "Person",
+    name,
+    jobTitle: "Principal Designer",
+    url: `${seoConfig.siteUrl}/blog/author/abhiram-ajayghosh`,
+  };
+}
+
 export function articleSchema({
   type = "Article",
   path,
@@ -237,9 +251,7 @@ export function articleSchema({
     headline,
     description,
     image: image ? absoluteUrl(image) : undefined,
-    author: authorName
-      ? { "@type": "Person", name: authorName }
-      : { "@id": ids.organization },
+    author: buildAuthor(authorName),
     publisher: { "@id": ids.organization },
     datePublished,
     dateModified: dateModified || datePublished,

@@ -14,13 +14,14 @@ const SITE_NAME = "Ensemble Infrastructure";
  * Build a Next.js Metadata object for a page with a self-referencing canonical.
  *
  * @param {Object}  opts
- * @param {string}  opts.title        Page title (merged into the root title template).
- * @param {string}  opts.description  Meta description.
- * @param {string}  opts.path         Absolute path for this page, e.g. "/aboutus".
- *                                    Resolved against metadataBase into a full canonical URL.
- * @param {boolean} [opts.index=true] When false, emits robots noindex (still follow).
- * @param {string}  [opts.canonicalPath] Override the canonical target (used to
- *                                    consolidate duplicate/fallback pages onto a primary URL).
+ * @param {string}  opts.title           Page title (merged into the root title template).
+ * @param {string}  opts.description     Meta description.
+ * @param {string}  opts.path            Absolute path for this page, e.g. "/aboutus".
+ * @param {boolean} [opts.index=true]    When false, emits robots noindex (still follow).
+ * @param {string}  [opts.canonicalPath] Override the canonical target.
+ * @param {string}  [opts.image]         Absolute URL for og:image / twitter:image.
+ * @param {string}  [opts.type="website"] og:type value ("article" for blog posts).
+ * @param {string}  [opts.publishedTime] ISO 8601 date for article:published_time.
  */
 export function buildMetadata({
   title,
@@ -28,7 +29,12 @@ export function buildMetadata({
   path,
   index = true,
   canonicalPath,
+  image,
+  type = "website",
+  publishedTime,
 }) {
+  const ogImages = image ? [{ url: image }] : undefined;
+
   return {
     title,
     description,
@@ -39,12 +45,15 @@ export function buildMetadata({
       description,
       url: path,
       siteName: SITE_NAME,
-      type: "website",
+      type,
+      ...(ogImages && { images: ogImages }),
+      ...(publishedTime && { publishedTime }),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      ...(image && { images: [image] }),
     },
   };
 }

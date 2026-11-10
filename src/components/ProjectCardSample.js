@@ -27,7 +27,7 @@ export default function ProjectCardSample({image, title, location, area, service
 
       <div className="overlay overlay-default">
         <div className="title-box">
-          <h2 className="font-poppins text-[30px] md:text-[62px]">{title}</h2>
+          <p className="font-poppins text-[30px] md:text-[62px]">{title}</p>
           {/* <div className="arrow-overlay">
               <img src="/assets/icons/up_arrow.svg" alt="Project Image" />
           </div> */}

@@ -9,21 +9,21 @@
     "images": {
       "mainImage": "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Home+Page/staircase+main+image+new+.png",
       "marqueeTop": [
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FCapitaland%2BBridge%252B%252C%2BChennai%2Fenvato-labs-image-edit%2B-%2B2026-01-27T150057.813.png&w=1920&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FCairn%2BEnergy%252C%2BGurugram%2FPicture2FGH.jpg&w=1920&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FCairn%2BEnergy%252C%2BGurugram%2Fu3165179197_HD_--ar_9151_--stylize_1000_--v_6.1_9050df77-ea41-4047-8a55-e3be6d2a6847.png&w=3840&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FCanon%252C%2BMumbai%2FDSC_8387.jpg&w=1920&q=75"
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Capitaland+Bridge%2B%2C+Chennai/envato-labs-image-edit+-+2026-01-27T150057.813.png",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/Picture2FGH.jpg",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Cairn+Energy%2C+Gurugram/u3165179197_HD_--ar_9151_--stylize_1000_--v_6.1_9050df77-ea41-4047-8a55-e3be6d2a6847.png",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Canon%2C+Mumbai/DSC_8387.jpg"
       ],
       "marqueeMiddle": [
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FViacom%2B18%2FViacom%2Breception%2Bopt%2B1%2Bblack%2BWall.jpg&w=3840&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FMSD%252C%2BKolkata%2FMSD%2BView%2B04.jpg&w=1920&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FMSD%252C%2BKolkata%2FMSD%2BView%2B05.jpg&w=1920&q=75"
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Viacom+18/Viacom+reception+opt+1+black+Wall.jpg",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+04.jpg",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/MSD%2C+Kolkata/MSD+View+05.jpg"
       ],
       "marqueeBottom": [
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FMeenakshi%2BHospitals%2FReception%2BCafe%2BView_01_01.jpg&w=3840&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FTCS%252C%2BMumbai%2FTCS%2BView%2B04.jpg&w=1920&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FTCS%252C%2BMumbai%2FTATA-Consultancy-Services_Award-Announcement-Image-3_Photo-By-Michael-Moran-1280x854.jpg&w=1920&q=75",
-        "https://ensemble-taupe.vercel.app/_next/image?url=https%3A%2F%2Fensemble-website-assets.s3.ap-south-1.amazonaws.com%2FProjects%2FAll%2BPic%2FTCS%252C%2BMumbai%2Ftcs_banyan_park_phase_2_arch%2B-a(1).jpg&w=1920&q=75"
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/Meenakshi+Hospitals/Reception+Cafe+View_01_01.jpg",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TCS+View+04.jpg",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/TATA-Consultancy-Services_Award-Announcement-Image-3_Photo-By-Michael-Moran-1280x854.jpg",
+        "https://ensemble-website-assets.s3.ap-south-1.amazonaws.com/Projects/All+Pic/TCS%2C+Mumbai/tcs_banyan_park_phase_2_arch+-a(1).jpg"
       ],
       "arrow": "/assets/icons/up_arrow.svg"
     },
@@ -49,7 +49,7 @@
         "label": "Projects Executed"
       },
       {
-        "count": "1.25lac",
+        "count": "125,000",
         "label": "Sq.Ft. Manufacturing Unit"
       },
       {

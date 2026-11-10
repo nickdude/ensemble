@@ -1,33 +1,22 @@
-"use client";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import SubtitleTitle from "./SubtitleTitle";
 import TitleSubtitle from "./TitleSubtitle";
 import projectsData from "@/data/home/projectsData";
-import { usePathname } from "next/navigation";
 
-export default function ProjectDetail() {
-  const { theme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-  const pathname = usePathname();
-  const slug = pathname.split('/')[2];
+export default function ProjectDetail({ slug }) {
   const projectData = projectsData.projectDetail[slug];
   const projectService = projectsData.projectGallery?.projects?.find(
     (project) => project.slug === slug
   )?.service;
 
-  useEffect(() => setMounted(true), []);
-
-  if (!mounted || !projectData) return null;
+  if (!projectData) return null;
   return (
-    <section className={`w-full px-4 md:px-16 py-20 border-b border-gray-300 ${theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'}`}>
+    <section className="w-full px-4 md:px-16 py-20 border-b border-gray-300">
+      {/* Desktop layout */}
       <div className="hidden md:block space-y-16 w-full">
-
         <div className="grid grid-cols-12 gap-16 items-start">
           <div className="col-span-4">
             <SubtitleTitle subtitle="Area" title={projectData.details.area} />
           </div>
-
           <div className="col-span-8">
             <SubtitleTitle subtitle="Client" title={projectData.details.client} />
           </div>
@@ -37,10 +26,8 @@ export default function ProjectDetail() {
           <div className="col-span-4">
             <SubtitleTitle subtitle="Category" title={projectData.details.category} />
           </div>
-
-
           <div className="col-span-8">
-            <TitleSubtitle  title="Client's Vision:" subtitle={projectData.details.clientVision}/>
+            <TitleSubtitle title="Client's Vision:" subtitle={projectData.details.clientVision} />
           </div>
         </div>
 
@@ -48,9 +35,8 @@ export default function ProjectDetail() {
           <div className="col-span-4">
             <SubtitleTitle subtitle="Service" title={projectService} />
           </div>
-
           <div className="col-span-8">
-             <TitleSubtitle  title="The Problem:" subtitle={projectData.details.problem} />
+            <TitleSubtitle title="The Problem:" subtitle={projectData.details.problem} />
           </div>
         </div>
 
@@ -59,57 +45,46 @@ export default function ProjectDetail() {
             <SubtitleTitle subtitle="Location" title={projectData.details.location} />
           </div>
           <div className="col-span-8">
-              <TitleSubtitle  title="Our Solution:" subtitle={projectData.details.solution} />
+            <TitleSubtitle title="Our Solution:" subtitle={projectData.details.solution} />
           </div>
         </div>
       </div>
-    
-       <div className="block md:hidden space-y-16 w-full">
 
-        {/* ROW 1 */}
+      {/* Mobile layout — uses real project data */}
+      <div className="block md:hidden space-y-16 w-full">
         <div className="grid grid-cols-6 gap-16 items-start">
           <div className="col-span-3">
-             <SubtitleTitle subtitle="Client" title="We Work" />
+            <SubtitleTitle subtitle="Client" title={projectData.details.client} />
           </div>
-
           <div className="col-span-3">
-           
+            <SubtitleTitle subtitle="Area" title={projectData.details.area} />
           </div>
         </div>
 
-        {/* ROW 2 */}
         <div className="grid grid-cols-6 gap-16 items-start">
           <div className="col-span-3">
-             <SubtitleTitle subtitle="Area" title="126 sqm" />
+            <SubtitleTitle subtitle="Category" title={projectData.details.category} />
           </div>
-
-
-          <div className="col-span-3">
-            <SubtitleTitle subtitle="Category" title="Office Space" />
-          </div>
-        </div>
-
-        {/* ROW 3 */}
-        <div className="grid grid-cols-6 gap-16 items-start">
           <div className="col-span-3">
             <SubtitleTitle subtitle="Service" title={projectService} />
           </div>
+        </div>
 
-          <div className="col-span-3">
-             <SubtitleTitle subtitle="Location" title="Bengaluru" />
+        <div className="grid grid-cols-6 gap-16 items-start">
+          <div className="col-span-6">
+            <SubtitleTitle subtitle="Location" title={projectData.details.location} />
           </div>
         </div>
 
-        {/* ROW 4 */}
         <div className="grid grid-cols-6 gap-16 items-start">
           <div className="col-span-6">
-             <TitleSubtitle  title="Client’s Vision:" subtitle="The client, a young couple with a passion for nature and tranquility,"/>
+            <TitleSubtitle title="Client's Vision:" subtitle={projectData.details.clientVision} />
           </div>
           <div className="col-span-6">
-              <TitleSubtitle  title="The Problem:" subtitle="The existing home had an outdated layout with closed-off rooms that inhibited natural light and hindered the flow of energy. The interior lacked a cohesive theme, leaving the homeowners feeling disconnected from their surroundings. The challenge was to create a unified, nature-inspired design that seamlessly integrated with the existing structure." />
+            <TitleSubtitle title="The Problem:" subtitle={projectData.details.problem} />
           </div>
           <div className="col-span-6">
-              <TitleSubtitle  title="Our Solution:" subtitle="Our team approached the project with a holistic perspective, focusing on both functionality and aesthetics. We proposed a transformative open-concept design that allowed natural light to flood the interior. The living, dining, and kitchen areas were seamlessly connected, fostering a sense of spaciousness." />
+            <TitleSubtitle title="Our Solution:" subtitle={projectData.details.solution} />
           </div>
         </div>
       </div>

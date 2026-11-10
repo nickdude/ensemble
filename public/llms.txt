@@ -1,25 +1,45 @@
 # Ensemble Infrastructure
 
-> Ensemble Infrastructure is an India-based design and build company delivering integrated architecture, engineering, construction, and interior solutions for commercial and workplace environments.
+> Ensemble Infrastructure is an India-based integrated design and build company founded in 2003, delivering commercial interior fit-out, architecture, engineering, construction and workplace solutions across Mumbai, Bengaluru, Delhi NCR, Pune, Hyderabad and Chennai. 1,900+ projects, 12M+ sq ft delivered for Fortune 500 and Fortune 1000 clients.
 
-Ensemble combines design thinking, technical delivery, and sustainable infrastructure practices across projects, services, insights, and built-environment work.
+## About
+
+Ensemble Infrastructure India Ltd (EIIL) was founded in 2003 starting with a 200 sq ft fit-out for American Express. The company offers Design & Build, General Contracting, Design Consultancy, and Base Build services, supported by a 125,000 sq ft in-house manufacturing facility. Awards include Prominent Interior D&B Company of the Year 2024 and Most Promising Brand Award at the Global Real Estate Conference 2019.
 
 ## Main Pages
 
 - [Home](https://www.ensemble.co.in/): Overview of Ensemble Infrastructure and its design-build capabilities.
-- [About Us](https://www.ensemble.co.in/aboutus): Company background, team, values, and approach.
-- [Services](https://www.ensemble.co.in/services): Design, build, construction, consultancy, and interior services.
-- [Projects](https://www.ensemble.co.in/projects): Portfolio of completed and featured projects.
-- [Sustainability](https://www.ensemble.co.in/sustainability): Sustainability initiatives and long-term environmental goals.
-- [Blog](https://www.ensemble.co.in/blog): Insights on workplace design, construction, and the built environment.
-- [News](https://www.ensemble.co.in/news): Company and industry news.
-- [Contact](https://www.ensemble.co.in/contactus): Contact and inquiry information.
+- [About Us](https://www.ensemble.co.in/aboutus): Company background, leadership, awards and the American Express origin story.
+- [Services](https://www.ensemble.co.in/services): Design & Build, General Contracting, Design Consultancy, and Base Build services.
+- [Projects](https://www.ensemble.co.in/projects): Portfolio of 12 featured case studies across IT, GCC, BFSI, healthcare and manufacturing sectors.
+- [Sustainability](https://www.ensemble.co.in/sustainability): ISO 14001 practices, Journey to 2029 roadmap and ESG-led design approach.
+- [People and Culture](https://www.ensemble.co.in/people-and-culture): Team, culture, design/BIM/QS/delivery process and life at Ensemble.
+- [Blog](https://www.ensemble.co.in/blog): Insights on workplace design, GCC offices, ESG fit-outs and the built environment.
+- [News](https://www.ensemble.co.in/news): Press coverage in Construction Times, Realty+ and Construction World.
+- [Contact](https://www.ensemble.co.in/contactus): Offices in Mumbai, Bengaluru, Delhi, Pune, Hyderabad and Chennai.
 
-## Content Hubs
+## Services
 
-- [Project portfolio](https://www.ensemble.co.in/projects/): Browse project case studies and delivery experience.
-- [Design-build services](https://www.ensemble.co.in/services/): Explore Ensemble's integrated service offering.
-- [Workplace and infrastructure insights](https://www.ensemble.co.in/blog/): Read published articles and perspective pieces.
+- **Design & Build**: End-to-end integrated delivery — one team for design, engineering and construction, reducing handoff risk and compressing timelines.
+- **General Contracting**: Construction execution for employer-designed projects, delivering large-format commercial interiors at scale.
+- **Design Consultancy**: Architecture and interior design advisory — space planning, BIM coordination, materials specification and sustainability guidance.
+- **Base Build**: Core-and-shell construction and fit-out for landlords and developers preparing commercial assets for occupation.
+- **Manufacturing**: 125,000 sq ft in-house facility producing custom furniture, joinery and millwork — controls lead times, quality and design-for-disassembly.
+
+## Project Case Studies
+
+- [Bridge+ Chennai — 25,000 sq ft General Contracting](https://www.ensemble.co.in/projects/bridge-plus-chennai): Capitaland-managed coworking fit-out delivered through end-to-end general contracting in Chennai.
+- [Canon Mumbai — 30,000 sq ft Design & Build](https://www.ensemble.co.in/projects/canon-mumbai): Integrated design and build office for Canon India in Mumbai, combining brand identity with productivity-led workplace design.
+- [Zydus Ahmedabad — 9,00,000 sq ft General Contracting](https://www.ensemble.co.in/projects/zydus-ahmedabad): One of India's largest pharmaceutical corporate office campuses, delivered through Ensemble's general contracting model in Ahmedabad.
+- [UST Global Trivandrum — 2,50,000 sq ft General Contracting](https://www.ensemble.co.in/projects/ust-global-trivandrum): Large-format GCC workplace for UST Global in Trivandrum, designed for collaboration, hybrid work and talent attraction.
+- [TCS Mumbai — 2,00,000 sq ft General Contracting](https://www.ensemble.co.in/projects/tcs-mumbai): Tata Consultancy Services campus fit-out in Mumbai, delivered at enterprise scale with integrated BIM coordination.
+- [Cairn Energy Gurugram — 1,00,000 sq ft Design & Build](https://www.ensemble.co.in/projects/cairn-energy-gurugram): Energy-sector corporate headquarters in Gurugram, integrating sustainability principles and open collaborative planning.
+- [RPSG Kolkata — 50,000 sq ft Design & Build](https://www.ensemble.co.in/projects/rpsg-kolkata): Executive workplace for RPSG Group in Kolkata, blending heritage brand identity with contemporary design.
+- [MSD Kolkata — 15,000 sq ft Design & Build](https://www.ensemble.co.in/projects/msd-kolkata): Life-sciences sector office in Kolkata with cognitive-performance-led design for MSD.
+- [Jio Hotstar Mumbai — 2,00,000 sq ft General Contracting](https://www.ensemble.co.in/projects/jiohotstar-mumbai): Large-format media and entertainment workplace in Mumbai for Jio Hotstar.
+- [Cowrks Bengaluru — Flexible Coworking Design & Build](https://www.ensemble.co.in/projects/cowrks-bengaluru): Flexible coworking environment designed and delivered by Ensemble in Bengaluru.
+- [IGT Solutions Bengaluru — Design & Build](https://www.ensemble.co.in/projects/igt-solutions-bengaluru): Technology-sector workplace in Bengaluru for IGT Solutions, designed for hybrid working and collaboration.
+- [Meenakshi Hospitals Madurai — Corporate Office Design & Build](https://www.ensemble.co.in/projects/meenakshi-hospitals-madurai): Healthcare-sector corporate office in Madurai, coordinating clinical-grade requirements with workplace design standards.
 
 ## Blog Posts
 
@@ -46,11 +66,11 @@ Ensemble combines design thinking, technical delivery, and sustainable infrastru
 
 ## Machine-Readable Resources
 
-- [Sitemap](https://www.ensemble.co.in/sitemap.xml): Index of public pages and detail content.
+- [Sitemap](https://www.ensemble.co.in/sitemap.xml): Index of all public pages, project case studies and blog posts.
 - [Robots policy](https://www.ensemble.co.in/robots.txt): Crawler access policy and sitemap declaration.
 
 ## Notes
 
-- Public content is available through the pages linked above.
-- Administrative pages, API endpoints, and session-protected content are excluded.
-- Use the sitemap for the current list of indexable project and blog detail URLs.
+- Founded 2003, headquartered in Mumbai (Kamala Mills, Lower Parel).
+- Key sectors served: IT/ITES, GCC, BFSI, Pharma/Life Sciences, Healthcare, Manufacturing, Retail.
+- Administrative pages, API endpoints and session-protected content are excluded from this index.

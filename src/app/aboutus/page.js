@@ -1,5 +1,3 @@
-"use client";
-
 import AboutUsHero from "@/components/AboutUsHero";
 import AwardAndRecognitions from "@/components/AwardAndRecognitions";
 import CountSection from "@/components/CountSection";
@@ -8,29 +6,27 @@ import ImageDesciption from "@/components/ImageDesciption";
 import InquiryFrom from "@/components/InquiryForm";
 import OurTeam from "@/components/OurTeam";
 import FAQ from "@/components/FAQ";
-import Image from "next/image";
 import { aboutUsData } from "@/data/home/aboutUsData";
 import faqData from "@/data/home/faqData";
-  
 
-export default function AboutUs(){
-    const missionData = aboutUsData.imageAndDescription.mission;
-    const visionData = aboutUsData.imageAndDescription.vision;
-    const excellenceData = aboutUsData.imageDescription.exellence;
-    const visionImageDescriptionData = aboutUsData.imageDescription.vision;
+export default function AboutUs() {
+  const missionData = aboutUsData.imageAndDescription.mission;
+  const visionData = aboutUsData.imageAndDescription.vision;
+  const excellenceData = aboutUsData.imageDescription.exellence;
+  const visionImageDescriptionData = aboutUsData.imageDescription.vision;
 
-    return(
-        <main>
-            <AboutUsHero/>
-            <CountSection text="red"/>
-            <ImageAndDescription title={missionData.title} description={missionData.description} image={missionData.image} team={missionData.team}/>
-            <ImageAndDescription right="true" title={visionData.title} description={visionData.description} image={visionData.image}/>
-            <OurTeam/>
-            <ImageDesciption title={excellenceData.title} description={excellenceData.description} image={excellenceData.image}/>
-            <ImageDesciption right="true" title={visionImageDescriptionData.title} description={visionImageDescriptionData.description} image={visionImageDescriptionData.image}/>
-            <AwardAndRecognitions/>
-            <FAQ details={faqData.aboutus} />
-            <InquiryFrom/>
-        </main>
-    )
+  return (
+    <main>
+      <AboutUsHero />
+      <CountSection text="red" />
+      <ImageAndDescription title={missionData.title} description={missionData.description} image={missionData.image} team={missionData.team} />
+      <ImageAndDescription right="true" title={visionData.title} description={visionData.description} image={visionData.image} />
+      <OurTeam />
+      <ImageDesciption title={excellenceData.title} description={excellenceData.description} image={excellenceData.image} />
+      <ImageDesciption right="true" title={visionImageDescriptionData.title} description={visionImageDescriptionData.description} image={visionImageDescriptionData.image} />
+      <AwardAndRecognitions />
+      <FAQ details={faqData.aboutus} />
+      <InquiryFrom />
+    </main>
+  );
 }

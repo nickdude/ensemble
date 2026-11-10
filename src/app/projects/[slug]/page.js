@@ -48,9 +48,9 @@ export default async function ProjectInnerPage({ params }) {
   }
   return (
     <>
-        <InnerProjectSubHero  slug={slug}/>
-        <ProjectDetail/>
-        <ProjectCaseGallery/>
+        <InnerProjectSubHero slug={slug} />
+        <ProjectDetail slug={slug} />
+        <ProjectCaseGallery />
     </>
   );
 }

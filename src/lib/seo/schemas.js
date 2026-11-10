@@ -32,6 +32,10 @@ export function organizationSchema() {
     address: { "@type": "PostalAddress", ...c.address },
     sameAs: c.sameAs,
     areaServed: c.areaServed,
+    award: [
+      "Most Promising Brand Award, Interior Design — Global Real Estate Conference 2019, Mumbai",
+      "Prominent Interior D&B Company of the Year 2024 — National Architecture & Interior Design Excellence Awards",
+    ],
     contactPoint: {
       "@type": "ContactPoint",
       telephone: c.phone,
